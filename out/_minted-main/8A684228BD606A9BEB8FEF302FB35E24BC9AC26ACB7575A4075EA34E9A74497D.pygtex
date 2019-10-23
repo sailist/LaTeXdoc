@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}[title=Outer box]
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}[title=Inner box]
+
+        \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}[colframe=red,beforeafter skip=0pt]
+        Deeply nested box using 60 percent of the available space.
+        \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}
+
+        \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}[colframe=red,beforeafter skip=0pt]
+        Deeply nested box using 40 percent of the available space.
+        \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

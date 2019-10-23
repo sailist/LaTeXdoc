@@ -1,0 +1,133 @@
+
+\newcommand\wqy[1]{\CJKfontspec{文泉驿微米黑}#1}
+\newcommand\fzxk[1]{\CJKfontspec{方正行楷简体}#1}
+\newcommand\hwcy[1]{\CJKfontspec{华文彩云}#1}
+\usetikzlibrary{patterns,decorations.text}
+\usetikzlibrary{decorations.text}
+\newcommand\fzxkjt[1]{\CJKfontspec{方正行楷简体}#1} 
+\setCJKfamilyfont{kd}{华文行楷}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\chaoda}{\fontsize{55pt}{\baselineskip}\selectfont}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}     % 字号设置
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont} % 字号设置
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}      % 字号设置
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}      % 字号设置
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}  % 字号设置
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}  % 字号设置
+\newcommand{\xiaosanhao}{\fontsize{15pt}{\baselineskip}\selectfont} % 字号设置
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}      % 字号设置
+\newcommand{\xiaosihao}{\fontsize{12pt}{14pt}\selectfont}           % 字号设置
+\newcommand{\wuhao}{\fontsize{10.5pt}{12.6pt}\selectfont}           % 字号设置
+\newcommand{\xiaowuhao}{\fontsize{9pt}{11pt}{\baselineskip}\selectfont}   % 字号设置
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  % 字号设置
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}    % 字号设置
+%%%%%%%%%% 定理类环境的定义 %%%%%%%%%%
+%% 必须在导入中文环境之后
+\newtheorem{example}{Example}             %
+\newtheorem{algorithm}{算法}
+\newtheorem{theorem}{定理} 
+\newtheorem{definition}{定义}
+\newtheorem{axiom}{公理}
+\newtheorem{property}{性质}
+\newtheorem{proposition}{命题}
+\newtheorem{lemma}{引理}
+\newtheorem{corollary}{推论}
+\newtheorem{remark}{注解}
+\newtheorem{condition}{条件}
+\newtheorem{conclusion}{结论}
+\newtheorem{assumption}{假设}
+\newtheorem{proof}{证明}
+\newtheorem{solution}{解}
+\newtcolorbox{smybox}[2][]{enhanced,breakable,
+	before skip=2mm,after skip=2mm,
+	colback=black!5,colframe=black!50,boxrule=0.2mm,
+	attach boxed title to top left={xshift=0.5cm,yshift*=1mm-\tcboxedtitleheight},
+	varwidth boxed title*=-0.5cm,
+	boxed title style={frame code={
+			\path[fill=tcbcol@back!30!black]
+			([yshift=-1mm,xshift=-1mm]frame.north west)
+			arc[start angle=0,end angle=180,radius=1mm]
+			([yshift=-1mm,xshift=1mm]frame.north east)
+			arc[start angle=180,end angle=0,radius=1mm];
+			\path[left color=tcbcol@back!60!black,right color=tcbcol@back!60!black,
+			middle color=tcbcol@back!80!black]
+			([xshift=-2mm]frame.north west) -- ([xshift=2mm]frame.north east)
+			[rounded corners=1mm]-- ([xshift=1mm,yshift=-1mm]frame.north east)
+			-- (frame.south east) -- (frame.south west)
+			-- ([xshift=-1mm,yshift=-1mm]frame.north west)
+			[sharp corners]-- cycle;
+		},interior engine=empty,
+	},
+fonttitle=\bfseries,
+title={#2},#1}
+
+\begin{center}
+	{\erhao \CJKfamily{kd}{2019年南开大学数学分析试题解答} }\\
+	\vspace{0.2cm}
+	{\sihao \textbf{满分：150分，考试时间：150分钟} }\\
+	\vspace{0.3cm}
+\end{center}
+
+\begin{smybox}[colbacktitle=green!25!black!10!white]{第8题}
+	已知$\alpha,\beta$均为正实数，且$\max\left\{\alpha ,\beta\right\}>1$，试证：
+	\[
+	\lim_{x\rightarrow +\infty}\int_1^x{\frac{1}{x^{\alpha}+t^{\beta}}}\mathrm{d}t=0
+	\]
+\begin{proof}由题设易知有
+	\begin{enumerate} 
+		\item 当$\alpha>1$时，有
+		\[
+		0 \leq \int_{1}^{x} \frac{\mathrm{d}t t}{x^{\alpha}+t^{\beta}} \leq \int_{1}^{x} \frac{1}{x^{\alpha}} \mathrm{d}tt=\frac{x-1}{x^{\alpha}} \rightarrow 0(x \rightarrow \infty)
+		\]
+		\item 当$\beta>1,0<\alpha \leq 1$时，且$\left(x\rightarrow\infty\right)$有
+		\[
+		\int_1^x{\frac{\mathrm{d}t}{x^{\alpha}+t^{\beta}}}=x^{-\alpha +\frac{\alpha}{\beta}}\int_1^x{\frac{\mathrm{d}\left(x^{-\frac{\alpha}{\beta}}t\right)}{1+\left(x^{-\frac{\alpha}{\beta}}t\right)^{\beta}}}\leq x^{-\alpha +\frac{a}{\beta}}\int_1^{1-\frac{\alpha}{\beta}}{\frac{\mathrm{d}u}{1+u^{\beta}}}\leq\frac{1}{\left(\beta -1\right)x^{\alpha\left(1-\frac{1}{\beta}\right)}}\rightarrow 0
+		\]
+	\end{enumerate}
+\end{proof}
+\end{smybox}
+\begin{smybox}[colbacktitle=blue!75!black]{第9题}
+	设$f(x)$在$[0,1]$上连续可微且恒不等于$0$，且$\int_0^1{f\left(x\right)}\mathrm{d}x=0$，证明：
+	\[\int_0^1{\left| f\left(x\right)\right|}\mathrm{d}x\int_0^1{\left| f'\left(x\right)\right|\mathrm{d}x}>2\int_0^1{f^2\left(x\right)}\mathrm{d}x\]
+\begin{proof}
+	法1：
+	\begin{align*}
+	2\int_0^1{f}\left(x\right)^2\mathrm{d}x&=\int_0^1{f}\left(x\right)\left[2f\left(x\right)-f\left(0\right)-f\left(1\right)\right]\mathrm{d}x=\int_0^1{f}\left(x\right)\left[\left(f\left(x\right)-f\left(0\right)\right)-\left(f\left(1\right)-f\left(x\right)\right)\right]\mathrm{d}x\\
+	&
+	=\int_0^1{f}\left(x\right)\left[\int_0^x{f'}\left(t\right)\mathrm{d}t-\int_x^1{f'}\left(t\right)\mathrm{d}t\right]\mathrm{d}x\leq\int_0^1{\left| f\left(x\right)\right|}\left|\int_0^x{f'}\left(t\right)\mathrm{d}t-\int_x^1{f'}\left(t\right)\mathrm{d}t\right|\mathrm{d}x\\
+	&
+	\leq\int_0^1{\left| f\left(x\right)\right|}\left(\int_0^x{\left| f'\left(t\right)\right|}\mathrm{d}t+\int_x^1{\left| f'\left(t\right)\right|}\mathrm{d}t\right)\mathrm{d}x=\int_0^1{\left| f\left(x\right)\right|}\left(\int_0^1{\left| f'\left(t\right)\right|}\mathrm{d}t\right)\mathrm{d}x\\
+	&=\int_0^1{\left| f'\left(x\right)\right|}\mathrm{d}x\cdot\int_0^1{\left| f\left(x\right)\right|}\mathrm{d}x
+	\end{align*}
+	法2：令$F\left(x\right)=\int_0^x{f}\left(t\right)\mathrm{d}t$，则有
+	\[
+	\int_0^1{f^2}\left(x\right)\mathrm{d}x=\left[f\left(x\right)F\left(x\right)\right]\mid_{0}^{1}-\int_0^1{f'}\left(x\right)F\left(x\right)\mathrm{d}x=-\int_0^{1}f'(x)F\left(x\right)\mathrm{d}x
+	\]
+	因此
+	\[
+	2\left| F\left(x\right)\right|=\left| F\left(x\right)-F\left(0\right)\right|+\left| F\left(1\right)-F\left(x\right)\right|=\left|\int_0^x{f}\left(t\right)\mathrm{d}t\right|+\left|\int_x^1{f}\left(t\right)\mathrm{d}t\right|\leq\int_0^1{\left| f\left(t\right)\right|}\mathrm{d}t
+	\]
+%	则有
+%	\[\int_0^1{\left| f\left(x\right)\right|}\mathrm{d}x\int_0^1{\left| f'\left(x\right)\right|\mathrm{d}x}>2\int_0^1{f^2\left(x\right)}\mathrm{d}x\]
+	%	注意到
+	%	\begin{equation}
+	%	\int_0^1{f^2}\left(x\right)\mathrm{d}x=\int_0^1{f\left(x\right)}\left(f\left(x\right)-f\left(0\right)\right)\mathrm{d}x=\int_0^1{f\left(x\right)}\left(\int_0^x{f'\left(t\right)}\mathrm{d}t\right)\mathrm{d}x
+	%	\end{equation}
+	%	\begin{equation}
+	%	\int_0^1{f^2}\left(x\right)\mathrm{d}x=\int_0^1{f\left(x\right)\left(f\left(1\right)-f\left(x\right)\right)}\mathrm{d}x=\int_0^1{f\left(x\right)}\left(\int_x^1{f'\left(t\right)}\mathrm{d}t\right)\mathrm{d}x
+	%	\end{equation}
+	%	两式相加可得
+	%	\[
+	%	2\int_0^1{f^2}\left(x\right)\mathrm{d}x=\int_0^1{f\left(x\right)\left(\int_0^1{f'\left(x\right)}\mathrm{d}x\right)\mathrm{d}x}<\int_0^1{\left| f\left(x\right)\right|}\mathrm{d}x\int_0^1{\left| f'\left(x\right)\right|\mathrm{d}x}
+	%	\]
+	
+%	法3：对$\int_{0}^{1}\left|f^{\prime}(x)\right| \mathrm{d} x \geq|f(b)-f(a)|, f(b)=\max _{x \in[0,1]} f(x), f(a)=\min _{x \in[0,1]} f(x)$，其中$a \in W=\{f(x)<0\}, b \in V=\{f(x) \geq 0\}$且$\int_{V} f(x) \mathrm{d} x+\int_{W} f(x) \mathrm{d} x=0$，即有
+%	\begin{align*}
+%	\int_0^1{\left| f'(x)\right|}\mathrm{d}x&		\geq\frac{\int_W{f^2}\left(x\right)\mathrm{d}x}{\int_W{f}\left(x\right)\mathrm{d}x}-\frac{\int_V{f^2}\left(x\right)\mathrm{d}x}{\int_V{f}\left(x\right)\mathrm{d}x}=\frac{\int_W{f^2}\left(x\right)\mathrm{d}x+\int_V{f^2}\left(x\right)\mathrm{d}x}{\int_W{f}\left(x\right)\mathrm{d}x}\\
+%	&=\frac{\int_0^1{f^2}\left(x\right)\mathrm{d}x}{\int_W{f}\left(x\right)\mathrm{d}x}=\frac{\int_0^1{f^2}\left(x\right)\mathrm{d}x}{\frac{1}{2}\int_0^1{\left| f\left(x\right)\right|}\mathrm{d}x}
+%	\end{align*}
+	%		因此$\int_{0}^{1}\left|f^{\prime}(x)\right| \mathrm{d} x \int_{0}^{1}|f(x)| \mathrm{d} x \geq 2 \int_{0}^{1} f^{2}(x) \mathrm{d} x$
+\end{proof}
+\end{smybox}

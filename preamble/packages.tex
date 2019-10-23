@@ -1,0 +1,32 @@
+%! Author = saili
+%! Date = 2019/8/26/0026
+% Packages
+\usepackage{amsmath}%提供数学公式支持
+
+\usepackage{graphics}%用于添加图片
+\usepackage{graphicx}%加强插图命令
+\usepackage{subfigure}%用于添加子图
+\usepackage{wrapfig}%提供图片环绕风格支持
+\graphicspath{{./}{./contents/}{./contents/fig/}}%设置图片可能存在的路径
+\newcommand{\figpath}[1]{contents/fig/#1}
+
+\usepackage{fontspec}%用于配置字体
+\usepackage[table]{xcolor}%用于各种颜色环境
+\usepackage{enumitem}%用于定制list和enum
+\usepackage{float}%用于控制Float环境，添加H参数（强制放在Here）
+\usepackage[colorlinks,linkcolor=airforceblue,urlcolor=blue,anchorcolor=blue,citecolor=green]{hyperref}%用于超链接，另外添加该包目录会自动添加引用。
+
+\usepackage[most]{tcolorbox}%用于添加各种边框支持
+\usepackage[cache=true,outputdir=./out]{minted}%如果不保留临时文件就设置cache=false,如果输出设置了其他目录那么outputdir参数也有手动指定，否则会报错。
+\tcbuselibrary{minted}%加载tcolorbox的代码风格
+
+\usepackage[a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}%用于控制版式
+\usepackage{appendix}%用于控制附加文件
+\usepackage{ifthen}
+
+\usepackage{pdfpages}%用于支持插入其他pdf页
+\usepackage{booktabs}%目前用于给表格添加 \toprule \midrule 等命令
+\usepackage{marginnote} %用于边注
+\usepackage[pagestyles,toctitles]{titlesec} %用于标题格式DIY
+% \usepackage{fancyhdr}%用于排版页眉页脚
+\usepackage{ragged2e} % 用于对齐

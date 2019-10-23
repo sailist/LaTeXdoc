@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+    x = a+b;\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    y = c+d;
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

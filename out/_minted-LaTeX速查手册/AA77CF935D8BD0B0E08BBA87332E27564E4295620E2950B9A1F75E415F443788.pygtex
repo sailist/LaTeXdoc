@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[papersize=\PYGZob{}20cm, 15cm\PYGZcb{}]}\PYG{n+nb}{\PYGZob{}}geometry\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{} \PYGZob{}宽,高\PYGZcb{}}
+\end{Verbatim}

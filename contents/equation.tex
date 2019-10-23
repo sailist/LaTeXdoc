@@ -1,0 +1,111 @@
+\section{公式环境}\label{sec:公式}
+    行内公式、行间公式、下标显示、label添加、公式编辑工具
+
+    公式环境也叫做数学环境，是用来处理各种各样的数学符号的，并且支持多种展示属性，一般情况下，使用\highunderline{amsmath}包即可
+    
+
+    \subsection{行内公式}
+    行内公式可以使用\highunderline{math}环境，\verb|\(..\)|或者\verb|$...$|三种方法：
+
+    \begin{texshow}
+        % \usepackage{amsmath}
+        正常文本嵌套行内公式A：\begin{math}f_i(x)=a+b\end{math}。\\
+        正常文本嵌套行内公式B：\(f^2(x)=a*b\)。\\
+        正常文本嵌套行内公式C：$g(l;\theta)=a-b$。
+    \end{texshow}
+
+    \subsubsection{数学环境中的普通文本}
+    如果要在公式内添加解释文本，英文可以直接支持，但是会转换成公式默认字体（itali斜体），并且不支持中文输入，因此如果要在公式环境内添加解释，需要使用\highunderline{amsmath}包中的\highunderline{\textbackslash{}text}命令：
+    \begin{texshow}
+        $g(l;\theta)=a-b,\text{正常文本 normal text},正常文本 normal text$
+    \end{texshow}
+
+    \subsection{行间公式}
+    首先一定要注意，\textbf{行间公式不能有空行}！所以每一条公式必须紧靠着。如果要换行，需要使用\verb|\\|声明（仅在\textbf{多行公式}环境中有效）。
+    
+    \subsubsection{单行行间公式}
+    单行行间公式不支持换行符（会忽略换行符）。
+
+    如果不需要对行间公式进行编号，可以直接使用\verb|\[...\]|或\verb|$$...$$|
+    \begin{texshow}
+        公式前文本
+        \[
+            x = a+b;\\
+            y = c+d;
+        \]
+        公式后文本
+    \end{texshow}
+
+    如果需要对一整个行间公式进行编号，可以使用\highunderline{equation}环境：
+    \begin{texshow}
+        \begin{equation}
+            x = a+b;\\
+            y = c+d;
+        \end{equation}
+    \end{texshow}
+
+    \subsubsection{多行行间公式}
+    如果要分段定义编号，可以使用\highunderline{eqnarray}环境，会对每一部分单独编号，如果不需要编号，在当前行添加\highunderline{\textbackslash{}nonumber}：
+    \begin{texshow}
+        \begin{eqnarray}
+            x = a+b;\\
+            y = c+d;\nonumber\\
+            z = e+f;
+        \end{eqnarray}
+    \end{texshow}
+    如果要对多个公式单独编号，但有对其中几个公式完成组编号，可以在公式中嵌套\highunderline{split}环境（注意在环境结束后添加换行符）：
+    \begin{texshow}
+        \begin{eqnarray}
+            \begin{split}
+                a = 1;\\
+                b = 2;\\
+                c = 3;\\
+            \end{split}\\
+            x = a+b;\\
+            y = c+d;\nonumber\\
+            z = e+f;
+        \end{eqnarray}
+    \end{texshow}
+    如果要重新开始编号或从指定数字开始编号，使用\highunderline{\textbackslash{}setcounter\{equation\}\{1\}}方法。
+
+    \begin{texshow}
+        \begin{eqnarray}
+            \setcounter{equation}{2}
+            \begin{split}
+                a = 1;\\
+                b = 2;\\
+                c = 3;\\
+            \end{split}\\
+            \setcounter{equation}{7}
+            x = a+b;\\
+            y = c+d;\\
+            z = e+f;
+        \end{eqnarray}
+    \end{texshow}
+
+    如果需要对齐，则使用\highunderline{align}环境，并在要对齐的地方使用\&声明：
+    \begin{texshow}
+        \begin{align}
+            &f(x) = a+b+c;\\
+            g(x) = a;&
+        \end{align}
+    \end{texshow}
+    同时，在\highunderline{eqnarray}环境中可以直接使用\highunderline{align}的方式进行对齐
+
+    \subsection{公式编辑工具推荐}
+    \subsubsection{Mathpix}
+    网站链接：\href{https://mathpix.com/}{Mathpix}。
+
+    如果有图片类型的公式，可以用该软件截图生成\LaTeX{}公式，多平台支持，且准确率很高，即使多行公式也能有很高的准确率，同时免费用户每天有50次截图的限额，非常划算。
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.8\columnwidth]{\figpath{mathpix.png}}
+       \caption{Mathpix官网示例}
+       \label{fig:mathpix}
+    \end{figure}
+
+
+    \subsubsection{在线\LaTeX{}公式编辑器}
+    网站链接：\href{https://www.codecogs.com/latex/eqneditor.php}{eqneditor}
+
+    网站丑了点，但是能够对公式进行所见即所得的编辑，比较友好，目前暂时没有找到比它更好的替代方案，不过如果配置时使用的是Tex专门的IDE，其公式编辑应该也比较方便（不过可能不支持所见即所得）

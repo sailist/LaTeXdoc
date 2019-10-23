@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} \PYGZbs{}usepackage\PYGZob{}ulem\PYGZcb{}}
+\PYG{k}{\PYGZbs{}uline}\PYG{n+nb}{\PYGZob{}}下划线\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}uuline}\PYG{n+nb}{\PYGZob{}}双下划线\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}uwave}\PYG{n+nb}{\PYGZob{}}波浪线\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}sout}\PYG{n+nb}{\PYGZob{}}中间删除线\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}xout}\PYG{n+nb}{\PYGZob{}}斜删除线\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}dashuline}\PYG{n+nb}{\PYGZob{}}虚线\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}dotuline}\PYG{n+nb}{\PYGZob{}}加点\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

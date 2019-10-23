@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}newenvironment}\PYG{n+nb}{\PYGZob{}}topics\PYG{n+nb}{\PYGZcb{}\PYGZob{}}
+\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}topic}\PYG{n+nb}{\PYGZcb{}}[2]\PYG{n+nb}{\PYGZob{}} \PYG{k}{\PYGZbs{}item}\PYG{n+nb}{\PYGZob{}}\PYGZsh{}\PYGZsh{}1 / \PYGZsh{}\PYGZsh{}2\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZcb{}}
+    Topics:
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZob{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} \PYGZbs{}newenvironment\PYGZob{}commenvi\PYGZcb{}[1]}
+\PYG{c}{\PYGZpc{} \PYGZob{}}
+\PYG{c}{\PYGZpc{}     \PYGZbs{}newcommand\PYGZob{}\PYGZbs{}eitem\PYGZcb{}[2]\PYGZob{} \PYGZbs{}textbf\PYGZob{}\PYGZsh{}\PYGZsh{}1 \PYGZsh{}\PYGZsh{}2\PYGZcb{} \PYGZcb{}}
+\PYG{c}{\PYGZpc{}     Topics: \PYGZsh{}1}
+\PYG{c}{\PYGZpc{}     \PYGZbs{}begin\PYGZob{}center\PYGZcb{}}
+\PYG{c}{\PYGZpc{} \PYGZcb{}\PYGZob{}\PYGZbs{}end\PYGZob{}center\PYGZcb{}\PYGZcb{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}commenvi\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}topic}\PYG{n+nb}{\PYGZob{}}参数一\PYG{n+nb}{\PYGZcb{}\PYGZob{}}参数二\PYG{n+nb}{\PYGZcb{}}
+    正文环境
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}commenvi\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} \PYGZbs{}eitem\PYGZob{}a\PYGZcb{}\PYGZob{}b\PYGZcb{} 环境外使用会报错误：Undefined control sequence.}
+\end{Verbatim}

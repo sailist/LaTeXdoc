@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}cc\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}\PYGZpc{} 有两个字母表示有两列，c 表示居中，还可以选择 l 或者 r}
+    A\PYG{n+nb}{\PYGZam{}}B\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} \PYGZbs{}\PYGZbs{} 表示换行，\PYGZam{}表示分割线}
+    C\PYG{n+nb}{\PYGZam{}}D\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

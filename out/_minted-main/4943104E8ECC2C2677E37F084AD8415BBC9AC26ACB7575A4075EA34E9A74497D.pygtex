@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}\PYGZob{}}9\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}lamport99\PYG{n+nb}{\PYGZcb{}}
+      Leslie Lamport,
+      \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}LaTeX}: a document preparation system\PYG{n+nb}{\PYGZcb{}},
+      Addison Wesley, Massachusetts,
+      2nd edition,
+      1994.
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}SMOalgo\PYG{n+nb}{\PYGZcb{}}
+        Platt,John C,
+        \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}\PYGZob{}}9\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}lamport99\PYG{n+nb}{\PYGZcb{}}
+      Leslie Lamport,
+      \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}LaTeX}: a document preparation system\PYG{n+nb}{\PYGZcb{}},
+      Addison Wesley, Massachusetts,
+      2nd edition,
+      1994.
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}SMOalgo\PYG{n+nb}{\PYGZcb{}}
+        Platt,John C,
+        \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}tmc\PYG{n+nb}{\PYGZcb{}}
+        Petersen，Pedersen，《The Matrix Cookbook》
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

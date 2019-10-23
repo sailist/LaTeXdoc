@@ -1,0 +1,341 @@
+\section{表格}\label{sec:table}
+    \subsection{表格基础用法}
+    
+    单个的表格使用\highunderline{tabular}环境，一个最简单的表格如下所示：
+
+    \begin{texshow}
+        \begin{tabular}{cc} %% 有两个字母表示有两列，c 表示居中，还可以选择 l 或者 r
+            A&B\\ % \\ 表示换行，&表示分割线
+            C&D\\
+        \end{tabular}
+    \end{texshow}
+
+    表格列数需要在参数中表明，行数不限制，使用\highunderline{ \textbackslash{}\textbackslash{} }换行即可。
+    
+    如果要添加边框（边框由分割线组成），对列添加分割线需要在参数中相应位置添加 "\textbar" ，对行分割线则使用 "\textbackslash{}hline" 或 "\textbackslash{}cline"
+    \begin{texshow}
+        \begin{tabular}{|cc||} % 因为右侧有两道线，所以相应位置显示两条分割线
+            A&B\\\hline
+            C&D\\\cline{0-1} %数字代表列数，从零开始，表示从 a-b 
+            E&F\\\cline{0-0}
+            G&H\\\cline{1-1} %边框可以任意重叠，但横向边框显示多条并不好控制，因此不推荐使用多条分割线完成特殊需求
+            I&J\\\cline{0-0}\cline{1-1}
+        \end{tabular}
+    \end{texshow}
+    
+    \subsection{表格合并}
+
+    有时后，会遇到合并表格的需求，合并表格需要使用\highunderline{multirow}这个库，并使用到\highunderline{\textbackslash{}multicolumn}和\highunderline{\textbackslash{}multirow}这两个方法，
+    
+    其中合并多列比较简单，在要合并的位置填入相应的命令，随后减少相应的分隔符即可
+    \begin{texshow}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            1.0&2.0&3.0&4.0&5.0\\
+            \hline
+            6.0&\multicolumn{3}{c|}{合并三列}&7.0\\
+            \hline
+            8.0&9.0&10.0&11.0&12.0\\
+            \hline
+        \end{tabular}
+    \end{texshow}
+
+    合并多行同理，不过在相同列的位置需要空出来，并在设置分割线的时候将相应的列的位置空出来
+    \begin{texshow}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            1.0&2.0&3.0\\
+            \hline
+            4.0&\multirow{3}{*}{合并三行}&5.0\\
+            \cline{1-1}
+            \cline{3-3}
+            6.0&&7.0\\
+            \cline{1-1}
+            \cline{3-3}
+            8.0&&9.0\\
+            \hline
+            10.0&11.0&12.0\\
+            \hline
+        \end{tabular}
+    \end{texshow}
+
+    如果要同时合并多行多列，则需要对两个命令嵌套使用：
+    \begin{texshow}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            1.0&2.0&3.0&4.0\\
+            \hline
+            5.0&\multicolumn{2}{c|}{\multirow{3}{*}{合并三行两列}}&6.0\\
+            \cline{1-1}
+            \cline{4-4}
+            7.0&\multicolumn{2}{c|}{}&8.0\\
+            \cline{1-1}
+            \cline{4-4}
+            9.0&\multicolumn{2}{c|}{}&10.0\\
+            \hline
+            11.0&12.0&13.0&14.0\\
+            \hline
+        \end{tabular}
+    \end{texshow}
+    
+
+    \subsection{表格列宽调整}
+    表格如果不设置宽度，一列的字数如果太多，就有可能超出文档页面大小，变得很丑
+
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        1.0&2.0&3.0&4.0\\
+        \hline
+        1.0&2.0&长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例&4.0\\
+        \hline
+    \end{tabular}
+
+    因此，需要固定表格大小，从而更好的控制表格，在综合了各个库的命令和用法后，认为使用\highunderline{tabular}环境中提供的参数p是最优的方式。
+    
+    \subsubsection{参数p}
+    tabular的参数选项如下：
+    \begin{texcode}
+        \begin{tabular}[pos]{cols}
+            ...
+        \end{tabular}
+    \end{texcode}
+    其中[pos]大多数情况下可以忽略，而\{col\}的位置之前提到过可以填写clr表示居中、左对齐和右对齐。该位置还有一个可选参数为\highunderline{p\{wth\}}，用于指明相应位置的列占据多大的列宽，如：
+
+    \begin{texshow}
+        \begin{tabular}{|c|c|p{3cm}|c|}
+            \hline
+            1.0&2.0&3.0&4.0\\
+            \hline
+            1.0&2.0&长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例&4.0\\
+            \hline
+        \end{tabular}
+    \end{texshow}
+    被指明了列宽的列会自动换行，这种方式可以一般情况下的列宽过长的问题。但设置了这种方式后该列是默认左对齐的，如果要设置居中或者右对齐，需要利用该环境的附加命令。
+
+    \subsubsection{tabular的附加命令}
+    \highunderline{tabular}的参数中提供了以下附加命令，可以用于在相应列的每一个cell之前或者之后插入文字或命令，也即我们可以在文字前加入居中命令来实现当列的居中操作，如下：
+    \begin{texshow}
+        \begin{tabular}{|c|c|>{\centering}p{7cm}<{-insert}|c|}
+            \hline
+            1.0&2.0&3.0&4.0\\
+            \hline
+            1.0&2.0&长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例&4.0\\
+            \hline
+        \end{tabular}
+    \end{texshow}
+    上面的示例为在第三列的每个元素前加入居中命令，并在之后插入字符串"-insert"
+
+    \subsection{横置表格}
+    % 横直表格使用\highunderline{rotating}环境中的\highunderline{sidewaystable}环境替代\highunderline{table}环境：
+    横置表格可以使用\highunderline{adjustbox}宏包中的\highunderline{adjustbox}环境，指定旋转角度即可：
+    \begin{texshow}
+        % \usepackage{adjustbox}
+        \begin{adjustbox}{angle=90}
+            \begin{tabular}{|c|c|>{\centering}p{7cm}<{-insert}|c|}
+                \hline
+                1.0&2.0&3.0&4.0\\
+                \hline
+                1.0&2.0&长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例&4.0\\
+                \hline
+            \end{tabular}
+        \end{adjustbox}
+    \end{texshow}
+
+
+    \subsection{长表格}
+    因为表格是一个盒子，因此无法分页，这样会导致长表格会挤在一页看不全，因此需要跨页表格的支持，搜索得到的方法有\highunderline{longtable}、\highunderline{supertabular}、\highunderline{xtab}等，在对比后，我认为使用\highunderline{longtable}相对来说更加方便，因此仅介绍使用\highunderline{longtable}\footnote{注意，longtable在使用中可能需要编译多次才能成型。}。
+
+    \begin{texcode}
+        \begin{center}
+            % 注意，longtable中添加居中需要多使用一个\arraybackslash命令，否则会报错
+            \begin{longtable}{|l|l|>{\centering\arraybackslash}p{0.4\columnwidth}|}%
+                    \hline%
+                    \multicolumn{3}{r}{Continued on Next Page}\\%
+                    \hline%
+                \endfoot% 此语句之前均为分页时的结尾行
+                    \hline%
+                    \multicolumn{3}{r}{Not Continued on Next Page}\\%
+                    \hline%
+                \endlastfoot% 此语句之前均为最后一页的结尾行
+                \hline
+                header 1&header 2&header 3\\%标题
+                \hline
+                Content1&9&Longer String\\%
+                Content1&9&Longer String\\%
+                Content1&9&Longer String\\%
+                Content1&9&Longer String\\%
+                ...
+                Content1&9&Longer String\\%
+            \end{longtable}%
+        \end{center}
+    \end{texcode}
+    \begin{center}
+        \begin{longtable}{|l|l|>{\centering\arraybackslash}p{0.4\textwidth}|}%
+            % \endhead%
+            \hline%
+            \multicolumn{3}{r}{Containued on Next Page}\\%
+            \hline%
+            \endfoot%
+            \hline%
+            \multicolumn{3}{r}{Not Containued on Next Page}\\%
+            \hline%
+            \endlastfoot%
+            \hline
+            header 1&header 2&header 3\\%
+            \hline
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+            Content1&9&Longer String\\%
+        \end{longtable}%
+    \end{center}
+
+
+
+    \subsection{表格美化}\label{table-beauty}
+    对表格的美化，主要涉及列宽的调整和颜色的设置，列宽的调整先前的章节已经介绍，关于颜色的设置，参考\Ref{sssec:color-table}
+
+    在表格下如果要设置边框和背景色，需要为xcolor添加table参数
+    
+    
+    
+    \begin{texcode}\usepackage[table]{xcolor}\end{texcode}
+    \begin{texshow}
+        \begin{tabular}{lllll}
+            \toprule
+            \emph{name} & \emph{foo} &&&  \\\midrule
+            Models    & A  & B  & C  & D  \\
+            \rowcolor{blue!50} Model $X$ & X1 & X2 & X3 & X4\\
+            \rowcolor{green!50} Model $Y$ & Y1 & Y2 & Y3 & Y4\\\bottomrule
+            \hline
+        \end{tabular}
+    \end{texshow}
+    
+    如果需要单独设置一列、边框、单个单元格的颜色，可以查阅\highunderline{colortbl}宏包。
+
+    \subsection{添加表格说明}
+    需要使用\highunderline{table}环境，并使用\highunderline{\textbackslash{}caption{}}命令，具体可以参考\Ref{subsub:float-caption}对\highunderline{float}环境的说明。
+
+    \begin{texshow}
+        \begin{center}
+            \begin{table}[H]
+                \begin{tabular}{|c|c|}
+                    \hline
+                    1.0&2.0\\
+                    \hline
+                \end{tabular}
+                \caption{表格说明}
+            \end{table}
+        \end{center}
+    \end{texshow}
+
+    \subsection{自动生成表格工具}
+
+    自动生成表格的工具网上有很多开源实现，推荐以下几种：
+    \subsubsection{Tables Generator}
+    网站链接：\href{http://www.tablesgenerator.com/latex_tables}{Tables Generator}
+
+    该网站提供了一个通用的表格转换工具，在其提供的表格环境中填写好后，可以转换为多种格式下的表格代码，其中包括了\LaTeX{}。
+
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.8\textwidth]{\figpath{table-generator.png}}
+       \caption{Table-Generator网站截图}
+       \label{fig:table-generator}
+    \end{figure}
+
+
+
+    \subsubsection{LatexTool}
+    网站链接：\href{https://github.com/sailist/LatexTool}{LatexTool}
+    
+    是我写的一个Python工具，因为要考虑列宽，合并表格等，在网上找的众多工具并不能符合我的需求，于是用Python写了一个，目前基本能够实现我的需求，使用方法也比较简单。
+    \begin{languagebox}[python]
+        % 直接使用pip安装：pip install x2t
+        % 可以直接使用控制台命令：x2t test.xlsx test.xls
+        from LatexTool.ast import tabel
+
+        if __name__ == '__main__':
+            # tab = tabel.Tabel("../test.xlsx",center=False,fill=False)
+            tab = tabel.Tabel("../test.xlsx")
+            print(tab.to_tex())
+    \end{languagebox}
+
+    完美支持合并多行多列：
+    \begin{texshow}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \multicolumn{3}{|c|}{合并三列}&0.0\\
+            \hline
+            C&D&H&1.0\\
+            \hline
+            \multirow{2}{*}{合并两行}&F&\multicolumn{2}{c|}{\multirow{3}{*}{合并三行两列}}\\
+            \cline{2-2}
+            &K&\multicolumn{2}{c|}{}\\
+            \cline{1-2}
+            M&N&\multicolumn{2}{c|}{}\\
+            \hline
+        \end{tabular}
+    \end{texshow}
+    
+    也可以将大小填充到整个页面，并设置居中：
+    \begin{texshow}
+        \begin{center}
+            % \newlength\tablewidth % if haven't define the length 'tablewidth'
+            \setlength\tablewidth{\dimexpr (\textwidth -8\tabcolsep)}
+            \begin{table}[H]
+                \begin{tabular}{|p{0.29\tablewidth}<{\centering}|
+                    p{0.07\tablewidth}<{\centering}|
+                    p{0.43\tablewidth}<{\centering}|
+                    p{0.21\tablewidth}<{\centering}|}
+                    \hline
+                    \multicolumn{3}{|c|}{合并三列}&0.0\\
+                    \hline
+                    C&D&H&1.0\\
+                    \hline
+                    \multirow{2}{*}{合并两行}&F&\multicolumn{2}{c|}{\multirow{3}{*}{合并三行两列}}\\
+                    \cline{2-2}
+                    &K&\multicolumn{2}{c|}{}\\
+                    \cline{1-2}
+                    M&N&\multicolumn{2}{c|}{}\\
+                    \hline
+                \end{tabular}
+            \end{table}
+        \end{center}
+    \end{texshow}
+
+    % 参考文献：https://en.wikibooks.org/wiki/LaTeX/Tables
+
+
+    
+    

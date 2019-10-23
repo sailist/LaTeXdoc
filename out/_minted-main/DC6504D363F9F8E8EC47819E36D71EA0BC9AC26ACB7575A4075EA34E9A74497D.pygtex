@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}definecolor}\PYG{n+nb}{\PYGZob{}}light\PYGZhy{}gray\PYG{n+nb}{\PYGZcb{}\PYGZob{}}gray\PYG{n+nb}{\PYGZcb{}\PYGZob{}}0.95\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}定义灰度}
+\PYG{k}{\PYGZbs{}definecolor}\PYG{n+nb}{\PYGZob{}}orange\PYG{n+nb}{\PYGZcb{}\PYGZob{}}rgb\PYG{n+nb}{\PYGZcb{}\PYGZob{}}1,0.5,0\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}定义普通的rgb颜色（色值归一化为[0\PYGZhy{}1]）}
+\PYG{k}{\PYGZbs{}definecolor}\PYG{n+nb}{\PYGZob{}}orange\PYG{n+nb}{\PYGZcb{}\PYGZob{}}RGB\PYG{n+nb}{\PYGZcb{}\PYGZob{}}255,127,0\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}定义普通的rgb颜色（色值范围为0\PYGZhy{}255）}
+\PYG{k}{\PYGZbs{}definecolor}\PYG{n+nb}{\PYGZob{}}orange\PYG{n+nb}{\PYGZcb{}\PYGZob{}}HTML\PYG{n+nb}{\PYGZcb{}\PYGZob{}}FF7F00\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}使用HTML设计时常用的方式，颜色由三个16进制数值组成}
+\PYG{k}{\PYGZbs{}definecolor}\PYG{n+nb}{\PYGZob{}}orange\PYG{n+nb}{\PYGZcb{}\PYGZob{}}cmyk\PYG{n+nb}{\PYGZcb{}\PYGZob{}}0,0.5,1,0\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}使用印刷的色域，输入cmyk值}
+\end{Verbatim}

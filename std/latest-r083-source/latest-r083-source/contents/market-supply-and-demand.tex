@@ -1,0 +1,787 @@
+\chapter{市场与供求}
+\label{sec:market-supply-and-demand}
+
+这一章往往作为经济学原理的第一章，凭空抛给我们商品数量和价格的关系，均衡的概念，静态分析和比较静态分析的手段。紧接着我们便开始课上打瞌睡，课下发文唾弃经济学。听到最多的是“不就是”、“怎么能”、“现实的”，看到最多的是“骗人”、“扯淡”、“颠覆”…… 似乎再刻薄的言语都无法表达我们看破经济学本质之后吐烟圈看浮云的成就感。孰对孰错？我真不知道。咱不是能断人生死对错的圣君。
+
+有一点是可以肯定的，价格、需求、供给这种词汇太世俗化了，无论你对他做多少学科内的界定都无法消除人们对它的惯常理解。远非动量、模量来的冷飕飕硬邦邦。
+
+\section{需求}
+\subsection{消费者对价格的反映}
+\index{demand 需求}\marginnote{需求}一种商品的需求是指消费者在一定时期内在各种可能的价格水平\emph{愿意}而且\emph{能够}购买的该商品的数量。这个数量即需求量\index{quantity in demand 需求量}。
+
+可见需求描述了\emph{需求量}和影响需求数量的\emph{诸因素}之间的\emph{关系}。
+\begin{compactitem}
+\item 一定时期：需求量$q$值得是某时期内的需求量，如每月、每季度；此外这个时期不能太长，在这个时期内外生变量是稳定不变的；
+\item 价格水平：我的理解这里的价格水平是按照拍卖市场拍卖人喊价对应的；
+\item 愿意购买：通过后续学习我们知道这一点对应的是偏好或显示偏好；
+\item 能够购买：这一点对应后续章节的预算约束。
+\end{compactitem}
+
+\index{demand 需求!demand function 需求函数}\marginnote{需求函数}所谓需求函数是表示一种商品的需求数量和影响该需求数量的各种因素之间的相互关系。
+
+\index{demand 需求!demand table 需求表}\marginnote{需求表}所谓需求函数是表示一种商品的需求数量和影响该需求数量的各种因素之间的相互关系。
+
+以$q_i$表示某种商品的需求量，$p_i$表示其价格水平，$p_j~(j=1,2,\cdots,~j \ne i)$表示其他商品的价格，则广义的需求函数可以表示为
+\begin{equation}
+q_1=f(p_1,p_2,\cdots,m)
+\label{eq:demand-function}
+\end{equation}
+
+需求函数只是试图用数学记号的方法将需求（需求量—价格水平）表示出来而已。
+
+这种假设是对在经济社会中从事经济活动的所有人的基本特征的以一个一般性的抽象。
+
+“合乎理性的人”简称“理性人”或者“经济人”，这种假设是对在经济社会中从事经济活动的所有人的基本特征的以一个一般性的抽象。其基本特征是：每一个从事经济活动的人都是利己的。或者说：每一个从事经济活动的人所采取的行为都是力图以自己最小的经济代价去获得最大的经济利益。经济学家认为在任何经济活动中，只有这样的人才是“合乎理性的人”，否则，就是非理性的人。
+
+\marginnote{需求曲线}\index{demand 需求!demand curve 需求曲线}草稿：一种商品的需求是指消费者在一定时期内在各种可能的价格水平{\itshape 愿意}而且{\itshape 能够}购买的该商品的数量\footnote{%
+关于需求曲线（以及后文的供给曲线等）为什么把“自变量”价格和“应变量”数量请参考：Gordon, S. (1982). Why Did Marshall Transpose the Axes? {\it Eastern Economic Journal}, 8(1), 31--45.}。
+
+\subsection{需求函数}
+
+\subsection{保留价格}
+\index{price 价格!reservation price 保留价格}
+\label{subsec:reservation-price}
+
+\marginnote{保留价格}保留价格指的是消费者愿意为某种产品或服务付出的最高价格，或者生产者所能接受的某种商品或服务的最低价格。保留价格通常应用在拍卖行为中，在微观经济学中冲用来结合均衡价格测度消费者剩余或生产者剩余。
+
+\begin{figure}[!h]
+\begin{shaded*}
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering 
+	    \vspace{0pt}
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=11,ymin=0,ymax=11,
+	extra x ticks={1,2,3,4,5,6,7,8,9},
+	extra x tick labels={\tiny$1$,\tiny$2$,\tiny$3$,\tiny$4$,\tiny$5$,\tiny$6$,\tiny$7$,\tiny$8$,\tiny$9$},
+	extra y ticks={1,2,3,4,5,6,7,8,9},
+	extra y tick labels={\tiny$1$,\tiny$2$,\tiny$3$,\tiny$4$,\tiny$5$,\tiny$6$,\tiny$7$,\tiny$8$,\tiny$9$},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	samples=80,domain=0:11,area style]
+\foreach \num in {1,2,...,10}
+{\edef\temp{\noexpand
+\addplot[fill=blueF,draw=none] coordinates {
+(\num,10-\num)
+(\num,9-\num)
+(0,9-\num)
+(0,10-\num)};
+} \temp }
+\foreach \num in {1,2,...,10}
+{\edef\temp{\noexpand
+\addplot[white,very thin] coordinates {(0,\num) (10,\num)};
+} \temp }
+\foreach \num in {1,2,...,10}
+{\edef\temp{\noexpand
+\addplot[white,very thin] coordinates {(\num,0) (\num,10)};
+} \temp }
+\addplot[ultra thick,blue] {10-x};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}% 
+\begin{minipage}[t]{0.5\linewidth} 
+\vspace{85pt}
+\caption{保留价格与需求曲线}
+\label{fig:reservation-price-and-demand-curve}%
+{\kaishu\small  草稿：利润最大化的产量点，收益曲线的切线与成本曲线的切线是平行的，还要排除$C>R$的点。注意：图示中产品价格是固定的，故而收益曲线为直线。}
+\end{minipage} 
+\end{shaded*}
+\end{figure}
+
+\subsection{市场需求曲线}
+若市场上有$n$个需求者，其个人需求函数为$q_i = D_i(p)$，则在价格水平$p$时市场需求量为：
+\begin{equation}
+q=q_1+q_2+ \cdots +q_n = \sum\limits_{i = 1}^n {{q_i}}
+\label{eq:individual-demand-quantity-to-market-curve}
+\end{equation}
+市场需求函数为：
+\begin{equation}
+q=D_1(p) + D_2(p) + \cdots + D_n(p) = \sum\limits_{i = 1}^n {D_i}
+\label{eq:individual-demand-curves-to-market-curve}
+\end{equation}
+
+\begin{figure}[!h]
+\begin{shaded*}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=22,ymin=0,ymax=5.5,
+	grid=major,
+	extra x ticks={3.3333,10,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$10/3$},\tiny{$10$},\tiny{$20$}},
+	extra y ticks={3.3333,4,5},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$10/3$},\tiny{$4$},\tiny{$5$}},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	domain=0:80]
+\addplot[blueF,ultra thick,domain=0:38] {(10-x)/2};
+\addplot[blueL,ultra thick,domain=0:28] {(10-x)/3};
+\node[below] at (axis cs:30,120) {$S_1$};
+\node[below] at (axis cs:30,200) {$S_2$};
+\coordinate (A) at (axis cs:22,3.3333);
+\coordinate (B) at (axis cs:22,5);
+\end{axis}
+\begin{axis}[
+	xshift=180pt,grid=major,
+	xmin=0,xmax=22,ymin=0,ymax=5.5,
+	extra x ticks={3.3333,10,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$10/3$},\tiny{$10$},\tiny{$20$}},
+	extra y ticks={3.3333,4,5},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$10/3$},\tiny{$4$},\tiny{$5$}},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	domain=0:80]
+\addplot[domain=0:10/3,blueF,ultra thick] {(10-x)/2};
+\addplot[domain=10/3:20,blue,ultra thick] {(20-x)/5};
+\node at (axis cs:30,120) {$S$};
+\addplot[only marks,forget plot,blue,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10/3,10/3)};
+\coordinate (AN) at (axis cs:0,3.3333);
+\coordinate (BN) at (axis cs:0,5);
+\end{axis}
+\draw[gray,very thin,dashed] (A) -- (AN);
+\draw[gray,very thin,dashed] (B) -- (BN);
+\end{tikzpicture}
+\caption{市场需求曲线的加总 $D_1 + D_2 \to D$}
+\label{fig:individual-demand-curves-to-market-curve}
+\end{shaded*}
+\end{figure}
+
+这里只提到一个题目\footnote{哈里森, 贝斯. {\it 斯蒂格利茨《经济学》习题集}[M]. 王则柯,译. 第2 版. 北京: 中国人民大学出版社, 1998: 48.}“价格下降需求量沿着个人（市场）需求曲线斜向下运动，其原因是（1）低价令消费者增加购买该种商品；（2）价格下降时，消费者进入市场”。
+
+如果题干说的是个人需求曲线那么原因为（1），因为某消费者$(q,p)$沿个人需求曲线运动只反映他对该商品需求量的增减变动，没有也无法退出市场；如果题干说的是市场需求曲线那么原因为（1）和（2），因为作为个人需求曲线的加总，市场需求量的变化既可能来源于某些消费者个人需求量的变化，也可能是某些消费者进入退出该商品市场而带来的总量变化。
+
+
+
+
+
+
+\section{供给曲线}
+
+\subsection{供给量与价格的关系}
+
+\index{support 供给}\marginnote{供给}
+一种商品的供给是指生产者在一定时期内在各种可能的价格下愿意并且能够提供出售的该种商品的数量。
+
+\subsection{市场供给曲线}
+若市场上有$n$家企业，其生产函数为$q_i = S_i(p)$，则在价格水平$p$时市场供给量为：
+\begin{equation}
+q=q_1+q_2+\cdots+q_n = \sum\limits_{i = 1}^n {{q_i}}
+\label{eq:individual-supply-quantity-to-market-curve}
+\end{equation}
+市场供给函数为：
+\begin{equation}
+q=S_1(p) + S_2(p) + \cdots + S_n(p) = \sum\limits_{i = 1}^n {S_i}
+\label{eq:individual-supply-curves-to-market-curve}
+\end{equation}
+
+\begin{figure}[!h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=40,ymin=0,ymax=200,
+	grid=major,
+	extra x ticks={10,20,30},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$10$},\tiny{$20$},\tiny{$30$}},
+	extra y ticks={60,80,100,120,140,160},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$60$},\tiny{$80$},\tiny{$100$},\tiny{$120$},\tiny{$140$},\tiny{$160$}},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	domain=0:80]
+\addplot[redL,ultra thick,domain=0:38] {2*x+60};
+\addplot[redF,ultra thick,domain=0:28] {4*x+80};
+\node[below] at (axis cs:30,120) {$S_1$};
+\node[below] at (axis cs:30,200) {$S_2$};
+\coordinate (A) at (axis cs:40,60);
+\coordinate (B) at (axis cs:40,80);
+\end{axis}
+\begin{axis}[
+	xshift=200pt,grid=major,
+	xmin=0,xmax=40,ymin=0,ymax=200,
+	extra x ticks={10,20,30},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$10$},\tiny{$20$},\tiny{$30$}},
+	extra y ticks={60,80,100,120,140,160},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$60$},\tiny{$80$},\tiny{$100$},\tiny{$120$},\tiny{$140$},\tiny{$160$}},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	domain=0:80]
+\addplot[domain=0:10,redL,ultra thick] {2*x+60};
+\addplot[domain=10:38,red,ultra thick] {4*(x+50)/3};
+\node at (axis cs:30,120) {$S$};
+\addplot[only marks,forget plot,red,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10,80)};
+\coordinate (AN) at (axis cs:0,60);
+\coordinate (BN) at (axis cs:10,80);
+\end{axis}
+\draw[gray,very thin,dashed] (A) -- (AN);
+\draw[gray,very thin,dashed] (B) -- (BN);
+\end{tikzpicture}
+\caption{市场供给曲线的加总 $S_1 + S_2 \to S$}
+\caption*{当$0 \le p \le 60$时，$q=0$的部分没有画出。}
+\label{fig:individual-supply-curves-to-market-curve}
+}}
+\end{figure}
+
+
+\section{弹性}
+\label{sec:elastics}
+
+\subsection{差商和导数}
+%\addcontentsline{toc}{subsection}{差商和导数}
+\label{sec:difference-quotient-and-derivative}
+\index{difference quotient 差商}
+\index{derivative 导数}
+
+\begin{Definition}[变化率（割线斜率）]
+表示因变量对自变量变化的比率。即当一个经济变量发生1单位的变化时，由它引起的另一经济变量变化的数量：$\Delta y / \Delta x$，单位为（因变量单位$/$自变量单位）。
+\end{Definition}
+
+\subsection{弹性（一元函数）}
+%\addcontentsline{toc}{subsection}{弹性}
+\label{sec:single-math-elasticity}
+
+弹性和导数类似，描述了函数变量变化的关系，任何两个相关的变量都可以找到他们的弹性关系。某些弹性概念例如要素替代弹性（第\pageref{subsec:elasticity-of-substitution}页）所描述的经济学量变化关系并非那么直接明显，然而就像导数的意义一样，他们都是对上一阶变量的描述，只要对上一阶变动的研究有贡献即可。
+
+\begin{Definition}[弹性]\index{elasticity 弹性}
+表示因变量对自变量反应的敏感程度。即当一个经济变量发生1\%的变化时，由它引起的另一经济变量变化的百分比。它和变量所用的单位无关，分为点弹性和弧弹性。
+\end{Definition}
+
+下面我们来分析弹性的定义，设一元函数
+\[
+y=f(x)
+\]
+当$x \to x + \Delta x$时，$y \to y + \Delta y$。$x$的变动比例为$\Delta x /x$，$y$的变动比例为$\Delta y/y$。
+
+如果$f(x)$在$x$处不可导，则$x$点的弹性为
+\begin{equation}
+\varepsilon=\left. {\frac{{\Delta y}}{y}} \middle/ {\frac{{\Delta x}}{x}} \right.= \frac{\Delta y}{\Delta x} \cdot \frac{x}{y}=\frac{\Delta f(x)}{\Delta x} \cdot \frac{x}{f(x)}
+\label{eq:arc-elasticity-of-general-function}
+\end{equation}
+
+如果$f(x)$在$x$处可导，则$x$点的弹性为
+\begin{equation}
+\varepsilon = \mathop {\lim }\limits_{\Delta x \to 0} (\frac{{\Delta f(x)}}{{\Delta x}}\cdot\frac{x}{{f(x)}}) = f'(x)\frac{x}{y}
+\label{eq:point-elasticity-of-general-function}
+\end{equation}
+即该点的斜率与平均数的比值。可导函数的弹性还可以方便的转换为对数形式的弹性
+\begin{equation}
+e = \frac{d \ln f(x)}{d \ln x}
+\label{eq:point-elasticity-of-general-function-ln-form}
+\end{equation}
+其中$x, f(x) > 0$，一般的经济量都满足这个条件。
+
+\begin{Definition}[弧弹性]\index{elasticity 弹性!arc elasticity 弧弹性}
+表示当自变量由一点$a$变化到另一点$b$时（两点间），因变量对自变量反应的敏感程度。如式（\ref{eq:arc-elasticity-of-general-function}）。
+\end{Definition}
+
+其中$(x_a, y_a)$指的总是起点，所以这种弹性计算方法也可以称为\emph{起点基数法}。以需求函数为例，在商品价格变化一定幅度时，涨价时的弹性和降价时的弹性所选起点是不同的，弹性也会不同。
+
+弧弹性计算的\emph{最佳算术平均数法}是取变量起点和终点的算术平均数值作为分母，即
+\begin{equation}
+\varepsilon = \left. { \frac{\Delta y}{(y_1 + y_2)/2}} \middle/ {\frac{\Delta x}{(x_1 + x_2)/2}} \right. = \frac{\Delta y}{\Delta x} \cdot \frac{x_1 + x_2}{y_1 + y_2}
+\label{eq:elasticity-zhongdianfa}
+\end{equation}
+
+弧弹性计算的\emph{最佳定义公式法}是以差分来近似微分，计算方法如下
+\begin{equation}
+\varepsilon = \frac{\Delta \ln y}{\Delta \ln x}=\frac{\ln y_2 - \ln y_1}{\ln x_2 - \ln x_1} = \frac{\ln (y_2/y_1)}{\ln (x_2/x_1)}
+\label{eq:elasticity-zuijiadingyigongshifa}
+\end{equation}
+
+以上三种弧弹性计算方法中，起点计数法最简便也最不精确，算术平均数法相比之下较为精确也很简便，最佳定义公式法是以差分来近似微分，在变化量不大的情况下是最好的方法。
+
+草稿：类似离散数据的边际量计算，应该用高区间、低区间的概念引入中点弧弹性。
+
+还可以看到一个问题，弧弹性的计算总是依赖于已知的端点数据，也就是说弧弹性公式仅能作为计算公式。而教科书上“需求的价格弹性为2，则价格上涨1\%后需求量将下降2\%”的表达方式是本末倒置的，只能说“价格上涨1\%后需求量将下降2\%，是因为需求的价格弹性为2”。用来对因变量变动趋势进行预测的应该是点弹性。
+
+\begin{Definition}[点弹性]\index{elasticity 弹性!point elasticity 点弹性}
+表示当自变量变化趋于无穷小时，因变量对自变量反应的敏感程度。如式（\ref{eq:point-elasticity-of-general-function}）。
+\end{Definition}
+
+以需求曲线为例，我们只能说在$e_D=1$处价格和需求量变动“极小”的情况下，其变动比例趋向于1，而不能举一个“很小”的例子去验证它——即便对于某些需求曲线这种举例的结果可以与点弹性数值吻合——理论基础上仍是违背的。
+
+有的教科书在明确区分了倒数和弹性的联系和差别之后，仍用曲线陡峭或平坦来作为弹性判别依据是不恰当的。如果辅助上“过同一点的两条曲线，……”，道理很正确也很废话。
+
+\begin{Definition}[需求的价格弹性]\index{elasticity 弹性!elasticity of demand 需求的价格弹性}
+需求的价格弹性表示在一定时期内一种商品的需求量变动对于该商品价格变动的反应程度。或者说，表示在一定时期内当一种商品的价格变动1\%时所引起的该商品的需求量变动的百分比。
+\begin{equation}
+	{e_d} = \frac{d{q_d}}{dp} \cdot \frac{p}{q_d}
+\label{equ:elasticity-of-demand}
+\end{equation}
+\end{Definition}
+
+\begin{Definition}[供给的价格弹性]\index{elasticity 弹性!price elasticity of supply 供给的价格弹性}
+在一定时期内，一种商品的供给量变动对于该商品价格变动的反应程度。即当价格变动1\% 时，该商品的供给量变动的百分比。
+\end{Definition}
+可以表示为：
+\begin{equation}
+	e_s = \frac{dq^s}{dp} \cdot \frac{p}{q^s}
+\end{equation}
+
+\subsection{弹性（多元函数）}
+%\addcontentsline{toc}{subsection}{弹性（多元函数）}
+\label{sec:multi-variables-math-elasticity}
+如式（\ref{eq:demand-function}）表示的那样，一种商品的需求量与其他商品价格以及消费者收入都存在着普遍联系，研究他们之间的弹性关系便要使用多元函数偏弹性的方法。
+
+设多元函数$y=f(x_1,x_2,\cdots,x_n)$，则$y$对某一自变量$x_i~(i=1,2,\cdots,n)$的弹性可以这样表示：
+\begin{compactenum}
+\item 若函数不可导，则
+\begin{equation}
+\varepsilon_i = \frac{\Delta f(\cdot)}{\Delta x_i} \cdot \frac{x_i}{f(\cdot)}
+\end{equation}
+\item 若函数可导，则
+\begin{equation}
+\varepsilon_i = \frac{\partial f(\cdot)}{\partial x_i} \cdot \frac{x_i}{f(\cdot)}
+\end{equation}
+\item 对于多元幂函数可以使用对数法求偏弹性
+\begin{equation}
+\varepsilon_i = \frac{\partial \ln f(\cdot)}{\partial \ln x_i}
+\end{equation}
+
+\end{compactenum}
+
+\begin{Definition}[需求的交叉价格弹性]\index{elasticity 弹性!cross price elasticity of demand 需求的交叉价格弹性}
+在一定时期内，一种商品的需求量变动对于相关商品价格变动的反应程度。即当相关商品价格变动1\% 时，该商品的需求量变动的百分比。
+\end{Definition}
+可以表示为：
+\begin{equation}
+	e_{XY} = \frac{dq_X}{dp_Y} \cdot \frac{p_Y}{q_X}
+\end{equation}
+
+\begin{Definition}[替代品]
+\index{substitutes 替代品}
+如果两种商品可以相互替代以满足消费者的同一种欲望，那么他们互为替代品。他们的需求交叉价格弹性$e_{XY}<0$。
+\end{Definition}
+
+\begin{Definition}[互补品]
+\index{complements 互补品}
+如果两种商品必须同时使用，才能满足消费者的某种欲望，那么这两种商品为互补品。他们的需求交叉价格弹性$e_{XY}<0$。
+\end{Definition}
+
+\begin{compactitem}
+\item 当$e_{XY}>0$时，两种商品互为\emph{替代品}；
+\item 当$e_{XY}<0$时，两种商品为\emph{互补品}；
+\item 当$e_{XY}=0$时，两种商品不存在相关关系。
+\end{compactitem}
+
+\begin{Definition}[需求的收入弹性]\index{elasticity 弹性!income elasticity of demand 需求的收入弹性}
+在一定时期内，一种商品的需求量变动对于消费者收入变动的反应程度。即当消费者收入变动1\%时，该商品的需求量变动的百分比。
+\end{Definition}
+可以表示为：
+	\begin{equation}\label{dfn:eofincome}
+		\eta = \frac{{dq}}{{dm}}\cdot\frac{m}{q}
+	\end{equation}
+
+\begin{compactitem}
+\item 当$\eta<0$时，说明该商品是\emph{低档品}（或\emph{劣等品}）；
+\item 当$\eta>0$时，说明该商品是\emph{正常品}\footnote{%
+这里使用$\eta$来判断商品是低档品还是正常品有些过于严格了，使用$dq/dm$即可，因为$m/q$总是正数。}；
+\item 当$0<\eta<1$时，说明该商品是\emph{必需品}。
+\item 当$\eta>1$时，说明该商品是\emph{奢侈品}；
+\end{compactitem}
+
+\begin{Definition}[恩格尔定律]
+\index{Engel\rq{}s law 恩格尔定律}
+在一个家庭或一个国家中，食物支出在收入中所占的比例，随着收入的增加所减少。即，在一个家庭或一个国家中，富裕程度越高，食物的支出的收入弹性越小；反之越大。
+\end{Definition}
+
+\subsection{需求价格弹性系数定价法\footnote{财政部会计资格评价中心. {\it 财务管理：中级会计资格} [M]. 北京: 中国财政经济出版社, 2009： 190--191.}}
+%\addcontentsline{toc}{subsection}{需求价格弹性系数定价法}
+\label{subsec:pricing-based-on-the-demand-price-elasticity}
+
+产品在市场上的供求变动关系，实质上体现在价格的刺激和制约作用上。需求增大导致价格上升，刺激企业生产；而需求减少，则会引起价格下降，从而制约了企业的生产规模。从另一个角度看，企业也可以根据这种关系，通过价格的升降来作用于市场需求。运用需求价格弹性系数确定产品的销售价格时，其基本计算公式为：
+\begin{equation}
+p = \frac{{{p_0}q_0^\alpha }}{{{q^\alpha }}}
+\label{equ:pricing-based-on-the-demand-price-elasticity}
+\end{equation}
+式中：$p_0$为基期单位产品价格，$q_0$为基期需求量，$\varepsilon$为某种产品的需求价格弹性系数，$p$为单位产品价格，$q$为预计销售数量，$\alpha$为需求价格弹性系数绝对值的倒数，即$\frac{1}{{\left| \varepsilon \right|}}$。
+
+由需求的价格弹性公式（\ref{equ:elasticity-of-demand}）整理得：
+\[\frac{{dq}}{q} =  - \varepsilon\frac{{dp}}{p}\]
+%两侧积分，
+%\[\int {\frac{{dq}}{q}}  =  - e\int {\frac{{dp}}{p}} \]
+%得，
+%\[\ln q =  - e\ln p + \ln k\]
+%其中$\ln k$为对数形式的积分常数，可得：
+%\[q = k{p^{ - e}}\]
+%即：
+解微分方程得：
+\[{p^{\varepsilon}}q = k \text{,}\quad \text{其中$k$为积分常数}\]
+定价点$(q , p)$和基期$(q_0 , p_0)$都满足上面这个“需求函数”，有：
+\[{p^{\varepsilon}}q = k =p_0^{\varepsilon}{q_0}\]
+整理得需求价格弹性系数定价公式：
+\[p = \frac{{p_0}q_0^\alpha}{q^\alpha } \text{,}\quad \alpha = 1/{\varepsilon} \text{.}\]
+
+
+\subsection{线性函数的价格弹性}
+
+假设线性需求函数形如$q=\alpha - \beta p$，其中$\alpha$、$\beta>0$。则其价格弹性为：
+\begin{equation}
+\varepsilon  = \frac{{ - \beta p}}{{\alpha  - \beta p}}
+\end{equation}
+可见：线性需求函数的点弹性总为负数，其变化范围为$(-\infty,0]$，当$p=\frac{\alpha}{2\beta}$即$q=\frac{\alpha}{2}$时$\varepsilon=-1$。如图（\ref{fig:elasticsoflineardemandcurve-two-diagrams}）所示，该点位于“需求线段”的中点。
+
+假设线性供给函数形如$q =  - \delta  + \gamma p$，其中$\delta$、$\gamma>0$。则其价格弹性为：
+\begin{equation}
+\varepsilon  = 1+\frac{\delta}{{ - \delta  + \gamma p}} = 1+\frac{\delta}{q}
+\end{equation}
+可见：该供给函数的点弹性总是大于1的，当$q \to +\infty$时，$\varepsilon \to 1$。如图（\ref{fig:elasticsoflinearsupplycurve-two-diagrams}）所示，供给曲线上任意点$A$的价格弹性可以表示为：
+\begin{equation}
+\varepsilon  = \frac{dq}{dp} \cdot \frac{p}{q} =  \left. {\frac{p}{q}} \middle/ {\frac{{dp}}{{dq}}} \right. = \frac{A与原点连线的斜率}{需求曲线的斜率}
+\end{equation}
+
+\begin{figure}[!h]
+\begin{shaded*}
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering 
+	    \vspace{0pt}
+\input{figures/linear-tanxing-a}
+\vspace{-3.4ex}
+\caption{一般的线性需求函数}
+\label{fig:elasticsoflineardemandcurve-two-diagrams} 
+  \end{minipage}% 
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering
+	    \vspace{0pt}
+\input{figures/linear-tanxing-b}
+\vspace{-1.6ex}
+\caption{一般的线性供给函数}
+\label{fig:elasticsoflinearsupplycurve-two-diagrams} 
+  \end{minipage} 
+\end{shaded*}
+\end{figure}
+
+
+\section{市场均衡与供求关系}
+\index{equilibrium 均衡!market 市场均衡}
+\label{sec:market-equilibrium}
+
+\begin{Definition}[均衡价格（数量）]
+\index{equilibrium 均衡!price 均衡价格}
+\index{equilibrium 均衡!quantity 均衡数量}
+一种商品的均衡价格是指该种商品的市场需求量和市场供给量相等时的价格，与此对应的供求数量成为均衡数量。
+\end{Definition}
+
+\begin{Definition}[需求量的变动]
+\index{change in the quantity demanded 需求量的变动}
+\index{movement along the demand curve 沿需求曲线移动}
+指在其他条件不变时，由某种商品的价格变动所引起的该商品的需求数量的变动。表现为沿着需求曲线移动：一个点$(p_a, q_a)$沿着需求曲线移动至另一个点$(p_b, q_b)$后，商品（需求）数量发生了$q_b - q_a$的变动。
+\end{Definition}
+
+\begin{Definition}[需求的变动]
+\index{change in demand 需求的变动}
+\index{shift of the demand curve 需求曲线的变动}
+指在某商品价格不变的条件下，由于其他因素变动所引起的该商品的需求数量的变动。表现为需求曲线整体变动：需求函数$D_1(p,q)=0$变为$D_2(p,q)=0$之后，整条需求曲线形态、位置的变化。
+\end{Definition}
+
+\begin{Definition}[供给量的变动]
+\index{change in the quantity supplied 供给量的变动}
+\index{movement along the supply curve 沿供给曲线移动}
+指在其他条件不变时，由某种商品的价格变动所引起的该商品的供给数量的变动。表现为沿着供给曲线移动：一个点$(p_a, q_a)$沿着供给曲线移动至另一个点$(p_b, q_b)$后，商品（供给）数量发生了$q_b - q_a$的变动。
+\end{Definition}
+
+\begin{Definition}[供给的变动]
+\index{change in supply 供给的变动}
+\index{shift of the supply curve 供给曲线变动}
+指在某商品价格不变的条件下，由于其他因素变动所引起的该商品的供给数量的变动。表现为供给曲线整体变动：供给函数$S_1(p,q)=0$变为$S_2(p,q)=0$之后，整条供给曲线形态、位置的变化。
+\end{Definition}
+
+\begin{Theorem}[供求定理]
+\index{law of supply and demand}
+在其他条件不变的情况下，需求变动分别引起均衡价格和均衡数量的同方向变动；供给变动引起均衡价格的反方向变动，引起均衡数量的同方向变动\footnote{%
+高鸿业. \emph{西方经济学：微观部分} [M]. 5 版. 北京: 中国人民大学出版社, 2010: 24.}。任何商品的价格都会自动调整以使得该商品的供求数量平衡\footnote{%
+曼昆. \emph{经济学原理：微观经济学分册}[M]. 梁小民,译. 5 版. 北京: 北京大学出版社, 2009: 85.，译本原文是“任何一种物品价格的调整都会使该物品的供给与需求达到平衡”，英文原文为“The price of any good adjusts to bring the quantity supplied and quantity demanded for that good into balance.”}。
+\end{Theorem}
+\section{税收和补贴}
+
+税收分配上的两个主要概念：(1) 法定归属：谁在法律上负责纳税；(2) 经济归属：指税收引起的私人实际收入分配的变化。
+
+课税对象无关性定理：竞争性市场中，税收对价格和产出的效应，与对供给者还是需求者进行征税无关。
+
+补贴与税收对市场的影响是相反的。
+
+\begin{figure}[!h]
+\begin{shaded*}
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering 
+	    \vspace{0pt}
+\input{figures/tax-perunitquantitytax}
+	\caption{从量税对供求的影响}
+	\label{fig:perunitquantitytax}
+  \end{minipage}% 
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering
+	    \vspace{0pt}
+\input{figures/tax-perunitpricetax}
+\caption{税收对供求均衡的影响}
+\label{fig:how-tax-effects-market}
+  \end{minipage} 
+\end{shaded*}
+\end{figure}
+
+\begin{equation}
+\left\{ \begin{aligned}
+{q_d} &= \phantom{{}-}\alpha  - \beta p\\
+{q_s} &=  - \delta  + \gamma p\\
+{q_d} &= {q_s}
+\end{aligned} \right. \Rightarrow \left\{ \begin{array}{l}
+p = \dfrac{{\alpha  + \delta }}{{\beta  + \gamma }}\\
+q = \dfrac{{\alpha \gamma  - \beta \delta }}{{\beta  + \gamma }}
+\end{array} \right.
+\end{equation}
+
+政府征税之前买卖双方的成交价格是相等的，即消费者支付的\emph{总价}完全交付给生产者；政府征税之后买卖双方的价格便不再相等，即消费者既要向生产者支付一定的\emph{净价}，还要向政府交纳一定量或一定比例的\emph{税收}。
+
+\subsection{从量税}
+\label{sec:perunittax}
+\index{tax 税收!per-unit tax 从量税}
+
+
+从量税即对每单位消费品征收定额（$t$元）的税收，使买方支付的价格（总价$p^+$）与卖方获得的价格（净价$p^-$）之间存在着差距$t$：
+\begin{equation}
+p^{+} \equiv p^{-} + t
+\end{equation}
+
+根据课税对象无关性，法定的纳税人是买方或是卖方对结果是无影响的，为方便起见我们假设买方是法定的纳税人。结果是导致原有的需求曲线向下平移$t$单位。这时需求曲线变为：
+\begin{equation}
+{q_d} = \alpha  - \beta (p^{+} + t) \quad \text{或} \quad p^{+} =  - \frac{{{q_d}}}{\beta } + \frac{\alpha }{\beta } - t
+\end{equation}
+
+其几何意义为需求曲线$D$向下平移$t$单位，新的均衡价格为$p = \frac{{\alpha  + \delta  - \beta t}}{{\beta  + \gamma }}$，均衡数量为$q = \frac{{\alpha \gamma  - \beta \delta  - \beta \gamma t}}{{\beta  + \gamma }}$。
+
+结论：课征从量税减少了均衡数量，提高了消费者支付价格，降低了生产者获得的净价格。
+
+\subsection{从价税}
+\label{sec:ad-valorem tax-Tax}
+\index{tax 税收!ad-valorem tax 从价税}
+
+在现有市场均衡下，对买方支付的总价收取固定税率（$\tau$）的税收：
+\begin{equation}
+p^{+}(1-\tau) \equiv p^{-}
+\end{equation}
+或者向卖方获得的净价$p^{-}$收取固定比例$t$的税收：
+\begin{equation}
+p^{+} \equiv p^{-}(1+t)
+\end{equation}
+
+为方便起见我们仍假设买方是法定的纳税人，需求曲线将以其与$q$轴的交点为圆心逆时针旋转，形成新的需求曲线：
+\begin{equation}
+{q_d} = \alpha  - \beta (1 - \tau )p^{+} \quad \text{或} \quad p^{+} =  - \frac{{{q_d}}}{{\beta (1 - \tau )}} + \frac{\alpha }{{\beta (1 - \tau )}}
+\end{equation}
+
+在竞争性市场中，课征同样收入的从价税（税款是价格的固定百分比）和从量税（税款是所购每个单位商品的固定数量）对产出具有同样的效应。税收归宿由供求弹性决定。
+
+
+\subsection{实物税}
+
+某岛国国民对椰子的需求函数为$D(p)=1200-100p$，当地椰子的供给$S(p)=100p$。（1）若法律规定国民每消费一个椰子就必须付给国王一个椰子，然后国王把他得到的椰子都吃掉，求该岛国的椰子产量；（2）如果国王选择将所有得到的椰子都在当地市场上以市场价格进行出售，求新均衡时的椰子产量？
+
+\subsection{税收分配与价格弹性}
+\label{subsec:tax-incidence-and-price-elasticities}
+\index{tax 税收!incidence 税收分配}
+
+如果供求函数都是线性函数，我们可以利用图（\ref{fig:how-tax-effects-market}）对税收分配和弹性的关系进行简单的分析。对于非线性的供求函数我们可以通过微分法对税前均衡即税后变化趋势进行分析。
+
+假设市场处于均衡状态$(p^*, q^*)$，征收从量税$t$的情况下，无论征税对象是卖方还是卖方，总有：
+\begin{align}
+p_d &= p_s + t\label{eq:tax-incidence-and-price-elasticities-a}\\
+{q_d}(p_d) &= {q_s}(p_s)\label{eq:tax-incidence-and-price-elasticities-b}
+\end{align}
+其中$p_d$是消费者实际支付价格，$p_s$为生产者实际收到价格。对式(\ref{eq:tax-incidence-and-price-elasticities-a})、式（\ref{eq:tax-incidence-and-price-elasticities-b}）取微分得：
+\begin{align}
+d{p_d} &= d{p_s} + dt \label{eq:tax-incidence-and-price-elasticities-c}\\
+\frac{d{q_d}}{d{p_d}} \cdot d{p_d} &= \frac{d{q_s}}{d{p_s}} \cdot d{p_s} \label{eq:tax-incidence-and-price-elasticities-d}
+\end{align}
+将式（\ref{eq:tax-incidence-and-price-elasticities-c}）带入式（\ref{eq:tax-incidence-and-price-elasticities-d}），得到
+\[
+\frac{d{q_d}}{d{p_d}} (d{{p_s}+dt}) = \frac{d{q_s}}{d{p_s}} \cdot d{p_s}
+\]
+整理得
+\begin{equation}
+(\frac{dq_d}{dp_d} - \frac{dq_s}{dp_s}){dp_s} = - \frac{dq_d}{dp_d} dt
+\label{eq:tax-incidence-and-price-elasticities-f}
+\end{equation}
+
+为了考虑税收对初始均衡$(p^*, q^*)$的影响，尤其是税收分配与初始均衡点的弹性关系，我们对式（\ref{eq:tax-incidence-and-price-elasticities-f}）两侧同时乘以${p^*}/{q^*}$：
+\[
+(\frac{dq_d}{dp_d} \frac{p^*}{q^*} - \frac{dq_s}{dp_s} \frac{p^*}{q^*}){dp_s} = - \frac{dq_d}{dp_d} \frac{p^*}{q^*} dt
+\]
+通过上述变换我们构造出税前均衡点的点弹性，进一步改写为：
+\[
+(e_d - e_s) dp_s = - e_d dt
+\]
+其中$e_d$是税前均衡状态下需求的价格弹性，$e_s$为供给的价格弹性。进一步变换为：
+\begin{equation}
+\frac{dp_s}{dt} = -\frac{e_d}{e_d - e_s}\text{，或}\quad \frac{dp_s}{dt} = -\frac{\left| e_d \right|}{\left| e_d \right| + e_s}
+\label{eq:tax-incidence-and-price-elasticities-i}
+\end{equation}
+
+同理可推得需求价格与税收的关系，或直接联合式（\ref{eq:tax-incidence-and-price-elasticities-a}）与式（\ref{eq:tax-incidence-and-price-elasticities-i}）可得：
+\begin{equation}
+\frac{dp_d}{dt} = \frac{e_s}{e_s - e_d}\text{，或}\quad \frac{dp_d}{dt} = \frac{e_s}{\left| e_d \right| + e_s}
+\label{eq:tax-incidence-and-price-elasticities-j}
+\end{equation}
+
+\section{限制价格}
+
+\subsection{价格上限}\index{price 价格!price ceiling 价格上限}
+在现有市场均衡下，政府设置低于现有均衡价格的价格上限，导致出现超额需求（消费者需求量大于生产者供给量）。如果政府想维持这个有效的限制价格，需设法补足消费者的超额需求（例如由其他市场购入），否则将出现黑市交易使得价格上限形同虚设。
+
+如图（\ref{fig:price-ceiling}），某市场%
+\footnote{来自人大经济论坛：{\url{http://bbs.pinggu.org/thread-1273632-1-1.html}}}%
+供给函数$q^S=-50+3p$，需求函数$q_d=150-2p$，市场均衡价格为$40$元，均衡数量为$70$单位。若政府要维持价格为$30$元\textbf{不变}，并以$40$的元价格购进其他市场产品后以$30$投放本地市场，请问需要购买多少产品，净耗资几何？
+
+\begin{figure}[!h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=35,xmax=180,ymin=0,ymax=75,
+	extra description/.code={\node[below left] at (axis cs:35,0) {$O$};},
+	extra x ticks={40,70,90,150},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$40$},\tiny{$70$},\tiny{$90$},\tiny{$150$}},
+	extra y ticks={30,40},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$30$},\tiny{$40$}},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	samples=40,domain=0:160]
+\addplot[gray,very thin] coordinates {(0,30) (40,30) (40,0)};
+\addplot[<-,blue,dashed] coordinates {(42,30) (90,30)};
+\addplot[gray,very thin] coordinates {(90,30) (90,0)};
+\addplot[gray,very thin] coordinates {(0,40) (70,40)};
+\addplot[gray,very thin] coordinates {(70,0) (70,40)};
+\addplot[gray,very thin] coordinates {(90,30) (200,30)};
+\addplot[draw=red,ultra thick,domain=35:160] {(x + 50)/3};	%S
+\addplot[draw=blue,ultra thick,domain=35:160] {75 - 0.5*x};	%D
+\addplot[blueL,text=black,decorate,decoration={brace,mirror,amplitude=5pt},yshift=-5pt]
+	coordinates {(40,30) (90,30)}
+	node [fill=white,midway,inner sep=0pt,below=5pt] {\tiny 短缺：超额需求};
+\addplot[redL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(40,0) (70,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 供给萎缩};
+\addplot[blueL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(70,0) (90,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 需求增长};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(70,40)	%E
+	(40,30)
+	(90,30)};
+\draw (axis cs:70,40) node[right] {\tiny$E$};
+\draw (axis cs:150,30) node[above] {\tiny 价格上限（$p_c$）};
+\draw (axis cs:152,0) node[blue,above=2pt] {$D$};
+\draw (axis cs:152,68) node[red,above=2pt] {$S$};
+\end{axis}
+\end{tikzpicture}
+\caption{价格上限}
+\label{fig:price-ceiling}
+\end{subfigure}%
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=35,xmax=180,ymin=0,ymax=75,
+	extra description/.code={\node[below left] at (axis cs:35,0) {$O$};},
+	extra x ticks={50,70,90,150},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$50$},\tiny{$70$},\tiny{$90$},\tiny{$150$}},
+	extra y ticks={40,50},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$40$},\tiny{$50$}},
+	xlabel style={below},xlabel=$q$,
+	ylabel style={left},ylabel=$p$,
+	samples=40,domain=0:160]
+\addplot[gray,very thin] coordinates {(50,0) (50,50)};
+\addplot[gray,very thin] coordinates {(0,40) (70,40) (70,0)};
+\addplot[<-,red,dashed] coordinates {(51,50) (100,50)};
+\addplot[gray,very thin] coordinates {(100,0) (100,50)};
+\addplot[gray,very thin] coordinates {(0,50) (50,50)};
+\addplot[gray,very thin] coordinates {(100,50) (180,50)};
+\addplot[redL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(50,50) (100,50)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 过剩：超额供给};
+\addplot[draw=red,ultra thick,domain=35:160] {(x + 50)/3};	%S
+\addplot[draw=blue,ultra thick,domain=35:160] {75 - 0.5*x};	%D
+\addplot[blueL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(50,0) (70,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 需求萎缩};
+\addplot[redL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(70,0) (100,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 供给增长};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(70,40)	%E
+	(50,50)
+	(100,50)};
+\draw (axis cs:70,40) node[right] {\tiny$E$};
+\draw (axis cs:150,50) node[above] {\tiny 价格下限（$p_f$）};
+\draw (axis cs:152,0) node[blue,above=2pt] {$D$};
+\draw (axis cs:152,68) node[red,above=2pt] {$S$};
+\end{axis}
+\end{tikzpicture}
+	\caption{价格下限}
+	\label{fig:price-floor}
+\end{subfigure}
+\caption{限制价格对供求均衡的影响}
+\label{fig:how-price-control-effects-market}
+}}
+\end{figure}
+
+\subsection{价格下限}\index{price 价格!price floor 价格下限}
+
+结论：有效地价格上限压低价格，而有效的价格下限则抬高价格。两种情况下的交易量都少于无管制时的均衡数量。如果价格下限得到愿意积累存货的“最后买家”的支持，供给量会大于无管制时的均衡数量。
+
+\section{禁止供给}
+\label{sec:interdicting-supply}
+\index{interdicting-supply 禁止供给}
+
+\begin{figure}[!h]
+\begin{shaded*}
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering 
+	    \vspace{0pt}
+\input{figures/interdicting-supply}
+  \end{minipage}% 
+  \begin{minipage}[t]{0.5\linewidth} 
+	    \vspace{55pt}
+	\caption{禁止供给}
+	\label{fig:interdicting-supply}
+{\kaishu\small 草稿：有效地价格上限压低价格，而有效的价格下限则抬高价格。两种情况下的交易量都少于无管制时的均衡数量。如果价格下限得到愿意积累存货的“最后买家”的支持，供给量会大于无管制时的均衡数量。}
+  \end{minipage} 
+\end{shaded*}
+\end{figure}
+
+\section{配给制度}
+
+\section*{推荐阅读}
+\markright{推荐阅读}
+\addcontentsline{toc}{section}{\hspace{-2.5em}推荐阅读}
+
+\begin{asparaenum}
+\item 杰克·赫舒拉发, 阿米亥·格雷泽, 大卫·赫舒拉发. {\itshape 价格理论及其应用：决策、市场与信息}[M]. 李俊慧, 周燕, 译. 第7版. 北京: 机械工业出版社, 2009: 35--43. {\ding{224}}  {\kaishu 该书关于交易税和价格限制的分析相当详细，其分析交易税时所用的“增加法”与“取走法”对于丰富思考很有意义。}
+\item 黎诣远. {\kaishu 西方经济学（微观经济学）} [M]. 北京: 高等教育出版社, 2007.
+\item 黎诣远. {\kaishu 西方经济学（微观经济分析）} [M]. 北京: 清华大学出版社, 1987.
+\end{asparaenum}
+
+%\newpage
+%\section*{本章附录}
+%\markright{本章附录}
+%\addcontentsline{toc}{section}{\hspace{-2.5em}本章附录}
+%\label{sec:appendix-market-supply-and-demand}
+%
+%\section{函数}
+%\label{sec:function-basic}
+%\index{function 函数}
+
+

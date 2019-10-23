@@ -1,0 +1,51 @@
+%存在价格上限的供求关系
+\begin{tikzpicture}
+\begin{axis}[
+	width=300pt,
+	extra description/.code={\node[below left] at (axis cs:35,0) {$O$};},
+	xmin=35,xmax=180,ymin=0,ymax=75,
+	extra x ticks={40,70,90,150},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={\tiny{$40$},\tiny{$70$},\tiny{$90$},\tiny{$150$}},
+	extra y ticks={30,40,50},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny{$30$},\tiny{$40$},\tiny{$50$}},
+	xlabel style={below},xlabel=$Q$,
+	ylabel style={left},ylabel=$P$,
+	samples=40,
+	domain=0:160
+]
+\addplot[gray,very thin] coordinates {(0,50) (50,50)};
+\addplot[<-,red,dashed] coordinates {(51,50) (100,50)};
+\addplot[gray,very thin] coordinates {(100,50) (200,50)};
+\addplot[gray,very thin] coordinates {(50,50) (50,75)};
+\addplot[gray,very thin] coordinates {(100,50) (100,75)};
+\addplot[redL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt] coordinates {(50,50) (100,50)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 超额供给};
+\addplot[gray,very thin] coordinates {(0,30) (40,30) (40,0)};
+\addplot[<-,blue,dashed] coordinates {(42,30) (90,30)};
+\addplot[gray,very thin] coordinates {(90,30) (90,0)};
+\addplot[gray,very thin] coordinates {(0,40) (70,40)};
+\addplot[gray,very thin] coordinates {(70,0) (70,75)};
+\addplot[gray,very thin] coordinates {(90,30) (200,30)};
+\addplot[draw=red,ultra thick,domain=35:160] {(x + 50)/3};	%S
+\addplot[draw=blue,ultra thick,domain=35:160] {75 - 0.5*x};	%D
+\addplot[blueL,text=black,decorate,decoration={brace,mirror,amplitude=5pt},yshift=-5pt] coordinates {(40,30) (90,30)}
+	node [fill=white,midway,inner sep=0pt,below=5pt] {\tiny 超额需求};
+\addplot[redL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt] coordinates {(40,0) (70,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 供给萎缩};
+\addplot[blueL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt] coordinates {(70,0) (90,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 需求增长};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(70,40)	%E
+	(40,30)
+	(90,30)
+	(50,50)
+	(100,50)};
+\draw (axis cs:70,40) node[right] {\tiny$E$};
+\draw (axis cs:150,30) node[above] {\tiny 价格上限（$P_c$）};
+\draw (axis cs:150,50) node[above] {\tiny 价格下限（$P_f$）};
+\draw (axis cs:152,0) node[blue,above=2pt] {$D$};
+\draw (axis cs:152,68) node[red,above=2pt] {$S$};
+\end{axis}
+\end{tikzpicture}

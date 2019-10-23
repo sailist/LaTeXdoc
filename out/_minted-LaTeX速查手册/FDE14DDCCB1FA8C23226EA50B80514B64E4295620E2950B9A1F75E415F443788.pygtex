@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.5\PYGZbs{}columnwidth]}\PYG{n+nb}{\PYGZob{}}contents/fig/mosque.jpg\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 具体大小根据图片宽高比调整小数即可}
+\end{Verbatim}

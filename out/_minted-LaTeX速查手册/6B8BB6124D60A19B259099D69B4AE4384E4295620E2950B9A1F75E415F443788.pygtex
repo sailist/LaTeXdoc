@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{}\PYGZbs{}vspace\PYGZob{}宽度大小\PYGZcb{}和\PYGZbs{}vspace*\PYGZob{}宽度大小\PYGZcb{}}
+上一行\PYG{k}{\PYGZbs{}vspace}\PYG{n+nb}{\PYGZob{}}1cm\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+下一行\PYG{k}{\PYGZbs{}\PYGZbs{}}
+正常间距测试
+\end{Verbatim}

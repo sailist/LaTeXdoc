@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}DeclareGraphicsExtensions}\PYG{n+nb}{\PYGZob{}}.eps,.png,.jpg\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}对于同名图片的优先顺序调用}
+\end{Verbatim}

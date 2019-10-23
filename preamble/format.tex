@@ -1,0 +1,42 @@
+\usepackage[UTF8,fontset=windowsnew,heading=true]{ctex}
+\ctexset{
+	section = {
+	number = 第\chinese{section}章,
+	format = \zihao{3}\bfseries,
+	},
+	subsection = {
+	number = \arabic{section}.\arabic{subsection},
+	format = \Large\bfseries
+	},
+	subsubsection = {
+	number = \arabic{section}.\arabic{subsection}.\arabic{subsubsection},
+	format = \Large\bfseries,
+	},
+}
+
+\newcommand{\fontpath}{../font/}
+% mainfont 一般就是论文中西文部分默认使用的字体
+\setCJKmainfont{Microsoft YaHei}[
+	ItalicFont=SimSun
+]
+% Path=\fontpath,
+% BoldFont=SourceHanSerifCN-Bold.otf]
+% \setmainfont{Microsoft YaHei UI}
+
+% % sans 一般是无衬线字体。可能出现在大标题等显眼的位置
+% \setCJKsansfont[Path=\fontpath]{SourceHanSerifCN-Bold.otf}%设置字体族，\textsf{这样就显示微软雅黑}
+% \setsansfont[Path=\fontpath]{SourceHanSerifCN-Bold.otf}
+
+% % mono 是默认的等宽字体。一般用于排版程序代码
+% \setCJKmonofont[Path=\fontpath]{YaheiConsolasHybrid.ttf}
+% \setmonofont[Path=\fontpath]{YaheiConsolasHybrid.ttf}
+
+
+
+
+% Document
+\setlength{\parindent}{2em}%设置首行缩进
+\linespread{1}%设置行距
+\setlength{\parskip}{0.5em}%设置段间距
+\setcounter{tocdepth}{4}%设置目录级数
+\setcounter{secnumdepth}{3}

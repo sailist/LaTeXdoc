@@ -1,0 +1,51 @@
+%从价税对供求的影响
+\begin{tikzpicture}
+\begin{axis}[
+	extra description/.code={\node[below left] at (axis cs:2,0) {$O$};},
+	xmin=2,
+	xmax=11,
+	ymin=0,
+	ymax=11,
+	extra x ticks={
+		4.167,
+		5.625
+	},
+	extra x tick labels={
+		\tiny{$Q_{\tau}$},
+		\tiny{$Q^*$}
+	},
+	extra y ticks={
+		3.5,
+		4.375,
+		5.833
+	},
+	extra y tick labels={
+		\tiny{$P_{\tau}$},
+		\tiny{$P^*$},
+		\tiny{$P_c$}
+	},
+	extra x tick style={tickwidth=0},
+	extra y tick style={tickwidth=0},
+	xlabel style={below},xlabel=\small$Q$,
+	ylabel style={left},ylabel=\small$P$,
+	samples=40,
+	domain=2:11
+]
+\addplot[gray,very thin] coordinates {(0,4.375) (5.625,4.375) (5.625,0)};
+\addplot[gray,very thin] coordinates {(0,5.833) (4.167,5.833) (4.167,0)};
+\addplot[gray,very thin] coordinates {(0,3.5) (4.167,3.5)};
+\addplot[draw=red,ultra thick,domain=2:10] {0.6*x + 1};			%S
+\addplot[draw=blueL,ultra thick] {10 - x};				%D
+\addplot[draw=blue,ultra thick] {6 - 0.6*x};	%Dt
+\addplot[redL,text=red,decorate,decoration={brace,mirror,amplitude=5pt},xshift=-2pt] coordinates {(4.167,5.833) (4.167,3.5)}
+	node [fill=white,midway,inner sep=0pt,left=5pt] {\tiny$\tau \cdot P_{\tau}$};
+\draw (axis cs:10.5,1) node[blue,below] {$D$};
+\draw (axis cs:8,1) node[blue,below] {$D_{\tau}$};
+\draw (axis cs:10,7) node[red,above] {$S$};
+\draw (axis cs:5.8,4.375) node[right] {\tiny$E^*$};
+\draw (axis cs:4.3,3.5) node[right] {\tiny$E_{\tau}$};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(5.625,4.375)
+	(4.167,3.5)};
+\end{axis}
+\end{tikzpicture}

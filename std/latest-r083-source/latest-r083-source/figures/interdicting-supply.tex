@@ -1,0 +1,37 @@
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=15,ymin=0,ymax=20,
+	extra x ticks={4,8,10.667},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\small$q^{-}$},{\small$q^{+}$},{\small$q^*$}},
+	extra y ticks={9.333,16},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{\small$p^{*}$},{\small$p'$}},
+	xlabel style={below},xlabel=\small$q$,
+	ylabel style={left},ylabel=\small$p$,
+	samples=40,
+	domain=0:15]
+\addplot[gray,very thin] coordinates {(0,16) (8,16) (8,0)};
+\addplot[gray,very thin] coordinates {(4,16) (4,0)};
+\addplot[gray,very thin] coordinates {(0,9.333) (10.667,9.333) (10.667,0)};
+
+\addplot[draw=blue,domain=2:14,ultra thick] {20 - x};
+
+\addplot[draw=redL,domain=0:14,ultra thick] {.5*x+4};
+\addplot[draw=red!80,ultra thick] {x+8};
+\addplot[draw=red,ultra thick] {2*x+8};
+
+\draw (axis cs:14.5,5) node[blue] {$D$};
+\draw (axis cs:14.5,11.5) node[red] {$S$};
+\draw (axis cs:12,19) node[red] {$S'$};
+\draw (axis cs:6.5,19) node[red] {$S''$};
+\draw (axis cs:10.667,9.333) node[above] {\small$E^*$};
+\draw (axis cs:8,16) node[above] {\small$F$};
+\draw (axis cs:4,16) node[above] {\small$G$};
+
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(4,16)
+	(8,16)
+	(10.667,9.333)};
+\end{axis}
+\end{tikzpicture}

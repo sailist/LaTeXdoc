@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} 事先已经使用了 \PYGZbs{}newlength\PYGZbs{}examplelen}
+\PYG{k}{\PYGZbs{}setlength}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}examplelen}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}3em\PYG{n+nb}{\PYGZcb{}}
+长度演示\PYG{k}{\PYGZbs{}hspace}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}examplelen}\PYG{n+nb}{\PYGZcb{}}长度演示\PYG{k}{\PYGZbs{}\PYGZbs{}}
+长度演示\PYG{k}{\PYGZbs{}hspace}\PYG{n+nb}{\PYGZob{}}3em\PYG{n+nb}{\PYGZcb{}}长度演示\PYG{k}{\PYGZbs{}\PYGZbs{}}
+
+\PYG{k}{\PYGZbs{}setlength}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}examplelen}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}2em\PYG{n+nb}{\PYGZcb{}}
+长度演示\PYG{k}{\PYGZbs{}hspace}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}examplelen}\PYG{n+nb}{\PYGZcb{}}长度演示
+\end{Verbatim}

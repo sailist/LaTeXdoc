@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}eqnarray\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}split\PYG{n+nb}{\PYGZcb{}}
+        a = 1;\PYG{k}{\PYGZbs{}\PYGZbs{}}
+        b = 2;\PYG{k}{\PYGZbs{}\PYGZbs{}}
+        c = 3;\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}split\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    x = a+b;\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    y = c+d;\PYG{k}{\PYGZbs{}nonumber\PYGZbs{}\PYGZbs{}}
+    z = e+f;
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}eqnarray\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

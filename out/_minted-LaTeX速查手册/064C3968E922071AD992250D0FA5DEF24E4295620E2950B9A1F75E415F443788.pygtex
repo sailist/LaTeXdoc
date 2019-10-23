@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{A\PYGZca{}e\PYGZus{}l,a\PYGZus{}}\PYG{l+m}{3}\PYG{n+nb}{,b\PYGZca{}}\PYG{l+m}{5}\PYG{l+s}{\PYGZdl{}}
+\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{A\PYGZca{}\PYGZob{}ext\PYGZcb{}\PYGZus{}\PYGZob{}ext\PYGZcb{}}\PYG{l+s}{\PYGZdl{}} \PYG{c}{\PYGZpc{} 多个字母需要放在上下标中需要用花括号括起来}
+\end{Verbatim}

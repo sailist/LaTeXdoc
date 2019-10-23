@@ -1,0 +1,24 @@
+\thispagestyle{empty}
+\psset{unit=1mm}
+\newsavebox\IBox
+\sbox\IBox{
+\begin{pspicture}(1in,1in)
+\psbarcode{微观经济学初等笔记 by 王厚生 https://code.google.com/p/econote/}{eclevel=M width=1.0 height=1.0}{qrcode}
+\end{pspicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\draw[draw=none,fill=black] ($(current page.north west)+(4\paperwidth/5,0)$) rectangle
+		($(current page.north west)+(\paperwidth,-4\paperheight/10)$);
+
+	\draw[draw=none,fill=titleB] ($(current page.north west)+(4\paperwidth/5,-2\paperheight/5)$) rectangle
+		($(current page.north west)+(\paperwidth,-7\paperheight/10)$);
+
+	\draw[draw=none,fill=titleC] ($(current page.south west)+(4\paperwidth/5,\paperheight/10)$) rectangle
+		($(current page.south east)+(0,3\paperheight/10)$);
+
+	\draw[draw=none,fill=titleD] ($(current page.south west)+(4\paperwidth/5,0)$) rectangle
+		($(current page.south east)+(0,\paperheight/10)$);
+	\draw[anchor=south west] ($(current page.south west)+(5mm,10mm)$) node (qrcodebar)
+		{\usebox\IBox};
+	\draw[anchor=north] (qrcodebar.south) node
+		{Project Home};
+\end{tikzpicture}

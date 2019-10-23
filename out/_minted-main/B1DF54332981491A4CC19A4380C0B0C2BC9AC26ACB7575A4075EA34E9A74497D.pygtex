@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{}默认底色是白色}
+    \PYG{k}{\PYGZbs{}colorlet}\PYG{n+nb}{\PYGZob{}}wblue\PYG{n+nb}{\PYGZcb{}\PYGZob{}}blue!20\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 表示20\PYGZpc{}的蓝色+80\PYGZpc{}的白色}
+    \PYG{k}{\PYGZbs{}colorlet}\PYG{n+nb}{\PYGZob{}}bblue\PYG{n+nb}{\PYGZcb{}\PYGZob{}}blue!20!black\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{} 表示20\PYGZpc{}的蓝色+80\PYGZpc{}的黑色}
+    \PYG{k}{\PYGZbs{}colorlet}\PYG{n+nb}{\PYGZob{}}bbg\PYG{n+nb}{\PYGZcb{}\PYGZob{}}blue!20!black!30!green\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{} 表示20\PYGZpc{}的蓝色+30\PYGZpc{}的黑色+50\PYGZpc{}的绿色}
+\end{Verbatim}

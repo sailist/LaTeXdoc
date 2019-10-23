@@ -1,0 +1,250 @@
+\chapter{收入效应与替代效应}
+\label{sec:income-and-subtitution-effects}
+
+\section{希克斯分解}
+\label{sec:hicks-resolution}
+
+当一种商品的价格发生变化时，会对消费者产生量中影响：一是使消费者的实际收入水平发生变化。在这里，实际收入水平的变化被定义为效用水平的变化。二是使商品的相对价格发生变化。这两种变化都会改变消费者对该商品的需求量。
+
+一种商品价格的变动所引起的该商品需求量变动的总效应可以被分解为替代效应和收入效应两部分，即
+\begin{equation}
+\text{\kaishu 总效应} = \text{\kaishu 替代效应} + \text{\kaishu 收入效应}
+\end{equation}
+
+\begin{Definition}[替代效应]
+\index{substitution effect 替代效用! Hicks substitution effect 希克斯替代效应}
+在实际收入水平保持不变的情况下，与某种商品的价格变化相联系的商品需求量的变化。
+\end{Definition}
+
+\begin{Definition}[收入效应]
+\index{income effect 收入效应! Hicks income effect 希克斯收入效应}
+
+由商品价格变动引起的实际收入水平的变动引起的商品需求量的变动。
+\end{Definition}
+
+按照前面对实际收入水平的界定，收入效应表示消费者的效用水平发生变化，而替代效应则不改变消费者的效用水平。
+
+\begin{figure}[!h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=22,ymin=0,ymax=22,
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	extra x ticks={10,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\tiny$I/{P_x^1}$},{\tiny$I/{P_x^0}$}},
+	extra y ticks={20},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny$I/P_y$},
+	samples=40]
+\addplot[blueL,ultra thick,domain=2.5:18] {50/x} node[right] {\tiny $U_1$};
+\addplot[blue,ultra thick,domain=5:18] {100/x} node[right] {\tiny $U_2$};
+\addplot[redL,domain=0:24] {20-x};	%原始价格下的预算线
+\addplot[red,domain=0:24] {20-2*x};	%涨价之后的预算线
+\addplot[gray,dashed,domain=4.14:24] {20*sqrt(2)-2*x};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10,10)	(7.07,14.14) (5,10)};
+\addplot[very thin,gray] coordinates {
+	(7.07,14.14) (7.07,0)};
+\addplot[very thin,gray] coordinates {
+	(10,10) (10,0)};
+\addplot[very thin,gray] coordinates {
+	(5,10) (5,0)};
+\node[right,font=\tiny] at (axis cs:5,10) {$B$};
+\node[right,font=\tiny] at (axis cs:7.07,14.14) {$C$};
+\node[right,font=\tiny] at (axis cs:10,10) {$A$};
+\end{axis}
+\end{tikzpicture}
+\caption{商品$X$涨价}
+\label{fig:hicks-substitution-effects-up}
+\end{subfigure}%
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=22,ymin=0,ymax=22,
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	extra x ticks={10,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\tiny$I/{P_x^1}$},{\tiny$I/{P_x^0}$}},
+	extra y ticks={20},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny$I/P_y$},
+	domain=0:24,samples=40]
+\addplot[blueL,ultra thick,domain=2.5:18] {50/x} node[right] {\tiny $U_1$};
+\addplot[blue,ultra thick,domain=5:18] {100/x} node[right] {\tiny $U_2$};
+\addplot[red,domain=0:24] {20-x};	%原始价格下的预算线
+\addplot[redL,domain=0:24] {20-2*x};	%涨价之后的预算线
+\addplot[gray,dashed,] {10*sqrt(2)-x};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10,10)	(7.07,7.07)	(5,10)};
+\addplot[very thin,gray] coordinates {
+	(7.07,7.07) (7.07,0)};
+\addplot[very thin,gray] coordinates {
+	(10,10) (10,0)};
+\addplot[very thin,gray] coordinates {
+	(5,10) (5,0)};
+\node[right,font=\tiny] at (axis cs:5,10) {$A$};
+\node[right,font=\tiny] at (axis cs:7.07,7.07) {$C$};
+\node[right,font=\tiny] at (axis cs:10,10) {$B$};
+\end{axis}
+\end{tikzpicture}
+\caption{商品$X$降价}
+\label{fig:hicks-substitution-effects-down}
+\end{subfigure}%
+\caption[收入效应与替代效应：希克斯替代]{希克斯替代}
+\label{fig:hicks-substitution-effects}%
+}}
+\end{figure}
+%----------------------------------------------------------------------
+
+\begin{figure}[!h]
+\begin{shaded*}
+\begin{minipage}[t]{0.5\linewidth} 
+\centering
+\vspace{0pt}
+\input{figures/hicks-and-slutsky-substitution-effects-slutsky}
+\caption{斯拉茨基替代}
+\label{fig:hicks-and-slutsky-substitution-effects-slutsky}
+\end{minipage}% 
+\begin{minipage}[t]{0.5\linewidth} 
+\centering
+\vspace{0pt}
+\input{figures/hicks-and-slutsky-substitution-effects-hicks}
+\caption{希克斯替代}
+\label{fig:hicks-and-slutsky-substitution-effects-hicks}
+\end{minipage} 
+\end{shaded*}
+\end{figure}
+
+
+\section{斯拉茨基分解}
+\label{sec:slutsky-resolution}
+
+什么是购买力不变？
+
+\begin{figure}[!h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=22,ymin=0,ymax=22,
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	extra x ticks={10,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\tiny$I/{P_x^1}$},{\tiny$I/{P_x^0}$}},
+	extra y ticks={20},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny$I/P_y$},
+	samples=40]
+\addplot[blue,ultra thick,domain=2.5:18]
+		{50/x} node[right] {\tiny $U_1$};
+\addplot[blueL,ultra thick,domain=5:18]
+		{100/x} node[right] {\tiny $U_2$};
+\addplot[gray,domain=5.625:18]
+		{225/(2*x)};
+\addplot[redL,domain=0:24]
+		{20-x};								%原始价格下的预算线
+\addplot[red,domain=0:24]
+		{20-2*x};							%涨价之后的预算线
+\addplot[gray,dashed,domain=5.5:24]
+		{30-2*x};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10,10)
+	(7.5,15)
+	(5,10)};
+\addplot[very thin,gray] coordinates {
+	(7.5,15) (7.5,0)};
+\addplot[very thin,gray] coordinates {
+	(10,10) (10,0)};
+\addplot[very thin,gray] coordinates {
+	(5,10) (5,0)};
+\node[left,font=\tiny] at (axis cs:10,10) {$A$};
+\node[left,font=\tiny] at (axis cs:5,10) {$B$};
+\node[above,font=\tiny] at (axis cs:7.5,15) {$C$};
+\end{axis}
+\end{tikzpicture}
+\caption{商品$X$涨价}
+\label{fig:slutsky-substitution-effects-up}
+\end{subfigure}%
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=22,ymin=0,ymax=22,
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	extra x ticks={10,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\tiny$I/{P_x^1}$},{\tiny$I/{P_x^0}$}},
+	extra y ticks={20},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny$I/P_y$},
+	domain=0:24,samples=40]
+\addplot[blueL,ultra thick,domain=2.5:18]
+		{50/x} node[right] {\tiny $U_1$};
+\addplot[gray,domain=2.8125:18]
+		{225/(4*x)};						%斯拉茨基替代
+\addplot[blue,ultra thick,domain=5:18]
+		{100/x} node[right] {\tiny $U_2$};	
+\addplot[red,domain=0:24]
+		{20-x};	%原始价格下的预算线
+\addplot[redL,domain=0:24]
+		{20-2*x};	%涨价之后的预算线
+\addplot[gray,dashed,]
+		{15-x};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10,10)
+	(7.5,7.5)
+	(5,10)};
+
+\addplot[very thin,gray] coordinates {
+	(7.5,7.5) (7.5,0)};
+\addplot[very thin,gray] coordinates {
+	(10,10) (10,0)};
+\addplot[very thin,gray] coordinates {
+	(5,10) (5,0)};
+\node[left,font=\tiny] at (axis cs:5,10) {$A$};
+\node[above,font=\tiny] at (axis cs:7.5,7.5) {$B$};
+\node[above,font=\tiny] at (axis cs:10,10) {$C$};
+
+\end{axis}
+\end{tikzpicture}
+\caption{商品$X$降价}
+\label{fig:slutsky-substitution-effects-down}
+\end{subfigure}%
+\caption[收入效应与替代效应：斯拉茨基替代]{斯拉茨基替代}
+\label{fig:slutsky-substitution-effects}%
+}}
+\end{figure}
+
+\section{斯拉茨基方程}
+
+\[{h_i}(p,u) \equiv {x_i}(p,e(p,u))\]
+
+\[\frac{{\partial {h_j}({p^*},{u^*})}}{{\partial {p_i}}} = \frac{{\partial {x_j}({p^*},{m^*})}}{{\partial {p_i}}} + \frac{{\partial {x_j}({p^*},{m^*})}}{{\partial m}}\cdot\frac{{\partial e({p^*},{u^*})}}{{\partial {p_i}}}\]
+
+\section*{案例：卡特政府的燃油税}
+\markright{案例：卡特政府的燃油税}
+\addcontentsline{toc}{section}{\hspace{-2.5em}案例：卡特政府的燃油税}
+\index{tax 税收!gasoline 燃油税}
+某年月日，吉米·卡特政府提案利用燃油税抑制汽油需求，进而减轻对外国能源进口的依赖程度。旋即遭到反对，反对者认为该提案会使得贫困家庭生活状况更加窘迫。为平复该反对，卡特政府提议以燃油税抵消个人所得税。新的反对者认为这种做法是徒劳无功的：即便课征燃油税，其效果也恰好会被提高了的个人收入所抵消，汽油需求数量不会有任何变化。
+
+\section*{推荐阅读}
+\markright{推荐阅读}
+\addcontentsline{toc}{section}{\hspace{-2.5em}推荐阅读}
+
+\begin{asparaenum}
+\item 萨缪尔森. (2006). \emph{经济分析基础增补版} (何耀, 傅征, 刘生龙, 陈宏卫 \& 王兴林, 译.). 大连： 东北财经大学出版社.
+\item Cook, P. J. (1972). A ``One Line'' Proof of the Slutsky Equation. \emph{The American Economic Review}, 62(1/2), 139.
+\item 杰里, 瑞尼. \emph{高级微观经济理论} [M]. 第2版. 上海: 上海财经大学出版社, 2001: 46--48.
+\item Jehle, G. A., \& Reny, P. J. (2011). \emph{Advanced Microeconomic Theory} (3 ed.): Prentice Hall, 53--55.
+\end{asparaenum}

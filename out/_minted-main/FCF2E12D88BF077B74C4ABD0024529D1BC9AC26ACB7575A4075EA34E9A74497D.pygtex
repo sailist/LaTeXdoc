@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|c|c|c|\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}hline}
+    1.0\PYG{n+nb}{\PYGZam{}}2.0\PYG{n+nb}{\PYGZam{}}3.0\PYG{n+nb}{\PYGZam{}}4.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+    5.0\PYG{n+nb}{\PYGZam{}}\PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}multirow}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZob{}}*\PYG{n+nb}{\PYGZcb{}\PYGZob{}}合并三行两列\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZam{}}6.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}1\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}4\PYGZhy{}4\PYG{n+nb}{\PYGZcb{}}
+    7.0\PYG{n+nb}{\PYGZam{}}\PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}\PYGZam{}}8.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}1\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}4\PYGZhy{}4\PYG{n+nb}{\PYGZcb{}}
+    9.0\PYG{n+nb}{\PYGZam{}}\PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}\PYGZam{}}10.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+    11.0\PYG{n+nb}{\PYGZam{}}12.0\PYG{n+nb}{\PYGZam{}}13.0\PYG{n+nb}{\PYGZam{}}14.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

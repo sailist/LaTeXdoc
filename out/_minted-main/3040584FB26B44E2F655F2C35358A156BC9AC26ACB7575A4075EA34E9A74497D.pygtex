@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+关于hyperref宏包的具体参数，可以参考其文档，或者查看
+\PYG{k}{\PYGZbs{}href}\PYG{n+nb}{\PYGZob{}}https://en.wikibooks.org/wiki/LaTeX/Hyperlinks\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZob{}}Wiki\PYGZhy{}Hyperlinks\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

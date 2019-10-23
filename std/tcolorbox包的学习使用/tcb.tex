@@ -1,0 +1,469 @@
+\documentclass{ctexart}
+\usepackage{tikz,lipsum,lmodern}
+\usepackage[most]{tcolorbox}
+\usepackage{lipsum}
+\definecolor{bidentitlebg}{RGB}{158,59,255}
+\usepackage{mtpro2}
+\usepackage{url}
+\usepackage{varwidth}
+\everymath{\displaystyle}
+\usepackage{geometry}  
+\tcbuselibrary{skins,breakable,theorems}
+\geometry{left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm}  
+%\usepackage[top=1cm,bottom=1cm,left=1cm,right=1mm]{geometry}  
+\usepackage{listings} 
+\lstset{numbers=left,breaklines,
+numberstyle= \tiny,keywordstyle= \color{ blue!70},commentstyle=\color{red!50!green!50!blue!50},
+frame=shadowbox, rulesepcolor= \color{ red!20!green!20!blue!20},
+escapeinside=``} 
+\newtcolorbox{Mybox}[2][]
+{colback = red!5!white, colframe = red!75!black, fonttitle = \bfseries,
+	colbacktitle = red!85!black, enhanced,
+	attach boxed title to top center={yshift=-2mm},
+	title=#2,#1}
+
+\title{tcolorbox包的学习使用}
+\author{八一}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+	学习tcolorbox 宏包使用是在我们想要更好地向他人展示一个作品时，利用这个包可以做出很多你想要的东西.和大多数宏包一样，tcolorbox 被 MiKTeX 和 TeX Live 都收录其中，使用起来非常简单，只需要你在导言在使用 usepackage 命令调用这个宏包。
+\begin{lstlisting}[language={TeX}]
+\usepackage{tcolorbox}
+\end{lstlisting}
+
+在调用宏包时，你可以通过可选参数的需要取加载其程序库，在调用 tcolorbox 之后，显式地使用 tcbuselibrary 来调用 tcolorbox 提供的丰富程序库。比如，下面的代码调用了 skins, breakable, theorems 三个程序库。
+\begin{lstlisting}[language={TeX}]
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable, listings,theorems}
+\end{lstlisting}
+
+使用 tcbuselibrary 命令，就是调用了一个个这样的文件。以下是常见可用的 tcolorbox 程序库，比如breakable实现自动分页的文本框；skins提供丰富的文本框样式；listings/minted: 用以和对应的宏包联用，实现好看的代码清单；theorems会自动加载 amsmath 宏包来实现定理类的环境.
+
+而tcolorbox 宏包提供了与宏包同名的环境，是整个宏包的基础环境，用于生成段落间的文本框，且还提供了 tcbox 命令，用于生成行内的文本框。
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[⟨options⟩]
+⟨environment content⟩
+\end{tcolorbox}
+\tcbox[⟨options⟩]{⟨box content⟩}
+\end{lstlisting}
+
+那么接下来我带大家一起学习下有趣的tcolorbox包的使用.
+\end{abstract}
+\section{基础阶段}	
+\subsection{基础盒子}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+	My box.
+\end{tcolorbox}
+\end{lstlisting}
+	\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+		My box.
+	\end{tcolorbox}
+\subsection{加标题 title 的参数}
+\begin{lstlisting}[language={TeX}]
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=`给框加标题`]
+	My box with my title.
+	\end{tcolorbox}
+\end{lstlisting}
+	\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=`给框加标题`]
+		My box with my title.
+	\end{tcolorbox}
+
+\subsection{tcblower加虚线}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black]
+Upper part of my box.
+\tcblower
+Lower part of my box.
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black]
+	Upper part of my box.
+	\tcblower
+	Lower part of my box.
+\end{tcolorbox}
+
+\subsection{标题与分割}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!50!black,
+colbacktitle=yellow!75!black,title=My title]
+I can do this also with a title.
+\tcblower
+Lower part of my box.
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!50!black,
+	colbacktitle=yellow!75!black,title=My title]
+	I can do this also with a title.
+	\tcblower
+	Lower part of my box.
+\end{tcolorbox}
+
+\subsection{添加savelowerto选项}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,lowerbox=invisible,
+savelowerto=\jobname_ex.tex]
+Now, we play hide and seek. Where is the lower part?
+\tcblower
+I'm invisible until you find me.
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,lowerbox=invisible,
+	savelowerto=\jobname_ex.tex]
+	Now, we play hide and seek. Where is the lower part?
+	\tcblower
+	I'm invisible until you find me.
+\end{tcolorbox}
+\subsection{定制的段落样式}
+\begin{lstlisting}[language={TeX}]
+\newtcolorbox{bidentidad}[1][]{
+enhanced,
+skin=enhancedlast jigsaw,
+attach boxed title to top left={xshift=-4mm,yshift=-0.5mm},
+fonttitle=\bfseries\sffamily,
+colbacktitle=blue!45,
+colframe=red!50!black,
+interior style={
+top color=blue!10,
+bottom color=red!10
+},
+boxed title style={
+empty,
+arc=0pt,
+outer arc=0pt,
+boxrule=0pt
+},
+underlay boxed title={
+\fill[blue!45!white]
+(title.north west) --
+(title.north east) --
++(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm) --
+([xshift=4mm,yshift=0.5mm]frame.north east) --
++(0mm,-1mm) --
+(title.south west) -- cycle;
+\fill[blue!45!white!50!black]
+([yshift=-0.5mm]frame.north west) --
++(-0.4,0) --
++(0,-0.3) -- cycle;
+\fill[blue!45!white!50!black]
+([yshift=-0.5mm]frame.north east) --
++(0,-0.3) --
++(0.4,0) -- cycle;
+},
+title={Identidades},
+#1
+}
+\begin{bidentidad}
+\lipsum[4]
+\end{bidentidad}
+\end{lstlisting}
+\newtcolorbox{bidentidad}[1][]{
+	enhanced,
+	skin=enhancedlast jigsaw,
+	attach boxed title to top left={xshift=-4mm,yshift=-0.5mm},
+	fonttitle=\bfseries\sffamily,
+	colbacktitle=blue!45,
+	colframe=red!50!black,
+	interior style={
+		top color=blue!10,
+		bottom color=red!10
+	},
+	boxed title style={
+		empty,
+		arc=0pt,
+		outer arc=0pt,
+		boxrule=0pt
+	},
+	underlay boxed title={
+		\fill[blue!45!white]
+		(title.north west) --
+		(title.north east) --
+		+(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm) --
+		([xshift=4mm,yshift=0.5mm]frame.north east) --
+		+(0mm,-1mm) --
+		(title.south west) -- cycle;
+		\fill[blue!45!white!50!black]
+		([yshift=-0.5mm]frame.north west) --
+		+(-0.4,0) --
+		+(0,-0.3) -- cycle;
+		\fill[blue!45!white!50!black]
+		([yshift=-0.5mm]frame.north east) --
+		+(0,-0.3) --
+		+(0.4,0) -- cycle;
+	},
+	title={Identidades},
+	#1
+}
+\begin{bidentidad}
+	\lipsum[4]
+\end{bidentidad}
+\subsection{在盒子添加.tex源文件}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,title=试题解答]
+\input{hzb.tex}
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[colback=yellow!10!white,colframe=red!75!black,title=试题解答]
+%	\includegraphics{hzb.pdf}
+	  \input{hzb.tex}
+\end{tcolorbox}
+
+\subsection{改变边框}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[enhanced,sharp corners=uphill,
+colback=blue!50!white,colframe=blue!25!black,coltext=yellow,
+fontupper=\Large\bfseries,arc=6mm,boxrule=2mm,boxsep=5mm,
+borderline={0.3mm}{0.3mm}{white}]
+Funny settings.
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[enhanced,sharp corners=uphill,
+	colback=blue!50!white,colframe=blue!25!black,coltext=yellow,
+	fontupper=\Large\bfseries,arc=6mm,boxrule=2mm,boxsep=5mm,
+	borderline={0.3mm}{0.3mm}{white}]
+	Funny settings.
+\end{tcolorbox}
+
+\subsection{给盒子添加背景}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[enhanced,frame style image=blueshade.png,
+opacityback=0.75,opacitybacktitle=0.25,
+colback=blue!5!white,colframe=blue!75!black,
+title=My title]
+This box is filled with an external image.\par
+Title and interior are made partly transparent to show the image.
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[enhanced,frame style image=blueshade.png,
+	opacityback=0.75,opacitybacktitle=0.25,
+	colback=blue!5!white,colframe=blue!75!black,
+	title=My title]
+	This box is filled with an external image.\par
+	Title and interior are made partly transparent to show the image.
+\end{tcolorbox}
+
+\subsection{重定义新的box设置标题居中}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[enhanced,attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
+colback=blue!5!white,colframe=blue!75!black,colbacktitle=red!80!black,
+title=`给框加标题`,fonttitle=\bfseries,
+boxed title style={size=small,colframe=red!50!black} ]
+This box uses a \textit{boxed title}. The box of the title can
+be formatted independently from the main box.
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[enhanced,attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
+	colback=blue!5!white,colframe=blue!75!black,colbacktitle=red!80!black,
+	title=给框加标题,fonttitle=\bfseries,
+	boxed title style={size=small,colframe=red!50!black} ]
+	This box uses a \textit{boxed title}. The box of the title can
+	be formatted independently from the main box.
+\end{tcolorbox}
+\begin{lstlisting}[language={TeX}]
+\newtcolorbox{Mybox}[2][]
+{colback = red!5!white, colframe = red!75!black, fonttitle = \bfseries,
+colbacktitle = red!85!black, enhanced,
+attach boxed title to top center={yshift=-2mm},
+title=#2,#1}
+\begin{mybox}[colback=yellow]{Hello there}
+This is my own box with a mandatory title
+and options.
+\end{mybox}
+\end{lstlisting}
+\begin{Mybox}[colback=yellow]{Hello there}
+	This is my own box with a mandatory title
+	and options.
+\end{Mybox}
+%----------------------------------------------------------
+\section{LaTeX代码和显示效果并列展示}
+如果把可选参数里的标题相关的选项``title,fonttitle''去掉，会产生没有表题栏的框。
+\subsection{平行}
+\begin{lstlisting}[language={TeX}]
+\begin{tcblisting}{colback=red!5!white,colframe=red!75!black,title=`平行展示`,fonttitle=\bfseries}
+This is a \LaTeX\ example:
+\begin{equation}
+\sum\limits_{i=1}^n i = \frac{n(n+1)}{2}.
+\end{equation}
+\end{tcblisting}
+\end{lstlisting}
+%\begin{tcblisting}{colback=red!5!white,colframe=red!75!black,title=平行展示,fonttitle=\bfseries}
+%	This is a \LaTeX\ example:
+%	\begin{equation}
+%	\sum\limits_{i=1}^n i = \frac{n(n+1)}{2}.
+%	\end{equation}
+%\end{tcblisting}
+
+\subsection{并列}
+\begin{lstlisting}[language={TeX}]
+\begin{tcblisting}{colback=red!5!white,colframe=red!75!black,listing side text,title=`并列展示`,fonttitle=\bfseries}
+This is a \LaTeX\ example:
+\begin{equation}
+\sum\limits_{i=1}^n i = \frac{n(n+1)}{2}.
+\end{equation}
+\end{tcblisting}
+\end{lstlisting}
+%\begin{tcblisting}{colback=red!5!white,colframe=red!75!black,listing side text,
+%		title=并列展示,fonttitle=\bfseries}
+%	This is a \LaTeX\ example:
+%	\begin{equation}
+%	\sum\limits_{i=1}^n i = \frac{n(n+1)}{2}.
+%	\end{equation}
+%\end{tcblisting}
+%----------------------------------------------------------
+\section{Theorems 程序包}
+tcolorbox 宏包提供了 theorems 程序包来实现定理类的环境。theorems 程序包会自动加载 amsmath 宏包。加载调用的方法如摘要所言.
+\begin{lstlisting}[language={TeX}]
+\newtcbtheorem[⟨init options⟩]{⟨name⟩}{⟨display name⟩}{⟨options⟩}{⟨prefix⟩}
+\renewtcbtheorem[⟨init options⟩]{⟨name⟩}{⟨display name⟩}{⟨options⟩}{⟨prefix⟩}
+\end{lstlisting}
+
+两个命令分别都有 4 个必需参数和 1 个可选参数。name: 创建的 LaTeX 环境名称；display name: 创建的环境的标题名称；options: 传入 tcolorbox 的参数；prefix: 用于生成环境的 label；init options: 用于控制编号.
+\begin{lstlisting}[language={TeX}]
+\newtcbtheorem[number within=section]{mytheo}{定理}%
+{colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
+\begin{mytheo}{我的定理}{}
+这是默认样式。
+\end{mytheo}
+\begin{mytheo}[separator sign = {\ $\blacktriangleright$}]{我的定理}{}
+分隔符修改为 $\blacktriangleright$。
+\end{mytheo}
+\begin{mytheo}[description delimiters parenthesis]{我的定理}{}
+定界符修改为圆括号。
+\end{mytheo}
+\begin{mytheo}[description color=red!25!yellow,
+description font= {\mdseries\itshape}]{我的定理}{}
+标题的字体及颜色修改。
+\end{mytheo}
+\begin{mytheo}[terminator sign={.}]{我的定理}{}
+标题后的终止符。
+\end{mytheo}
+\end{lstlisting}
+\newtcbtheorem[number within=section]{mytheo}{定理}%
+{colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
+\begin{mytheo}{我的定理}{}
+	这是默认样式。
+\end{mytheo}
+\begin{mytheo}[separator sign = {\ $\blacktriangleright$}]{我的定理}{}
+	分隔符修改为 $\blacktriangleright$。
+\end{mytheo}
+\begin{mytheo}[description delimiters parenthesis]{我的定理}{}
+	定界符修改为圆括号。
+\end{mytheo}
+\begin{mytheo}[description color=red!25!yellow,
+	description font= {\mdseries\itshape}]{我的定理}{}
+	标题的字体及颜色修改。
+\end{mytheo}
+\begin{mytheo}[terminator sign={.}]{我的定理}{}
+	标题后的终止符。
+\end{mytheo}
+\begin{lstlisting}[language={TeX}]
+\newtcbtheorem[auto counter,number within=section]{theo}%
+{Theorem}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
+\end{lstlisting}
+\newtcbtheorem[auto counter,number within=section]{theo}%
+{Theorem}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+	arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
+\begin{theo}{Summation of Numbers}{summation}
+	For all natural number $n$ it holds:
+	\begin{equation}
+	\tcbhighmath{\sum\limits_{i=1}^n i = \frac{n(n+1)}{2}.}
+	\end{equation}
+\end{theo}
+
+We have given Theorem \ref{theorem:summation} on page \pageref{theorem:summation}.
+
+\newtcbtheorem[use counter from=theo]{antheo}%
+{Theorem}{theorem style=change,oversize,enlarge top by=1mm,enlarge bottom by=1mm,
+	enhanced jigsaw,interior hidden,fuzzy halo=1mm with green,
+	fonttitle=\bfseries\upshape,fontupper=\slshape,
+	colframe=green!75!black,coltitle=green!50!blue!75!black}{antheorem}
+
+\begin{antheo}{Summation of Numbers}{summation}
+	For all natural number $n$ it holds:
+	\begin{equation}
+	\tcbhighmath{\sum\limits_{i=1}^n i = \frac{n(n+1)}{2}.}
+	\end{equation}
+\end{antheo}
+%----------------------------------------------------------
+\section{加图片水印}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[enhanced,watermark graphics=1.jpg,
+watermark opacity=0.3,watermark zoom=0.9,
+colback=green!5!white,colframe=green!75!black,
+fonttitle=\bfseries, title=盒子中添加图片水印]
+数学分析作为数学专业考研的专业课之一，也是考查学生的基本功，在复试中会出现
+实变函数与近世代数与英语口语的考核，不同高校对学生的要求是不一样的。针对过去了
+三个月的 2019 年考研，我总结部分真题的解析，对不同院校的考查有了整理把控。
+\end{tcolorbox}
+\end{lstlisting}
+\begin{tcolorbox}[enhanced,watermark graphics=1.jpg,
+	watermark opacity=0.3,watermark zoom=0.9,
+	colback=green!5!white,colframe=green!75!black,
+	fonttitle=\bfseries, title=盒子中添加图片水印]
+	数学分析作为数学专业考研的专业课之一，也是考查学生的基本功，在复试中会出现
+	实变函数与近世代数与英语口语的考核，不同高校对学生的要求是不一样的。针对过去了
+	三个月的 2019 年考研，我总结部分真题的解析，对不同院校的考查有了整理把控。
+\end{tcolorbox}
+
+%----------------------------------------------------------
+\section{盒子中嵌入盒子}
+\begin{tcolorbox}[colback=yellow!10!white,colframe=yellow!50!black,
+	every box/.style={fonttitle=\bfseries},title=Box]
+	\begin{tcolorbox}[enhanced,colback=red!10!white,colframe=red!50!black,
+		colbacktitle=red!85!black,
+		title=Box inside box,drop fuzzy shadow]
+		\begin{tcolorbox}[beamer,colframe=blue!50!black,title=Box inside box inside box]
+			And now for something completely different: Boxes!\par\medskip
+			\newtcbox{\mybox}[1][]{nobeforeafter,tcbox raise base,colframe=green!50!black,colback=green!10!white,
+				sharp corners,top=1pt,bottom=1pt,before upper=\strut,#1}
+			\mybox[rounded corners=west]{This} \mybox{is} \mybox{another} \mybox[rounded corners=east]{box.}
+		\end{tcolorbox}
+	\end{tcolorbox}	
+\end{tcolorbox}
+%----------------------------------------------------------
+\section{适合的盒子}
+\begin{lstlisting}[language={TeX}]
+\begin{tcolorbox}[enhanced,fit to height=6cm,
+colback=green!25!black!10!white,colframe=green!75!black,title=Fit box (10cm),
+drop fuzzy shadow,watermark color=white,watermark text=八一考研数学竞赛]
+
+数学分析作为数学专业考研的专业课之一，也是考查学生的基本功，在复试中会出现
+实变函数与近世代数与英语口语的考核，不同高校对学生的要求是不一样的。针对过去了
+三个月的 2019 年考研，我总结部分真题的解析，对不同院校的考查有了整理把控。
+\end{tcolorbox}
+\end{lstlisting}
+``fit to height''制定框的高度，框里的内容会自动调整到合适的字体大小以适应该高度。
+\begin{tcolorbox}[enhanced,fit to height=6cm,
+	colback=green!25!black!10!white,colframe=green!75!black,title=Fit box (10cm),
+	drop fuzzy shadow,watermark color=white,watermark text=八一考研数学竞赛]
+	
+	数学分析作为数学专业考研的专业课之一，也是考查学生的基本功，在复试中会出现
+	实变函数与近世代数与英语口语的考核，不同高校对学生的要求是不一样的。针对过去了
+	三个月的 2019 年考研，我总结部分真题的解析，对不同院校的考查有了整理把控。
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced,fit to height=2cm,
+	colback=green!25!black!10!white,colframe=green!75!black,title=Fit box (5cm),
+	drop fuzzy shadow,watermark color=white,watermark text=八一考研数学竞赛]
+	数学分析作为数学专业考研的专业课之一，也是考查学生的基本功，在复试中会出现
+	实变函数与近世代数与英语口语的考核，不同高校对学生的要求是不一样的。针对过去了
+	三个月的 2019 年考研，我总结部分真题的解析，对不同院校的考查有了整理把控。
+\end{tcolorbox}
+%----------------------------------------------------------
+\section{可断的框}
+该框的内容如果在当前页不能完全显示，可以自动顺延到下一页，产生断裂的框。
+\begin{tcolorbox}[enhanced jigsaw,breakable,pad at break*=1mm,
+	colback=blue!5!white,colframe=blue!75!black,title=Breakable box,
+	watermark color=white,watermark text=\Roman{tcbbreakpart}]
+	数学分析作为数学专业考研的专业课之一，也是考查学生的基本功，在复试中会出现
+	实变函数与近世代数与英语口语的考核，不同高校对学生的要求是不一样的。针对过去了
+	三个月的 2019 年考研，我总结部分真题的解析，对不同院校的考查有了整理把控。
+\end{tcolorbox}
+\section{致谢}
+本文档是我对 Thomas F. Sturm 的《The tcolorbox Packages-Manual for version 4.15》(\url{https://www.complang.tuwien.ac.at/doc/texlive-latex-extra-doc/latex/tcolorbox/tcolorbox.pdf}) 中的例子进行的实践与笔记，同时参考了龙叔的博文一文《 tcolorbox 宏包简明教程》(\url{https://liam.page/2016/07/22/using-the-tcolorbox-package-to-create-a-new-theorem-environment/})
+
+Happy tcb-ing!
+\end{document}

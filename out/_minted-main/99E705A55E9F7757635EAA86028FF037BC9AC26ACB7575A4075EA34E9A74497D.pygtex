@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} 参数用法：trim = \PYGZlt{}left\PYGZgt{} \PYGZlt{}lower\PYGZgt{} \PYGZlt{}right\PYGZgt{} \PYGZlt{}upper\PYGZgt{}}
+\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[clip,trim =2cm \PYGZob{}0.4\PYGZbs{}paperheight\PYGZcb{} 2cm \PYGZob{}0.4\PYGZbs{}paperheight\PYGZcb{},width=0.3\PYGZbs{}columnwidth]}\PYG{n+nb}{\PYGZob{}}contents/fig/mosque.jpg\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}vspace}\PYG{n+nb}{\PYGZob{}}0.3\PYG{k}{\PYGZbs{}columnwidth}\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.3\PYGZbs{}columnwidth]}\PYG{n+nb}{\PYGZob{}}contents/fig/mosque.jpg\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

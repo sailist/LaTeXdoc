@@ -1,0 +1,187 @@
+%! Author = saili
+%! Date = 2019/8/26/0026
+
+\section{安装与配置方案}\label{sec:安装方案}
+\subsection{各平台安装方法最佳实践}
+\subsubsection{Windows平台}
+Windows下推荐采用TexLive\&VSCode\&SumatraPDF。
+
+在\href{https://www.tug.org/texlive/windows.html}{TexLive}官网下载并安装TexLive，随后安装\href{https://www.sumatrapdfreader.org/free-pdf-reader.html}{Sumatra PDF}和\href{https://code.visualstudio.com}{VSCode}
+
+安装好TexLive后，在命令控制台中输入
+\begin{languagebox}[bash]
+    latex -v
+    xelatex -v        
+\end{languagebox}
+如果能够输出版本信息，证明Tex已经安装好了。
+
+随后需要简单更改一下TexLive的配置，找到TexLive安装根目录下的\highunderline{texmf.cnf}文件，打开并添加如下的一行参数，其余配置维持不变：
+\begin{languagebox}[bash]
+    openout_any = a    
+\end{languagebox}
+
+如果不添加该参数，在添加参考文献时可能会报错。
+
+随后，在VSCode中安装Tex扩展，快捷键\highunderline{Ctrl+Shift+X}打开扩展面板，查找并选择\highunderline{LateX Workshop}并安装：
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{\figpath{lworkshop.png}}
+    \caption{\LaTeX{}扩展}
+    \label{fig:latex-vscode}
+\end{figure}
+随后需要在vscode的设置中配置编译命令，从而能够用快捷键迅速编译，配置主要是配置编译的工具和食谱（recipes，即工具的联合使用），官网提供了很详细的说明\href{https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop}{文档}，以及\href{https://zhuanlan.zhihu.com/p/38178015}{这篇博客}也提供了比较详细的配置方法。
+
+如果嫌麻烦，目前的vscode配置支持和其他用户分享GistID来共享配置，可以使用我的配置对应的GistID（可能仍需要配置PDF阅读器的位置）：
+
+\begin{quotation}
+    999ba45b6ca3350048541fd7f72ef07a
+\end{quotation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{\figpath{gistid.png}}
+    \caption{设置GistID共享VSCode配置}
+    \label{fig:gist-id-ex}
+\end{figure}
+
+安装好后，任意新建一个tex后缀的文档，输入以下内容（注意用半角标点符号，以及去掉前面的注释符号\%\footnote{因为未知原因，代码环境无法插入该语句，还未解决}）：
+\begin{verbatim}
+    % \documentclass{article}
+    % \begin{document}
+    %     hello world
+    % \end{document}
+\end{verbatim}
+正常编译\marginnote{如果使用了之前的配置ID，那么快捷键是Shift+F10}后如果能够生成一个pdf文档，那么就说明安装完成了。
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.5\textwidth]{\figpath{texplug.png}}
+   \caption{VSCode编译选项示意}
+   \label{fig:texplug.png}
+\end{figure}
+\subsection{中文支持}
+\LaTeX{}有比较多的中文支持方法，目前最好用的是\highunderline{ctex}包。以及虽然ctex提供了一些文档类，但是还是推荐用添加包的方式来使用，这样会比较容易兼容纯英文方案。
+
+\begin{texcode}
+    \usepackage[UTF8,fontset=windowsnew,heading=true]{ctex} % 使用包的方式添加时推荐使用的参数
+\end{texcode}
+
+之后默认情况下不需要其他配置，就可以完美的支持中文了，但是注意，需要使用\highunderline{XeLaTeX}编译。
+\subsubsection{Linux平台}
+不熟悉，暂略
+\subsubsection{MAC平台}
+不熟悉，暂略
+
+\subsection{常用包}
+\LaTeX{}由于其开放的环境，有成千上万的包提供用户使用，在一般情况下，比较常用的包和配套的参数如下所示：
+\begin{texbreakcode}
+    \usepackage{amsmath}%提供数学公式支持
+    \usepackage{graphics}%用于添加图片
+    \usepackage{graphicx}%加强插图命令
+    \usepackage{subfigure}%用于添加子图
+    \usepackage{wrapfig}%提供图片环绕风格支持
+    \graphicspath{{./}{./contents/}{./contents/fig/}}%设置图片可能存在的路径
+    \newcommand{\figpath}[1]{contents/fig/#1} %设置图片路径
+
+    \usepackage{fontspec}%用于配置字体
+    \usepackage[table]{xcolor}%用于各种颜色环境
+    \usepackage{enumitem}%用于定制list和enum
+    \usepackage{float}%用于控制Float环境，添加H参数（强制放在Here）
+    \usepackage[colorlinks,
+                linkcolor=black,
+                urlcolor=blue,
+                anchorcolor=blue,
+                citecolor=green]{hyperref}%用于超链接，另外添加该包目录会自动添加引用。
+
+    \usepackage[most]{tcolorbox}%用于添加各种边框支持，most参数表示将全部命令支持都添加进来
+    \usepackage[cache=true,outputdir=./out]{minted}%如果不保留临时文件就设置cache=false,如果输出设置了其他目录那么outputdir参数也有手动指定，否则会报错。
+    \tcbuselibrary{minted}%加载tcolorbox的代码风格
+
+    \usepackage[a4paper,left=4cm,right=4cm,top=3cm,bottom=1cm]{geometry}%用于控制版式
+    \usepackage{appendix}%用于控制附加文件
+
+    
+    \usepackage[UTF8,fontset=windowsnew,heading=true]{ctex} %用于提供中文支持
+    \ctexset{
+        section = {
+        number = 第\chinese{section}章,
+        format = \zihao{3}\bfseries,
+        },
+        subsection = {
+        number = \arabic{section}.\arabic{subsection},
+        format = \Large\bfseries
+        },
+        subsubsection = {
+        number = \arabic{section}.\arabic{subsection}.\arabic{subsubsection},
+        format = \Large\bfseries,
+        },
+    }
+    \usepackage{multirow} %用于表格环境多行多列的支持
+    \usepackage{pdfpages} %用于插入pdf页
+    \usepackage{ulem} %用于好看的下划线、波浪线等修饰
+    \usepackage{fixltx2e} %用于文本环境的下标
+
+    \usepackage{adjustbox} %用于调整"盒子"位置
+    \usepackage{longtable}% 用于提供长表格支持        
+    \usepackage{nameref} % 用于在引用时附加描述而不只是计数值
+\end{texbreakcode}
+
+\subsection{\LaTeX{}内置命令}
+    \LaTeX{}中除了编译器相关的命令外，还提供了许多别的非常方便的命令，列举如下：
+    \subsubsection{查看帮助文档}
+    在熟练\LaTeX{}中的操作后，如果需要查看某个宏包的文档，可以尝试在命令行输入：
+    \begin{languagebox}[bash]
+        texdoc xxx
+    \end{languagebox}
+    
+    \subsubsection{其他命令}
+    \begin{center}
+        % \newlength\tablewidth % if haven't define the length 'tablewidth'
+        \setlength\tablewidth{\dimexpr (\textwidth -4\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.50\tablewidth}<{\centering}|p{0.50\tablewidth}<{\centering}|}
+                \hline
+                命令名&备注\\
+                \hline
+                bibtex&参考文献支持。\\
+                \hline
+                makeindex,xindy&索引支持。\\
+                \hline
+                dvips&将DVI转换为PostScript\\
+                \hline
+                xdviX&WindowSystem下的DVI阅读器。\\
+                \hline
+                dviconcat,dviselect&从DVI文件中复制和粘贴页面。\\
+                \hline
+                dvipdfmx&将DVI转换为PDF，是(前面提到过的)pdfTEX的一套替换方案。\\
+                \hline
+                psselect,psnup,...&PostScript实用程序。\\
+                \hline
+                pdfjam,pdfjoin,...&PDF实用程序。\\
+                \hline
+                context,mtxrun&ConTEXt和PDF处理工具。\\
+                \hline
+                htlatex,...tex4ht&(LA)TEX到HTML(还有XML等其他格式)的转换器\\
+                \hline
+            \end{tabular}
+            \caption{TexLive中的常用程序}
+        \end{table}
+    \end{center}
+
+\subsection{快速入门}\label{sub:快速入门}
+    在按上面的方式安装好并完成编译测试后，可以按以下顺序查看，：
+    \begin{itemize}
+        \item \Ref{sec:comm-envi}
+        \item \Ref{sec:页面处理}
+        \item \Ref{sec:标题和目录}
+        \item \Ref{sec:大小与间距}
+        \item \Ref{sec:文字样式}
+        \item \Ref{sec:段落样式}
+        \item \Ref{sec:列表}
+        \item \Ref{sec:graphics}
+        \item \Ref{sec:table}
+        \item \Ref{sec:公式}
+        \item \Ref{sec:Float}
+        \item \Ref{sec:注释与引用}
+        \item \Ref{sec:color}
+    \end{itemize}
+    

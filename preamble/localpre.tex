@@ -1,0 +1,118 @@
+%! Author = saili
+%! Date = 2019/8/26/0026
+\usepackage{layout} %用于生成布局图片
+\usepackage{multirow} %用于表格环境多行多列的支持
+\usepackage{pdfpages} %用于插入pdf页
+\usepackage{rotating} %提供旋转、横置页面的方法
+\usepackage{adjustbox} %用于调整盒子
+\usepackage{ulem} %用于好看的下划线、波浪线等修饰
+
+\usepackage{supertabular} %用于提供长表格支持
+\usepackage{longtable}% 用于提供长表格支持
+
+\usepackage{fixltx2e} %用于文本环境的下标
+\usepackage{nameref} % 用于在引用时使用名字
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\newcommand{\Ref}[1]{\textcolor{airforceblue}{\ref{#1}：\nameref{#1}}}
+\newlength\tablewidth
+\newtcblisting{texcode}{
+    arc=0mm,drop shadow,
+    externalize listing=example_listing,
+    listing engine=minted,
+    minted style=colorful,
+    minted language=tex,
+    minted options={fontsize=\small,breaklines,autogobble,numbersep=0mm},
+    colback=codeback,
+    colframe=codeback,
+    listing only,
+    left=0mm,enhanced,
+}
+
+\newtcblisting{texbreakcode}{breakable,
+    arc=0mm,drop shadow,
+    externalize listing=example_listing,
+    listing engine=minted,
+    minted style=colorful,
+    minted language=tex,
+    minted options={fontsize=\small,breaklines,autogobble,numbersep=0mm},
+    colback=codeback,
+    colframe=codeback,
+    listing only,
+    left=0mm,enhanced,
+}
+
+\newtcblisting{texbreakshow}{breakable,
+    arc=1mm,drop shadow,
+    title=Code effects,
+    coltitle=langtitle,
+    colbacktitle=langbacktitle,
+    colframe=langbacktitle,
+    fonttitle=\bfseries\sffamily,
+    lefttitle=1mm,toptitle=0.5mm,bottomtitle=0.5mm,
+    externalize listing=example_listing,
+    listing engine=minted,
+    minted style=colorful,
+    minted language=tex,
+    minted options={fontsize=\small,breaklines,autogobble,numbersep=2mm,xleftmargin=1mm},
+    colback=langback,
+    bicolor,colbacklower=white,
+    bottomrule=0mm,leftrule=0mm,toprule=0mm,rightrule=0mm,
+}
+
+\newtcolorbox{texsepcode}{arc=0pt,bicolor,drop shadow,
+colback=codeback,left=0mm,boxsep=0mm,
+colbacklower=white,
+arc=0mm,
+colframe=codeback}
+
+\newtcolorbox{texsepbreakcode}{breakable,arc=0pt,bicolor,drop shadow,
+colback=codeback,left=0mm,boxsep=0mm,
+colbacklower=white,
+arc=0mm,
+colframe=codeback}
+\newcommand{\todo}[1]{\textcolor{red}{\large{TODO:#1}}}
+
+
+\newtcblisting{texcodenoshad}{
+arc=0mm,left=0mm,
+leftrule=0mm,
+externalize listing=example_listing,
+listing engine=minted,
+minted style=colorful,
+minted language=tex,
+minted options={fontsize=\small,breaklines,autogobble,numbersep=0mm},
+colback=codeback,
+colframe=codeback,
+listing only,
+left=0mm,enhanced,
+}
+
+\usepackage{multicol}
+
+\newpagestyle{mystyle}{%
+\sethead
+[第\thesection{}章 ~~\sectiontitle][][\thepage]%
+{第\thesection{}章 ~~\sectiontitle}{}{\thepage}
+\setfoot
+[][\LaTeX{}速查手册][]
+{}{\LaTeX{}速查手册}{}
+}
+
+\usepackage{cite}
+
+% \usepackage[paper=portrait,pagesize]{typearea}
+% \usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{pifont} %数学符号
+\usepackage{amssymb} %数学符号
+\usepackage{etoolbox}
+
+\makeatletter
+\def\ifGm@preamble#1{\@firstofone}
+\appto\restoregeometry{%
+  \pdfpagewidth=\paperwidth
+  \pdfpageheight=\paperheight}
+\apptocmd\newgeometry{%
+  \pdfpagewidth=\paperwidth
+  \pdfpageheight=\paperheight}{}{}
+\makeatother

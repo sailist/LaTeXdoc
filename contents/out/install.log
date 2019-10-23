@@ -1,0 +1,2982 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.10)  7 OCT 2019 11:27
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**e:/LaNote/LatexTutorial/contents/install
+(e:/LaNote/LatexTutorial/contents/install.tex
+LaTeX2e <2018-12-01>
+e:/LaNote/LatexTutorial/contents/install.tex:4: Undefined control sequence.
+l.4 \section
+            {安装与配置方案}\label{sec:安装方案}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:4: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \section{安
+              装与配置方案}\label{sec:安装方案}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 案 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:5: Undefined control sequence.
+l.5 \subsection
+               {各平台安装方法最佳实践}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 各 in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 台 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no 最 in font nullfont!
+Missing character: There is no 佳 in font nullfont!
+Missing character: There is no 实 in font nullfont!
+Missing character: There is no 践 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:6: Undefined control sequence.
+l.6 \subsubsection
+                  {Windows平台}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no W in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 台 in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 荐 in font nullfont!
+Missing character: There is no 采 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no & in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no & in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--8
+[][]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:9: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 在
+     \href{https://www.tug.org/texlive/windows.html}{TexLive}官网下载并安装TexLive，...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 在 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:9: Undefined control sequence.
+l.9 在\href
+          {https://www.tug.org/texlive/windows.html}{TexLive}官网下载并安装TexLive，...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 官 in font nullfont!
+Missing character: There is no 网 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 载 in font nullfont!
+Missing character: There is no 并 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 随 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:9: Undefined control sequence.
+l.9 ...dows.html}{TexLive}官网下载并安装TexLive，随后安装\href
+                                                  {https://www.sumatrapdfrea...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 和 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:9: Undefined control sequence.
+l.9 ...rg/free-pdf-reader.html}{Sumatra PDF}和\href
+                                                  {https://code.visualstudio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:11: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 安
+      装好TexLive后，在命令控制台中输入
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 好 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no 控 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 台 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 输 in font nullfont!
+Missing character: There is no 入 in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:12: LaTeX Error: Environment languagebox undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \begin{languagebox}
+                        [bash]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no v in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:15: LaTeX Error: \begin{document} ended by \end{languagebox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \end{languagebox}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 够 in font nullfont!
+Missing character: There is no 输 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 版 in font nullfont!
+Missing character: There is no 本 in font nullfont!
+Missing character: There is no 信 in font nullfont!
+Missing character: There is no 息 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 证 in font nullfont!
+Missing character: There is no 明 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 已 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 好 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--17
+[]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:18: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 随
+      后需要简单更改一下TexLive的配置，找到TexLive安装根目录下的\highunderline{texmf.cnf}文件，打开并添加如...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 随 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 简 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 更 in font nullfont!
+Missing character: There is no 改 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 找 in font nullfont!
+Missing character: There is no 到 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 根 in font nullfont!
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 录 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:18: Undefined control sequence.
+l.18 ...下TexLive的配置，找到TexLive安装根目录下的\highunderline
+                                                  {texmf.cnf}文件，打开并添加如下的一行参数...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 打 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 并 in font nullfont!
+Missing character: There is no 添 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 余 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 维 in font nullfont!
+Missing character: There is no 持 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 变 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:19: LaTeX Error: Environment languagebox undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{languagebox}
+                        [bash]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:20: Missing $ inserted.
+<inserted text> 
+                $
+l.20     openout_
+                 any = a
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+
+e:/LaNote/LatexTutorial/contents/install.tex:21: LaTeX Error: \begin{document} ended by \end{languagebox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{languagebox}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+e:/LaNote/LatexTutorial/contents/install.tex:21: Missing $ inserted.
+<inserted text> 
+                $
+l.21 \end{languagebox}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--22
+[]
+ []
+
+
+Overfull \hbox (26.6571pt too wide) in paragraph at lines 18--22
+[]\OML/cmm/m/it/10 ny \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.28589pt too wide) in paragraph at lines 18--22
+\OML/cmm/m/it/10 a$ 
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:23: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 如
+      果不添加该参数，在添加参考文献时可能会报错。
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 添 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 该 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 添 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 考 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 献 in font nullfont!
+Missing character: There is no 时 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 会 in font nullfont!
+Missing character: There is no 报 in font nullfont!
+Missing character: There is no 错 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
+[] 
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:25: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 随
+      后，在VSCode中安装Tex扩展，快捷键\highunderline{Ctrl+Shift+X}打开扩展面板，查找并选择\highunde...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 随 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 扩 in font nullfont!
+Missing character: There is no 展 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 快 in font nullfont!
+Missing character: There is no 捷 in font nullfont!
+Missing character: There is no 键 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:25: Undefined control sequence.
+l.25 随后，在VSCode中安装Tex扩展，快捷键\highunderline
+                                         {Ctrl+Shift+X}打开扩展面板，查找并选择\highunde...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 打 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 扩 in font nullfont!
+Missing character: There is no 展 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 板 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 查 in font nullfont!
+Missing character: There is no 找 in font nullfont!
+Missing character: There is no 并 in font nullfont!
+Missing character: There is no 选 in font nullfont!
+Missing character: There is no 择 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:25: Undefined control sequence.
+l.25 ...ne{Ctrl+Shift+X}打开扩展面板，查找并选择\highunderline
+                                                  {LateX Workshop}并安装：
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 并 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:26: LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \begin{figure}
+                   [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:28: Undefined control sequence.
+l.28     \includegraphics
+                         [width=0.8\columnwidth]{\figpath{lworkshop.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:28: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.28     \includegraphics[width=0.8\columnwidth]
+                                                {\figpath{lworkshop.png}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+e:/LaNote/LatexTutorial/contents/install.tex:28: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.28     \includegraphics[width=0.8\columnwidth]
+                                                {\figpath{lworkshop.png}}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:28: Undefined control sequence.
+l.28 ...degraphics[width=0.8\columnwidth]{\figpath
+                                                  {lworkshop.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:29: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29     \caption
+                 {\LaTeX{}扩展}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 扩 in font nullfont!
+Missing character: There is no 展 in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:31: LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 随 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 译 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 从 in font nullfont!
+Missing character: There is no 而 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 够 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 快 in font nullfont!
+Missing character: There is no 捷 in font nullfont!
+Missing character: There is no 键 in font nullfont!
+Missing character: There is no 迅 in font nullfont!
+Missing character: There is no 速 in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 译 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 译 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 工 in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 食 in font nullfont!
+Missing character: There is no 谱 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 工 in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 联 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 官 in font nullfont!
+Missing character: There is no 网 in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 供 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 很 in font nullfont!
+Missing character: There is no 详 in font nullfont!
+Missing character: There is no 细 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 说 in font nullfont!
+Missing character: There is no 明 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:32: Undefined control sequence.
+l.32 ...译的工具和食谱（recipes，即工具的联合使用），官网提供了很详细的说明\href
+                                                  {https://marketplace.visua...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ? in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 档 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 及 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:32: Undefined control sequence.
+l.32 ...mName=James-Yu.latex-workshop}{文档}，以及\href
+                                                  {https://zhuanlan.zhihu.co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 篇 in font nullfont!
+Missing character: There is no 博 in font nullfont!
+Missing character: There is no 客 in font nullfont!
+Missing character: There is no 也 in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 供 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 较 in font nullfont!
+Missing character: There is no 详 in font nullfont!
+Missing character: There is no 细 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--33
+[]
+ []
+
+
+Overfull \hbox (5.901pt too wide) in paragraph at lines 25--33
+[][]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:34: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 如
+      果嫌麻烦，目前的vscode配置支持和其他用户分享GistID来共享配置，可以使用我的配置对应的GistID（可能仍需要配置PDF阅读器的位置）：
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 嫌 in font nullfont!
+Missing character: There is no 麻 in font nullfont!
+Missing character: There is no 烦 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 前 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 支 in font nullfont!
+Missing character: There is no 持 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 他 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 享 in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 共 in font nullfont!
+Missing character: There is no 享 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 我 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 仍 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 阅 in font nullfont!
+Missing character: There is no 读 in font nullfont!
+Missing character: There is no 器 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
+[] 
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:36: LaTeX Error: Environment quotation undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \begin{quotation}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:37: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37     9
+          99ba45b6ca3350048541fd7f72ef07a
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no a in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:38: LaTeX Error: \begin{document} ended by \end{quotation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \end{quotation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--39
+[]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:40: LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{figure}
+                   [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:40: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{figure}[
+                    H]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:42: Undefined control sequence.
+l.42     \includegraphics
+                         [width=0.8\textwidth]{\figpath{gistid.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:42: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.42     \includegraphics[width=0.8\textwidth]
+                                              {\figpath{gistid.png}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+e:/LaNote/LatexTutorial/contents/install.tex:42: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.42     \includegraphics[width=0.8\textwidth]
+                                              {\figpath{gistid.png}}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:42: Undefined control sequence.
+l.42 ...ludegraphics[width=0.8\textwidth]{\figpath
+                                                  {gistid.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:43: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43     \caption
+                 {设置GistID共享VSCode配置}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no 共 in font nullfont!
+Missing character: There is no 享 in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:45: LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--46
+[]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:47: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 安
+      装好后，任意新建一个tex后缀的文档，输入以下内容（注意用半角标点符号）：
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 好 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 任 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 建 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 缀 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 档 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 输 in font nullfont!
+Missing character: There is no 入 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 注 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 半 in font nullfont!
+Missing character: There is no 角 in font nullfont!
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 符 in font nullfont!
+Missing character: There is no 号 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
+[] 
+ []
+
+
+Overfull \hbox (141.75pt too wide) in paragraph at lines 53--53
+[]    \TU/lmtt/m/n/10 \documentclass{article}[] 
+ []
+
+
+Overfull \hbox (105.0pt too wide) in paragraph at lines 53--53
+[]    \TU/lmtt/m/n/10 \begin{document}[] 
+ []
+
+
+Overfull \hbox (105.0pt too wide) in paragraph at lines 53--53
+[]        \TU/lmtt/m/n/10 Hello world.[] 
+ []
+
+
+Overfull \hbox (94.5pt too wide) in paragraph at lines 53--53
+[]    \TU/lmtt/m/n/10 \end{document}[] 
+ []
+
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 够 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 档 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 那 in font nullfont!
+Missing character: There is no 么 in font nullfont!
+Missing character: There is no 就 in font nullfont!
+Missing character: There is no 说 in font nullfont!
+Missing character: There is no 明 in font nullfont!
+Missing character: There is no 安 in font nullfont!
+Missing character: There is no 装 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:56: Undefined control sequence.
+l.56 \subsection
+                {中文支持}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 支 in font nullfont!
+Missing character: There is no 持 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 较 in font nullfont!
+Missing character: There is no 多 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 支 in font nullfont!
+Missing character: There is no 持 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 前 in font nullfont!
+Missing character: There is no 最 in font nullfont!
+Missing character: There is no 好 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:57: Undefined control sequence.
+l.57 \LaTeX{}有比较多的中文支持方法，目前最好用的是\highunderline
+                                              {ctex}包。以及虽然ctex提供了一些文档类，但是还是推...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 及 in font nullfont!
+Missing character: There is no 虽 in font nullfont!
+Missing character: There is no 然 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 供 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 些 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 档 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 但 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 还 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 荐 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 添 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 样 in font nullfont!
+Missing character: There is no 会 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 较 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 兼 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no 纯 in font nullfont!
+Missing character: There is no 英 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 案 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 56--58
+[]
+ []
+
+
+Overfull \hbox (5.901pt too wide) in paragraph at lines 56--58
+[][] 
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:59: LaTeX Error: Environment texcode undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{texcode}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:60: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...age[UTF8,fontset=windowsnew,heading=true]{
+                                                  ctex} % 使用包的方式添加时推荐使用的参数
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:61: LaTeX Error: \begin{document} ended by \end{texcode}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \end{texcode}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 之 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 默 in font nullfont!
+Missing character: There is no 认 in font nullfont!
+Missing character: There is no 情 in font nullfont!
+Missing character: There is no 况 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 他 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 就 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 美 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 支 in font nullfont!
+Missing character: There is no 持 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 但 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 注 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:63: Undefined control sequence.
+l.63 ...需要其他配置，就可以完美的支持中文了，但是注意，需要使用\highunderline
+                                                  {XeLaTeX}编译。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no X in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 译 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:64: Undefined control sequence.
+l.64 \subsubsection
+                   {Linux平台}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 台 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 熟 in font nullfont!
+Missing character: There is no 悉 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 暂 in font nullfont!
+Missing character: There is no 略 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:66: Undefined control sequence.
+l.66 \subsubsection
+                   {MAC平台}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 台 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 熟 in font nullfont!
+Missing character: There is no 悉 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 暂 in font nullfont!
+Missing character: There is no 略 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 63--68
+[]
+ []
+
+e:/LaNote/LatexTutorial/contents/install.tex:69: Undefined control sequence.
+l.69 \subsection
+                {常用包}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 常 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 放 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 环 in font nullfont!
+Missing character: There is no 境 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 千 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 万 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 供 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 般 in font nullfont!
+Missing character: There is no 情 in font nullfont!
+Missing character: There is no 况 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 较 in font nullfont!
+Missing character: There is no 常 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 套 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:71: LaTeX Error: Environment texbreakcode undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{texbreakcode}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:72: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72     \usepackage{
+                     amsmath}%提供数学公式支持
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:73: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73     \usepackage{
+                     graphics}%用于添加图片
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:74: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74     \usepackage{
+                     graphicx}%加强插图命令
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:75: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75     \usepackage{
+                     subfigure}%用于添加子图
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:76: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76     \usepackage{
+                     wrapfig}%提供图片环绕风格支持
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+e:/LaNote/LatexTutorial/contents/install.tex:77: Undefined control sequence.
+l.77     \graphicspath
+                      {{./}{./contents/}{./contents/fig/}}%设置图片可能存在的路径
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no / in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 69--79
+[]
+ []
+
+
+Overfull \hbox (5.901pt too wide) in paragraph at lines 69--79
+[][]
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:80: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80     \usepackage{
+                     fontspec}%用于配置字体
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:81: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81     \usepackage[table]{
+                            xcolor}%用于各种颜色环境
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:82: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82     \usepackage{
+                     enumitem}%用于定制list和enum
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:83: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83     \usepackage{
+                     float}%用于控制Float环境，添加H参数（强制放在Here）
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:88: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88                 citecolor=green]{
+                                      hyperref}%用于超链接，另外添加该包目录会自动添加引用。
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:90: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90     \usepackage[most]{
+                           tcolorbox}%用于添加各种边框支持，most参数表示将全部命令支持都添加进来
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:91: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91     \usepackage[cache=true,outputdir=./out]{
+                                                 minted}%如果不保留临时文件就设置cache=f...
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+e:/LaNote/LatexTutorial/contents/install.tex:92: Undefined control sequence.
+l.92     \tcbuselibrary
+                       {minted}%加载tcolorbox的代码风格
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 92--93
+[] 
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:94: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ...er,left=4cm,right=4cm,top=3cm,bottom=1cm]{
+                                                  geometry}%用于控制版式
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:95: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95     \usepackage{
+                     appendix}%用于控制附加文件
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:98: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ...age[UTF8,fontset=windowsnew,heading=true]{
+                                                  ctex} %用于提供中文支持
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+e:/LaNote/LatexTutorial/contents/install.tex:99: Undefined control sequence.
+l.99     \ctexset
+                 {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 第 in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:101: Undefined control sequence.
+l.101         number = 第\chinese
+                                {section}章,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 章 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:102: Undefined control sequence.
+l.102         format = \zihao
+                             {3}\bfseries,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:105: Missing number, treated as zero.
+<to be read again> 
+                   \c@section 
+l.105         number = \arabic{section}
+                                       .\arabic{subsection},
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:105: Missing number, treated as zero.
+<to be read again> 
+                   \c@subsection 
+l.105 ...er = \arabic{section}.\arabic{subsection}
+                                                  ,
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:106: Undefined control sequence.
+l.106         format = \Large
+                             \bfseries
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:109: Missing number, treated as zero.
+<to be read again> 
+                   \c@section 
+l.109         number = \arabic{section}
+                                       .\arabic{subsection}.\arabic{subsubse...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:109: Missing number, treated as zero.
+<to be read again> 
+                   \c@subsection 
+l.109 ...er = \arabic{section}.\arabic{subsection}
+                                                  .\arabic{subsubsection},
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:109: Missing number, treated as zero.
+<to be read again> 
+                   \c@subsubsection 
+l.109 ...arabic{subsection}.\arabic{subsubsection}
+                                                  ,
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:110: Undefined control sequence.
+l.110         format = \Large
+                             \bfseries,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no , in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:113: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113     \usepackage{
+                      multirow} %用于表格环境多行多列的支持
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:114: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114     \usepackage{
+                      pdfpages} %用于插入pdf页
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:115: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115     \usepackage{
+                      ulem} %用于好看的下划线、波浪线等修饰
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:116: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116     \usepackage{
+                      fixltx2e} %用于文本环境的下标
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 100--117
+[]
+ []
+
+
+Overfull \hbox (3.19pt too wide) in paragraph at lines 100--117
+\TU/lmr/bx/n/10 ,
+ []
+
+
+Overfull \hbox (3.19pt too wide) in paragraph at lines 100--117
+\TU/lmr/bx/n/10 ,
+ []
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:118: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118     \usepackage{
+                      adjustbox} %用于调整"盒子"位置
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:119: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119     \usepackage{
+                      longtable}% 用于提供长表格支持
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:120: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120     \usepackage{
+                      nameref} % 用于在引用时附加描述而不只是计数值
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:121: LaTeX Error: \begin{document} ended by \end{texbreakcode}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 \end{texbreakcode}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+e:/LaNote/LatexTutorial/contents/install.tex:123: Undefined control sequence.
+l.123 \subsection
+                 {\LaTeX{}内置命令}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 译 in font nullfont!
+Missing character: There is no 器 in font nullfont!
+Missing character: There is no 相 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no 外 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 还 in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 供 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 许 in font nullfont!
+Missing character: There is no 多 in font nullfont!
+Missing character: There is no 别 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 非 in font nullfont!
+Missing character: There is no 常 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 便 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 举 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no ： in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:125: Undefined control sequence.
+l.125     \subsubsection
+                        {查看帮助文档}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 查 in font nullfont!
+Missing character: There is no 看 in font nullfont!
+Missing character: There is no 帮 in font nullfont!
+Missing character: There is no 助 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 档 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 熟 in font nullfont!
+Missing character: There is no 练 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 查 in font nullfont!
+Missing character: There is no 看 in font nullfont!
+Missing character: There is no 某 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 宏 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 档 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 尝 in font nullfont!
+Missing character: There is no 试 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 输 in font nullfont!
+Missing character: There is no 入 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:127: LaTeX Error: Environment languagebox undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127     \begin{languagebox}
+                             [bash]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no x in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:129: LaTeX Error: \begin{document} ended by \end{languagebox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129     \end{languagebox}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (25.901pt too wide) in paragraph at lines 123--130
+[][][]
+ []
+
+
+Overfull \hbox (5.901pt too wide) in paragraph at lines 123--130
+[][]
+ []
+
+
+Overfull \hbox (5.901pt too wide) in paragraph at lines 123--130
+[][]
+ []
+
+e:/LaNote/LatexTutorial/contents/install.tex:131: Undefined control sequence.
+l.131     \subsubsection
+                        {其他命令}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 他 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--132
+[] 
+ []
+
+e:/LaNote/LatexTutorial/contents/install.tex:134: Undefined control sequence.
+<argument> \tablewidth 
+                       
+l.134 ...width{\dimexpr (\textwidth -4\tabcolsep)}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:134: You can't use `\dimexpr' in vertical mode.
+<argument> \dimexpr 
+                    (\textwidth -4\tabcolsep )
+l.134 ...width{\dimexpr (\textwidth -4\tabcolsep)}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+e:/LaNote/LatexTutorial/contents/install.tex:135: LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135         \begin{table}
+                           [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+<argument> |p{0.50\tablewidth 
+                              }<{\centering }|p{0.50\tablewidth }<{\centerin...
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Use of \@array doesn't match its definition.
+\@ifnextchar ... \reserved@d =#1\def \reserved@a {
+                                                  #2}\def \reserved@b {#3}\f...
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Argument of \@firstoftwo has an extra }.
+<inserted text> 
+                \par 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+e:/LaNote/LatexTutorial/contents/install.tex:136: Paragraph ended before \@firstoftwo was complete.
+<to be read again> 
+                   \par 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Use of \@array doesn't match its definition.
+\@xexpast #1*#2#3#4\@@ ->\edef \reserved@a {
+                                            #1}\@tempcnta #2\relax \ifnum \@...
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Use of \@array doesn't match its definition.
+\@ifnextchar ... \reserved@d =#1\def \reserved@a {
+                                                  #2}\def \reserved@b {#3}\f...
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Use of \@argtabularcr doesn't match its definition.
+\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
+                                                  \def \reserved@b {#3}\futu...
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Use of \@array doesn't match its definition.
+\@xexpast #1*#2#3#4\@@ ->\edef \reserved@a {
+                                            #1}\@tempcnta #2\relax \ifnum \@...
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Argument of \reserved@c has an extra }.
+<inserted text> 
+                \par 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+e:/LaNote/LatexTutorial/contents/install.tex:136: Paragraph ended before \reserved@c was complete.
+<to be read again> 
+                   \par 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+|p{0.50}<{\let {\let \reserved@d =*\def {\@@par }}\def \vcenter \bgroup \ETC.
+e:/LaNote/LatexTutorial/contents/install.tex:136: Forbidden control sequence found while scanning use of \reserved@b.
+<inserted text> 
+                \par 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@xexpast ...dafter \reserved@b \reserved@a #4\@@ 
+                                                  
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Illegal parameter number in definition of \@fortmp.
+<to be read again> 
+                   \relax 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Illegal parameter number in definition of \@fortmp.
+<to be read again> 
+                   \relax 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Runaway argument?
+p{0.50}<{\let {\let \reserved@d =*\def {\@@par }}\def \vcenter \bgroup \ETC.
+e:/LaNote/LatexTutorial/contents/install.tex:136: Forbidden control sequence found while scanning use of \@tforloop.
+<inserted text> 
+                \par 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Missing } inserted.
+<inserted text> 
+                }
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@tf@r ...@fortmp \space \else \@tforloop #2\@nil 
+                                                  \@nil \@@ #1{#3}\fi 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@tf@r ...p \space \else \@tforloop #2\@nil \@nil 
+                                                  \@@ #1{#3}\fi 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@tf@r ...pace \else \@tforloop #2\@nil \@nil \@@ 
+                                                  #1{#3}\fi 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: Undefined control sequence.
+\@nextchar ->\@nil 
+                   
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+e:/LaNote/LatexTutorial/contents/install.tex:136: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ...tering}|p{0.50\tablewidth}<{\centering}|}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Incomplete \iffalse; all text was ignored after line 136.
+<inserted text> 
+                \fi 
+<*> e:/LaNote/LatexTutorial/contents/install
+                                            
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+! Emergency stop.
+<*> e:/LaNote/LatexTutorial/contents/install
+                                            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 31 strings out of 492909
+ 663 string characters out of 6136299
+ 66519 words of memory out of 5000000
+ 4177 multiletter control sequences out of 15000+600000
+ 3672 words of font info for 18 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 21i,7n,36p,276b,172s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

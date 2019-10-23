@@ -1,0 +1,204 @@
+\section{注释与引用}\label{sec:注释与引用}
+    \subsection{脚注}
+    \subsubsection{基本使用}
+    脚注使用\highunderline{\textbackslash{}footnote{内容}}命令：
+    \begin{texshow}
+        被脚注的文本\footnote{脚注内容}
+    \end{texshow}
+    \subsubsection{更改标记风格}
+    需要重新定义\highunderline{\textbackslash{}thefootnote}来实现更改标记风格：
+
+    \begin{texcode}
+        被脚注的文本\footnote{脚注内容}\\
+        \renewcommand{\thefootnote}{\roman{footnote}}
+        被脚注的文本\footnote{脚注内容}
+    \end{texcode}
+
+    
+    被脚注的文本\footnote{脚注内容}\\\renewcommand{\thefootnote}{\roman{footnote}}
+    被脚注的文本\footnote{脚注内容}
+
+    关于各种风格的数字显示方式，查看
+    \subsubsection{重新计数脚注标记}
+    如果只是要指定某个脚注的下标，可以直接通过添加参数的方式：
+    \begin{texshow}
+        被脚注的文本\footnote[12]{脚注内容}
+    \end{texshow}
+
+
+    脚注标记的计数也是用\LaTeX{}中的计数器来计数的，名字是\highunderline{footnote}，因此要重新计数，只需要重置计数器\footnote{关于计数器，可以参考\Ref{subsub:counter}}即可：
+    \begin{texcode}
+        被脚注的文本\footnote{脚注内容}\\
+        \setcounter{footnote}{5}
+        被脚注的文本\footnote{脚注内容}
+    \end{texcode}
+
+    被脚注的文本\footnote{脚注内容}\\
+        \setcounter{footnote}{5}
+    被脚注的文本\footnote{脚注内容}
+
+    \subsection{边注}
+
+    \subsubsection{基本使用}
+    边注是指在书两侧的注释，其在某种程度上比脚注更方便一些，因为边注直接显示在页面的一边\marginnote{就像这样。}，读者不需要将视线移动太多就能看到相应的注释。
+
+    最简单的边注，使用\highunderline{\textbackslash{}marginpar[left]\{right\}}命令。\marginpar{最简单的边注}如果是单侧布局（即不分奇偶页），那么边注仅显示在右侧，如果是双侧布局，则会显示在相应的外侧。如果是双栏布局，那么就会显示在靠近的一侧。
+
+    \subsubsection{marginnote宏包}
+    内置的这两种命令对于一些环境的支持不是很好，比如显示在公式的一侧，或者是显示在脚注的一侧，如果原生命令无法满足需求，那么就可以使用扩展宏包\highunderline{marginnote}。
+
+    首先使用marginnote宏包后，\highunderline{geometry}就增加了可以控制边注大小和间隔的参数，如下：
+    \begin{texcode}
+        \usepackage[top=Bcm, bottom=Hcm, outer=Ccm, inner=Acm, 
+            heightrounded, 
+            marginparwidth=Ecm, marginparsep=Dcm]{geometry}
+    \end{texcode}
+
+    在设置好边距后，如果要添加边注，使用\highunderline{\textbackslash{}marginnote}命令：
+    \begin{texshow}
+        这里是一段难懂的命令\marginnote{这是一段解释的文字。}。
+    \end{texshow}
+    
+    上面使用的命令如果更换为marginpar，在演示环境中会报错，这也是为什么推荐使用marginnote的原因。
+
+    \subsection{标签}\label{sub:标签}
+    \LaTeX{}支持在任意位置添加标签，从而可以很方便的建立链接，如\marginnote{从实现中可以看到标签的定义支持中文和一些标点，另外最好遵循某种规范，方便寻找}：
+    \begin{texshow}
+        如何实现一段标签可以查看该示例：\label{ex:标签示例}
+    \end{texshow}
+    要引用只需要使用内置命令\highunderline{\textbackslash{}ref}即可：
+    \begin{texshow}
+        如何使用引用可以参考\ref{ex:标签示例}节的介绍。
+    \end{texshow}
+    \begin{texshow}
+        我们建议初学者浏览\pageref{sub:快速入门}页来查看如何入门\LaTeX{}
+    \end{texshow}
+
+    注意带有引用的位置均需要编译两次来完成，第一次编译只会形成问号，这是正常的。
+    \subsubsection{其他的引用需求}
+    ref命令只会显示相应位置的节号，而label命令实际上只是建立一种链接关系，因此，如果要更改引用部分的文字，我们可以使用\highunderline{hyperref}宏包中的\highunderline{\textbackslash{}hyperref}命令：
+    \begin{texshow}
+        % \usepackage{hyperref}
+        这里有一个\hyperref[ex:标签示例]{标签示例}
+    \end{texshow}
+    注意如果链接到一个URL，那么使用的是\highunderline{\textbackslash{}href}命令，而且两者的参数填写方法也不一样：
+    \begin{texshow}
+        关于hyperref宏包的具体参数，可以参考其文档，或者查看
+        \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}
+        {Wiki-Hyperlinks}
+    \end{texshow}
+
+    另外，\highunderline{nameref}宏包提供了显示章节号的命令\highunderline{\textbackslash{}nameref}：
+    \begin{texshow}
+        % \usepackage{nameref}
+        在\nameref{ex:标签示例}有一个示例
+    \end{texshow}
+
+    \subsection{参考文献}
+    参考文献在\LaTeX{}中有多种管理方式，并且均可以被很方便的引用。\footnote{另外文献管理推荐使用\href{http://zotero.org}{zotero}}
+
+    \subsubsection{直接引入}
+    如果参考文献的数量比较少，不需要管理，那么可以直接使用\LaTeX{}的内置环境\highunderline{thebibliography}，该环境会直接在相应位置生成参考文献列表：
+    \begin{texshow}
+        \begin{thebibliography}{9}
+            \bibitem{lamport99}
+              Leslie Lamport,
+              \textit{\LaTeX: a document preparation system},
+              Addison Wesley, Massachusetts,
+              2nd edition,
+              1994.
+            \bibitem{SMOalgo}
+                Platt,John C,
+                \textit{Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines}
+        \end{thebibliography}
+
+        \begin{thebibliography}{1}
+            \bibitem{tmc}
+                Petersen，Pedersen，《The Matrix Cookbook》
+        \end{thebibliography}
+        
+    \end{texshow}
+
+    上述的代码中，环境后的参数为最大标签数（必填项），但是要注意的是，其中的参数不是数字大小，而是数字的位数，如果是一位数字，那么最大标签数是9；如果是两位，那么最大标签数是99（即使你所填的数字是59）。
+
+    每一个参考文献，都用一个\highunderline{bibitem}来标识，\highunderline{bibitem}之后到下一个\highunderline{bibitem}之前的内容均属于该bibitem。
+
+    如果要引用其中的其中的某一个参考文献，使用\highunderline{cite}命令\footnote{标签能够具有颜色和链接属性是因为hyperref库}：
+    \begin{texshow}
+        在这时候，有人发现了求解SVM的更快、更有效率的算法\cite{SMOalgo}
+    \end{texshow}
+
+    使用这种方法，跟目录等交叉引用项一样，需要用相应的编译器编译两次。
+
+    \subsubsection{bibtex引入}
+
+    直接引入虽然方便，但是当参考文献很多的时候，会很不方便，因为一般情况下，没有引用到的文献是不需要添加在参考文献中的，而且不同的组织，其参考文献如何排序都是有标准的，这些如果我们如果使用直接引入的方法，就必须全都考虑，就会很麻烦。由此，我们可以使用\highunderline{bibtex}来帮助我们管理参考文献和辅助引用。
+
+    \highunderline{bibtex}基于\highunderline{.bib}文件，该文件可以被当做是数据库，可以把我们使用过的所有的参考文献都按照bibtex的格式放进去。其中，每一篇参考文献的格式均如下所示：
+    \begin{texcode}
+        @article{AbedonHymanThomas2003,
+            author = "Abedon, S. T. and Hyman, P. and Thomas, C.",
+            year = "2003",
+            title = "Experimental examination of bacteriophage latent-period evolution as a response to bacterial availability",
+            journal = "Applied and Environmental Microbiology",
+            pages = "7499--7506",
+            ...
+        }
+    \end{texcode}
+    其中第一个参数是该引用的标识，而针对不同的引用（论文、期刊、书籍、网页...等），只需要按需填写不同的参数即可，如引用网页的示例格式如下：
+    \begin{texcode}
+        @misc{website:fermentas-lambda,
+            author = "Fermentas Inc.",
+            title = "Phage Lambda: description \& restriction map",
+            month = "November",
+            year = "2008",
+            url = "http://www.fermentas.com/techinfo/nucleicacids/maplambda.htm"
+        }
+    \end{texcode}
+
+    上述的内容可以全部存放到一个.bib文件中，也可以分门别类存放到多个.bib文件中，均可，只需要最后在使用的时候，在需要显式参考文献列表的位置添加如下的两行代码即可：
+    \begin{texcode}
+        \bibliographystyle{plain}
+        \bibliography{bf1,bf2,...,bf3}
+    \end{texcode}
+    其中\highunderline{bibliographystyle}命令是表明参考文献展示的格式，包括排序方式，展示规范等，共有8种，分别为：
+    \begin{center}
+        % \newlength\tablewidth % if haven't define the length 'tablewidth'
+        \setlength\tablewidth{\dimexpr (\textwidth -4\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.3\tablewidth}<{\centering}|p{0.7\tablewidth}<{\centering}|}
+                \hline
+                plain&按字母的顺序排列，比较次序为作者、年度和标题.\\
+                \hline
+                unsrt&样式同plain，只是按照引用的先后排序.\\
+                \hline
+                alpha&用作者名首字母+年份后两位作标号，以字母顺序排序.\\
+                \hline
+                abbrv&类似plain，将月份全拼改为缩写，更显紧凑.\\
+                \hline
+                ieeetr&国际电气电子工程师协会期刊样式.\\
+                \hline
+                acm&美国计算机学会期刊样式.\\
+                \hline
+                siam&美国工业和应用数学学会期刊样式.\\
+                \hline
+                apalike&美国心理学学会期刊样式.\\
+                \hline
+            \end{tabular}
+            \caption{参考文献的显示格式}
+        \end{table}
+    \end{center}
+
+    第二行\highunderline{bibliography}命令表示在这里显示参考文献列表，参数填写参考文献都在哪些文件里，可多不可少。在具体编译完成后，相应位置只会显示文章中引用过的参考文献，.bib文件中其他的参考文献则不会显示。
+
+    这种方式在文献的管理上确实比直接引用要好很多，但是也有一个非常麻烦的地方，那就是要用这种方式编译文件，需要编译四次，以使用xeLaTeX，编译main.tex为例，四次编译依次为：
+    \begin{languagebox}[bash]
+        xelatex main.tex
+        bibtex main.aux
+        xelatex main.tex
+        xelatex main.tex
+    \end{languagebox}
+    注意第二次的参数是.aux文件而不是.tex文件，是在第一次编译后生成的，bibtex需要使用.aux文件来获取.tex文件中引用了哪些文献，从而生成相应的.bbl文件。.bbl文件的内容其实就是直接由bibtex从.bib文件中排好格式并且挑选出来相应文献后的\highunderline{thebibliography}环境，随后两次编译则是编译交叉引用的正常步骤。
+
+    回头来看bibtex和.bib，它们实质上是依托于tex系统而形成的一套文献管理软件，其通过借助.tex文件编译后形成的引用信息来生成\LaTeX{}支持的参考文献环境。
+

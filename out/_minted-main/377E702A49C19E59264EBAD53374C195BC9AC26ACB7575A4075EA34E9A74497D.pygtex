@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|c|p\PYG{n+nb}{\PYGZob{}}3cm\PYG{n+nb}{\PYGZcb{}}|c|\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}hline}
+    1.0\PYG{n+nb}{\PYGZam{}}2.0\PYG{n+nb}{\PYGZam{}}3.0\PYG{n+nb}{\PYGZam{}}4.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+    1.0\PYG{n+nb}{\PYGZam{}}2.0\PYG{n+nb}{\PYGZam{}}长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例长文字示例\PYG{n+nb}{\PYGZam{}}4.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}hline}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

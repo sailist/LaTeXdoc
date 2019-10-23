@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}color}\PYG{n+nb}{\PYGZob{}}red\PYG{n+nb}{\PYGZcb{}}这里放文字\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{k}{\PYGZbs{}textcolor}\PYG{n+nb}{\PYGZob{}}red\PYG{n+nb}{\PYGZcb{}\PYGZob{}}这里放文字\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}两者在设置文字颜色时等价}
+\end{Verbatim}

@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}newcounter}\PYG{n+nb}{\PYGZob{}}NameOfTheNewCounter\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

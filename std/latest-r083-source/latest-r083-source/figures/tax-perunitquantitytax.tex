@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=7,ymin=0,ymax=7,
+	extra x ticks={2,3.2},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\tiny$q_t$},{\tiny$q^*$}},
+	extra y ticks={3,4.2,6},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{\tiny$p_t$},{\tiny$p^*$},{\tiny$p_c$}},
+	xlabel style={below},xlabel=\small$q$,
+	ylabel style={left},ylabel=\small$p$,
+	samples=40,domain=0:6]
+\addplot[gray,very thin] coordinates {(3.2,0) (3.2,4.2)};
+\addplot[gray,very thin] coordinates {(0,3) (2,3)};
+\addplot[gray,very thin] coordinates {(0,4.2) (3.2,4.2)};
+\addplot[gray,very thin] coordinates {(0,6) (2,6)};
+\addplot[gray,very thin] coordinates {(2,0) (2,6)};
+\addplot[draw=red,domain=0:5.75,ultra thick] {x + 1};
+\addplot[draw=blueL,domain=1.5:6,ultra thick] {9 - 1.5*x};
+\addplot[draw=blue,ultra thick] {6 - 1.5*x};
+\addplot[redL,text=red,decorate,decoration={brace,amplitude=5pt},xshift=-2pt] coordinates {(2,3) (2,6)}
+	node [midway,left=2pt] {$t$};
+\draw (axis cs:6,1) node[blue,below] {$D$};
+\draw (axis cs:4,1) node[blue,below] {$D_{t}$};
+\draw (axis cs:6,6) node[red,above] {$S$};
+\draw (axis cs:3.2,4.2) node[right] {\tiny$E^*$};
+\draw (axis cs:2,3) node[right] {\tiny$E_t$};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(3.2,4.2)
+	(2,3)};
+\end{axis}
+\end{tikzpicture}

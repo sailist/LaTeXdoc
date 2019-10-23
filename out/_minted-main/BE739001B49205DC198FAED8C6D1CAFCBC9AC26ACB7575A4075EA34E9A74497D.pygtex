@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} \PYGZbs{}usepackage\PYGZob{}amsmath\PYGZcb{}}
+正常文本嵌套行内公式A：\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}math\PYG{n+nb}{\PYGZcb{}}f\PYG{n+nb}{\PYGZus{}}i(x)=a+b\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}math\PYG{n+nb}{\PYGZcb{}}。\PYG{k}{\PYGZbs{}\PYGZbs{}}
+正常文本嵌套行内公式B：\PYG{l+s}{\PYGZbs{}(}\PYG{n+nb}{f\PYGZca{}}\PYG{l+m}{2}\PYG{o}{(}\PYG{n+nb}{x}\PYG{o}{)=}\PYG{n+nb}{a}\PYG{o}{*}\PYG{n+nb}{b}\PYG{l+s}{\PYGZbs{})}。\PYG{k}{\PYGZbs{}\PYGZbs{}}
+正常文本嵌套行内公式C：\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{g}\PYG{o}{(}\PYG{n+nb}{l;}\PYG{n+nv}{\PYGZbs{}theta}\PYG{o}{)=}\PYG{n+nb}{a}\PYG{o}{\PYGZhy{}}\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}}。
+\end{Verbatim}

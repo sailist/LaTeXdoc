@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}[H]
+    \PYG{k}{\PYGZbs{}centering}
+    \PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.5\PYGZbs{}columnwidth]}\PYG{n+nb}{\PYGZob{}}contents/fig/mosque.jpg\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}居中示例\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

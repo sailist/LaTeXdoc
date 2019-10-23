@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}newgeometry}\PYG{n+nb}{\PYGZob{}}hmargin=3cm,vmargin=5cm,landscape\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}前面两个间距的参数可以省略}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}checkitem}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZdl{}\PYGZbs{}square\PYGZdl{}]}\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}item} 第一行
+    \PYG{k}{\PYGZbs{}checkitem} 第二行
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

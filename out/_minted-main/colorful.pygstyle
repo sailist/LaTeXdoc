@@ -1,0 +1,101 @@
+
+\makeatletter
+\def\PYGcolorful@reset{\let\PYGcolorful@it=\relax \let\PYGcolorful@bf=\relax%
+    \let\PYGcolorful@ul=\relax \let\PYGcolorful@tc=\relax%
+    \let\PYGcolorful@bc=\relax \let\PYGcolorful@ff=\relax}
+\def\PYGcolorful@tok#1{\csname PYGcolorful@tok@#1\endcsname}
+\def\PYGcolorful@toks#1+{\ifx\relax#1\empty\else%
+    \PYGcolorful@tok{#1}\expandafter\PYGcolorful@toks\fi}
+\def\PYGcolorful@do#1{\PYGcolorful@bc{\PYGcolorful@tc{\PYGcolorful@ul{%
+    \PYGcolorful@it{\PYGcolorful@bf{\PYGcolorful@ff{#1}}}}}}}
+\def\PYGcolorful#1#2{\PYGcolorful@reset\PYGcolorful@toks#1+\relax+\PYGcolorful@do{#2}}
+
+\expandafter\def\csname PYGcolorful@tok@w\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@c\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@cp\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.33,0.47,0.60}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@cs\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.80,0.00,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@k\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.53,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@kp\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.20,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@kt\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.20,0.20,0.60}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@o\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.20,0.20,0.20}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@ow\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nb\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nf\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.40,0.73}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nc\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.73,0.00,0.40}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nn\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.05,0.52,0.71}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@ne\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nv\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.60,0.40,0.20}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@vi\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.20,0.20,0.73}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@vc\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.20,0.40,0.60}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@vg\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.87,0.47,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@no\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.20,0.40}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nl\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.60,0.47,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@ni\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@na\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.00,0.80}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nt\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.47,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@nd\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.33,0.33,0.33}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@s\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@sc\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@sd\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.87,0.27,0.13}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@si\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{0.93,0.93,0.93}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@se\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@sr\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.00,0.00}{##1}}\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,1.00}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@ss\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.67,0.40,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@sx\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.87,0.13,0.00}{##1}}\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@m\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.40,0.00,0.93}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@mi\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.00,0.87}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@mf\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.40,0.00,0.93}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@mh\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.33,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@mo\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.27,0.00,0.93}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@gh\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@gu\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@gd\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@gi\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@gr\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@ge\endcsname{\let\PYGcolorful@it=\textit}
+\expandafter\def\csname PYGcolorful@tok@gs\endcsname{\let\PYGcolorful@bf=\textbf}
+\expandafter\def\csname PYGcolorful@tok@gp\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.78,0.36,0.04}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@go\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@gt\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@err\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.67,0.67}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@kc\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.53,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@kd\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.53,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@kn\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.53,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@kr\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.53,0.00}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@bp\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@fm\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.40,0.73}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@vm\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.60,0.40,0.20}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@sa\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@sb\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@dl\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@s2\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@sh\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@s1\endcsname{\def\PYGcolorful@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYGcolorful@tok@mb\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.40,0.00,0.93}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@il\endcsname{\let\PYGcolorful@bf=\textbf\def\PYGcolorful@tc##1{\textcolor[rgb]{0.00,0.00,0.87}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@ch\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@cm\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@cpf\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PYGcolorful@tok@c1\endcsname{\def\PYGcolorful@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+
+\def\PYGcolorfulZbs{\char`\\}
+\def\PYGcolorfulZus{\char`\_}
+\def\PYGcolorfulZob{\char`\{}
+\def\PYGcolorfulZcb{\char`\}}
+\def\PYGcolorfulZca{\char`\^}
+\def\PYGcolorfulZam{\char`\&}
+\def\PYGcolorfulZlt{\char`\<}
+\def\PYGcolorfulZgt{\char`\>}
+\def\PYGcolorfulZsh{\char`\#}
+\def\PYGcolorfulZpc{\char`\%}
+\def\PYGcolorfulZdl{\char`\$}
+\def\PYGcolorfulZhy{\char`\-}
+\def\PYGcolorfulZsq{\char`\'}
+\def\PYGcolorfulZdq{\char`\"}
+\def\PYGcolorfulZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYGcolorfulZat{@}
+\def\PYGcolorfulZlb{[}
+\def\PYGcolorfulZrb{]}
+\makeatother
+

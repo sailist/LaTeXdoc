@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}item} 第一个
+    \PYG{k}{\PYGZbs{}item} 第二个
+    \PYG{k}{\PYGZbs{}item} 第三个
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}item} 第三个+1
+        \PYG{k}{\PYGZbs{}item} 第三个+2
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

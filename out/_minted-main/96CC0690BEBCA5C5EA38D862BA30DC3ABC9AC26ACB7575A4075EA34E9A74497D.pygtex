@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[H]
+        \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|c|\PYG{n+nb}{\PYGZcb{}}
+            \PYG{k}{\PYGZbs{}hline}
+            1.0\PYG{n+nb}{\PYGZam{}}2.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+            \PYG{k}{\PYGZbs{}hline}
+        \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}表格说明\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

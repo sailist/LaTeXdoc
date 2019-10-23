@@ -1,0 +1,85 @@
+% \definecolor{langoverlay}{RGB}{245,244,250}
+\definecolor{langback}{RGB}{245,244,250}
+\definecolor{langbacktitle}{RGB}{235,233,245}
+\definecolor{langtitle}{RGB}{177,177,177}
+\definecolor{langno}{RGB}{202,202,202}
+
+\tcbset{arc=1mm}
+\renewcommand{\theFancyVerbLine}{\sffamily\textcolor{langno}{\scriptsize\oldstylenums{\arabic{FancyVerbLine}}}}%重定义行号的格式
+\newtcblisting{languagebox}[1][tex]{%参考自https://reishin.me/tmux/ 的代码框样式
+    arc=1mm,
+    colframe=langbacktitle,
+    colbacktitle=langbacktitle,
+    coltitle=langtitle,
+    fonttitle=\bfseries\sffamily,
+    lefttitle=1mm,toptitle=0.5mm,bottomtitle=0.5mm,
+    title = Code,
+    drop shadow,
+    listing engine=minted,
+    minted style=colorful,
+    minted language=#1,
+    minted options={fontsize=\small,breaklines,autogobble,linenos,numbersep=2mm,xleftmargin=1mm},
+    colback=langback,listing only,
+    bottomrule=0mm,leftrule=0mm,toprule=0mm,rightrule=0mm,
+    enhanced,
+    % overlay={\begin{tcbclipinterior}\fill[langback] (frame.south west)rectangle ([xshift=5mm]frame.north west);\end{tcbclipinterior}}
+}
+
+
+\newtcblisting{texshow}{
+    arc=1mm,drop shadow,
+    title=Code effects,
+    coltitle=langtitle,
+    colbacktitle=langbacktitle,
+    colframe=langbacktitle,
+    fonttitle=\bfseries\sffamily,
+    lefttitle=1mm,toptitle=0.5mm,bottomtitle=0.5mm,
+    externalize listing=example_listing,
+    listing engine=minted,
+    minted style=colorful,
+    minted language=tex,
+    minted options={fontsize=\small,breaklines,autogobble,numbersep=2mm,xleftmargin=1mm},
+    colback=langback,
+    bicolor,colbacklower=white,
+    bottomrule=0mm,leftrule=0mm,toprule=0mm,rightrule=0mm,
+}
+
+
+% \newcommand{\todo}{TODO:}
+\definecolor{todored}{rgb}{0.58,0,0}
+\newtcolorbox{todobox}{
+    before upper = TODO:,
+    before skip = 3mm,
+    colupper = todored,
+    arc=0mm,colframe=white!,bottomrule=0mm,leftrule=2mm,toprule=0mm,rightrule=0mm
+}
+
+\definecolor{boxback}{RGB}{243,243,243}
+\newtcolorbox{qsbox}[1]{
+    before skip=1ex,after skip = 1ex,
+    colback=boxback,
+    colframe=red!75!black,
+    fonttitle=\bfseries\sffamily,
+    colbacktitle=black,
+    enhanced,
+    attach boxed title to top center={yshift=-3mm},
+    title=#1
+}
+
+
+\newtcolorbox{eqbox}{
+    colback=boxback,
+}
+% \newtcolorbox{mybox}{colback=red!5!white,
+% colframe=red!75!black}
+
+\newtcolorbox{parabox}[1]{
+    colback=boxback,fonttitle=\sffamily\bfseries,
+    title=para #1
+}
+
+\newtcolorbox{quotebox}{
+    colback=boxback,fonttitle=\sffamily\bfseries,
+    title=quote
+}
+    

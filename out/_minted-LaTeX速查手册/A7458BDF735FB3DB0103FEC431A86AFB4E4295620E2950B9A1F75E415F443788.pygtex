@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+    \PYG{c}{\PYGZpc{} 注意，longtable中添加居中需要多使用一个\PYGZbs{}arraybackslash命令，否则会报错}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}longtable\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|l|l|\PYGZgt{}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}centering\PYGZbs{}arraybackslash}\PYG{n+nb}{\PYGZcb{}}p\PYG{n+nb}{\PYGZob{}}0.4\PYG{k}{\PYGZbs{}columnwidth}\PYG{n+nb}{\PYGZcb{}}|\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+            \PYG{k}{\PYGZbs{}hline}\PYG{c}{\PYGZpc{}}
+            \PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZob{}}r\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Continued on Next Page\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+            \PYG{k}{\PYGZbs{}hline}\PYG{c}{\PYGZpc{}}
+        \PYG{k}{\PYGZbs{}endfoot}\PYG{c}{\PYGZpc{} 此语句之前均为分页时的结尾行}
+            \PYG{k}{\PYGZbs{}hline}\PYG{c}{\PYGZpc{}}
+            \PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZob{}}r\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Not Continued on Next Page\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+            \PYG{k}{\PYGZbs{}hline}\PYG{c}{\PYGZpc{}}
+        \PYG{k}{\PYGZbs{}endlastfoot}\PYG{c}{\PYGZpc{} 此语句之前均为最后一页的结尾行}
+        \PYG{k}{\PYGZbs{}hline}
+        header 1\PYG{n+nb}{\PYGZam{}}header 2\PYG{n+nb}{\PYGZam{}}header 3\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}标题}
+        \PYG{k}{\PYGZbs{}hline}
+        Content1\PYG{n+nb}{\PYGZam{}}9\PYG{n+nb}{\PYGZam{}}Longer String\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+        Content1\PYG{n+nb}{\PYGZam{}}9\PYG{n+nb}{\PYGZam{}}Longer String\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+        Content1\PYG{n+nb}{\PYGZam{}}9\PYG{n+nb}{\PYGZam{}}Longer String\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+        Content1\PYG{n+nb}{\PYGZam{}}9\PYG{n+nb}{\PYGZam{}}Longer String\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+        ...
+        Content1\PYG{n+nb}{\PYGZam{}}9\PYG{n+nb}{\PYGZam{}}Longer String\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{c}{\PYGZpc{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}longtable\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

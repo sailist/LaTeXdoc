@@ -1,0 +1,2913 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.10)  12 OCT 2019 11:21
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**e:/LaNote/LatexTutorial/LaTeX速查手册
+(e:/LaNote/LatexTutorial/LaTeX速查手册.tex
+LaTeX2e <2018-12-01>
+(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./preamble/packages.tex (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+)) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen114
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen115
+\subfiglabelskip=\skip49
+\c@subfigure=\count100
+\c@lofdepth=\count101
+\c@subtable=\count102
+\c@lotdepth=\count103
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+) (c:/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen116
+\WF@size=\dimen117
+\c@WF@wrappedlines=\count104
+\WF@box=\box29
+\WF@everypar=\toks20
+Package: wrapfig 2003/01/31  v 3.6
+) (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-07-25 L3 programming layer (loader) 
+ (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-07-25 L3 programming layer (code)
+\c_max_int=\count105
+\l_tmpa_int=\count106
+\l_tmpb_int=\count107
+\g_tmpa_int=\count108
+\g_tmpb_int=\count109
+\g__kernel_prg_map_int=\count110
+\c__ior_term_ior=\count111
+\c_log_iow=\count112
+\l_iow_line_count_int=\count113
+\l__iow_line_target_int=\count114
+\l__iow_one_indent_int=\count115
+\l__iow_indent_int=\count116
+\c_zero_dim=\dimen118
+\c_max_dim=\dimen119
+\l_tmpa_dim=\dimen120
+\l_tmpb_dim=\dimen121
+\g_tmpa_dim=\dimen122
+\g_tmpb_dim=\dimen123
+\c_zero_skip=\skip52
+\c_max_skip=\skip53
+\l_tmpa_skip=\skip54
+\l_tmpb_skip=\skip55
+\g_tmpa_skip=\skip56
+\g_tmpb_skip=\skip57
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count117
+\l__intarray_loop_int=\count118
+\c__intarray_sp_dim=\dimen124
+\g__intarray_font_int=\count119
+\c__fp_leading_shift_int=\count120
+\c__fp_middle_shift_int=\count121
+\c__fp_trailing_shift_int=\count122
+\c__fp_big_leading_shift_int=\count123
+\c__fp_big_middle_shift_int=\count124
+\c__fp_big_trailing_shift_int=\count125
+\c__fp_Bigg_leading_shift_int=\count126
+\c__fp_Bigg_middle_shift_int=\count127
+\c__fp_Bigg_trailing_shift_int=\count128
+\g__fp_array_int=\count129
+\l__fp_array_loop_int=\count130
+\l__sort_length_int=\count131
+\l__sort_min_int=\count132
+\l__sort_top_int=\count133
+\l__sort_max_int=\count134
+\l__sort_true_max_int=\count135
+\l__sort_block_int=\count136
+\l__sort_begin_int=\count137
+\l__sort_end_int=\count138
+\l__sort_A_int=\count139
+\l__sort_B_int=\count140
+\l__sort_C_int=\count141
+\l__str_internal_int=\count142
+\l__tl_analysis_normal_int=\count143
+\l__tl_analysis_index_int=\count144
+\l__tl_analysis_nesting_int=\count145
+\l__tl_analysis_type_int=\count146
+\l__regex_internal_a_int=\count147
+\l__regex_internal_b_int=\count148
+\l__regex_internal_c_int=\count149
+\l__regex_balance_int=\count150
+\l__regex_group_level_int=\count151
+\l__regex_mode_int=\count152
+\c__regex_cs_in_class_mode_int=\count153
+\c__regex_cs_mode_int=\count154
+\l__regex_catcodes_int=\count155
+\l__regex_default_catcodes_int=\count156
+\c__regex_catcode_L_int=\count157
+\c__regex_catcode_O_int=\count158
+\c__regex_catcode_A_int=\count159
+\c__regex_all_catcodes_int=\count160
+\l__regex_show_lines_int=\count161
+\l__regex_min_state_int=\count162
+\l__regex_max_state_int=\count163
+\l__regex_left_state_int=\count164
+\l__regex_right_state_int=\count165
+\l__regex_capturing_group_int=\count166
+\l__regex_min_pos_int=\count167
+\l__regex_max_pos_int=\count168
+\l__regex_curr_pos_int=\count169
+\l__regex_start_pos_int=\count170
+\l__regex_success_pos_int=\count171
+\l__regex_curr_char_int=\count172
+\l__regex_curr_catcode_int=\count173
+\l__regex_last_char_int=\count174
+\l__regex_case_changed_char_int=\count175
+\l__regex_curr_state_int=\count176
+\l__regex_step_int=\count177
+\l__regex_min_active_int=\count178
+\l__regex_max_active_int=\count179
+\l__regex_replacement_csnames_int=\count180
+\l__regex_match_count_int=\count181
+\l__regex_min_submatch_int=\count182
+\l__regex_submatch_int=\count183
+\l__regex_zeroth_submatch_int=\count184
+\g__regex_trace_regex_int=\count185
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen125
+\l__box_bottom_dim=\dimen126
+\l__box_left_dim=\dimen127
+\l__box_right_dim=\dimen128
+\l__box_top_new_dim=\dimen129
+\l__box_bottom_new_dim=\dimen130
+\l__box_left_new_dim=\dimen131
+\l__box_right_new_dim=\dimen132
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen133
+\l__coffin_offset_x_dim=\dimen134
+\l__coffin_offset_y_dim=\dimen135
+\l__coffin_x_dim=\dimen136
+\l__coffin_y_dim=\dimen137
+\l__coffin_x_prime_dim=\dimen138
+\l__coffin_y_prime_dim=\dimen139
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\g_tmpa_coffin=\box42
+\g_tmpb_coffin=\box43
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
+\c__coffin_empty_coffin=\box44
+\l__coffin_display_coffin=\box45
+\l__coffin_display_coord_coffin=\box46
+\l__coffin_display_pole_coffin=\box47
+\l__coffin_display_offset_dim=\dimen147
+\l__coffin_display_x_dim=\dimen148
+\l__coffin_display_y_dim=\dimen149
+\g__file_internal_ior=\read1
+\l__seq_internal_a_int=\count186
+\l__seq_internal_b_int=\count187
+) (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2019-04-06 v L3 Experimental backend support: xdvipdfmx
+\g__graphics_track_int=\count188
+\l__pdf_internal_box=\box48
+\g__pdf_backend_object_int=\count189
+\g__pdf_backend_annotation_int=\count190
+))
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count191
+\g__xparse_grabber_int=\count192
+\l__xparse_m_args_int=\count193
+\l__xparse_v_nesting_int=\count194
+)
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count195
+\l__fontspec_language_int=\count196
+\l__fontspec_strnum_int=\count197
+\l__fontspec_tmp_int=\count198
+\l__fontspec_tmpa_int=\count199
+\l__fontspec_tmpb_int=\count266
+\l__fontspec_tmpc_int=\count267
+\l__fontspec_em_int=\count268
+\l__fontspec_emdef_int=\count269
+\l__fontspec_strong_int=\count270
+\l__fontspec_strongdef_int=\count271
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+ (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ (c:/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+)) (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 4051.
+LaTeX Info: Redefining \slshape on input line 4056.
+LaTeX Info: Redefining \scshape on input line 4061.
+LaTeX Info: Redefining \upshape on input line 4066.
+LaTeX Info: Redefining \em on input line 4096.
+LaTeX Info: Redefining \emph on input line 4121.
+)) (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+ (c:/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+ (c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box49
+\extrarowheight=\dimen154
+\NC@list=\toks21
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box50
+)
+\everycr=\toks22
+\minrowclearance=\skip60
+)
+\rownum=\count272
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen155
+\enit@toks=\toks23
+\enit@inbox=\box51
+\enit@count@id=\count273
+\enitdp@description=\count274
+) (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks24
+\float@box=\box52
+\@float@everytoks=\toks25
+\@floatcapt=\box53
+) (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen156
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+ (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4424.
+Package hyperref Info: Hyper figures OFF on input line 4550.
+Package hyperref Info: Link nesting OFF on input line 4555.
+Package hyperref Info: Hyper index ON on input line 4558.
+Package hyperref Info: Plain pages OFF on input line 4565.
+Package hyperref Info: Backreferencing OFF on input line 4570.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4803.
+\c@Hy@tempcnt=\count279
+ (c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5156.
+\XeTeXLinkMargin=\dimen157
+\Fld@menulength=\count280
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
+Package hyperref Info: Hyper figures OFF on input line 6411.
+Package hyperref Info: Link nesting OFF on input line 6416.
+Package hyperref Info: Hyper index ON on input line 6419.
+Package hyperref Info: backreferencing OFF on input line 6426.
+Package hyperref Info: Link coloring ON on input line 6429.
+Package hyperref Info: Link coloring with OCG OFF on input line 6436.
+Package hyperref Info: PDF/A mode OFF on input line 6441.
+LaTeX Info: Redefining \ref on input line 6481.
+LaTeX Info: Redefining \pageref on input line 6485.
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2019/06/12 v6.88h Hyperref driver for XeTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
+) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box54
+\c@Hy@AnnotLevel=\count284
+\HyField@AnnotCount=\count285
+\Fld@listcount=\count286
+\c@bookmark@seq@number=\count287
+ (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip62
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/03/02 version 4.20 text color boxes
+ (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box55
+ (c:/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count292
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+)
+\pgfsys@objnum=\count293
+))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfsyssoftpath@smallbuffer@items=\count294
+\pgfsyssoftpath@bigbuffer@items=\count295
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count296
+\pgfmath@box=\box56
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count297
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count298
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgflinewidth=\dimen191
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowsep=\dimen195
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count299
+\pgf@shadingcount=\count300
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfexternal@startupbox=\box60
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box61
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+) (c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+)) (c:/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks36
+\verbatim@line=\toks37
+\verbatim@in@stream=\read3
+) (c:/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (c:/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)) (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
+)
+\tcb@titlebox=\box62
+\tcb@upperbox=\box63
+\tcb@lowerbox=\box64
+\tcb@phantombox=\box65
+\c@tcbbreakpart=\count302
+\c@tcblayer=\count303
+\tcolorbox@number=\count304
+\tcb@temp=\box66
+\tcb@temp=\box67
+\tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@out=\write4
+\tcb@record@out=\write5
+ (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '4.20'
+\c@tcbrastercolumn=\count305
+\c@tcbrasterrow=\count306
+\c@tcbraster=\count307
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.20'
+(c:/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
+)
+\tikz@expandcount=\count316
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+\tcb@waterbox=\box74
+ (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.20'
+)) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.20'
+\tcb@testbox=\box75
+\tcb@totalupperbox=\box76
+\tcb@totallowerbox=\box77
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.20'
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.20'
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.20'
+\tcbfitdim=\dimen266
+\tcb@lowerfitdim=\dimen267
+\tcb@upperfitdim=\dimen268
+\tcb@cur@hbadness=\count317
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.20'
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.20'
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/listingsutf8.sty
+Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
+ (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count318
+\lst@gtempboxa=\box78
+\lst@token=\toks40
+\lst@length=\count319
+\lst@currlwidth=\dimen269
+\lst@column=\count320
+\lst@pos=\count321
+\lst@lostspace=\dimen270
+\lst@width=\dimen271
+\lst@newlines=\count322
+\lst@lineno=\count323
+\lst@maxwidth=\dimen272
+ (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count324
+\lst@skipnumbers=\count325
+\lst@framebox=\box79
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+
+Package listingsutf8 Warning: Package loading is aborted because of missing \pdf@unescapehex.
+(listingsutf8)                It is provided by pdfTeX >= 1.30.
+
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.20'
+(c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.20'
+(c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.20'
+(c:/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+))
+\c@tcblisting=\count326
+))) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.20'
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.20'
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.20'
+(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '4.20'
+)) (c:/texlive/2019/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/01/15
+ Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count327
+\FV@InFile=\read4
+\FV@TabBox=\box80
+\c@FancyVerbLine=\count328
+\FV@StepNumber=\count329
+\FV@OutFile=\write6
+) (c:/texlive/2019/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+ (c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)) (c:/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+\linenopenalty=\count330
+\output=\toks41
+\linenoprevgraf=\count331
+\linenumbersep=\dimen273
+\linenumberwidth=\dimen274
+\c@linenumber=\count332
+\c@pagewiselinenumber=\count333
+\c@LN@truepage=\count334
+\c@internallinenumber=\count335
+\c@internallinenumbers=\count336
+\quotelinenumbersep=\dimen275
+\bframerule=\dimen276
+\bframesep=\dimen277
+\bframebox=\box81
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count337
+\c@FV@TrueTabCounter=\count338
+\FV@TabBox@Group=\box82
+\FV@TmpLength=\skip63
+\c@FV@HighlightLinesStart=\count339
+\c@FV@HighlightLinesStop=\count340
+\FV@LoopCount=\count341
+\FV@NCharsBox=\box83
+\FV@BreakIndent=\dimen278
+\FV@BreakIndentNChars=\count342
+\FV@BreakSymbolSepLeft=\dimen279
+\FV@BreakSymbolSepLeftNChars=\count343
+\FV@BreakSymbolSepRight=\dimen280
+\FV@BreakSymbolSepRightNChars=\count344
+\FV@BreakSymbolIndentLeft=\dimen281
+\FV@BreakSymbolIndentLeftNChars=\count345
+\FV@BreakSymbolIndentRight=\dimen282
+\FV@BreakSymbolIndentRightNChars=\count346
+\c@FancyVerbLineBreakLast=\count347
+\FV@LineBox=\box84
+\FV@LineIndentBox=\box85
+\FV@LineWidth=\dimen283
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count348
+\calc@Bcount=\count349
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count350
+\calc@Cskip=\skip66
+) (c:/texlive/2019/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)) (c:/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2019/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count351
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count352
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+) (c:/texlive/2019/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip67
+\fb@frw=\dimen286
+\fb@frh=\dimen287
+\FrameRule=\dimen288
+\FrameSep=\dimen289
+)
+\minted@appexistsfile=\read5
+\minted@bgbox=\box86
+\minted@code=\write7
+\c@minted@FancyVerbLineTemp=\count353
+\c@minted@pygmentizecounter=\count354
+\@float@every@listing=\toks42
+\c@listing=\count355
+)
+runsystem(if not exist .\out\_minted-LaTeX速查手册 mkdir .\out\_minted-LaTeX速查手册)...executed.
+
+ (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '4.20'
+) (c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count356
+\Gm@cntv=\count357
+\c@Gm@tempcnt=\count358
+\Gm@bindingoffset=\dimen290
+\Gm@wd@mp=\dimen291
+\Gm@odd@mp=\dimen292
+\Gm@even@mp=\dimen293
+\Gm@layoutwidth=\dimen294
+\Gm@layoutheight=\dimen295
+\Gm@layouthoffset=\dimen296
+\Gm@layoutvoffset=\dimen297
+\Gm@dimlist=\toks43
+) (c:/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count359
+\c@@ppsavesec=\count360
+\c@@ppsaveapp=\count361
+) (c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+ (c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen298
+\AM@pageheight=\dimen299
+ (c:/texlive/2019/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2017/10/31 v0.5l Pdfpages driver for XeTeX (AM)
+)
+\AM@pagebox=\box87
+\AM@global@opts=\toks44
+\AM@toc@title=\toks45
+\c@AM@survey=\count362
+\AM@templatesizebox=\box88
+) (c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen300
+\lightrulewidth=\dimen301
+\cmidrulewidth=\dimen302
+\belowrulesep=\dimen303
+\belowbottomsep=\dimen304
+\aboverulesep=\dimen305
+\abovetopsep=\dimen306
+\cmidrulesep=\dimen307
+\cmidrulekern=\dimen308
+\defaultaddspace=\dimen309
+\@cmidla=\count363
+\@cmidlb=\count364
+\@aboverulesep=\dimen310
+\@belowrulesep=\dimen311
+\@thisruleclass=\count365
+\@lastruleclass=\count366
+\@thisrulewidth=\dimen312
+) (c:/texlive/2019/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count367
+) (c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/07/16 v2.11 Sectioning titles
+\ttl@box=\box89
+\beforetitleunit=\skip68
+\aftertitleunit=\skip69
+\ttl@plus=\dimen313
+\ttl@minus=\dimen314
+\ttl@toksa=\toks46
+\titlewidth=\dimen315
+\titlewidthlast=\dimen316
+\titlewidthfirst=\dimen317
+ (c:/texlive/2019/texmf-dist/tex/latex/titlesec/titleps.sty))) (c:/texlive/2019/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+ (c:/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip70
+\RaggedLeftLeftskip=\skip71
+\RaggedRightLeftskip=\skip72
+\CenteringRightskip=\skip73
+\RaggedLeftRightskip=\skip74
+\RaggedRightRightskip=\skip75
+\CenteringParfillskip=\skip76
+\RaggedLeftParfillskip=\skip77
+\RaggedRightParfillskip=\skip78
+\JustifyingParfillskip=\skip79
+\CenteringParindent=\skip80
+\RaggedLeftParindent=\skip81
+\RaggedRightParindent=\skip82
+\JustifyingParindent=\skip83
+) (./preamble/color.tex) (./preamble/globalpre.tex) (./preamble/localpre.tex (c:/texlive/2019/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count368
+\cnt@paperwidth=\count369
+\cnt@paperheight=\count370
+\cnt@hoffset=\count371
+\cnt@voffset=\count372
+\cnt@textheight=\count373
+\cnt@textwidth=\count374
+\cnt@topmargin=\count375
+\cnt@oddsidemargin=\count376
+\cnt@evensidemargin=\count377
+\cnt@headheight=\count378
+\cnt@headsep=\count379
+\cnt@marginparsep=\count380
+\cnt@marginparwidth=\count381
+\cnt@marginparpush=\count382
+\cnt@footskip=\count383
+\fheight=\count384
+\ref@top=\count385
+\ref@hoffset=\count386
+\ref@voffset=\count387
+\ref@head=\count388
+\ref@body=\count389
+\ref@foot=\count390
+\ref@margin=\count391
+\ref@marginwidth=\count392
+\ref@marginpar=\count393
+\Interval=\count394
+\ExtraYPos=\count395
+\PositionX=\count396
+\PositionY=\count397
+\ArrowLength=\count398
+) (c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip84
+\multirow@cntb=\count399
+\multirow@dima=\skip85
+\bigstrutjot=\dimen318
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count400
+\rotFPtop=\skip86
+\rotFPbot=\skip87
+\rot@float@box=\box90
+\rot@mess@toks=\toks47
+) (c:/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+ (c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
+)
+\XKV@depth=\count401
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2019/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (c:/texlive/2019/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+ (c:/texlive/2019/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box91
+)
+\tc@llx=\dimen319
+\tc@lly=\dimen320
+\tc@urx=\dimen321
+\tc@ury=\dimen322
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (c:/texlive/2019/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen323
+\adjbox@Height=\dimen324
+\adjbox@Depth=\dimen325
+\adjbox@Totalheight=\dimen326
+\adjbox@pwidth=\dimen327
+\adjbox@pheight=\dimen328
+\adjbox@pdepth=\dimen329
+\adjbox@ptotalheight=\dimen330
+ (c:/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count402
+) (c:/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box92
+\sift@deathcycles=\count403
+\@vwid@loff=\dimen331
+\@vwid@roff=\dimen332
+)) (c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box93
+\UL@hyphenbox=\box94
+\UL@skip=\skip88
+\UL@hook=\toks50
+\UL@height=\dimen333
+\UL@pe=\count404
+\UL@pixel=\dimen334
+\ULC@box=\box95
+Package: ulem 2012/05/18
+\ULdepth=\dimen335
+) (c:/texlive/2019/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count405
+\ST@wd=\dimen336
+\ST@rightskip=\skip89
+\ST@leftskip=\skip90
+\ST@parfillskip=\skip91
+\ST@pageleft=\dimen337
+\ST@headht=\dimen338
+\ST@tailht=\dimen339
+\ST@pagesofar=\dimen340
+\ST@pboxht=\dimen341
+\ST@lineht=\dimen342
+\ST@stretchht=\dimen343
+\ST@prevht=\dimen344
+\ST@toadd=\dimen345
+\ST@dimen=\dimen346
+\ST@pbox=\box96
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip92
+\LTright=\skip93
+\LTpre=\skip94
+\LTpost=\skip95
+\LTchunksize=\count406
+\LTcapwidth=\dimen347
+\LT@head=\box97
+\LT@firsthead=\box98
+\LT@foot=\box99
+\LT@lastfoot=\box100
+\LT@cols=\count407
+\LT@rows=\count408
+\c@LT@tables=\count409
+\c@LT@chunks=\count410
+\LT@p@ftn=\toks51
+) (c:/texlive/2019/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count411
+)
+\tablewidth=\skip96
+ (c:/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count412
+\mult@box=\box101
+\multicol@leftmargin=\dimen348
+\c@unbalance=\count413
+\c@collectmore=\count414
+\doublecol@number=\count415
+\multicoltolerance=\count416
+\multicolpretolerance=\count417
+\full@width=\dimen349
+\page@free=\dimen350
+\premulticols=\dimen351
+\postmulticols=\dimen352
+\multicolsep=\skip97
+\multicolbaselineskip=\skip98
+\partial@page=\box102
+\last@line=\box103
+\maxbalancingoverflow=\dimen353
+\mult@rightbox=\box104
+\mult@grightbox=\box105
+\mult@gfirstbox=\box106
+\mult@firstbox=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\c@columnbadness=\count418
+\c@finalcolumnbadness=\count419
+\last@try=\dimen354
+\multicolovershoot=\dimen355
+\multicolundershoot=\dimen356
+\mult@nat@firstbox=\box125
+\colbreak@box=\box126
+\mc@col@check@num=\count420
+) (c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))) (./preamble/format.tex (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctex.sty
+Package: ctex 2019/05/29 v2.4.16 Chinese adapter in LaTeX (CTEX)
+ (c:/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2019/05/29 v2.4.16 Document and package hooks (CTEX)
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2019/05/29 v2.4.16 Patching commands (CTEX)
+) (c:/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count421
+\l__ctex_tmp_box=\box127
+\l__ctex_tmp_dim=\dimen357
+\g__ctex_section_depth_int=\count422
+\g__ctex_font_size_int=\count423
+ (c:/texlive/2019/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2019/05/29 v2.4.16 XeLaTeX adapter (CTEX)
+ (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2019/06/02 v3.7.4 Typesetting CJK scripts with XeLaTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2019-05-28 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen358
+\l__xtemplate_tmp_int=\count424
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip99
+)
+\l__xeCJK_tmp_int=\count425
+\l__xeCJK_tmp_box=\box128
+\l__xeCJK_tmp_dim=\dimen359
+\l__xeCJK_tmp_skip=\skip100
+\g__xeCJK_space_factor_int=\count426
+\l__xeCJK_begin_int=\count427
+\l__xeCJK_end_int=\count428
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip101
+\g__xeCJK_node_int=\count429
+\c__xeCJK_CJK_node_dim=\dimen360
+\c__xeCJK_CJK-space_node_dim=\dimen361
+\c__xeCJK_default_node_dim=\dimen362
+\c__xeCJK_default-space_node_dim=\dimen363
+\c__xeCJK_CJK-widow_node_dim=\dimen364
+\c__xeCJK_normalspace_node_dim=\dimen365
+\l__xeCJK_ccglue_skip=\skip102
+\l__xeCJK_ecglue_skip=\skip103
+\l__xeCJK_punct_kern_skip=\skip104
+\l__xeCJK_last_penalty_int=\count430
+\l__xeCJK_last_bound_dim=\dimen366
+\l__xeCJK_last_kern_dim=\dimen367
+\l__xeCJK_widow_penalty_int=\count431
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2323.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen368
+\l__xeCJK_mixed_punct_width_dim=\dimen369
+\l__xeCJK_middle_punct_width_dim=\dimen370
+\l__xeCJK_fixed_margin_width_dim=\dimen371
+\l__xeCJK_mixed_margin_width_dim=\dimen372
+\l__xeCJK_middle_margin_width_dim=\dimen373
+\l__xeCJK_bound_punct_width_dim=\dimen374
+\l__xeCJK_bound_margin_width_dim=\dimen375
+\l__xeCJK_margin_minimum_dim=\dimen376
+\l__xeCJK_kerning_total_width_dim=\dimen377
+\l__xeCJK_same_align_margin_dim=\dimen378
+\l__xeCJK_different_align_margin_dim=\dimen379
+\l__xeCJK_kerning_margin_width_dim=\dimen380
+\l__xeCJK_kerning_margin_minimum_dim=\dimen381
+\l__xeCJK_bound_dim=\dimen382
+\l__xeCJK_reverse_bound_dim=\dimen383
+\l__xeCJK_margin_dim=\dimen384
+\l__xeCJK_minimum_bound_dim=\dimen385
+\l__xeCJK_kerning_margin_dim=\dimen386
+\g__xeCJK_family_int=\count432
+\l__xeCJK_fam_int=\count433
+\g__xeCJK_fam_allocation_int=\count434
+\l__xeCJK_verb_case_int=\count435
+\l__xeCJK_verb_exspace_skip=\skip105
+ (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2019/06/02 v3.7.4 Configuration file for xeCJK package
+)) (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+Package: xeCJKfntef 2019/06/02 v3.7.4 xeCJK font effect
+ (c:/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+Package: CJKfntef 2015/04/18 4.8.4
+\CJK@fntefSkip=\skip106
+\CJK@nest=\count436
+\CJK@fntefDimen=\dimen387
+\CJK@underdotBox=\box129
+\CJK@ULbox=\box130
+\CJK@underanyskip=\dimen388
+)
+\l__xeCJK_space_skip=\skip107
+\c__xeCJK_ulem-begin_node_dim=\dimen389
+\c__xeCJK_null_box=\box131
+\l__xeCJK_fntef_box=\box132
+\l__xeCJK_under_symbol_box=\box133
+\c__xeCJK_filll_skip=\skip108
+)
+\ccwd=\dimen390
+\l__ctex_ccglue_skip=\skip109
+)
+\l__ctex_ziju_dim=\dimen391
+ (c:/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count437
+ (c:/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
+)) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctex-article.def
+File: ctex-article.def 2019/05/29 v2.4.16 Heading modification for article (CTEX)
+\l__ctex_heading_skip=\skip110
+ (c:/texlive/2019/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def
+File: ctex-scheme-chinese-article.def 2019/05/29 v2.4.16 Chinese scheme for article (CTEX)
+ (c:/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
+))) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2019/05/29 v2.4.16 c5size option (CTEX)
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+File: ctex-fontset-windowsnew.def 2019/05/29 v2.4.16 Windows fonts definition for Vista or later version (CTEX)
+
+Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
+(fontspec)             options
+(fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimSun/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=DFLT;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=DFLT;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+
+)) (c:/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
+)
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
+
+
+Package fontspec Info: Could not resolve font "SimSun/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
+(fontspec)             'Microsoft YaHei' with options
+(fontspec)             [Script={CJK},ItalicFont={SimSun}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/B/OT:script=hani;language=DFLT;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"SimSun/OT:script=hani;language=DFLT;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/BI/OT:script=hani;language=DFLT;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+) (./preamble/box-support.tex) (./preamble/line-support.tex) (c:/texlive/2019/texmf-dist/tex/latex/xwatermark/xwatermark.sty (c:/texlive/2019/texmf-dist/tex/latex/catoptions/catoptions.sty
+\m@one=\count438
+\z@pt=\dimen392
+Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (AM)
+\cpt@csvdepth=\count439
+\cpt@optdepth=\count440
+\cpt@cnta=\count441
+\indrisdepth=\count442
+\cpt@foreachdepth=\count443
+\cpt@exprcnt=\count444
+)
+Package: xwatermark 2012/10/23 v1.5.2d A dynamic watermarking scheme (Ahmed Musa)
+ (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/picture.sty
+Package: picture 2016/05/16 v1.4 Dimens for picture macros (HO)
+Package picture Info: Calculation method: calc.
+) (c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip111
+\f@nch@O@elh=\skip112
+\f@nch@O@erh=\skip113
+\f@nch@O@olh=\skip114
+\f@nch@O@orh=\skip115
+\f@nch@O@elf=\skip116
+\f@nch@O@erf=\skip117
+\f@nch@O@olf=\skip118
+\f@nch@O@orf=\skip119
+) (c:/texlive/2019/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
+Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
+\ltxkeys@csvdepth=\count445
+\ltxkeys@keydepth=\count446
+)
+\AtBeginShipoutBox=\box134
+\xwm@boxa=\box135
+\xwm@boxb=\box136
+\xwm@cnta=\count447
+\xwm@wrt=\write8
+ (e:/LaNote/LatexTutorial/out/LaTeX速查手册.xwm)
+\openout8 = `LaTeX速查手册.xwm'.
+
+)
+Package xwatermark Info: On your request (ie, 'disablegeometry=true') 
+(xwatermark)             I have disabled the features of the 
+(xwatermark)             'geometry' package.
+Package xwatermark Info: On your request (ie, 'disablegeometry=true') 
+(xwatermark)             I have disabled the features of the 
+(xwatermark)             'geometry' package.
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > LaTeX速查手册.aex <nul: /p x=^%~$PATH:i>> LaTeX速查手册.aex)...executed.
+
+runsystem(del LaTeX速查手册.aex)...executed.
+
+ (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2019/06/02 v3.7.4 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count448
+\l__xeCJK_listings_flag_int=\count449
+) (e:/LaNote/LatexTutorial/out/LaTeX速查手册.aux)
+\openout1 = `LaTeX速查手册.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
+LaTeX Font Info:    Redeclaring math accent \check on input line 27.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 27.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 27.
+Package hyperref Info: Link coloring ON on input line 27.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+ (e:/LaNote/LatexTutorial/out/LaTeX速查手册.out) (e:/LaNote/LatexTutorial/out/LaTeX速查手册.out)
+\@outlinefile=\write9
+\openout9 = `LaTeX速查手册.out'.
+
+ ABD: EveryShipout initializing macros
+\c@lstlisting=\count450
+ (c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks52
+\inpenc@posthook=\toks53
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* pass: disregarded the geometry package!
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=345.0pt
+* \textheight=550.0pt
+* \oddsidemargin=62.0pt
+* \evensidemargin=62.0pt
+* \topmargin=16.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for TU+bch on input line 29.
+LaTeX Font Info:    No file TUbch.fd. on input line 29.
+
+
+LaTeX Font Warning: Font shape `TU/bch/b/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 29.
+
+[1
+
+] (e:/LaNote/LatexTutorial/out/LaTeX速查手册.toc
+LaTeX Font Info:    Font shape `TU/MicrosoftYaHei(0)/m/sl' in size <10.53937> not available
+(Font)              Font shape `TU/MicrosoftYaHei(0)/m/it' tried instead on input line 32.
+LaTeX Font Info:    Calculating math sizes for size <28.45274> on input line 32.
+
+
+LaTeX Font Warning: Font shape `TU/MicrosoftYaHei(0)/b/n' undefined
+(Font)              using `TU/MicrosoftYaHei(0)/m/n' instead on input line 32.
+
+[2
+
+] [3] [4] [5] [6])
+\tf@toc=\write10
+\openout10 = `LaTeX速查手册.toc'.
+
+ (e:/LaNote/LatexTutorial/out/LaTeX速查手册.lof [7])
+\tf@lof=\write11
+\openout11 = `LaTeX速查手册.lof'.
+
+ (e:/LaNote/LatexTutorial/out/LaTeX速查手册.lot)
+\tf@lot=\write12
+\openout12 = `LaTeX速查手册.lot'.
+
+ [8] (./contents/install.tex
+\openout4 = `LaTeX速查手册.listing'.
+
+
+Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Microsoft YaHei/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'MicrosoftYaHei(1)' created for font
+(fontspec)             'Microsoft YaHei' with options
+(fontspec)             [Script={CJK},BoldFont={* Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Microsoft YaHei
+(fontspec)             Bold/OT:script=hani;language=DFLT;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/BI/OT:script=hani;language=DFLT;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
+ (./out/_minted-LaTeX速查手册/default-pyg-prefix.pygstyle) (./out/_minted-LaTeX速查手册/colorful.pygstyle) (./out/_minted-LaTeX速查手册/6732C5F13F0C94492C1C7810888ED58D89BEABFABB8BFD3367061EF8DA18000D.pygtex
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 3; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+)
+\openout4 = `LaTeX速查手册.listing'.
+
+ (./out/_minted-LaTeX速查手册/E4B8599311425DAAD924AA13E39C09A889BEABFABB8BFD3367061EF8DA18000D.pygtex
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+)
+File: contents/fig/lworkshop.png Graphic file (type bmp)
+<contents/fig/lworkshop.png>
+ [9]
+File: contents/fig/gistid.png Graphic file (type bmp)
+<contents/fig/gistid.png>
+ [10]
+Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 54.
+Package marginnote Info: right page because not two side mode on input line 54.
+Package marginnote Info: xpos seems to be 134.26999pt on input line 54.
+File: contents/fig/texplug.png Graphic file (type bmp)
+<contents/fig/texplug.png>
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/48DB9CDAAD93D7491E47F41A146C662D4E4295620E2950B9A1F75E415F443788.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9.03374> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
+) [11]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E73FAB7CE1076822C3DDA9D48FC9C8F14E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (2.16397pt too wide) in paragraph at lines 24--24
+| | | |[]\TU/lmtt/b/n/9.03374 \usepackage[][]\TU/lmtt/m/n/9.03374 [a4paper,left=4cm,right=4cm,top=3cm,bottom=1cm][][]{[]geometry[]}[][]% 
+ []
+
+) [12] [13]
+\openout4 = `LaTeX速查手册.listing'.
+
+ (./out/_minted-LaTeX速查手册/086C79D91ECA94C934AEAC2533FC207B89BEABFABB8BFD3367061EF8DA18000D.pygtex
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+)
+Overfull \hbox (1.19998pt too wide) in paragraph at lines 141--166
+[][] 
+ []
+
+[14]) (./contents/pages.tex [15]
+One-sided document style.
+[16]
+Package marginnote Info: right page because not two side mode on input line 6.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 6.
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/C6354407ADB0DC9F049E7F0E03A33BD04E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/34741BBE34B3878F9B4ECEC4E62E57014E4295620E2950B9A1F75E415F443788.pygtex) [17]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/30B130775AE0C0D164C42920605F7ACE4E4295620E2950B9A1F75E415F443788.pygtex) [18]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/AA77CF935D8BD0B0E08BBA87332E27564E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/DF23C991834513304D798906BF60058F4E4295620E2950B9A1F75E415F443788.pygtex)
+Overfull \hbox (30.76454pt too wide) in paragraph at lines 108--111
+[]\TU/MicrosoftYaHei(0)/m/n/10.53937 在 不 改 变 版 面 大 小 的 情 况 下，|  将 所 有 页 面 的 纸 张 横 置 只 需 要 在 添 加[]包
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/745D21995B3825BBECF880BA9CCEF5354E4295620E2950B9A1F75E415F443788.pygtex) [19]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E78C04E541794F071717F182B8490FF94E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E1D117012209B62AF60F52DFCE25BF8A4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/BF1C8F06BADA93D6726A4FB4E2B2DF044E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [20]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/44DA771C34BA74B0198CC2AD99A5877F4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E08D32FA348EC42231CF5EA97B994AA64E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+Overfull \hbox (3.98848pt too wide) in paragraph at lines 157--164
+[]\TU/MicrosoftYaHei(0)/m/n/10.53937 另 外，|  如 果 要 \TU/MicrosoftYaHei(0)/bx/n/10.53937 临 时 变 化 \TU/MicrosoftYaHei(0)/m/n/10.53937 与 下 一 行 的 行 间 距，|  可 以 在[]命 令 后 添 加[]参
+ []
+
+[21]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/14984B0AF6D709E92E4EB3A86569D8C64E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+[]\TU/lmr/m/n/10.53937 tex \TU/MicrosoftYaHei(0)/m/n/10.53937 文 件 中 的 第 一 行
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+\TU/lmr/m/n/10.53937 tex \TU/MicrosoftYaHei(0)/m/n/10.53937 文 件 中 的 第 二 行
+ []
+
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8ADC450BB6CA3926D2CB7A0BE706F92E4E4295620E2950B9A1F75E415F443788.pygtex) [22]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/0C37202489B6A6796C46FD73624B798D4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/A510A7D9C37914FAA194E2C534E389A04E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8E9D630BF4D32D2952337202D34823964E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [23]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B1162931AA7B1F3B58F354E2EEC140EA4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/705F116A9451EA0FF2F5D1AACCA33B284E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [24]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/7A5EC81B84A45641DDCDC23932492A344E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/BC73CE2AA87B86284E3564D340B1E2B34E4295620E2950B9A1F75E415F443788.pygtex) [25]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/D94757B6BCFA4CBB6EA4BAA1B58502D34E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (2.16399pt too wide) in paragraph at lines 6--6
+| | | |[]\TU/lmtt/b/n/9.03374 \newwatermark[][]\TU/lmtt/m/n/9.03374 [pages=2-4,color=gray!20,angle=45,scale=3,xpos=0,ypos=0][]|  
+ []
+
+)) (./contents/distance.tex [26]
+Overfull \hbox (1.59998pt too wide) in paragraph at lines 14--41
+[][] 
+ []
+
+[27]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8AFB4EB9DAD87457430041498E8B2E114E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/4D2A261DB0084346AC815421065CD64E4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [28]
+\examplelen=\skip120
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/97883080CC81E4C1531611D55A735D374E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F1C28A5F613CD9CAFAA3030AE50CE8224E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/29F92D7C148DAD789A1D29E8E79CA90D4E4295620E2950B9A1F75E415F443788.pygtex) [29]
+Overfull \hbox (17.85385pt too wide) in paragraph at lines 120--121
+[]\TU/MicrosoftYaHei(0)/m/n/10.53937 在[]中，| []\TU/lmr/m/n/10.53937   \TU/MicrosoftYaHei(0)/m/n/10.53937 和 \TU/lmr/m/n/10.53937  []  \TU/MicrosoftYaHei(0)/m/n/10.53937 不 会 改 变，|  不 过 \TU/lmr/m/n/10.53937  [] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/7403188EFD120CEAC90DB064CEB47A8E4E4295620E2950B9A1F75E415F443788.pygtex) [30]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FE73C3E18BCEB1BD8B36CF55A8437C494E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B91C664F6091C7B8D2C170CAF37B22EF4E4295620E2950B9A1F75E415F443788.pygtex)
+Package marginnote Info: right page because not two side mode on input line 155.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 155.
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/A04CE5DE07BDBAC5720A0317D448C7554E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/28B56303B1298630019F6D7C0CB2D6984E4295620E2950B9A1F75E415F443788.pygtex) [31]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/7D2137FAA4F3590A713BE67ED16601394E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/D46EDE6314885EED8823DCD4306E37D14E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/ABA47F6A0265B56B1141737DDBDEC7F34E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/338A91513862DFD4D77BB741D1F444214E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/227444AE927DAB2D57D8D06D6B5C20B04E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/6B8BB6124D60A19B259099D69B4AE4384E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [32]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/2D8F2C419D6B0DA22CEE32ED3F8BB2B14E4295620E2950B9A1F75E415F443788.pygtex)) (./contents/sections.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/67E44D77CF06309F5554546FF6DB2AD64E4295620E2950B9A1F75E415F443788.pygtex) [33]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/28E92D10350CA11B4BC360FEEB11C4CB4E4295620E2950B9A1F75E415F443788.pygtex)
+File: ./contents/fig/section-tmp.pdf Graphic file (type pdf)
+<use ./contents/fig/section-tmp.pdf, page 2>
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F008D6A06ADD3686AAF59F580591AEF74E4295620E2950B9A1F75E415F443788.pygtex)
+File: ./contents/fig/section-tmp.pdf Graphic file (type pdf)
+<use ./contents/fig/section-tmp.pdf, page 1>
+
+Overfull \hbox (13.61662pt too wide) in paragraph at lines 40--62
+[]\TU/MicrosoftYaHei(0)/m/n/10.53937 要 想 在 文 章 中 添 加 目 录，|  只 需 要 在 要 添 加 的 位 置 加 上 一 句[]：| 
+ []
+
+[34]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/91098C46DE595A2C56D1A78AD8294D904E4295620E2950B9A1F75E415F443788.pygtex)
+File: contents/fig/section-depth.pdf Graphic file (type pdf)
+<use contents/fig/section-depth.pdf, page 1>
+ [35]
+Overfull \hbox (6.91684pt too wide) in paragraph at lines 82--83
+[]\TU/MicrosoftYaHei(0)/m/n/10.53937 数 字 的 设 置 不 必 相 同，|  互 相 并 不 矛 盾，|  根 据 需 要 更 改 即 可，|  其 中[]表
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/9E4FB9380F36D5B7157F238BEE8FC10A4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/79B4D1FA4BD8138736ECB90F232BF38B4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [36]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/42BBAD3BB3C6C3007EC6381411F46C854E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/EA586104CDF995880935CF852F3B68E84E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/DC31C9A0BC5645BC7239C47B81939E764E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [37]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/0CF4DE67078DE27A931600425B8055534E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (16.39201pt too wide) in paragraph at lines 12--12
+[]\TU/lmtt/b/n/9.03374 \arabic[][]\TU/lmtt/m/n/9.03374 {[]section[]}[].[]\TU/lmtt/b/n/9.03374 \arabic[][]\TU/lmtt/m/n/9.03374 {[]subsection[]}[].[]\TU/lmtt/b/n/9.03374 \arabic[][]\TU/lmtt/m/n/9.03374 {[]subsubsection[]}[],|  
+ []
+
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/435A61CE9A5C99E8A360D8685CA0AFFB4E4295620E2950B9A1F75E415F443788.pygtex) [38]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E1FF906110205576EDF182E8A71544084E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/EF04BBCA374E808FFFC982568869C9004E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/DAC33D60C175685591836D8EBB5DF9BD4E4295620E2950B9A1F75E415F443788.pygtex)
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 164.
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/B182189800F68282515A6764176A56244E4295620E2950B9A1F75E415F443788.pygtex)) (./contents/text.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/D61D6C1CCE25D9286A860BBBF56C0E944E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [39]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/C4E508094726D1D5A84132A2441D2C694E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/0DD8B72709055CBD5F496A83461A7A764E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [40]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/603C4B27094B293FAEF19DF10F133E164E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/6CBCBDE55D28983763FB681C3DBB13374E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [41]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/892FDD85DAB95BAD3924A5188A7EB0EB4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [42]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 65.
+
+[43]
+Overfull \hbox (15.61978pt too wide) in paragraph at lines 84--85
+[]\TU/lmr/m/n/10.53937 L[]T[]X \TU/MicrosoftYaHei(0)/m/n/10.53937 默 认 有 三 种 字 族，|  分 别 叫 做[]，|  表 示 一 般 的 罗 马 字 族，| []，|
+ []
+
+[44]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/5CBBB2A69C07F58C4D3FF9882AACA4104E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `LaTeX速查手册.listing'.
+
+ (./out/_minted-LaTeX速查手册/2BD5BE42A10B8F6193C8B2D68111556489BEABFABB8BFD3367061EF8DA18000D.pygtex
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+)
+\openout4 = `LaTeX速查手册.listing'.
+
+ (./out/_minted-LaTeX速查手册/9775A961CC0BEA1B0A896C12A931E5FC89BEABFABB8BFD3367061EF8DA18000D.pygtex
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+) [45]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/98520945563BE18CF7D46F2370042C964E4295620E2950B9A1F75E415F443788.pygtex)
+Package marginnote Info: right page because not two side mode on input line 144.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 144.
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E2973CBA85DFA97E5BE163E7338FE1F04E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [46]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/06351D2DFF18FC955B6D7D9DD28A04744E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/14CEFD457B1AABDDF9CED91CAE5D72C14E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/01C17A39CAC84624909CAB46D1401A354E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [47]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/3708ED70A63EACC6CB394A91D03855024E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/064C3968E922071AD992250D0FA5DEF24E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [48]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8D26203A09B9B8F1585EA4C3A0870BB34E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+Overfull \hbox (4.13226pt too wide) in paragraph at lines 206--206
+ []|[][]\TU/lmtt/m/n/10.53937 \~{}| 
+ []
+
+
+Overfull \hbox (4.13226pt too wide) in paragraph at lines 206--206
+ []|[][]\TU/lmtt/m/n/10.53937 \_{}| 
+ []
+
+
+Overfull \hbox (2.14774pt too wide) in paragraph at lines 202--209
+[][] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/4F3295CADD943D916EF4596E842752714E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [49]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/9D8E1007B2FB1A56891A5D67242D95114E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [50]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/973FC636B21EB2537D77C58711BBA8AA4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E54FCA676128F6A7B42706753878A9154E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [51]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/2814D81D1FEE25491C66FC0C3C9883834E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F96394B89E34E3F29E0BCE308FAD0D444E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+[]\TU/MicrosoftYaHei(1)/m/n/10.53937 用 于 分 散 对 齐 的 文 字
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+) [52]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8A684228BD606A9BEB8FEF302FB35E244E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [53]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/3A454303148C12AB0117B8EDBFC3C9AC4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [54]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/29291C0C5EBC4F26D1E0B7CAB77D88474E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/912832728F485EDFFF8D980AF75D9ECA4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [55]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/3D0EF4BF7E6A1717EAAD055F14D860064E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+Overfull \hbox (954.9768pt too wide) in paragraph at lines 1--347
+[][] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/51D6CC84C5FEDD14DD0DE4B5F563B2EE4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+Overfull \hbox (7.01923pt too wide) in paragraph at lines 3--356
+[][]
+ []
+
+
+Overfull \hbox (1.81921pt too wide) in paragraph at lines 3--356
+[] 
+ []
+
+[56] [57]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E8BFB79062E1C602601E78AE3E6D50DD4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)) (./contents/itemize.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/349C4411390AF7CE51572AEA9307EA644E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [58]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F0523F5EDE92AF5ECC839E5011C33CF54E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [59]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8C994FE392F5F755A305A0EC5D0817894E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [60]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/7B975E65727F8C6AF1787F4FFB8319624E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [61]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/1DE92E753875BEB2623E4B4D3630F2614E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B4962CBD3CEFD961AE171A44ADAEBC794E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+\enitdp@todolist=\count451
+) [62]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/363A8E0C400F01380949FE186909140F4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+\enitdp@todolist2=\count452
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F7705BFC964F6B3C95F9F435C0854EA24E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/19FB999216890761D62C0CD291982DEE4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [63]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/73B97C2B6A7589909E20B74D2127C8BE4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [64]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/79293931A01379255DDC71D8C6C3BD5E4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [65]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/C4F541E48CE955D2A6465F27E2A44B9C4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+\c@romanlisti=\count453
+\c@romanlistii=\count454
+\enitdp@romanlist=\count455
+) [66]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/CC59135E9D3FB8697B9324B2E7E0F18D4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [67]) (./contents/tabulars.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FDDA77F91B2293FEC7D865DBA8B0103B4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/20741DE5731B90C9E82BDD9319D64C7C4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [68]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B6814C9EA624947E8EB192EE34E02AF74E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [69]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/21841E1506F6754CAD72BC48FA420AD74E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [70]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FCF2E12D88BF077B74C4ABD0024529D14E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [71]
+Overfull \hbox (398.84871pt too wide) in paragraph at lines 85--92
+[][] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/B0A863B2A700E76DC1582BA7217714194E4295620E2950B9A1F75E415F443788.pygtex) [72]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/377E702A49C19E59264EBAD53374C1954E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [73]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/2103F7D91EFF4820EF6225D3B4F528644E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FC014F8EBD5976712186C0EE6639458A4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [74] [75]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/A7458BDF735FB3DB0103FEC431A86AFB4E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (54.33372pt too wide) in paragraph at lines 4--4
+[]\TU/lmtt/b/n/9.03374 \begin[][]\TU/lmtt/m/n/9.03374 {[]longtable[]}{[]|l|l|>[]{[][]\TU/lmtt/b/n/9.03374 \centering\arraybackslash[][]\TU/lmtt/m/n/9.03374 }[]p[]{[]0.4[]\TU/lmtt/b/n/9.03374 \columnwidth[][]\TU/lmtt/m/n/9.03374 }[]|[]}[][]%[]|  
+ []
+
+)
+Underfull \vbox (badness 10000) detected at line 205
+ []
+
+[76]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 5 on input line 220.
+
+[77]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/D83043E7E4AE07DCD1E1DC57DBFB21BE4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/ADE7501206FFDF9B6677FF03375DAFFE4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/96CC0690BEBCA5C5EA38D862BA30DC3A4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [78]
+File: contents/fig/table-generator.png Graphic file (type bmp)
+<contents/fig/table-generator.png>
+ [79]
+\openout4 = `LaTeX速查手册.listing'.
+
+ (./out/_minted-LaTeX速查手册/9CFCDF368B4E3A50E5E36963642B6617465D722348C77EB3DD67E94CCEC4B321.pygtex
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 3; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 4; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 5; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 6; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 7; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 8; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 9; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/CFE6DB599E292EE1E4719CCBDBCC8CDC4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [80]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/64B02053D3C7A6BE29114EBD19F74DA14E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Overfull \hbox (1.99994pt too wide) in paragraph at lines 5--21
+[][] 
+ []
+
+)) (./contents/figure.tex [81] [82]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/132655EE6FAAFDE7E0C27DA0C560CC544E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+
+Overfull \hbox (145.97957pt too wide) in paragraph at lines 1--2
+[][] 
+ []
+
+) [83]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FDE14DDCCB1FA8C23226EA50B80514B64E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+) [84]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/D92A29075D1880FE2D22FFBEBADF57AB4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: contents/fig/ocean.jpg Graphic file (type bmp)
+<contents/fig/ocean.jpg>
+) [85]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/214DF401D8CDB75F904CB277F3F474854E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/5249DDA1A477CF8A50359E692C49E3FF4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: ./contents/fig/section-depth.pdf Graphic file (type pdf)
+<use ./contents/fig/section-depth.pdf, page 2>
+) [86]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/99E705A55E9F7757635EAA86028FF0374E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (23.03052pt too wide) in paragraph at lines 3--3
+\TU/lmtt/m/n/9.03374 {0.4\paperheight},width=0.3\columnwidth][][]{[]contents/fig/mosque.jpg[]}[][]\TU/lmtt/b/n/9.03374 \\[]|  
+ []
+
+) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+) [87]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/32F3B04AFA54F0216344C815E5A92A8E4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/2CE21808BF0C3D44DBF95F13023558F84E4295620E2950B9A1F75E415F443788.pygtex) [88]
+File: contents/fig/tikzexample.png Graphic file (type bmp)
+<contents/fig/tikzexample.png>
+ [89]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/92382D414E4E52F981D47C6281C06C1D4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [90]) (./contents/equation.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/BE739001B49205DC198FAED8C6D1CAFC4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [91]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/00A71ED23378693F121861BA6E33E3DB4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Missing character: There is no 正 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 常 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 文 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 本 in font [lmroman10-regular]:mapping=tex-text;!
+) [92]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E6AAC13BCED5715C9B7C24264675956B4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/43D210C304E29AD85347D0067B74B7EC4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/491FDF36B62D76A047553FDD58DDF9504E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [93]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/6FB5475DE5C486590F594BC6D4A191E94E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 6.
+
+) [94]
+Overfull \hbox (32.88297pt too wide) in paragraph at lines 69--70
+[]\TU/MicrosoftYaHei(1)/m/n/10.53937 如 果 要 重 新 开 始 编 号 或 从 指 定 数 字 开 始 编 号，|  使 用[]方
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/1DA6F44FC8B4FCB6221D0CA80F6F60314E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 7.
+
+) [95]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/655B92A2CE9D7BBB47376DD164FB01E64E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [96]
+File: contents/fig/mathpix.png Graphic file (type bmp)
+<contents/fig/mathpix.png>
+) (./contents/floats.tex [97]
+Overfull \hbox (1.19998pt too wide) in paragraph at lines 8--23
+[][] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/F5E09C733E2E57C27C37AAD4588D33DF4E4295620E2950B9A1F75E415F443788.pygtex)
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+ [98]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/12228FCD5CDBCAF4670CB87C6ADFB3294E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (29.19582pt too wide) in paragraph at lines 4--4
+[]\TU/lmtt/b/n/9.03374 \includegraphics[][]\TU/lmtt/m/n/9.03374 [width=0.5\columnwidth][][]{[]contents/fig/mosque.jpg[]}[]|  
+ []
+
+)
+File: contents/fig/mosque.jpg Graphic file (type bmp)
+<contents/fig/mosque.jpg>
+ [99]
+Overfull \hbox (23.3338pt too wide) in paragraph at lines 75--76
+[]\TU/MicrosoftYaHei(1)/m/n/10.53937 插 入 图 片 的 基 本 使 用 可 以 参 考[][][]第 九 章[][]：| [][]图 片[][][]一 节，|  这 里 主 要 描 述 使 用[]环
+ []
+
+[100]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/76434BA8D7377CE694092224AEEEE4B24E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+File: ./contents/fig/mosque.jpg Graphic file (type bmp)
+<./contents/fig/mosque.jpg>
+File: ./contents/fig/mosque.jpg Graphic file (type bmp)
+<./contents/fig/mosque.jpg>
+) [101] [102]) (./contents/notes.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/13D6DC85058C45F48F7F1E397B6270F34E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/4AA6E68FAD93C507A838F1CD7A8D67604E4295620E2950B9A1F75E415F443788.pygtex) [103]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E1E921F3592CCC1F33CD513DB31B9E824E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8949163EECDBBCE9AE5C67796DD915014E4295620E2950B9A1F75E415F443788.pygtex)
+Package marginnote Info: right page because not two side mode on input line 43.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 43.
+ [104]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/A0A1C7D3E8EED2B3845DA62B4DB758BC4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/4395364FF2CB0C1E85DE6C96D6ED44444E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Package marginnote Info: right page because not two side mode on input line 1.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 1.
+)
+Package marginnote Info: right page because not two side mode on input line 65.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 65.
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/7B67185522B8B1AD3398023C906439AE4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [105]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B11A7EA50FCE19871C34798A09D40A704E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/104006EBC07EAF8882832B26A5C5818E4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/46FAE01615AA9CCBE5536C3090F65C8B4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [106]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/3040584FB26B44E2F655F2C35358A1564E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/8D957FFB3129732839701AEF047399004E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E46B21A0B328A212132635AF327BACB34E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [107] [108]
+Overfull \hbox (17.76117pt too wide) in paragraph at lines 124--125
+[]\TU/MicrosoftYaHei(1)/m/n/10.53937 每 一 个 参 考 文 献，|  都 用 一 个[]来 标 识，| []之 后 到 下 一 个[]之
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/9C4CE64981D6286F44CC8078DE2B6FD84E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/2CEA388A07009A74FB75F3674780185A4E4295620E2950B9A1F75E415F443788.pygtex) [109]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/537A765D10E7C434AF05282EB9C2EA644E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (6.9067pt too wide) in paragraph at lines 7--7
+\TU/lmtt/m/n/9.03374 "http://www.fermentas.com/techinfo/nucleicacids/maplambda.htm"|  
+ []
+
+)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/67D0EA3C0DA094276958B309CDF1DD154E4295620E2950B9A1F75E415F443788.pygtex)
+Overfull \hbox (1.19998pt too wide) in paragraph at lines 169--188
+[][] 
+ []
+
+[110]
+\openout4 = `LaTeX速查手册.listing'.
+
+ (./out/_minted-LaTeX速查手册/131B8C9E551172086997B4D358498D9389BEABFABB8BFD3367061EF8DA18000D.pygtex
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 2; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 3; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 4; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 5; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmss/m/n/6.52437 ".
+(fontspec)                  The requested feature is "Numbers=OldStyle". 
+
+) [111]) (./contents/colour.tex
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/5DAAE6F34BDEE6AA719A874CF3A140EB4E4295620E2950B9A1F75E415F443788.pygtex)
+Overfull \hbox (6.195pt too wide) in paragraph at lines 13--14
+[]\TU/lmr/m/n/10.53937 black[],[]blue[], []brown[],[]cyan[],[]darkgray[],[]gray[],[]green[],[]lightgray[],[]lime[],[]magenta[],[]olive[] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/AF1F886E01692011A6A4A27E7399F8BA4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/7A233F597644DC75EB43001719731CA04E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [112]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/DC6504D363F9F8E8EC47819E36D71EA04E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B1DF54332981491A4CC19A4380C0B0C24E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/3DFA6A6CFF8DBE47A8924E336AD170594E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [113]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/C54A19254D3DA2FF71652FDB0CA3238E4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/E0527048B4206955AACDD2A554A2981D4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/BD799799B3B840AA69D3663B195509EE4E4295620E2950B9A1F75E415F443788.pygtex
+Overfull \hbox (18.28778pt too wide) in paragraph at lines 2--2
+| | | |[]\TU/lmtt/b/n/9.03374 \href[][]\TU/lmtt/m/n/9.03374 {[]https://en.wikibooks.org/wiki/LaTeX/Hyperlinks[]}{[]Wiki-Hyperlinks[]}[]|  
+ []
+
+) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [114]
+Overfull \hbox (14.20561pt too wide) in paragraph at lines 83--84
+[]\TU/MicrosoftYaHei(1)/m/n/10.53937 关 于 设 置 的 颜 色 对 应 哪 个 区 域，|  以 及 更 多 的 参 数，|  可 以 参 考[][]\TU/lmr/m/n/10.53937 Wiki-Hyperlinks[][] 
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/0E2E0753104EA6473D76A824EBAFC0424E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+File: contents/fig/latexcolor.png Graphic file (type bmp)
+<contents/fig/latexcolor.png>
+) (./contents/commandandenviron.tex [115]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FBA18BE59DAB3304970E6B73B65481964E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/6087B348DF9DE3517B575B8175EE304A4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/1FDB5B943B6705B40F12FCC9BD0A1BFC4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [116]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/150976FD13CCF8B3A512339759E76D8C4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F80BA91A7CCBDA6D2A287B4CE93DB2F34E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [117]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/5AF6747D16069543CA634E544DE8BF5A4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [118]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B18FE6BDE25F49751B009758693533204E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/7B8BF56B13F2B52A523C2B20B09DD3464E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/2177BFB7C64AD4EB7F7211B81FDA949D4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+) [119]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/36EDC529275818A8CC2F24FBE209A23B4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [120]
+Overfull \hbox (4.7601pt too wide) in paragraph at lines 110--111
+[]\TU/MicrosoftYaHei(1)/m/n/10.53937 在 环 境 中 可 以 定 义 命 令，|  这 样 定 义 命 令 仅 可 以 在 环 境 中 使 用，|  如[]环
+ []
+
+\openout4 = `external/example_listing.tex'.
+
+(./out/_minted-LaTeX速查手册/CF768E540595E666E4DD151AE74402FB4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [121]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/C11C28CAE0A0EE4244B2E20235DB7A6F4E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [122]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/B1CDCA04AA6EA39706E5303C1CA2F5024E4295620E2950B9A1F75E415F443788.pygtex) (e:/LaNote/LatexTutorial/out/external/example_listing.tex) [123]
+Overfull \hbox (4.34903pt too wide) in paragraph at lines 197--197
+ []|\TU/lmr/m/n/10.53937 bottomnumber| 
+ []
+
+
+Overfull \hbox (0.55486pt too wide) in paragraph at lines 199--199
+ []|\TU/lmr/m/n/10.53937 dbltopnumber| 
+ []
+
+Missing character: There is no ≥ in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (1.19998pt too wide) in paragraph at lines 195--210
+[][] 
+ []
+
+[124]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/440D239F984F267597BC94D242C9D7F54E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/9F6C0A093B1E0162276F1E1D465F87354E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/D214006B7275AAA922D215398332F8604E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/F38C0C3314FF01FFE67A304E52C3E2904E4295620E2950B9A1F75E415F443788.pygtex) [125]
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/ACC5BD463AEB674C5BA9E5D4C9D3CA514E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/EC69E8D87F9A480149153C39F8C4AF9B4E4295620E2950B9A1F75E415F443788.pygtex)
+\openout4 = `external/example_listing.tex'.
+
+ (./out/_minted-LaTeX速查手册/FEA7BDC7E33730E6837035326DD3F4844E4295620E2950B9A1F75E415F443788.pygtex)) [126] [127] [128]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 86.
+(e:/LaNote/LatexTutorial/out/LaTeX速查手册.xwm)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+(e:/LaNote/LatexTutorial/out/LaTeX速查手册.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package rerunfilecheck Info: File `LaTeX速查手册.out' has not changed.
+(rerunfilecheck)             Checksum: .
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+ ) 
+Here is how much of TeX's memory you used:
+ 54211 strings out of 492909
+ 1198222 string characters out of 6136299
+ 1346552 words of memory out of 5000000
+ 56573 multiletter control sequences out of 15000+600000
+ 554655 words of font info for 182 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 72i,17n,101p,1663b,2146s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on e:/LaNote/LatexTutorial/out/LaTeX速查手册.pdf (128 pages).

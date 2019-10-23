@@ -1,0 +1,327 @@
+%# -*- coding:utf-8 -*-
+\usepackage{ifxetex}
+\usepackage[tbtags]{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{fontspec}
+\usepackage{calc}
+\usepackage[usenames,svgnames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{graphfig}
+\usepackage[numbers,sort&compress,super,square]{natbib} %参考文献[1-4]
+\usepackage{fancybox}
+\usepackage{fancynum}	%12345->12,345
+\usepackage{framed}		%定理边框需要
+\usepackage{listings}
+\usepackage{makeidx}
+\usepackage{rotating}
+\usepackage{tabularx}	%列宽自适应表格
+\usepackage{multirow}
+\usepackage{pst-barcode}
+\usepackage{auto-pst-pdf}
+\usepackage[
+	bookmarks=false,
+	linktocpage,
+	unicode=true,
+	CJKbookmarks=true,
+	citecolor=red,
+	colorlinks=true,
+	linkcolor=blue]{hyperref}
+%PDF meta 信息
+\hypersetup{
+	pdfinfo={
+	Title={ecoNote: Microeconomics},
+	Author={Nort Silent},
+	Subject={Microeconomics},
+	Keywords={微观经济学, 笔记, 高鸿业, 范里安, 尼克尔森}
+	}
+}
+
+%PDF文件书签设置，以bookmark渠道hyperref生成书签
+\usepackage{bookmark}
+\bookmarksetup{open,numbered,openlevel=0}
+
+%列表设置
+\usepackage{paralist}
+\setdefaultleftmargin{2em}{}{}{}{.5em}{.5em}
+
+%-------浮动体设置----------------------------------------------------
+\usepackage{flafter}                %确保浮动体在页面中不出现在其代码插入点之前
+\usepackage[section]{placeins}      %确保浮动体不出现在section之外
+
+%-------纸张----------------------------------------------------------
+\usepackage[paperwidth=176mm,
+			paperheight=250mm,
+            text={140mm,210mm},
+            inner=15mm,
+			outer=25mm,
+			marginpar=22mm,
+			driver=xetex,
+            includehead,
+            vmarginratio=1:1]{geometry}
+\setlength{\headheight}{16pt}
+\setlength{\headsep}{16pt}
+\renewcommand{\headrulewidth}{0pt}  %页眉线宽，0为无页眉线
+%页面基本布局样式
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[EL,OR]{\rmfamily{\thepage}}
+\fancyhead[OL]{\rightmark}
+\fancyhead[ER]{\leftmark}
+
+\fancypagestyle{plain}{
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headrule}{}
+}
+%空白页
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\vspace*{\fill}
+\begin{center}
+\emph{空}
+\end{center}
+\vspace{\fill}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+%文档中临时变更页面设置
+%\usepackage{changepage}
+
+%------字体设置-------------------------------------------------------------
+\usepackage[loosequotes,lf,onlymath]{MinionPro} %https://code.google.com/p/pixtex/ (pixtex-adobe-MinionPro-MnSymbol-fonts.7z)
+\usepackage{wasysym}
+
+%西文字体
+\setmainfont{Minion Pro}
+\setsansfont[
+          Extension=.ttf ,
+           BoldFont={Helvetica Bold},
+         ItalicFont={Helvetica Oblique},
+     BoldItalicFont={Helvetica Bold Oblique},
+        SlantedFont={Helvetica Oblique},
+    BoldSlantedFont={Helvetica Bold Oblique}]{Helvetica}
+\setmonofont[Scale=MatchLowercase]{Monaco}
+
+%中文字体
+\setCJKmainfont[
+           BoldFont={Adobe Heiti Std},
+         ItalicFont=DFKaiW5-A]{FZShuSong-Z01}
+\setCJKsansfont{Adobe Heiti Std}
+\setCJKmonofont{Adobe Fangsong Std}
+
+%致辞页面用字（手写体、书法字）
+%西文
+\newfontfamily\zapf[Style=Swash]{Zapfino Extra LT Pro}
+%中文
+\setCJKfamilyfont{fzsigns}{FZYingBiXingShu-S16S} % 方正硬笔行书
+\newcommand*{\fzsign}{\CJKfamily{fzsigns}}
+
+%CC 协议声明用字（版权页上方 CC 图标） 可在 CC 网站获取
+\newfontfamily\ccicons{CC Icons}
+
+%------数学-----------------------------------------------------------------
+\DeclareSymbolFont{euexlargesymbols}{U}{euex}{m}{n}%选择有直立积分号的AMS 设计的euex字体族
+\DeclareMathSymbol{\intop}{\mathop}{euexlargesymbols}{"52}%得到直立的定积分和重积分号
+\DeclareMathSymbol{\ointop}{\mathop}{euexlargesymbols}{"48}%得到直立的环路积分号
+
+%方程式编号设置： 2-17
+\renewcommand{\theequation}{\thechapter -\arabic{equation}}
+
+%定理环境
+\usepackage[framed,thmmarks,amsmath,thref]{ntheorem}	%自定义定理宏包
+\theoremstyle{nonumberplain}
+\theorempostskipamount=0em
+\theorempreskipamount=0em
+\theoremsymbol{\textcolor{gray}{$\blacksquare$}}
+\theoremheaderfont{\normalfont\sffamily}
+\theorembodyfont{\rmfamily}
+\newtheorem{Definition}{\indent 定义}
+\newtheorem{Theorem}[Definition]{\indent 规律}	%定理
+\newtheorem{Example}{\indent 例题}[chapter]
+\newtheorem{Proof}{\indent 证明}	%证明
+
+%重新定义\eqref的英文括号为中文
+\renewcommand{\eqref}[1]{（\ref{#1}）}
+
+
+%------图（表）题注------------------------------------------------------
+\usepackage[font=small,
+   justification=raggedright,
+       labelfont=bf,
+        labelsep=colon,
+          margin=25pt,
+   tableposition=top]{caption}
+
+\DeclareCaptionFont{kai}{\kaishu}
+\captionsetup{textfont=kai}
+
+\usepackage{subcaption}
+
+%------脚注 & 边注--------------------------------------------------------
+% 脚注及其编号设置
+\usepackage[perpage,stable,marginal,symbol*]{footmisc} %norule
+\skip\footins=20pt plus 4pt minus 2pt
+
+\usepackage{pifont}
+\DefineFNsymbols{circled}{{\ding{172}}{\ding{173}}{\ding{174}}
+{\ding{175}}{\ding{176}}{\ding{177}}{\ding{178}}{\ding{179}}{\ding{180}}{\ding{181}}}
+\setfnsymbol{circled}
+
+%边注/页边索引设置
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\color{red}\kaishu}
+
+%------tikz------------------------------------------------------------
+\newcommand*\tikzname{Ti\emph{k}Z} %只是定义TikZ这个文本
+
+\usepackage{tikz}
+\usetikzlibrary{backgrounds,
+                calc,
+                decorations.pathmorphing,
+                er,
+                petri,
+                positioning,
+                shapes.arrows}
+                
+\usepackage{pgfplots}
+\usepgflibrary{decorations.pathmorphing}
+\usepgfplotslibrary{patchplots}
+
+%pgfplot通用绘图设定
+\pgfplotsset{compat=1.5.1,
+    every node/.style={font=\small\itshape},
+    every axis/.append style={
+        axis on top,black,thick,line join=round,line cap=round,
+        width=200pt,height=200pt,
+        font=\small\itshape,
+        axis lines=middle,axis line style={-},
+        extra x tick style={tickwidth=0},
+		extra y tick style={tickwidth=0},
+        xtick=\empty,ytick=\empty,
+        xticklabel=\ ,yticklabel=\ ,
+        area style,axis background/.style={fill=white}
+    }
+}
+
+%------配色设置------------------------------------------------------------
+%rgb (0~1) RGB (0~255)
+\globalcolorstrue
+\xglobal\definecolor{blueF}{RGB}{180,207,236}
+\xglobal\definecolor{blueL}{RGB}{114,159,207}
+\xglobal\definecolor{blue}{RGB}{32,74,135}
+\xglobal\definecolor{ccgray}{RGB}{171,179,172}      %CC icons 官方指定配色
+\xglobal\definecolor{greenD}{RGB}{0,104,56}
+\xglobal\definecolor{greenF}{RGB}{177,194,147}
+\xglobal\definecolor{greenL}{RGB}{138,226,52}
+\xglobal\definecolor{green}{RGB}{78,154,6}
+\xglobal\definecolor{orange}{RGB}{213,125,74}
+\xglobal\definecolor{purpleD}{RGB}{115,55,110}
+\xglobal\definecolor{purpleF}{RGB}{231,212,217}
+\xglobal\definecolor{purpleL}{RGB}{203,158,171}
+\xglobal\definecolor{purple}{RGB}{165,84,116}
+\xglobal\definecolor{redF}{RGB}{233,200,184}
+\xglobal\definecolor{redL}{RGB}{239,41,41}
+\xglobal\definecolor{red}{RGB}{164,0,0}
+\xglobal\definecolor{shadecolor}{RGB}{247,247,247}
+\xglobal\definecolor{titleB}{RGB}{86,165,221}
+\xglobal\definecolor{titleC}{RGB}{153,175,92}
+\xglobal\definecolor{titleD}{RGB}{249,155,65}
+
+%渐变色
+\pgfplotsset{colormap={bluewhite}{color(0cm)=(blue); color(1cm)=(white);}}
+\pgfplotsset{colormap={hot}{color(0cm)=(red); color(1cm)=(yellow); color(3cm)=(green)}}
+\pgfplotsset{colormap={redyellow}{color(0cm)=(red); color(1cm)=(yellow);}}
+\pgfplotsset{colormap={yellowgreen}{color(0cm)=(yellow); color(1cm)=(green);}}
+
+%------章节标题------------------------------------------------------------
+\CTEXsetup[name={第,部分},
+     nameformat={\centering\itshape},
+    titleformat={\Huge\itshape}]{part}							%部
+\CTEXsetup[name={第,章},
+     beforeskip={50pt plus 2pt minus 2pt},
+         number={\arabic{chapter}},
+     nameformat={\LARGE\sffamily},
+    titleformat={\LARGE\sffamily},
+   numberformat={\LARGE\sffamily},
+      afterskip={20pt plus 2pt minus 2pt},
+      aftername={\quad}]{chapter}								%章
+\CTEXsetup[name={,},
+	 beforeskip={16pt plus 2pt minus 2pt},
+         format={\large\flushleft\sffamily},
+      aftername={\quad},
+      afterskip={10pt plus 2pt minus 2pt}]{section}			%节
+\CTEXsetup[name={,.\enspace},
+	 beforeskip={1pt},
+         number={\arabic{subsection}},
+        format+={\normalsize},
+   %numberformat={\colorbox{blue!15}},
+      aftername={},
+      afterskip={1pt}]{subsection}								%小节
+\CTEXsetup[name={,.},
+         number={\arabic{subsubsection}},
+         format={\zihao{5}}]{subsubsection}						%小小节
+\CTEXsetup[name={附录},
+         number={\arabic{chapter}}]{appendix}					%附录
+
+%------目录 & 图表目录-------------------------------------------------------
+\setcounter{secnumdepth}{4}
+
+\usepackage{titletoc}
+\titlecontents{figure}
+	[2.5em]
+	{}
+	{\contentslabel{2.5em}}
+	{}
+	{\titlerule*[0.5pc]{$\cdot$}\small\rmfamily\contentspage}
+\titlecontents{part}		            	%{section}
+	[0ex]				                	%[left]
+	{\vspace{3mm}\centering\sffamily}		%{above-code}
+	{}		                                %{numbered-entry-format}
+	{}						               	%{numberless-entry-format}
+	{}						            	%{filler-page-format}
+	%[\hfill]				            	%{below-code}
+\titlecontents{chapter}                     %目录条目：章
+	[4em]
+	{\sffamily}		                        %{\vspace{3mm}\sffamily}
+	{\contentslabel{4em}}
+	{}
+	{\titlerule*[0.5pc]{$\cdot$}\small\rmfamily\contentspage}
+\titlecontents{section}                     %目录条目：节
+	[4em]
+	{}	                                    %{\small}
+	{\contentslabel{2.5em}}
+	{}
+	{\titlerule*[0.5pc]{$\cdot$}\small\rmfamily\contentspage}
+
+\titlecontents*{subsection}                 %目录条目：小节
+[4em]
+{\small\kaishu}
+{}
+{}
+{(\thecontentspage)}
+[ \textcolor{gray}{\textbullet}\ ]
+[]
+
+\setcounter{tocdepth}{3}
+
+%设置图表目录
+\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
+\addtocontents{lof}{\protect\noaddvspace}
+\addtocontents{lof}{\linespread{1.25}\selectfont}
+
+%----------------------------------------------------------------------
+\linespread{1.25}
+
+\hfuzz3pt % Overfull Box < 3pt 不警告
+
+%----------------------------------------------------------------------
+\newcommand{\documentEdition}{\input{version}}
+
+%----------------------------------------------------------------------
+\makeindex
+
+\listfiles

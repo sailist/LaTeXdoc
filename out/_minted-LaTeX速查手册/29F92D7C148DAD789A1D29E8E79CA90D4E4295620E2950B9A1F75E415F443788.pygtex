@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}linewidth} \PYGZhy{} 当前行的宽度
+\PYG{k}{\PYGZbs{}columnwidth} \PYGZhy{} 当前分栏的宽度
+\PYG{k}{\PYGZbs{}textwidth} \PYGZhy{} 整个页面版芯的宽度
+\PYG{k}{\PYGZbs{}paperwidth} \PYGZhy{} 整个页面纸张的宽度
+\end{Verbatim}

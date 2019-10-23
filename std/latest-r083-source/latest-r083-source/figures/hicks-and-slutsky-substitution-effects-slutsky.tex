@@ -1,0 +1,46 @@
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=22,ymin=0,ymax=22,
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	extra x ticks={6.67,13.333,20},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{\tiny$I/{P'_x}$},{\tiny$m'/P_x$},{\tiny$m/{P_x}$}},
+	extra y ticks={13.333,20},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={\tiny$m'/P_y$,\tiny$m/P_y$},
+	domain=0:24,samples=40]
+\addplot[blueL,ultra thick,domain=20/9:15]
+		{100/(3*x)};
+\addplot[gray,ultra thick,domain=80/27:15]
+		{400/(9*x)};						%斯拉茨基替代
+\addplot[blue,ultra thick,domain=20/3:15]
+		{100/x};	
+\addplot[red,domain=0:24]
+		{20-x};	%原始价格下的预算线
+\addplot[redL,domain=0:24]
+		{20-3*x};	%涨价之后的预算线
+\addplot[gray,dashed,domain=0:40/3]
+		{40/3-x};
+\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+	(10,10)
+	(20/3,20/3)
+	(10/3,10)};
+\addplot[very thin,gray] coordinates {
+	(20/3,20/3) (20/3,0)};
+\addplot[very thin,gray] coordinates {
+	(10,10) (10,0)};
+\addplot[very thin,gray] coordinates {
+	(10/3,10) (10/3,0)};
+\node[left] at (axis cs:3.33,10) {$A$};
+\node[above right] at (axis cs:6.67,6.67) {$M$};
+\node[above right] at (axis cs:10,10) {$B$};
+
+\addplot[blueL,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(3.333,0) (6.667,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 替代效应};
+\addplot[blue,text=black,decorate,decoration={brace,amplitude=5pt},yshift=5pt]
+	coordinates {(6.667,0) (10,0)}
+	node [fill=white,midway,inner sep=0pt,above=5pt] {\tiny 收入效应};
+\end{axis}
+\end{tikzpicture}

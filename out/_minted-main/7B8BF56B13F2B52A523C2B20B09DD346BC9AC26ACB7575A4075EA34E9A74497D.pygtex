@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}newenvironment}\PYG{n+nb}{\PYGZob{}}name\PYG{n+nb}{\PYGZcb{}}[num][default]\PYG{n+nb}{\PYGZob{}}before\PYG{n+nb}{\PYGZcb{}\PYGZob{}}after\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure*\PYG{n+nb}{\PYGZcb{}}
+    ...
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure*\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table*\PYG{n+nb}{\PYGZcb{}}
+    ...
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table*\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,281 @@
+\newpage
+\section{页面处理}\label{sec:页面处理}
+	\LaTeX 中的页面结构如下图所示：
+
+    \layout\marginnote{该图使用\highunderline{layout}宏包，\highunderline{\textbackslash{}layout}命令生成}
+
+    \LaTeX{}中各种命令的本质就是将文字、图片等“资源”放到一个个盒子中，并将这些盒子按一定的规则排布在页面上。文字默认都展示在Body主体中，如果需要设置页眉和页脚以及边注，就需要特殊的命令。
+
+    % https://texblog.org/2011/04/04/make-page-margins-visible/ 显示页面边框。
+
+
+    \subsection{页眉和页脚}
+    设置页眉和页脚需要的宏包有\highunderline{fancyhdr}和\highunderline{titlesec}两种。经过多次测试后发现，\highunderline{fancyhdr}中的命令有时会会因为其他宏包的引入而失效，同时考虑到在使用中更改多种页面风格的需求，因此使用\highunderline{titlesec}在大多数情况下是一个更好的选择\footnote{要注意，该宏包和fancyhdr只能选择一个引入，否则会因为定义冲突而报错}。
+    
+    本节仅介绍titlesec\footnote{该宏包已开源，\href{https://github.com/jbezos/titlesec}{链接}}的使用方法。
+
+    宏包引入：
+    \begin{texcode}
+        \usepackage{titlesec}
+    \end{texcode}
+    通过使用\highunderline{newpagestyle}来定义一种页面风格，定义分奇数页和偶数页两种，当版式不分奇偶时，则使用奇数页（奇数页是odd）的格式，定义方法如下：
+    % \begin{texcode}
+    %     \newpagestyle{stylename}{
+    %         \sethead[evel-left][evel-center][evel-right]
+    %                 {odd-left}{odd-center}{odd-right}
+    %         \setfoot[evel-left][evel-center][evel-right]
+    %                 {odd-left}{odd-center}{odd-right}
+    %     }
+    % \end{texcode}
+    如：
+    % \begin{texcode}
+    %     \newpagestyle{mystyle}{%
+    %         \sethead
+    %         [第\thesection{}章~~\sectiontitle][][\thepage]%
+    %         {第\thesection{}章~~\sectiontitle}{}{\thepage}
+    %         \setfoot
+    %         [][\LaTeX{}速查手册][]
+    %         {}{\LaTeX{}速查手册}{}
+    %     }
+    % \end{texcode}
+    
+    使用定义好的页面风格\highunderline{需要在正文中声明}，在序言区使用会出错。：
+    % \begin{texcode}
+    %     \begin{document}
+    %         % \pagestyle{mystyle}
+    %     \end{document}
+    % \end{texcode}
+
+    如果要在页眉或页脚处添加分界线，使用该宏包实现也非常的简单：
+    \begin{texcode}
+        \newpagestyle{mystyle}{%
+            \headrule % 添加页眉处分割线
+            \footrule % 添加页脚处分割线
+            \setheadrule{1mm}%注意在声明后设置长度才有效（也可以不设置长度）
+            \setfootrule{0.4pt}%0.4pt是分割线的默认值
+            \sethead
+            [第\thesection{}章~~\sectiontitle][][\thepage]%
+            {第\thesection{}章~~\sectiontitle}{}{\thepage}
+            \setfoot
+            [][\LaTeX{}速查手册][]
+            {}{\LaTeX{}速查手册}{}
+        }        
+    \end{texcode}
+
+    \subsection{页版式与页边距}
+    设置页版式和页边距等需要的包是\highunderline{geometry}
+    % geometry宏包的版面
+    \subsubsection{页面大小}
+    geometry宏包提供默认的页面大小用于设置，如下：
+    \begin{texcode}
+        \usepackage[a4paper]{geometry}%用于控制版式，一般可以直接通过参数设置全局版式
+        \usepackage[a4paper=true]{geometry}%用于控制版式，一般可以直接通过参数设置全局版式
+        \usepackage[a4paper=false]{geometry}%用于控制版式，一般可以直接通过参数设置全局版式
+    \end{texcode}
+    注意赋值会被忽略掉，以上三种方式的效果是相同的。
+
+    geometry提供的版式参数一共有6类，如下所示：
+    \begin{center}
+        % \newlength\tablewidth % if haven't define the length 'tablewidth'
+        \setlength\tablewidth{\dimexpr (\textwidth -6\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.33\tablewidth}<{\centering}|p{0.33\tablewidth}<{\centering}|p{0.33\tablewidth}<{\centering}|}
+                \hline
+                类型&示例&备注\\
+                \hline
+                a[0-6]paper&a0paper, a1paper...&ISOA标准\\
+                \hline
+                b[0-6]paper&b0paper, b1paper...&ISOB标准\\
+                \hline
+                c[0-6]paper&c0paper, c1paper...&ISOC标准\\
+                \hline
+                b[0-6]j&b0j, b1j, b2j...&JIS(Japanese Industrial Standards)B标准\\
+                \hline
+                ansi[a-e]paper&ansiapaper, ansibpaper...&未知\\
+                \hline
+                其他&letterpaper, executivepaper, legalpaper.&未知\\
+                \hline
+            \end{tabular}
+        \end{table}
+    \end{center}
+    
+    除了使用geometry提供的版面大小，还可以通过\highunderline{papersize}属性自定义纸张大小：
+    \begin{texcode}
+        \usepackage[papersize={20cm, 15cm}]{geometry}% {宽,高}
+    \end{texcode}
+
+    \subsection{纸张方向}
+    在不改变版面大小的情况下，将所有页面的纸张横置只需要在添加\highunderline{geometry}包的时候添加\highunderline{landscape}参数：
+    \begin{texcode}
+        \usepackage[landscape]{geometry}    
+    \end{texcode}
+
+    如果需要单张的纸张更改纸张方向，实现方式比较多，但是都不能非常完美的完全更改过来（如页眉页脚在左右两侧等）。经过多个解决方案的尝试，该需求的最佳实践\footnote{参考自\href{https://tex.stackexchange.com/a/374533/193826}{StackExchange}}需要使用宏包\highunderline{etoolbox}，并且在\highunderline{序言区}声明添加以下代码：
+    \begin{texcode}
+        % \usepackage{etoolbox}
+        \makeatletter
+        \def\ifGm@preamble#1{\@firstofone}
+        \appto\restoregeometry{%
+        \pdfpagewidth=\paperwidth
+        \pdfpageheight=\paperheight}
+        \apptocmd\newgeometry{%
+        \pdfpagewidth=\paperwidth
+        \pdfpageheight=\paperheight}{}{}
+        \makeatother
+    \end{texcode}
+    随后，如果如果需要更改纸张方向，则在更改的地方使用以下命令（以默认竖向为例）：
+    \begin{texcode}
+        \newgeometry{hmargin=3cm,vmargin=5cm,landscape} %前面两个间距的参数可以省略
+    \end{texcode}
+    随后的页面将完美的横置过来，直到想要重新恢复竖排时，使用以下命令：
+    \begin{texcode}
+        \restoregeometry
+    \end{texcode}
+
+        
+
+    \subsection{文字竖排}
+    由于\LaTeX{}主要用于学术用途，因此竖排的需求不是很常见。经查阅在\href{https://www.latexstudio.net/archives/536.html}{这篇文章}中有提到过如何实现文字竖排，留做坑，日后有需要再填。
+
+    \subsection{换行}
+    在\LaTeX{}中，单次换行并不会在排版中真正的换行：
+    \begin{texshow}
+        tex文件中的第一行
+        tex文件中的第二行
+    \end{texshow}
+
+    如果需要换行，有四种方式，分别是空一行、使用双斜线、使用\highunderline{\textbackslash{}newline}命令和使用\highunderline{\textbackslash{}par}命令，这四种命令在一般情况下等价，如下：
+    \begin{texshow}
+        tex文件中的第一行
+
+        tex文件中的第二行\\
+        tex文件中的第三行\newline
+        tex文件中的第四行\par
+        tex文件中的第五行
+    \end{texshow}
+    
+    另外，如果要\textbf{临时变化}与下一行的行间距，可以在\highunderline{\textbackslash{}\textbackslash{}}命令后添加\highunderline{[offset]}参数：
+    \begin{texshow}
+        tex文件中的第一行
+
+        tex文件中的第二行\\[1em]
+        tex文件中的第三行\newline %\newline 命令没有办法添加参数
+        tex文件中的第四行
+    \end{texshow}
+
+    最后，还有一种换行方式\highunderline{\textbackslash{}linebreak}，除了换行，还会将当前行分散对齐，效果如下：
+    \begin{texshow}
+        tex文件中的第一行\linebreak
+        tex文件中的第二行\linebreak
+        tex文件中的第三行
+    \end{texshow}
+
+    \subsection{换页}
+
+    有时会遇到重新另起一页的需求（如目录结束后从新的一页开始），需要使用\highunderline{\textbackslash{}clearpage}或\highunderline{\textbackslash{}newpage}命令
+
+    \begin{texcode}
+        \tableofcontents
+        \newpage
+    \end{texcode}
+
+
+    \subsection{分栏}
+    分栏主要的需求是，全部分栏，部份分栏，在全部分栏中临时不分栏。
+
+    如果需要全部分栏，只需要在初始文档类的声明中添加\highunderline{twocolumn}参数即可，如下：
+    \begin{texcode}
+        \documentclass[twocolumn]{article}
+    \end{texcode}
+
+    如果要对某一部分内容分栏，则需要使用\highunderline{multicols}环境\footnote{表格支持多行多列的宏包是multirow，两者只是名字相近}。
+
+    \begin{texshow}
+        \begin{multicols}{2}%列数
+            多栏环境下，可以添加任何\LaTeX{}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
+        \end{multicols}
+
+        \begin{multicols}{3}
+            多栏环境下，可以添加任何\LaTeX{}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
+        \end{multicols}
+    \end{texshow}
+
+    可以通过添加参数的方式选择显示在分栏上方的文字：
+    \begin{texshow}
+        \begin{multicols}{2}[这里是分栏示例]
+            多栏环境下，可以添加任何\LaTeX{}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
+        \end{multicols}
+    \end{texshow}
+
+    列中间的分隔由\highunderline{\textbackslash{}columnsep}来控制，可以通过更改它的数值来控制间距：
+    \begin{texshow}
+        \setlength{\columnsep}{0.4pt}%在multicols环境前设置
+        \begin{multicols}{2}[这里是分栏示例]
+            多栏环境下，可以添加任何\LaTeX{}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
+        \end{multicols}
+    \end{texshow}
+
+    同样，列中间也可以添加有颜色的分割线（默认黑色），来让分隔更清晰：
+    \begin{texshow}
+        \setlength{\columnseprule}{1pt}
+        \renewcommand{\columnseprulecolor}{\color{red}}
+        \begin{multicols}{3}[这里是分栏示例]
+            多栏环境下，可以添加任何\LaTeX{}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
+        \end{multicols}
+    \end{texshow}
+
+    在全多栏环境中，有时会需要插入跨栏的文字、表格或图片，对于表格和文字，\LaTeX{}提供了星号环境来实现多栏环境中的跨栏插入：
+    \begin{texcode}
+        \begin{figure*}
+            ...
+        \end{figure*}
+        \begin{table*}
+            ...
+        \end{table*}
+    \end{texcode}
+    单栏文本在双栏环境中的插入要更困难一些，暂时没有太好的办法，只能使用\highunderline{\textbackslash{}onecolumn}临时声明，如下：
+    \begin{texcode}
+        \onecolumn 使用这种方法来插入部份的单栏文本
+        \twocolumn 
+    \end{texcode}
+    注意必须在最后重新声明双栏环境，否则要么无法编译通过，要么之后会一直是单栏环境。
+    
+    \subsection{水印}
+    % 有很多种实现方式 https://www.zhihu.com/question/35781113
+
+    水印的实现方式有几种，各有优缺点，这里选择最方便容错性更高且支持中文的的宏包\highunderline{xwatermark}。
+
+    该宏包使用只需要引入，然后定义水印即可，水印分文字水印和颜色水印两种，均可以定制大小、位置、显示页数等参数，同时可以多个水印同时使用，水印之间能够互相嵌套，非常方便。
+
+    使用方法：
+    \begin{texcode}
+        \usepackage[printwatermark,disablegeometry]{xwatermark}
+
+        \newwatermark[page=1,color=gray!20,angle=45,scale=4,xpos=0,ypos=0]
+                     {SAILIST}
+        \newwatermark[pages=2-4,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]
+                     {\LaTeX{}速查手册}
+        \newwatermark[pagex={5,6,7},
+                        color=gray!20,angle=45,scale=3,xpos=0,ypos=0]
+                     {\LaTeX{}速查手册}
+    \end{texcode}
+    上述的代码已经在在本手册中执行，可以通过查看封面和目录页观察其效果。
+
+    每种水印必须指定页数，该宏包支持的页数指定方式有8种：
+    \begin{center}
+        % \newlength\tablewidth % if haven't define the length 'tablewidth'
+        \setlength\tablewidth{\dimexpr (\textwidth -8\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.21\tablewidth}<{\centering}|p{0.26\tablewidth}<{\centering}|p{0.26\tablewidth}<{\centering}|p{0.26\tablewidth}<{\centering}|}
+                \hline
+                page=x&pages=x-y&pagex=\{x,y,z\}&firstpage\\
+                \hline
+                lastpage&allpages=true&evenpages=true&oddpages=true\\
+                \hline
+            \end{tabular}
+            \caption{xwatermark宏包的页面指定方式}
+        \end{table}
+    \end{center}
+    关于该宏包的更多使用方式，如图片水印等，参考该宏包的\href{http://ftp.jaist.ac.jp/pub/CTAN/macros/latex/contrib/xwatermark/doc/xwatermark-guide.pdf}{文档}
+    
+    % 横竖排放/

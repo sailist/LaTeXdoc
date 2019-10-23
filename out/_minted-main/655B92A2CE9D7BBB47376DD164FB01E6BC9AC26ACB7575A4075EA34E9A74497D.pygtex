@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}align\PYG{n+nb}{\PYGZcb{}}
+    \PYG{n+nb}{\PYGZam{}}f(x) = a+b+c;\PYG{k}{\PYGZbs{}\PYGZbs{}}
+    g(x) = a;\PYG{n+nb}{\PYGZam{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}align\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

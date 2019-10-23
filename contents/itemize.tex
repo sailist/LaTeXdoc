@@ -1,0 +1,182 @@
+\section{列表}\label{sec:列表}
+    列表环境有三种，分别是\highunderline{itemize}，\highunderline{enumerate}，\highunderline{description}。
+    \subsection{基本用法}
+    生成没有序号的列表
+    
+    \begin{texshow}
+        \begin{itemize}
+            \item 第一个
+            \item 第二个
+            \item 第三个
+            \begin{itemize}
+                \item 第三个+1
+                \item 第三个+2
+            \end{itemize}
+        \end{itemize}
+    \end{texshow}
+    
+    生成有序号的列表
+    \begin{texshow}
+        \begin{enumerate}
+            \item 第一个
+            \item 第二个
+            \item 第三个
+            \begin{enumerate}
+                \item 第三个+1
+                \item 第三个+2
+            \end{enumerate}
+        \end{enumerate}
+    \end{texshow}
+    生成有标签描述的列表
+    \begin{texshow}
+        \begin{description}
+            \item[itemize] 没有序号
+            \item[enumerate] 有序号
+            \begin{description}
+                \item[罗马数字] 第一种
+                \item[阿拉伯数字] ...
+            \end{description}
+            \item[description] 使用文字
+        \end{description}
+    \end{texshow}
+
+    \subsection{自定义Bullet}
+    "Bullet"是指各种List前的那个标记，中文译为"子弹"，但觉得还是保留英文比较好一些。一般来说，默认的已经够用，但如果需要重新定义，\LaTeX{}同样支持高度可定制化的方式，另外，为了方便定制，可能需要使用\highunderline{enumitem}宏包\footnote{除了该宏包外，还有\highunderline{easylist}，\highunderline{enumerate}等宏包可以完成，有需要可以自行了解}：
+    \subsubsection{自定义标签}
+    如果只是临时更改，那么只需要在\highunderline{\textbackslash{}item}后添加参数即可，如下：
+    \begin{texshow}
+        \begin{itemize}
+            \item[--] 第一行
+            \item[This] 第二行 %注意，虽然可以是文字，但缺少了description中的加粗，这是这两个环境的区别。
+            \item 第三行 
+        \end{itemize}
+    \end{texshow}
+
+    如果是统一更改一个itemize环境，那么可以在环境开始添加参数，如下：
+    \begin{texshow}
+        \begin{itemize}[label=--]
+            \item 第一行
+            \item 第二行
+        \end{itemize}
+    \end{texshow}
+
+    如果是需要有一个经常使用的itemize环境，那么可以通过enumitem宏包直接定义一个，如定义一个\highunderline{todolist}（待完成列表）：
+    \begin{texshow}
+        % \usepackage{enumitem}
+        % \usepackage{amssymb} %\square 方法支持
+        \newlist{todolist}{itemize}{2} % \newlist{<name>}{<type>}{<max-depth>}
+        \setlist[todolist]{label=$\square$}
+        
+        \begin{todolist}
+            \item 第一行
+            \item 第二行
+        \end{todolist}
+    \end{texshow}
+
+    上述的定义方法也可以合并为一个：
+    \begin{texshow}
+        \newlist{todolist2}{itemize}{2}
+    \end{texshow}
+
+    如果需要一个Bullet在多个环境里共用，那么可以新定义一个item，如下：
+    \begin{texshow}
+        \newcommand{\checkitem}{\item[$\square$]}%
+        \begin{itemize}
+            \item 第一行
+            \checkitem 第二行
+        \end{itemize}
+    \end{texshow}
+
+    我曾经因为需要定义了一个TOTOList，分享在这里：
+    \begin{texshow}
+        \begin{itemize}
+            \item[$\square$]
+            no checked
+            \item[\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\tiny \ding{52}}}$\square$]
+            failed
+            \item[\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\scriptsize \ding{56}}}$\square$]
+            checked
+        \end{itemize}
+    \end{texshow}
+    \LaTeX{}中很难找到棱角分明的对号，只能用这种风格的折中一下。另外，关键在于Bullet如何用\LaTeX{}描述，如果需要很多使用，参考上面如何定义一个常用item。
+
+    \subsubsection{自定义序号}
+    序号的生成与\Ref{subsub:counter}和\Ref{subsub:number}有关，如果需要重新定义序号方式，方法与自定义标签类似，在单个item上重新定义需要借助计数器的名称，如：
+    \begin{texshow}
+        \begin{enumerate}
+            \item 第一行 
+            \stepcounter{enumi} % 如果指定了序号格式，需要使用之前手动对计数器加1
+            \item[\alph{enumi}：] 第二行 
+            \item 第三行 
+            \begin{enumerate}
+                \stepcounter{enumii}
+                \item[\roman{enumii}] 二级+1
+                \stepcounter{enumii}
+                \item[\roman{enumii}] 二级+2 
+            \end{enumerate}
+        \end{enumerate}
+    \end{texshow}
+
+    在enumerate环境上的定义：
+    \begin{texshow}
+        \begin{enumerate}[label=\roman*)]
+            \item 第一行
+            \item 第二行
+        \end{enumerate}
+        \begin{enumerate}[label=\alph*--]
+            \item 第一行
+            \item 第二行
+        \end{enumerate}
+    \end{texshow}
+
+    如果需要重新定义新的序号环境，方法同样与自定义标签类似：
+    \begin{texshow}
+        % \usepackage{enumitem}
+        \newlist{romanlist}{enumerate}{2}
+        \setlist[romanlist]{label=\roman*)}
+        \begin{romanlist}
+            \item 第一行
+            \item 第二行
+        \end{romanlist}
+    \end{texshow}
+
+    \subsection{版面与布局}
+    \subsubsection{对齐与间隔}
+    在使用\highunderline{enumitem}宏包后，就可以很方便的设置各种间距，有如下的几种：
+    \begin{itemize}
+        \item 垂直间距
+        \begin{itemize}
+            \item topsep
+            \item partopsep
+            \item parsep
+            \item itemsep
+        \end{itemize}
+        \item 水平间距
+        \begin{itemize}
+            \item leftmargin
+            \item rightmargin
+            \item listparindent
+            \item labelwidth
+            \item labelsep
+            \item itemindent
+        \end{itemize}
+    \end{itemize}
+    
+    可以通过附加参数的方式来设置，如：
+    \begin{itemize}[itemsep=1ex, leftmargin=1cm]
+        \item 示例文本示例文本示例文本示例文本示例文本示例文本
+        \item 示例文本示例文本示例文本示例文本示例文本示例文本
+    \end{itemize}
+        
+    如果要应用间隔设置到所有list，那么可以使用\highunderline{\textbackslash{}setlist}命令，如
+    \begin{texshow}
+        \newlist{romanlist}{enumerate}{2}
+        \setlist[romanlist]{label=\roman*),leftmargin=1cm}
+        \begin{romanlist}
+            \item 第一行
+            \item 第二行
+        \end{romanlist}
+    \end{texshow}
+        
+    \subsection{其他itemize布局}
+    更多布局可以查看\href{https://en.wikibooks.org/wiki/LaTeX/List_Structures}{Wiki-List\_{}Structures}

@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}newenvironment}\PYG{n+nb}{\PYGZob{}}king\PYG{n+nb}{\PYGZcb{}}[2][Title Name]
+\PYG{n+nb}{\PYGZob{}}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}}\PYGZsh{}1：\PYGZsh{}2\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZob{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}king\PYG{n+nb}{\PYGZcb{}\PYGZob{}}参数二位置\PYG{n+nb}{\PYGZcb{}}
+    这是多参数省略一参的一个示例
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}king\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}king\PYG{n+nb}{\PYGZcb{}}[参数一位置]\PYG{n+nb}{\PYGZob{}}参数二位置\PYG{n+nb}{\PYGZcb{}}
+    这是多参数的一个示例
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}king\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}setlength}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}fboxsep}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}0pt\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}framebox}\PYG{n+nb}{\PYGZob{}}没有边框间隔\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

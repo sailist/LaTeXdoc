@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}framebox}\PYG{n+nb}{\PYGZob{}}
+    \PYG{k}{\PYGZbs{}parbox}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}textwidth}\PYGZhy{}2\PYG{k}{\PYGZbs{}fboxsep}\PYGZhy{}2\PYG{k}{\PYGZbs{}fboxrule}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}framebox}\PYG{n+nb}{\PYGZob{}}
+    \PYG{k}{\PYGZbs{}parbox}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}textwidth}\PYGZhy{}4\PYG{k}{\PYGZbs{}fboxsep}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本\PYG{n+nb}{\PYGZcb{}}
+\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

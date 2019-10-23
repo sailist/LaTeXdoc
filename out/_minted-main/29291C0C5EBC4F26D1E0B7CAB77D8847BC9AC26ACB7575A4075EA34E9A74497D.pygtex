@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}verbatim\PYG{n+nb}{\PYGZcb{}}
+这是抄录环境！@\PYGZsh{}￥\PYG{c}{\PYGZpc{}……\PYGZam{}*（）()\PYGZob{}\PYGZcb{}\PYGZus{}+\PYGZdq{}:\PYGZgt{}?}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}verbatim\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

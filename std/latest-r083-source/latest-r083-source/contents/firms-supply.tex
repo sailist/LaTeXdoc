@@ -1,0 +1,105 @@
+\chapter{生产者供给}
+\label{sec:firm-supply}
+
+\section{生产函数}
+测试文本
+\begin{figure}[!h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{subfigure}[b]{\textwidth/3}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	axis on top=false,
+	width=150pt,height=150pt,
+	xmin=0,xmax=6,ymin=0,ymax=6,restrict y to domain=0:6,
+	xlabel style={below},xlabel=$q$,ylabel style={left},ylabel=$p$,
+	samples=200]
+	\addplot[fill=blueF,draw=none] coordinates {(0,4) (2.414,4) (2.414,0) (0,0)};
+	\addplot[domain=0:2.414,draw=none,fill=white] {x^2-2*x+3} \closedcycle;	%SMC
+	\addplot[gray,thin] coordinates {(0,4) (2.414,4) (2.414,0)};
+	\addplot[gray,thin] coordinates {(0,2.529) (2.414,2.529)};
+	\addplot[thick,domain=0:5,redL] {(x^2)/3-x+3};
+		\draw (rel axis cs:0.5,0.5) node[redL,right] {\tiny $AVC$};		%AVC
+	\addplot[thick,domain=0:1.5,green,dashed] {x^2-2*x+3};						%SMC
+	\addplot[ultra thick,domain=1.5:4.9,green] {x^2-2*x+3};						%SMC
+		\draw (rel axis cs:0.5,0.95) node[green,left] {\tiny $SMC$};
+	\addplot[only marks,forget plot,black,mark options={mark size=1pt,fill=white},mark=*] 
+		coordinates {
+			(1.5,2.25)
+		};
+	\addplot[black,thick] coordinates {(0,6) (0,0) (6,0)};
+	\addplot[green,thick] coordinates {(0,0) (0,2.25)};
+\end{axis}
+	\end{tikzpicture}
+\caption{$SMC$以上价格线以下}
+\label{fig:ps-area-between-smc-and-price}
+\end{subfigure}%
+\begin{subfigure}[b]{\textwidth/3}
+\centering
+\begin{tikzpicture}
+\begin{axis}[axis on top=false,
+	width=150pt,height=150pt,
+			xmin=0,xmax=6,ymin=0,ymax=6,restrict y to domain=0:6,
+	xlabel style={below},xlabel=$q$,ylabel style={left},ylabel=$p$,
+	samples=200]
+	\addplot[fill=blueF,draw=none] coordinates {(0,4) (2.414,4) (2.414,2.529) (0,2.529)};
+	\addplot[gray,thin] coordinates {(0,4) (2.414,4) (2.414,0)};
+	\addplot[gray,thin] coordinates {(0,2.943) (2.414,2.943)};
+	\addplot[gray,thin] coordinates {(0,2.529) (2.414,2.529)};
+
+	\addplot[thick,domain=0:5,redL] {(x^2)/3-x+3};
+		\draw (rel axis cs:0.5,0.5) node[redL,right] {\tiny $AVC$};			%AVC
+	\addplot[thick,domain=0:4.9,purple] {(x^2)/3-x+3+1/x};
+		\draw (rel axis cs:0.2,0.75) node[purple] {\tiny $SAC$};				%SAC
+	\addplot[thick,domain=0:1.5,green,dashed] {x^2-2*x+3};						%SMC
+	\addplot[ultra thick,domain=1.5:4.9,green] {x^2-2*x+3};						%SMC
+		\draw (rel axis cs:0.5,0.95) node[green,left] {\tiny $SMC$};
+	\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*]
+		coordinates {
+			(1.5,2.25)
+			(1.91,2.83)
+		};
+	\addplot[black,thick] coordinates {(0,6) (0,0) (6,0)};
+	\addplot[green,thick] coordinates {(0,0) (0,2.25)};
+\end{axis}
+\end{tikzpicture}
+\caption{$TR-TVC$}
+\label{fig:ps-tr-tvc}
+\end{subfigure}%
+\begin{subfigure}[b]{\textwidth/3}
+\centering
+\begin{tikzpicture}
+		\begin{axis}[axis on top=false,
+			width=150pt,height=150pt,
+			xmin=0,xmax=6,ymin=0,ymax=6,restrict y to domain=0:6,
+	xlabel style={below},xlabel=$q$,ylabel style={left},ylabel=$p$,
+			samples=200]
+			\addplot[fill=blueF,draw=none] coordinates {(0,0) (0,4) (2.414,4) (2.414,0)};
+			\addplot[fill=white,draw=none] coordinates {(0,2.25) (2.414,2.25) (2.414,0) (0,0)};
+			\addplot[fill=white,draw=none,domain=1.5:2.414] {x^2-2*x+3} \closedcycle;	%SMC
+			\addplot[thick,domain=0:5,draw=redL] {(x^2)/3-x+3};
+				\draw (rel axis cs:0.5,0.5) node[redL,right] {\tiny $AVC$};			%AVC
+			\addplot[thick,domain=0:1.5,draw=green,dashed] {x^2-2*x+3};						%SMC
+			\addplot[ultra thick,domain=1.5:4.9,draw=green] {x^2-2*x+3};						%SMC
+			\draw (rel axis cs:0.5,0.95) node[green,left] {\tiny $SMC$};
+			\addplot[only marks,forget plot,black,mark options={mark size=1.25pt,fill=white},mark=*] coordinates {
+				(1.5,2.25)
+			};
+			\addplot[gray,thin] coordinates {(0,4) (2.414,4) (2.414,0)};
+			\addplot[gray,thin] coordinates {(0,2.25) (2.414,2.25)};
+	\addplot[black,thick] coordinates {(0,6) (0,0) (6,0)};
+	\addplot[green,thick] coordinates {(0,0) (0,2.25)};
+\end{axis}
+	\end{tikzpicture}
+    \caption{供给曲线以左}
+	\label{fig:ps-left-area-of-supply-curve}%
+\end{subfigure}
+\caption{生产者剩余}
+\label{fig:producters-surplus-in-short-run}%
+}}
+\end{figure}
+
+\section*{推荐阅读}
+\markright{推荐阅读}
+\addcontentsline{toc}{section}{\hspace{-2.5em}推荐阅读}

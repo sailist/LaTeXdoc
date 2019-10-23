@@ -1,0 +1,187 @@
+\chapter{预算约束}
+\label{sec:budget-constraint}
+
+\section{预算线}
+
+\begin{Definition}[预算线]\index{budget line 预算线}
+又称为\emph{预算约束线}、\emph{消费可能线}或\emph{价格线}，表示在消费者收入和商品价格既定的条件下，消费者用全部收入所能买到的两种商品的全部组合。
+\end{Definition}
+
+预算等式可以表示为，
+\[
+m = {x_1}{p_1} + {x_2}{p_2} +  \cdots  + {x_n}{p_n} = \sum\limits_{i = 1}^n {{x_i}{p_i}}
+\]
+任何$\mathord{\buildrel{\lower3pt\hbox{$\scriptscriptstyle\rightharpoonup$}} 
+\over P} \mathord{\buildrel{\lower3pt\hbox{$\scriptscriptstyle\rightharpoonup$}} 
+\over X}  \le m$的预算组合都是消费者有能力承担的。特殊地，两种商品$X$、$Y$的预算线表示为：
+\begin{equation}\label{equ:budget-constraint-two-goods}
+m = x p_x + y p_y
+\end{equation}
+
+\begin{figure}[!h]
+\begin{shaded*}
+  \begin{minipage}[t]{0.5\linewidth} 
+    \centering 
+	    \vspace{0pt}
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=8,ymin=0,ymax=8,
+	extra x ticks={7},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{$x_0$}},
+	extra y ticks={4.67},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{$y_0$}},
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	domain=0:7,samples=40]
+\addplot[fill=redF,draw=none] coordinates {(0,14/3) (0,8) (8,8) (8,0) (7,0)};
+\addplot[fill=blueF,draw=none] coordinates {(0,0) (0,14/3) (7,0)};
+\addplot[draw=blue,ultra thick] {(14-2*x)/3};
+\end{axis}
+\end{tikzpicture}
+  \end{minipage}% 
+  \begin{minipage}[t]{0.5\linewidth} 
+	    \vspace{55pt}
+\caption{预算线和预算集}
+\label{fig:budget-constraint}
+{\kaishu\small  蓝色区域中的预算束花费小于收入，是消费者有能力购买的；红色区域中的预算束花费大于收入，是消费者无力购买的；蓝色边界$m = xp_X + yp_Y$恰好将收入消费净尽，即为预算线。}
+  \end{minipage} 
+\end{shaded*}
+\end{figure}
+
+为什么只研究两种商品？组合商品的概念和合理性。
+
+
+\section{收入变化对预算集的影响}
+
+\begin{figure}[h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=8,ymin=0,ymax=8,
+	extra x ticks={5,6,7},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{$x_0$},{$\rightarrow$},{$x_1$}},
+	extra y ticks={5,6,7},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{$y_0$},{$\uparrow$},{$y_1$}},
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	domain=0:7,samples=40]
+\addplot[mark=none,fill=blueF,domain=0:10,draw=none]  {5-x} \closedcycle;
+\addplot[fill=greenF,draw=none] coordinates {(0,5) (0,7) (7,0) (5,0)};
+\addplot[ultra thick,draw=blue] {5-x};
+\addplot[ultra thick,draw=green] {7-x};
+\node [fill=green,text=green,single arrow,draw=none,single arrow head extend=4pt,inner sep=1.5pt,rotate=45] at (axis cs:2.9,2.9) {O};
+\end{axis}
+\end{tikzpicture}
+\caption{收入增加}
+\label{fig:income-effects-with-budget-contranst-a}
+\end{subfigure}%
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=8,ymin=0,ymax=8,
+	extra x ticks={3,4,5},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{$x_1$},{$\leftarrow$},{$x_0$}},
+	extra y ticks={5,4,3},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{$y_0$},{$\downarrow$},{$y_1$}},
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	domain=0:7,samples=40]
+\addplot[mark=none,fill=blueF,domain=0:10,draw=none]  {5-x} \closedcycle;
+\addplot[fill=redF,draw=none] coordinates {(0,3) (0,5) (5,0) (3,0)};
+\addplot[ultra thick,draw=blue] {5-x};
+\addplot[ultra thick,draw=red] {3-x};
+\node [fill=red,text=red,single arrow,draw=none,single arrow head extend=4pt,inner sep=1.5pt,rotate=-135] at (axis cs:2.1,2.1) {O};
+\end{axis}
+\end{tikzpicture}
+\caption{收入减少}
+\label{fig:income-effects-with-budget-contranst-b}
+\end{subfigure}
+\caption{消费者收入对预算集的影响}
+\label{fig:income-effects-with-budget-contranst}
+}}
+\end{figure}
+
+
+\section{价格变化对预算集的影响}
+
+\begin{figure}[h]
+\colorbox{black!3}{\parbox{\linewidth-2\fboxsep}{%
+\centering
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=8,ymin=0,ymax=8,
+	extra x ticks={3.5,5.25,7},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{$x_1$},{$\leftarrow$},{$x_0$}},
+	extra y ticks={4.67},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{$y_0$}},
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	domain=0:7,samples=40]
+\addplot[mark=none,fill=blueF,domain=0:10,draw=none]  {(14-2*x)/3} \closedcycle;
+\addplot[fill=redF,draw=none] coordinates {(0,4.67) (7,0) (3.5,0)};
+\addplot[draw=blue,ultra thick] {(14-2*x)/3};
+\addplot[draw=red,ultra thick,domain=0:3.5] {(14-4*x)/3};	%
+\node[font=\tiny,below left] at (axis cs:1.75,2.33) {\textcolor{red}{$p_x \uparrow$}};
+\end{axis}
+\end{tikzpicture}
+\caption{$X$价格上升}
+\label{fig:price-effects-with-budget-contranst-a}
+\end{subfigure}%
+\begin{subfigure}[b]{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=8,ymin=0,ymax=8,
+	extra x ticks={7},
+	extra x tick style={tickwidth=0},
+	extra x tick labels={{$x_0$}},
+	extra y ticks={4.67,5.85,7},
+	extra y tick style={tickwidth=0},
+	extra y tick labels={{$y_0$},{$\uparrow$},{$y_1$}},
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	domain=0:7,samples=40]
+\addplot[mark=none,fill=blueF,domain=0:10,draw=none]  {(14-2*x)/3} \closedcycle;
+\addplot[fill=greenF,draw=none] coordinates {(0,4.67) (0,7) (7,0)};
+\addplot[draw=blue,ultra thick] {(14-2*x)/3};
+\addplot[draw=green,ultra thick] {7-x};
+\node[font=\tiny,above right] at (axis cs:1.75,5.25) {\textcolor{green}{$p_y \downarrow$}};
+\end{axis}
+\end{tikzpicture}
+\caption{$Y$价格下降}
+\label{fig:price-effects-with-budget-contranst-b}
+\end{subfigure}
+    \caption{商品价格变化对预算线的影响}
+	\label{fig:price-effects-with-budget-constraint}
+\caption*{当$p_x$不变而$p_y$下降时，预算线$(p_x^0, p_y^0)$“旋转”到$(p_x^0, p_y^1)$ 位置；当$p_y$不变而$p_x$上升时，预算线$(p_x^0, p_y^0)$“旋转”到$(p_x^1, p_y^0)$ 位置；当$p_x$、$p_y$同时下降时，预算线会向右上方“漂移”；当$p_x$、$p_y$同时上升时，预算线会向左下方“沉降”。}%
+}}
+\end{figure}
+
+\section{预算份额}
+
+对于收入$m$，消费的商品数量为$X=(x_1,x_2, \cdots, x_n)$，商品价格水平为$P=(p_1,p_2, \cdots, p_n)$，则称
+\begin{equation}
+S_i = \frac{p_i x_i}{m}
+\label{eq:yusuanfene}
+\end{equation}
+为购买商品$x_i$的\emph{收入份额}或\emph{预算份额}。这里的商品数量$X$为消费者均衡时的需求数量，关于这一点将在第\ref{sec:utility-maximization-and-choice}章讨论。
+
+对于C--D效用函数$u=x_1^\alpha x_2^\beta$，求解预算份额。
+
+\section*{推荐阅读}
+\markright{推荐阅读}
+\addcontentsline{toc}{section}{\hspace{-2.5em}推荐阅读}

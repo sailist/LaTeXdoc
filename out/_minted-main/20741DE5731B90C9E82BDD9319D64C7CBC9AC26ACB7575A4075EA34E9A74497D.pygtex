@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|cc||\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 因为右侧有两道线，所以相应位置显示两条分割线}
+    A\PYG{n+nb}{\PYGZam{}}B\PYG{k}{\PYGZbs{}\PYGZbs{}\PYGZbs{}hline}
+    C\PYG{n+nb}{\PYGZam{}}D\PYG{k}{\PYGZbs{}\PYGZbs{}\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}0\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}数字代表列数，从零开始，表示从 a\PYGZhy{}b}
+    E\PYG{n+nb}{\PYGZam{}}F\PYG{k}{\PYGZbs{}\PYGZbs{}\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}0\PYGZhy{}0\PYG{n+nb}{\PYGZcb{}}
+    G\PYG{n+nb}{\PYGZam{}}H\PYG{k}{\PYGZbs{}\PYGZbs{}\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}1\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}边框可以任意重叠，但横向边框显示多条并不好控制，因此不推荐使用多条分割线完成特殊需求}
+    I\PYG{n+nb}{\PYGZam{}}J\PYG{k}{\PYGZbs{}\PYGZbs{}\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}0\PYGZhy{}0\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}1\PYGZhy{}1\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

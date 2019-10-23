@@ -1,0 +1,8 @@
+%# -*- coding:utf-8 -*-
+%MakeIndex stylelist
+headings_flag	1
+heading_prefix	"{\\sffamily\\hfil\\textcolor{blue}{ "
+heading_suffix	" }\\hfil}\\nopagebreak\n"
+item_1			"\n        \\subitem\\small\\hspace{-2ex} "
+item_01			"\n        \\subitem\\small\\hspace{-2ex} "
+item_x1			"\n        \\subitem\\small\\hspace{-2ex} "

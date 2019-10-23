@@ -1,0 +1,267 @@
+\chapter{生产函数}
+\label{sec:production-functions}
+
+\section{生产函数\footnote{%
+格拉韦尔, 里斯. \emph{微观经济学} [M]. 第 3 版. 上海: 上海财经大学出版社, 2009.}}
+
+生产函数\index{product function 生产函数}\marginnote{生产函数}
+表示在一定时期内，在\emph{技术水平不变}的情况下，生产中所使用的各种生产要素的数量与所能生产的\emph{最大产量}之间的关系。
+
+在这个定义中\emph{技术水平不变}作为条件出现，从另一个角度来看生产函数也反映了技术水平高低：不同的技术水平下同样的要素投入会得到不同的最大产出。
+
+用$x_i$表示某产品生产所需之要素投入数量，$q$表示所能生产的最大产量，则生产函数可以表示成：
+\[
+q=f(x_1, x_2, \cdots , x_n)
+\]
+注意这里的要素投入$x_i$以及最大产量$q$都是\emph{流量}，一般指每年的要素投入、每年的最大产出。
+
+为简化分析，我们只研究劳动和资本这两种最主要的生产要素所构成的生产函数：
+\begin{equation}
+q=f(l, k)
+\end{equation}
+
+首先设定企业的产出是有效率的。企业产出$q$和要素投入$(l,k)$均非负。生产函数$f(l,k)$表示在$(l,k)$的投入水平下能够达到的最大产出水平，于是企业生产行为的技术约束条件可以表示为：
+\begin{equation}
+0 \le q \le f(l,k)
+\end{equation}
+如果企业在投入水平$(l,k)$下的产出等于可能的最大产出水平，我们认为企业的产出是有效率的，于是企业面临的技术约束条件可以改写为
+\begin{equation}
+q = f(l,k)
+\end{equation}
+
+第二，企业生产满足零投入零产出：
+\begin{equation}
+f(0,0)=0
+\end{equation}
+此外，如果缺少某种特定的要素投入，无论其他要素投入再多企业也无法进行生产（$q=0$），于是上式又可以改写为更严格的形式：
+\begin{equation}
+f(0,x) = 0
+\end{equation}
+其中$i=l,k$，且$i \ne 0$。
+
+第三，假设生产函数$f(l,k)$是二阶连续可微的，与前面两个假设相比这是一个更强的（更脱离现实的）假设。不过这个假设可以使得许多经济学量与经济规律的描述变得简单。
+
+\section{等产量线}
+\label{sec:isoquant-curve}
+
+和前面\emph{序数}性质的效用函数不同，生产函数包含了对产出水平具体数值的测度，属于\emph{基数函数}。用来描述某种技术水平的生产函数是\emph{唯一确定}的。
+
+如同定义所说，生产函数可以表示要素组合$(l_0,k_0)$所能得到的最大产出水平$q_0$；反过来生产函数也能界定指\emph{至少能}达到产出水平$q_0$的要素组合$X(q_0)$：
+\begin{equation}
+X(q_0) = \{(l,k)~|~f(l,k) \ge q_0\}
+\label{eq:product-function-isoquanty}
+\end{equation}
+
+
+\section{常见的生产函数}
+\subsection[固定替代比例]{固定替代比例生产函数}
+
+\marginnote{固定替代\\比例}固定替代比例生产函数也称里昂惕夫生产函数，其要素投入满足完全替代关系：
+\begin{equation}
+q = f(l,k) = \alpha l+ \beta k
+\end{equation}
+
+值得注意的是，上述函数形式潜含了规模报酬不变的性质，但“固定替代比例”描述的是要素间的替代关系而非规模报酬。例如
+\begin{equation}
+q = f(l,k) = g(\alpha l+ \beta k) = (\alpha l+ \beta k)^\gamma
+\end{equation}
+该生产函数仍是固定替代比例生产函数但规模报酬特征决定于$\gamma$和$1$的关系，详见第\pageref{subsec:returns-to-scale-of-linear-production-function}页。
+
+\subsection[固定投入比例]{固定投入比例生产函数}
+
+\subsection[Cobb--Douglas]{Cobb--Douglas 生产函数}
+
+\subsection[CES]{CES 生产函数}
+
+\section[超短期生产]{超短期生产}
+
+\section[短期生产]{短期生产：一种可变要素}
+\subsection{长期和短期}
+\subsection{产量函数}
+在生产函数$q=f(l,k)$的基础上，假定资本投入量$k$在短期内是固定的$\overline k$，而劳动投入量$l$是可变的，则生产函数可以写成：
+\begin{equation}
+q = f(l,\overline k )
+\end{equation}
+
+通过生产函数引进劳动的总产量（total product，$TP$）、平均产量（average product，$AP$）与边际产量（marginal product，$MP$）这三个概念。
+
+\marginnote{总产量}劳动的总产量指在资本投入固定为$\overline k$的条件下，劳动要素投入量所对应的最大产量。定义公式为：
+\begin{equation}
+TP_l = f(l, \overline k)
+\end{equation}
+
+\marginnote{平均产量}劳动的平均产量指在资本投入固定为$\overline k$的条件下，平均每一单位劳动要素的投入量所生产的产量。定义公式为：
+\begin{equation}
+AP_l = \frac{f(l, \overline k)}{l}
+\end{equation}
+
+\marginnote{边际产量}劳动的边际产量指在资本投入固定为$\overline k$的条件下，每增加一单位劳动要素所带来的总产量增加量。定义公式为：
+\begin{equation}
+MP_l = \frac{{d f(l, \overline k)}}{{d l}}
+\end{equation}
+
+\marginnote{偏导数}应当注意，关于劳动要素的这三个产量函数都是以确定的资本要素投入量为前提的，$\overline k$变化以后上述函数的具体形式形式也会改变。当劳动要素短期固定而资本要素可变的时候也可以得到对应的资本的总产量、资本的平均产量和资本的边际产量这些概念。
+
+
+\subsection{边际报酬}
+
+
+\section[长期生产]{长期生产：所有要素可变}
+
+
+
+\section{边际技术替代率与替代弹性}
+
+\subsection{边际技术替代率}
+
+\index{marginal rate of technical substitution 边际技术替代率}\marginnote{技术替代率}边际技术替代率（marginal rate of technical substitution，$MRTS$）或称技术替代率（rate of technical substitution，$RTS$）指的是\emph{在维持产量水平不变的条件下}，增加一单位某种生产要素的投入量时所减少的另一种要素的投入数量。可以表示为\footnote{%
+有的朋友遇到某对某的替代率就分不清分子分母，我看很多外文教材使用$MRTS_{l \text{ for } k}$这个记号，也就是说“用单位数量$l$替换$k$的话，需$k$若干？” 显然$k$应该做分母喽。}，
+\begin{equation}
+MRTS_{l,~k} = \left| {\frac{{dk}}{{dl}}} \right|
+\label{eq:rts}
+\end{equation}
+在几何上，要素组合$(l_1,k_1)$处劳动对资本的的边际替代率等于等产量线$I=f(l_1,k_1)$在该点的切线斜率（绝对值）。
+
+从另一个角度来看，设想一种要素配置的变动组合$(\Delta k, \Delta l)$，产量不变意味着他们带来的产量变动数值是相互抵消的：
+\[
+\Delta k \cdot MP_k + \Delta l \cdot MP_l = 0
+\]
+那么增加一单位生产要素$l$的投入量时所减少的另一种要素$k$的投入数量，即$l$对$k$的技术替代率还可以用二者的边际产品表示：
+\begin{equation}
+MRTS_{l,~k} = \left|\frac{\Delta k}{\Delta l} \right| %= \frac{MP_l}{MP_k}
+\label{eq:rts-in-mp-fraction}
+\end{equation}
+
+技术替代率有什么意义呢？产量增加是人民群众喜闻乐见的事情，产量维持不变的前提下降低成本也是可喜可贺的。通过对不同要素技术替代率的分析，结合要素市场上各种要素的价格差别，企业家可以通过变动要素配置在不伤害产量的前提下降低成本。具体的做法将在第\pageref{sec:optimum-input-choice}页\ref{sec:optimum-input-choice}节进行说明。
+
+\subsection{边际技术替代率递减规律}
+
+\subsection{替代弹性}
+\label{subsec:elasticity-of-substitution}
+\begin{equation}
+\sigma  = \frac{{d(k/l)}}{{dMRTS}}\cdot\frac{{MRTS}}{{k/l}} = \frac{{\partial \ln (k/l)}}{{\partial \ln MRTS}} = \frac{{\partial \ln (k/l)}}{{\partial \ln ({MP_l}/{MP_k})}}
+\label{eq:elasticity-of-substitution}
+\end{equation}
+
+\section{规模报酬}
+
+\subsection{产出弹性与生产力弹性}
+
+\index{elasticity 弹性!elasticity of output 产出弹性}
+\marginnote{产出弹性}%
+产出弹性（elasticity of output）是指在技术不变的条件下，若其他要素投入量不变，仅一种投入变动时，产出的相对变动对该要素投入相对变动之比。设生产函数为$q=f(k,l)$，则劳动的产出弹性$E_l$与资本的产出弹性$E_k$可以表示成，
+\begin{equation}
+E_l = \left. {\frac{{\Delta q}}{q}} \middle/ {\frac{{\Delta l}}{l}} \right. = \frac{\Delta q}{\Delta l} \cdot \frac{l}{q} = \frac{MP_l}{AP_l}
+\label{eq:chanchu-tanxing-labour}
+\end{equation}
+\begin{equation}
+E_k = \left. {\frac{{\Delta q}}{q}} \middle/ {\frac{{\Delta k}}{k}} \right. = \frac{\Delta q}{\Delta k} \cdot \frac{k}{q} = \frac{MP_k}{AP_k}
+\label{eq:chanchu-tanxing-capital}
+\end{equation}
+
+\index{elasticity 弹性!elasticity of productivity 生产力弹性}
+\marginnote{生产力弹性}%
+生产力弹性（elasticity of productivity）是指在技术不变的条件下，所有要素投入量等比例变动时，产出的相对变动对要素投入的相对变动之比。设生产函数为$q=f(k,l)$，要素向量为$x=(k,l)$，其生产力弹性可以表示成，
+\begin{equation}
+E_e = \left. {\frac{{dq}}{q}} \middle/ {\frac{{dk}}{k}} \right. = \frac{dq}{dx} \cdot \frac{x}{q}
+\label{eq:shengchanli-tanxing}
+\end{equation}
+
+产出弹性与生产力弹性的关系：如果要素投入等比例变动，则生产力弹性等于各种要素投入的产出弹性之和。即对于生产函数$q=f(k,l)$存在：
+\begin{equation}
+E_e = E_k + E_l
+\label{eq:chanchutanxing-shengchanlitanxing-guanxi}
+\end{equation}
+因为：
+\[
+dq = \frac{{\partial f}}{{\partial k}}dk + \frac{{\partial f}}{{\partial l}}dl
+\]
+且要素投入的变动比例相同：
+\[\frac{{dl}}{l} = \frac{{dk}}{k} = \frac{{dx}}{x}\]
+于是：
+\begin{equation}
+\begin{split}
+{E_e} = \frac{{dq}}{{dx}}\cdot\frac{x}{q} &= \frac{{\partial q}}{{\partial k}}\cdot\frac{{dk}}{{\frac{{dx}}{x}}}\cdot\frac{1}{q} + \frac{{\partial q}}{{\partial l}}\cdot\frac{{dl}}{{\frac{{dx}}{x}}}\cdot\frac{1}{q}\\
+ &= \frac{{\partial q}}{{\partial k}}\cdot\frac{{dk}}{{\frac{{dk}}{k}}}\cdot\frac{1}{q} + \frac{{\partial q}}{{\partial l}}\cdot\frac{{dl}}{{\frac{{dl}}{l}}}\cdot\frac{1}{q}\\
+ &= \frac{{\partial q}}{{\partial k}}\cdot\frac{k}{q} + \frac{{\partial q}}{{\partial l}}\cdot\frac{l}{q}\\
+ &= {E_k} + {E_l}
+\end{split}
+\end{equation}
+
+\subsection{规模报酬}
+\index{returns to scale 规模报酬}
+\marginnote{规模报酬}在长期生产中，所有生产要素投入都可以进行调整，要素的技术替代分析显示了在保持产量不变这个“可怜”的愿望中生产者对要素投入所能进行的变动。那么在技术不变（即生产函数不变）的限制之下，在等产量线凸性假设的基础上，同时增加所有要素投入势必将带来产量的提升。规模报酬便是分析企业在长期生产中所有要素等比增加时产量变化所表现的三种的特征：规模报酬不变、规模报酬递增和规模报酬递减。
+
+假设企业长期生产函数为$q=f(k,l)$，如果企业等比增加所有要素投入至$\lambda$倍，产量将变为$f(\lambda k,\lambda l)$。\footnote{%
+显然这里的$\lambda > 1$，因为我们分析的生产规模扩大、要素投入等比增加的情况。高鸿业《西经》提供的$\lambda<0$条件与其结论的匹配显然是不严密的，不过我相信这不是个值得发帖讨论心路历程的话题。另外也可以用$0<\lambda<1$作为条件来分析生产规模缩减过程中的规模报酬特征，这就会变成小学生的代数游戏——“妈妈，我考试得了负的$-100$分”，“我考了倒数老么”——别扭，虽然一丁点问题都木有。}则对于对于任何$\lambda > 1$：
+\begin{compactitem}
+\item \index{returns to scale 规模报酬!constant \~{} 规模报酬不变}%
+若$f(\lambda k,\lambda l) = \lambda f(k,l)$，即产量增加的比例等于各种生产要素增加的比例，规模报酬不变；
+\item \index{returns to scale 规模报酬!increasing \~{} 规模报酬递增}%
+若$f(\lambda k,\lambda l) > \lambda f(k,l)$，即产量增加的比例大于各种生产要素增加的比例，规模报酬递增；
+\item \index{returns to scale 规模报酬!decreasing \~{} 规模报酬递减}%
+若$f(\lambda k,\lambda l) < \lambda f(k,l)$，即产量增加的比例小于各种生产要素增加的比例，规模报酬递减。
+\end{compactitem}
+
+从生产力弹性的角度来看，因为$E_e = \frac{dq}{q} / \frac{dx}{x} = {\mu}/{\delta}$，其中$\delta$表示要素变动率，$\mu$表示产出变动率。显然规模报酬特征还可以表示为：
+\begin{compactitem}
+\item 当$E_e>1$，即$\mu > \delta$时，规模报酬递增；
+\item 当$E_e<1$，即$\mu < \delta$时，规模报酬递减；
+\item 当$E_e=1$，即$\mu = \delta$时，规模报酬不变。
+\end{compactitem}
+
+在要素价格不变的情况下，生产函数的规模报酬还可以通过成本函数的\emph{总成本弹性}或\emph{函数系数}来分析，这将在第\ref{chp:cost}章《成本》第\pageref{eq:total-cost-elasticity}页进行。
+
+\subsection{要素完全替代生产函数的规模报酬}
+\label{subsec:returns-to-scale-of-linear-production-function}
+\index{functions 函数!linear 线性函数}
+\index{production function 效用函数!linear 线性生产函数}
+
+对于常见的形如$q=f(l,k)=\alpha l + \beta k$的线性生产函数，易得其规模报酬不变。但我们还是要刻意说明一下：要素技术替代率和规模报酬没有什么关系，二者同是对技术特征的反应，前者反映了一条等产量线的形状特征，后者反映了等产量面的陡峭程度。例如这个例子：
+\[
+q=g[f(l,k)]=(\alpha l + \beta k)^{\gamma}
+\]
+这里我们对常见的线性生产函数做了一个幂函数形式的单调变换，复合函数的存在并没哟影响某条等产量线的特征——技术替代率（函数）：
+\[
+RTS = \frac{{dk}}{{dl}}
+= \frac{{M{P_l}}}{{M{P_k}}}
+= \left. {(\frac{{\partial g}}{{\partial f}}\frac{{\partial f}}{{\partial l}})} \middle/ {(\frac{{\partial g}}{{\partial f}}\frac{{\partial f}}{{\partial k}})} \right.
+= \left. {\frac{{\partial f}}{{\partial l}}} \middle/ {\frac{{\partial f}}{{\partial k}}} \right.
+= \frac{\alpha }{\beta }
+\]
+但是规模报酬将取决于$\gamma$的取值：
+\[\frac{{q(\lambda l,\lambda k)}}{{\lambda q(l,k)}} = \frac{{{{(\alpha \lambda \cdot l + \beta \lambda \cdot k)}^\gamma }}}{{\lambda q(l,k)}} = \frac{{{\lambda ^\gamma }{{(\alpha l + \beta k)}^\gamma }}}{{\lambda {{(\alpha l + \beta k)}^\gamma }}} = {\lambda ^{\gamma  - 1}}\]
+其中$\lambda > 1$，如果$\gamma>1$，表现为规模报酬递增；如果$\gamma=1$，表现为规模报酬不变；如果$\gamma<1$，表现为规模报酬递减。
+
+\subsection{Cobb--Douglas 生产函数的规模报酬}
+\index{functions 函数!Cobb-Dauglas 柯布—道格拉斯}
+\index{production function 效用函数!Cobb-Dauglas 柯布—道格拉斯生产函数}
+假设柯布道格拉斯生产函数
+\begin{equation}
+q = f(l,k)=A{l^\alpha }{k^\beta }
+\end{equation}
+则
+\begin{equation}
+f(\lambda k,\lambda l) = A{(\lambda l)^\alpha }{(\lambda k)^\beta } = {\lambda^{\alpha+\beta}}f(l,k)
+\end{equation}
+对于任何$\lambda > 1$，若$\alpha + \beta > 1$，规模报酬递增；若$\alpha + \beta < 1$，规模报酬递减；若$\alpha + \beta = 1$，规模报酬不变。
+
+\section{等成本线}
+
+类似消费者行为中的预算线，只是代表企业购买要素组合的能力，并不涉及最优分析。
+
+\section{最优的生产要素组合}
+\label{sec:optimum-input-choice}
+
+\section*{推荐阅读}
+\markright{推荐阅读}
+\addcontentsline{toc}{section}{\hspace{-2.5em}推荐阅读}
+
+
+\newpage
+\section*{本章附录}
+\markright{本章附录}
+\addcontentsline{toc}{section}{\hspace{-2.5em}本章附录}
+\label{sec:appendix-production-functions}
+
+\subsection*{齐次函数和位似函数}

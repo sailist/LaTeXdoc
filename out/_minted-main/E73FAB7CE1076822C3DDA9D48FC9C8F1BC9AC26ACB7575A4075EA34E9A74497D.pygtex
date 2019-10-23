@@ -1,0 +1,51 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}amsmath\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}提供数学公式支持}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}graphics\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于添加图片}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}graphicx\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}加强插图命令}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}subfigure\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于添加子图}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}wrapfig\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}提供图片环绕风格支持}
+\PYG{k}{\PYGZbs{}graphicspath}\PYG{n+nb}{\PYGZob{}\PYGZob{}}./\PYG{n+nb}{\PYGZcb{}\PYGZob{}}./contents/\PYG{n+nb}{\PYGZcb{}\PYGZob{}}./contents/fig/\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}\PYG{c}{\PYGZpc{}设置图片可能存在的路径}
+\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}figpath}\PYG{n+nb}{\PYGZcb{}}[1]\PYG{n+nb}{\PYGZob{}}contents/fig/\PYGZsh{}1\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}设置图片路径}
+
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}fontspec\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于配置字体}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[table]}\PYG{n+nb}{\PYGZob{}}xcolor\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于各种颜色环境}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}enumitem\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于定制list和enum}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}float\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于控制Float环境，添加H参数（强制放在Here）}
+\PYG{k}{\PYGZbs{}usepackage}[colorlinks,
+            linkcolor=black,
+            urlcolor=blue,
+            anchorcolor=blue,
+            citecolor=green]\PYG{n+nb}{\PYGZob{}}hyperref\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于超链接，另外添加该包目录会自动添加引用。}
+
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[most]}\PYG{n+nb}{\PYGZob{}}tcolorbox\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于添加各种边框支持，most参数表示将全部命令支持都添加进来}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[cache=true,outputdir=./out]}\PYG{n+nb}{\PYGZob{}}minted\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}如果不保留临时文件就设置cache=false,如果输出设置了其他目录那么outputdir参数也有手动指定，否则会报错。}
+\PYG{k}{\PYGZbs{}tcbuselibrary}\PYG{n+nb}{\PYGZob{}}minted\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}加载tcolorbox的代码风格}
+
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[a4paper,left=4cm,right=4cm,top=3cm,bottom=1cm]}\PYG{n+nb}{\PYGZob{}}geometry\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于控制版式}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}appendix\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于控制附加文件}
+
+
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[UTF8,fontset=windowsnew,heading=true]}\PYG{n+nb}{\PYGZob{}}ctex\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}用于提供中文支持}
+\PYG{k}{\PYGZbs{}ctexset}\PYG{n+nb}{\PYGZob{}}
+    section = \PYG{n+nb}{\PYGZob{}}
+    number = 第\PYG{k}{\PYGZbs{}chinese}\PYG{n+nb}{\PYGZob{}}section\PYG{n+nb}{\PYGZcb{}}章,
+    format = \PYG{k}{\PYGZbs{}zihao}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}bfseries},
+    \PYG{n+nb}{\PYGZcb{}},
+    subsection = \PYG{n+nb}{\PYGZob{}}
+    number = \PYG{k}{\PYGZbs{}arabic}\PYG{n+nb}{\PYGZob{}}section\PYG{n+nb}{\PYGZcb{}}.\PYG{k}{\PYGZbs{}arabic}\PYG{n+nb}{\PYGZob{}}subsection\PYG{n+nb}{\PYGZcb{}},
+    format = \PYG{k}{\PYGZbs{}Large\PYGZbs{}bfseries}
+    \PYG{n+nb}{\PYGZcb{}},
+    subsubsection = \PYG{n+nb}{\PYGZob{}}
+    number = \PYG{k}{\PYGZbs{}arabic}\PYG{n+nb}{\PYGZob{}}section\PYG{n+nb}{\PYGZcb{}}.\PYG{k}{\PYGZbs{}arabic}\PYG{n+nb}{\PYGZob{}}subsection\PYG{n+nb}{\PYGZcb{}}.\PYG{k}{\PYGZbs{}arabic}\PYG{n+nb}{\PYGZob{}}subsubsection\PYG{n+nb}{\PYGZcb{}},
+    format = \PYG{k}{\PYGZbs{}Large\PYGZbs{}bfseries},
+    \PYG{n+nb}{\PYGZcb{}},
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}multirow\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}用于表格环境多行多列的支持}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}pdfpages\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}用于插入pdf页}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}ulem\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}用于好看的下划线、波浪线等修饰}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}fixltx2e\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}用于文本环境的下标}
+
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}adjustbox\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{}用于调整\PYGZdq{}盒子\PYGZdq{}位置}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}longtable\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{} 用于提供长表格支持}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}nameref\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 用于在引用时附加描述而不只是计数值}
+\end{Verbatim}

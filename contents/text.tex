@@ -1,0 +1,368 @@
+\section{文字样式}\label{sec:文字样式}
+    \subsection{一般效果}
+    \subsubsection{正常输入}
+    在中文环境里，中文默认字体为宋体。
+    \begin{texshow}
+        普通文字\\
+        normal text
+    \end{texshow}
+    \subsubsection{斜体}
+    
+    在中文环境里，中文默认的斜体效果是\textit{楷体}而不是倾斜。
+    \begin{texshow}
+        \textit{斜体文字}\\
+        \textit{Italian text}
+    \end{texshow}
+
+    斜体实际上有两种，一种是italic，一种是slanted，其中italic指“倾斜的字体”，而slanted则是指“字体的倾斜”，有细微的差别：
+    \begin{texshow}
+        \textit{斜体文字}\textit{Italian text}\\
+        \textsl{倾斜文字}\textsl{slanted text}
+    \end{texshow}
+
+    \subsubsection{加粗}
+    在中文环境里，中文默认的加粗效果是\textbf{黑体}而不是宋体加粗。
+    \begin{texshow}
+        \textbf{加粗文字}\\
+        \textbf{normal text}
+    \end{texshow}
+    \subsubsection{添加线}
+
+    \LaTeX{}提供默认的下划线\highunderline{\textbackslash{}underline}但是有很多的缺点因此不推荐使用，推荐使用\highunderline{ulem}宏包中的命令，该宏包还提供了许多其他的修饰操作，列举如下：
+    \begin{texshow}
+        % \usepackage{ulem}
+        \uline{下划线}\\
+        \uuline{双下划线}\\
+        \uwave{波浪线}\\
+        \sout{中间删除线}\\
+        \xout{斜删除线}\\
+        \dashuline{虚线}\\
+        \dotuline{加点}
+    \end{texshow}
+
+    \subsection{字号}
+    一般可以使用以下几种字号大小
+    \begin{texbreakshow}
+    \tiny{tiny-极小}\\
+    \scriptsize{scriptsize-代码大小}\\
+    \footnotesize{footnotesize-脚注大小}\\
+    \small{small-小}\\
+    \normalsize{normalsize-正常}\\ %默认字号
+    \large{large-大}\\
+    \Large{Large-很大}\\
+    \LARGE{LARGE-极大}\\
+    \huge{huge-巨大}\\
+    \Huge{Huge-很巨大}
+    \end{texbreakshow}
+
+    在\href{http://mirrors.ibiblio.org/CTAN/language/chinese/ctex/ctex.pdf}{CTex手册}里包含了这些字号对应的磅数以及中文环境中重新设置这些大小的命令。
+
+    \subsection{字体}
+    \LaTeX{}中，中文和英文环境各自的字体需要分别调整。首先介绍一下基本的字体分类：
+    \subsubsection{基本字体类型}
+
+    \paragraph{serif}
+    即\textbf{衬线字体}，指的是具有末端加粗、扩张或尖细末端，或以实际的衬线结尾的一类字体。
+
+    serif 总是在文字末端做文章，这样做的目的是增强可读性，也就是说在字号比较小的时候，serif 一族的字体仍然是比较好辨认的。
+
+    在\LaTeX{}中，衬线字体以罗马字族（Roman）的形式存在的。
+    \paragraph{sans-serif}
+    即\textbf{无衬线字体}。sans是法语前缀，意为“无”，在表意明确的情况下，可以称为sans。
+
+    sans字体比较圆滑，线条粗线均匀，适合做艺术字、标题等，与“衬线字体”相比，如果字号比较小，看起来就会有些吃力。
+
+    在\LaTeX{}中，无衬线字体以无衬线字族的形式存在。
+%  BoldFont = SimHei , ItalicFont = KaiTi_GB2312
+    \paragraph{monospace}
+    即\textbf{等宽字体}，有的字体不同的标点、英文字母、汉字宽度是不一样的，在显示代码的时候就需要使用这种字体，对齐后会很舒服。
+
+    
+    \subsubsection{字族}
+    一个字族是指一组专门设计的、一起协调使用的字体。一般有正文，粗体，斜体，斜粗体四种组成，有时根据具体需要没有斜粗体也可以，有时还会出现超过四种字形的字族。
+
+    \LaTeX{}默认有三种字族，分别叫做\highunderline{mainfont}，表示一般的罗马字族，\highunderline{sansfont}，表示无衬线字族，\highunderline{monofont}，表示等宽字族。
+
+    \subsubsection{字体设置}
+    使用XeLaTeX编译可以使用电脑中的系统字体，而不只是使用\LaTeX{}的内置字体，所以这是目前使用XeLaTeX编译的一大原因。
+
+    如果不添加\highunderline{cte}宏包，那么一般使用\highunderline{fontspec}宏包来完成字体（主要是英文字体）的设置；如果使用了\highunderline{ctex}宏包，那么中英文字体均可以使用ctex宏包提供的命令来设置，这里仅介绍使用ctex宏包的设置方法。按照本文的方法，基本能够满足日常使用，如果需要更高度的定制化，可以查看\highunderline{xecjk}、\highunderline{footspec}、\highunderline{cjk}宏包，ctex宏包的实现继承了这些宏包，因此在其文档中没有仔细解释如何使用这些命令。
+
+    ctex宏包使用\highunderline{setxxxfont}设置英文字体族字体\footnote{这也是\highunderline{fontspec}宏包使用的方法}，使用\highunderline{setCJKxxxfont}设置中文字体，中英文各有四种，分别是main（正文默认），sans（无衬线），mono（等宽）,math（数学环境）
+    以设置罗马字族的英文字体为例：
+    \begin{texcode}
+        \setmainfont[UprightFont=xxx,
+             BoldFont=xxx,
+             ItalicFont=xxx,
+             BoldItalicFont=xxx,
+             SmallCapsFont=xxx,
+             SlantedFont=xxx}
+            ]{Latin Modern Roman}
+    \end{texcode}
+
+    在大括号内设置整个字族的字体，但是有时候一个字体可能会缺少一些字形，如缺少斜体等，这个时候可以设置可选参数中的七个字形。
+
+    下面介绍字体参数应该如何填入。
+    \subsubsection{找到字体}
+    如果使用XeLaTeX编译，那么就可以使用系统字体\footnote{其使用\highunderline{fontconfig}库查找和调用字体}，否则只能使用在Tex安装目录下安装的字体。
+
+    在命令行输入以下命令，可以在当前目录得到一个文本文件\footnote{由于汉字编码原因，Windows下总需要把字体列表输出的文件中防止乱码。}，里面显示了所有可用的字体文件。
+    \begin{languagebox}[bash]
+        fc-list > fontlist.txt
+    \end{languagebox}
+
+    该命令也可以加上各种选项来进行筛选，如只需要列出所有中文字体\footnote{关键是其中的语言选项zh。日文使用ja，韩文使用ko，英文使用en}，使用命令：
+    \begin{languagebox}[bash]
+        fc-list -f "%{family}\n" :lang=zh > zhfont.txt 
+    \end{languagebox}
+
+    一般，会得到如下的文字
+    \begin{verbatim}
+        C:/Windows/fonts/msyh.ttc: Microsoft YaHei,微软雅黑:
+            style=Regular,Normal,obyčejné...
+    \end{verbatim}
+
+    或者这样的文字
+    \begin{verbatim}
+        FZYaoTi,方正姚体
+        FandolSong
+        SimHei,黑体
+        Microsoft YaHei,微软雅黑
+        STFangsong,华文仿宋
+    \end{verbatim}
+    可以直接使用字族名，或者文件名来设置字体，如：
+    \begin{texcode}
+        \setmainfont{Microsoft YaHei}
+        \setmainfont[
+            ItalicFont=STFangsong,
+        ]{msyh.ttc}
+    \end{texcode}
+
+    
+    \subsubsection{局部调整字体}
+    其中，mainFont影响的是\highunderline{\textbackslash{}rmfamily}和\highunderline{\textbackslash{}textrm}命令的效果。\marginnote{xxfamily影响的是作用域内的，textxx影响的是命令内的参数}
+
+    
+
+    sansFont影响的是\highunderline{\textbackslash{}sffamily}和\highunderline{\textbackslash{}textsf}命令的效果。
+
+    monoFont影响的是\highunderline{\textbackslash{}ttfamily}和\highunderline{\textbackslash{}texttt}命令的效果。
+    \begin{texshow}
+        \sffamily san文本开始的地方\\\texttt{mono文本}\textsf{sans文本}{\rmfamily roman文本}sans文本结束
+    \end{texshow}
+
+    \subsection{调整位置}
+    如果需要将文字上下偏移，可以使用\highunderline{\textbackslash{}raisebox}
+    \begin{texshow}
+        正常文本 \raisebox{1cm}{提升文本} \raisebox{-1cm}{下降文本}正常文本
+    \end{texshow}
+
+    如果需要增加文字之间的间隙，可以使用\highunderline{\textbackslash{}hspace}
+    \begin{texshow}
+        正常文本\hspace{1em}正常文本\\
+    \end{texshow}
+    如果要填满空隙，可以使用\highunderline{\textbackslash{}hfill}：
+    \begin{texshow}
+        A \hfill A \hfill A \hfill A \\
+        A \hspace{\stretch{2}} A \hfill A \hfill A \\
+        A \hfill A \hfill A\hspace{0.5cm} A \hfill A \hfill A \hspace{0.5cm} A 
+    \end{texshow}
+    注意第三个示例，每个\highunderline{\textbackslash{}hfill}占用的宽度在计算后都是一样的，但是会减去其他的固定长度的宽度。
+
+    另外，在数学公式中，需要使用其他的命令来帮助缩进（以下这些命令在普通环境也可以使用
+    \begin{texshow}
+        $a\qquad{}b$\\ % 两个quad空格，两个字符 "M" 的的宽度
+        $a\quad{}b$\\ % quad空格，一个字符 "M" 的的宽度
+        $a\ b$\\ % 大空格 1/3字符 "M" 的宽度
+        $a\;b$\\ % 中等空格	2/7字符 "M" 的宽度
+        $a\,b$\\ % 小空格 1/6字符 "M" 的宽度
+        $ab$\\ % 没有空格
+        $a\!b$ % 缩进1/6字符 "M" 的宽度
+    \end{texshow}
+
+    \subsection{上下标}
+    在数学环境中，使用上下标可以通过简单的\highunderline{\_{}}，\highunderline{\^{}}来实现，如下：
+    \begin{texshow}
+        $A^e_l,a_3,b^5$
+        $A^{ext}_{ext}$ % 多个字母需要放在上下标中需要用花括号括起来
+    \end{texshow}
+
+    在普通环境中，不能直接使用数学环境中的方法，需要引入\highunderline{fixltx2e}包来实现文本环境中的上下标
+    \begin{texshow}
+        % \usepackage{fixltx2e}
+        普通文本\textsubscript{下标文本}\textsuperscript{上标文本}
+    \end{texshow}
+
+
+    \subsection{特殊字符}
+    \LaTeX 里存在一些特殊字符，如果需要在普通环境里使用，需要声明，具体的字符内容如下：
+    \begin{center}
+        \setlength\tablewidth{\dimexpr (\textwidth -20\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.06\tablewidth}<{\centering}|p{0.06\tablewidth}<{\centering}|p{0.06\tablewidth}<{\centering}|p{0.06\tablewidth}<{\centering}|p{0.06\tablewidth}<{\centering}|p{0.06\tablewidth}<{\centering}|p{0.08\tablewidth}<{\centering}|p{0.08\tablewidth}<{\centering}|p{0.06\tablewidth}<{\centering}|p{0.41\tablewidth}<{\centering}|}
+                \hline
+                字符&\#&\%&\%&\{&\}&\~{}&\_{}&\&&\textbackslash\\
+                \hline
+                命令&\verb|\#|&\verb|\%|&\verb|\%|&\verb|\{|&\verb|\}|&\verb|\~{}|&\verb|\_{}|&\verb|\&|&\verb|\textbackslash{}|\\
+                \hline
+            \end{tabular}
+        \end{table}
+    \end{center}
+    
+    在数学环境中，直接使用小括号()和中括号[]，可能会不太美观，可以使用\highunderline{\textbackslash{}left}和\highunderline{\textbackslash{}right}来使其具备自动调整大小的能力：
+    \begin{texshow}
+        $\left( foo \right)$
+        $\left[ foo \right]$
+        $\left( foo \right.$ %left 和 right命令必须成对出现，如果需要一边某有括号，可以将括号变成点来去掉相应位置的括号。
+        $\left. foo \right]$ %left 和 right命令必须成对出现，如果需要一边某有括号，可以将括号变成点来去掉相应位置的括号。
+    \end{texshow}
+    另外注意：大括号不可以使用这两个命令，否则会编译报错。
+
+    对于单双引号，正确用法是使用键盘左上角的反引号来表示左引号，靠紧L键的引号表示右引号，其中键入一个表示单引号，连续两个表示双引号（在中文环境中这种差异并不明显，主要是在英文环境中会存在问题）：
+    \begin{texshow}
+        正确的`单引号'与``双引号''\\
+        '英文中的单引号'\\
+        "英文中的双引号"\\
+        ‘中文中的单引号’\\
+        “中文中的双引号”
+    \end{texshow}
+
+    % 参考自：https://blog.csdn.net/simple_the_best/article/details/52742303
+
+    \subsection{标注拼音}
+    可以使用\highunderline{xpinyin}宏包实现，具体方法略。
+
+    \subsection{文字阴影}
+    可以使用shadowtext宏包实现，具体方法略。
+    
+    \subsection{文字高亮}
+    文字高亮推荐使用\highunderline{tcolorbox}实现，可定制性强。（包括带颜色的下划线，圆角高亮等，都可以使用该宏包来实现）。
+
+\section{段落样式}\label{sec:段落样式}
+    \subsection{段落间距}
+    段落间距的相关设置，可以参考\Ref{sub:normal-page-dist}一节。
+
+    \subsection{对齐}
+    对齐分为左对齐、右对齐、居中、两端对齐和行尾的分散对齐
+
+    \subsubsection{左对齐}
+    \begin{texshow}
+        \begin{flushleft}
+            左对齐环境
+        \end{flushleft}        
+        \raggedright 左对齐声明
+    \end{texshow}
+    \subsubsection{右对齐}
+    \begin{texshow}
+        \begin{flushright}
+            右对齐环境
+        \end{flushright}        
+        \raggedleft 右对齐声明
+    \end{texshow}
+    \subsubsection{居中}
+    \begin{texshow}
+        \begin{center}
+            居中环境
+        \end{center}        
+        \centering 居中声明
+    \end{texshow}
+    这三种环境和相应的命令基本上能够在任意环境中嵌套并显示出相应的效果。
+
+    % \linebreak 用于分散对齐
+    \subsubsection{两端对齐}
+    两端对齐需要使用\highunderline{ragged2e}宏包，并使用\highunderline{\textbackslash{}justifying}命令
+    
+        % 用于两端对齐的1文字用于a两端对齐b的文字用于两d端对齐的文字用e于两端对齐的文字用于两端对齐的文字用于两端对齐的文字用于u两端对t齐的文字用于两端对齐的文字f用于两端g对齐的文字用于两端对齐的文a字。
+    
+    % 对齐后的效果：
+    % \begin{texshow}
+        % \justifying{}用于两端对齐的1文字用于a两端对齐b的文字用于两d端对齐的文字用e于两端对齐的文字用于两端对齐的文字用于两端对齐的文字用于u两端对t齐的文字用于两端对齐的文字f用于两端g对齐的文字用于两端对齐的文a字。
+    % \end{texshow}
+
+    \subsubsection{分散对齐}
+    分散对齐之前提到过，在换行的时候使用\highunderline{\textbackslash{}linebreak}即可：
+    \begin{texshow}
+        用于分散对齐的文字\linebreak
+    \end{texshow}
+    \subsection{环境的嵌套}
+
+    一般情况位于\highunderline{document}环境中的文字均为普通文本，但是环境可以嵌套，被嵌套到特殊环境中的文字会从内到外依次根据所嵌套的环境产生相应的效果。如下图所示，使用了多个\highunderline{tcolorbox}互相嵌套后的效果：
+
+    \begin{texshow}
+        \begin{tcolorbox}[title=Outer box]
+            \begin{tcolorbox}[title=Inner box]
+
+                \begin{tcolorbox}[colframe=red,beforeafter skip=0pt]
+                Deeply nested box using 60 percent of the available space.
+                \end{tcolorbox}
+
+                \begin{tcolorbox}[colframe=red,beforeafter skip=0pt]
+                Deeply nested box using 40 percent of the available space.
+                \end{tcolorbox}
+            \end{tcolorbox}
+        \end{tcolorbox}
+    \end{texshow}
+
+    \begin{quotation}
+        该环境需要使用\highunderline{tcolorbox}包
+    \end{quotation}
+
+
+    \subsection{引文环境}
+    引文环境为\highunderline{quotation}，最多支持六级嵌套，效果如下：
+    \begin{texshow}
+        正常环境下的文字
+        \begin{quotation}
+            引文环境下的文字
+            \begin{quotation}
+                二级引文环境
+            \end{quotation}
+        \end{quotation}
+        正常环境下的文字
+    \end{texshow}
+    \subsection{抄录环境}
+    抄录环境为\highunderline{verbatim}会将所有的符号原封不动的继承下来：效果如下：
+
+    \begin{texshow}
+\begin{verbatim}
+这是抄录环境！@#￥%……&*（）(){}_+":>?
+\end{verbatim}
+    \end{texshow}
+
+\subsection{普通边框}
+
+如果要限制一行中文字的宽度，可以使用垂直盒子\highunderline{\textbackslash{}parbox}：
+\begin{texshow}
+    % \parbox[<position>]{<width>}{<text>}，第一个参数一般省略，没有太多的使用场景。
+    \parbox{5em}{示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本}
+\end{texshow}
+
+对文字添加最普通的段落边框，使用内置的\highunderline{\textbackslash{}framebox}命令即可：
+
+% \todo{看注释，盒子}
+% https://zhuanlan.zhihu.com/p/24339981 
+
+\begin{texshow}
+    \framebox{示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本}
+\end{texshow}
+遗憾的是直接使用framebox不能换行，如果要换行，可以再嵌套一层\highunderline{parbox}:
+\begin{texshow}
+    \framebox{
+        \parbox{\textwidth-2\fboxsep-2\fboxrule}{示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本}
+    }
+    \framebox{
+        \parbox{\textwidth-4\fboxsep}{示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本}
+    }
+\end{texshow}
+\newpage
+
+边框距离文字的间距用长度变量\highunderline{\textbackslash{}fboxsep}表示：
+\begin{texshow}
+    \setlength{\fboxsep}{0pt}
+    \framebox{没有边框间隔}
+\end{texshow}
+
+
+
+\subsection{其他环境}
+还有诗歌环境\highunderline{verse}等文档类自带的环境，使用方式大同小异。但实现各种段落样式的最佳实践是通过\highunderline{tcolorbox}来定义一个个盒子的样式。本书中所有的代码样例和边框等均依托于 tcolorbox 实现。

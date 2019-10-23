@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZhy{}\PYGZhy{}]} 第一行
+    \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[This]} 第二行 \PYG{c}{\PYGZpc{}注意，虽然可以是文字，但缺少了description中的加粗，这是这两个环境的区别。}
+    \PYG{k}{\PYGZbs{}item} 第三行
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

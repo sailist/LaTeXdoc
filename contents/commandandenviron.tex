@@ -1,0 +1,247 @@
+\section{命令和环境}\label{sec:comm-envi}
+    \LaTeX{}中除了正常的文字外，就只有命令和环境，一切均有命令和环境组成。甚至，环境也只是对命令的一种封装。完全可以将环境理解为互相联系的一组命令。
+    \subsection{命令}
+    \subsubsection{命令的基本使用}
+    \LaTeX{}中大部分结构均为命令，调用命令的一般格式如下：
+    \begin{texcode}
+        \command[]{}{}..{}
+    \end{texcode}
+    其中command是命令名，使用反斜杠表示\footnote{所以如果要在\LaTeX{}中表示反斜杠需要使用\textbackslash{}textbackslash}，\highunderline{[]}中的内容是可选项，一般省略，会被默认值替代，\highunderline{\{\}}中的内容是必选项，如果加大括号则为括号中的内容，否则则为命令后直到\highunderline{域边界\footnote{域边界根据不同的命令各有不同，这个我目前还没有查到相关的解释}}的内容。
+
+    \begin{texshow}
+        \textbf 粗体字
+    \end{texshow}
+    \subsubsection{命令的定义}
+    如果要定义一个命令，使用\highunderline{\textbackslash{}newcommand}命令\footnote{该命令属于内置命令}，如下：
+    % 参考 https://en.wikibooks.org/wiki/LaTeX/Macros#New_environments
+    
+    \begin{texshow}
+        \newcommand{\lmd}{$\lambda$\\}
+        \lmd\lmd{}\lmd{Try it}
+    \end{texshow}
+
+    其中\highunderline{\textbackslash{}lmd}定义了一条名字为lmd的命令，第二个大括号中表示命令所代表的内容，在这里是一个符号加换行符。这种方式常用于代替某变量或符号，方便统一修改。注意不能够使用该命令定义一个已经存在的命令。\footnote{但可以\textbf{重新定义}该命令，参考\Ref{subsub:renewcomm}}
+
+    如果要定义带有参数的变量，则需要添加参数选项：
+    \begin{texshow}
+        \newcommand{\myy}[1]{$y_{#1}$}
+        \myy{1},\myy{2},\myy{3},\myy{n}
+    \end{texshow}
+    其中\highunderline{[1]}表示该命令可以有一个参数，\highunderline{\#{}1}表示参数放置的位置。
+
+    \LaTeX{}命令最多支持九个参数，只需要更改参数数量，并在命令内容里添加相应的参数位置即可\footnote{注意，参数数量和具体不同参数的个数必须相同}
+    
+    \LaTeX{}还支持默认值，但只允许设置第一个参数有默认值，如下：
+    \begin{texshow}
+        \newcommand{\eqs}[3][2]{$(#3+#2)^#1,#1$\\}
+        \eqs{a}{b}
+        \eqs[5]{x}{y}
+        \eqs{a}{b}{c}
+    \end{texshow}
+    其中\highunderline{[3]}表示该方法有三个参数，\highunderline{[2]}表示该方法第一个参数的默认值为2。注意上面的示例还演示了一个参数可以在不同的位置使用多次。
+
+    对第三行命令调用的解释：该命令只选取了前两个作为参数，第三个由于大括号实际上是作为域的定界符，显示时会被忽略，因此实际上只代表了c这一个字符，按顺序显示在该命令后面。
+
+    \subsubsection{命令的重新定义}\label{subsub:renewcomm}
+    \LaTeX{}中最灵活的一点就是命令可以被重新定义，这使得我们可以更灵活的控制文档，但也因为这个原因，很多包之间对命令的复写会导致其相互冲突，如\highunderline{enumerate}宏包和\highunderline{enumitem}宏包。
+
+    命令的重新定义和命令的定义方式几乎一样，只有两点不同：
+    \begin{itemize}
+        \item 使用\highunderline{\textbackslash{}renewcommand}命令
+        \item 定义的命令必须是已经定义过的。
+    \end{itemize}
+
+    \subsection{环境}
+    \subsubsection{环境的基本使用}
+    环境的使用需要一对命令：\highunderline{\textbackslash{}begin}和\highunderline{\textbackslash{}end}，如居中环境的使用：
+    \begin{texshow}
+        \begin{center}
+            居中环境中的文字会居中。
+        \end{center}
+    \end{texshow}
+    使用环境和使用命令非常相似，其一般格式如下：
+    \begin{texcode}
+        \begin{envi}[]{}{}..{}
+            ...
+        \end{envi}
+    \end{texcode}
+    \subsubsection{环境的定义}
+    环境的定义使用\highunderline{\textbackslash{newenvironment}}命令，基本格式如下：
+    \begin{texcode}
+        \newenvironment{name}[num][default]{before}{after}
+    \end{texcode}
+    一个示例如下，从这个示例里可以看到环境之间可以互相嵌套：
+    \begin{texshow}
+        \newenvironment{titleenv}
+        {
+            \begin{center}居中标题\end{center}
+        }
+        {
+            \\\rule{\textwidth}{1mm}
+        }
+
+        \begin{titleenv}
+            正文内容
+        \end{titleenv}
+    \end{texshow}
+
+    环境的参数使用方法和命令的参数使用方法完全一致，这里仅提供一个示例：
+    \begin{texshow}
+        \newenvironment{king}[2][Title Name]
+        {
+            \begin{center} \textbf{#1：#2}\\
+        }
+        {
+            \end{center}
+        }
+        \begin{king}{参数二位置}
+            这是多参数省略一参的一个示例
+        \end{king}
+        \begin{king}[参数一位置]{参数二位置}
+            这是多参数的一个示例
+        \end{king}
+    \end{texshow}
+    注意上面的示例中，参数只能放到\highunderline{before}区域，不能放到\highunderline{after}区域；另外可以通过在开始时添加一个环境头，结束时添加一个环境尾来实现一定的复杂逻辑。
+
+    另外，\LaTeX{}中这种环境的定义是最为基本的定义，这种环境基本是可以随意嵌套的，但还有一些环境实际上更为复杂，也不是通过这种定义手段定义的，因此随意嵌套可能会出问题\footnote{具体的解释可以查看\href{https://www.zhihu.com/question/68657047/answer/266169094}{这篇回答}}
+    
+
+    \subsubsection{环境中的命令}
+    在环境中可以定义命令，这样定义命令仅可以在环境中使用，如\highunderline{itemize}环境中的\highunderline{item}命令。
+    
+    定义方法没有其他的区别，仅在使用参数的时候，需要使用连续的两个\#{}来表示命令的参数\footnote{否则会报：\highunderline{! Illegal parameter number in definition of \textbackslash{}topics.}}，一个示例如下：
+    \begin{texshow}
+        \newenvironment{topics}[1]
+        {
+            \newcommand{\topic}[2]{ \item{##1，##2} }
+            Topics:#1
+            \begin{itemize}
+        }
+        {\end{itemize}}
+        \begin{topics}{标题}
+            \topic{参数一}{参数二}
+            \topic{参数一}{参数二}
+        \end{topics}
+        % \eitem{a}{b} 环境外使用会报错误：Undefined control sequence.
+    \end{texshow}
+
+    \subsubsection{环境的重新定义}
+    环境的重新定义参考命令的重新定义和环境的定义方法，基本完全相同：
+
+    \newenvironment{titleenv}{\begin{center}居中标题\end{center}}{\\\rule{\textwidth}{1mm}}
+    \begin{texshow}
+        \renewenvironment{titleenv}[1][居中标题]{
+            \begin{center}#1\end{center}
+        }{\\\rule{\textwidth}{1mm}}
+        
+        \begin{titleenv}[我的标题]
+            正文环境
+        \end{titleenv}
+    \end{texshow}
+
+    \subsection{高级命令与环境}
+    部份宏包使用了更底层的机制，使得它们可以完成和一般形式不同的命令和环境定制，如对参数名的支持：
+    \begin{texshow}
+        \begin{tcolorbox}[colframe=blue!50!,colback=blue!20!]
+            盒子内部
+        \end{tcolorbox}
+    \end{texshow}
+    如果要实现这种效果，可以去学习底层的TeX命令，也可以使用宏包\highunderline{xkeyval}来完成\footnote{虽然该宏包的使用也和一般语法不同}，精力有限不多介绍，留坑以后填。
+
+    \subsection{计数器}\label{subsub:counter}
+
+    \subsubsection{基本介绍}
+    \LaTeX{}内置的计数器有23个，其中17个为序号计数器，6个为控制计数器（只是用途不同，本质都是计数器的一种）。
+
+    \begin{center}
+        % \newlength\tablewidth % if haven't define the length 'tablewidth'
+        \setlength\tablewidth{\dimexpr (\textwidth -8\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.24\tablewidth}<{\centering}|p{0.23\tablewidth}<{\centering}|p{0.26\tablewidth}<{\centering}|p{0.26\tablewidth}<{\centering}|}
+                \hline
+                计数器名&用途&计数器名&用途\\
+                \hline
+                part&部序号计数器&equation&公式序号计数器\\
+                \hline
+                chapter&章序号计数器&page&页码计数器\\
+                \hline
+                section&节序号计数器&footnote&脚注序号计数器\\
+                \hline
+                subsection&小节序号计数器&mpfootnote&小页环境中的脚注序号计数器\\
+                \hline
+                subsubsection&小小节序号计数器&enumi&排序列表第1层序号计数器\\
+                \hline
+                paragraph&段序号计数器&enumii&排序列表第2层序号计数器\\
+                \hline
+                subparagraph&小段序号计数器&enumiii&排序列表第3层序号计数器\\
+                \hline
+                figure&插图序号计数器&enumiv&排序列表第4层序号计数器\\
+                \hline
+                table&表格序号计数器& &\\
+                \hline
+            \end{tabular}
+            \caption{\LaTeX{}内置的序号计数器}
+        \end{table}
+    \end{center}
+
+
+    % 参考 https://blog.csdn.net/archielau/article/details/7976507
+    % http://softlab.sdut.edu.cn/blog/subaochen/2017/07/latex%E7%9A%84%E8%AE%A1%E6%95%B0%E5%99%A8%EF%BC%88counter%EF%BC%89/
+
+    \begin{center}
+        % \newlength\tablewidth % if haven't define the length 'tablewidth'
+        \setlength\tablewidth{\dimexpr (\textwidth -4\tabcolsep)}
+        \begin{table}[H]
+            \begin{tabular}{|p{0.20\tablewidth}<{\centering}|p{0.80\tablewidth}<{\centering}|}
+                \hline
+                bottomnumber&控制每页底部可以放置浮动体的最大数量，默认值为1\\
+                \hline
+                dbltopnumber&双栏排版时，控制每页顶部可放置跨栏浮动体的最大数量，默认值为2.\\
+                \hline
+                secnumdepth&控制层次标题的排序深度，book和report默认为2，article默认为3\\
+                \hline
+                topnumber&控制每页顶部可放置浮动体的最大数量，默认为2\\
+                \hline
+                totalnumber&控制每页中可放置浮动体的最大数量，默认值为4\\
+                \hline
+                tocdepth&控制章节目录的目录深度，文类book和report默认值为2，而article默认值为3,。通常secnumdepth≥tocdepth\\
+                \hline
+            \end{tabular}
+            \caption{\LaTeX{}内置的控制计数器}
+        \end{table}
+    \end{center}
+
+    \subsubsection{生成计数器}
+    新建一个计数器：
+    \begin{texcode}
+        \newcounter{NameOfTheNewCounter}
+    \end{texcode}
+    如果在新建时，需要你的计数器在其他计数器增加的时候被清零，可以通过额外添加计数器参数的方式来实现：
+    \begin{texcode}
+        \newcounter{NameOfTheNewCounter}[NameOfTheOtherCounter]
+    \end{texcode}
+    对一个已存在的计数器，如果需要它在某个其他计数器增加的时候被清零，可以通过以下的命令：
+    \begin{texcode}
+        \counterwithin*{NameOfTheCounter}{NameOfTheOtherCounter}
+    \end{texcode}
+    
+    为某个计数器加1：
+    \begin{texcode}
+        \stepcounter{equationschapter}
+    \end{texcode}
+    指定该计数器的值：
+    \begin{texcode}
+        \setcounter{NameOfTheNewCounter}{number}
+    \end{texcode}
+    为某个计数器增加任意数值（该数值可以是负数），可以使用以下命令：
+    \begin{texcode}
+        \addtocounter{NameOfTheNewCounter}{number}
+    \end{texcode}
+
+    如果要获取某个计数器的值（上述的命令有的参数需要传入number而不是某个counter），那么使用以下的命令来返回一个number：
+    \begin{texcode}
+        \value{NameOfTheNewCounter}
+    \end{texcode}
+    
+    \subsubsection{计数器风格}
+    请参考\Ref{subsub:number}

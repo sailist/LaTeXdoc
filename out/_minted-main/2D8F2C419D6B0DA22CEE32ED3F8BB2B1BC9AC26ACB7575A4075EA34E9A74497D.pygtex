@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}renewcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}baselinestretch}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}0.75\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}normalsize}
+\PYG{k}{\PYGZbs{}tableofcontents}
+\PYG{k}{\PYGZbs{}renewcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}baselinestretch}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}1.3\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}normalsize} \PYG{c}{\PYGZpc{}在设置后设置回原来的间距大小}
+\end{Verbatim}

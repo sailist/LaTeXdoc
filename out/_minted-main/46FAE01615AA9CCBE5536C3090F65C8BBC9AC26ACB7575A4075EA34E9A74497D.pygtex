@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} \PYGZbs{}usepackage\PYGZob{}hyperref\PYGZcb{}}
+这里有一个\PYG{k}{\PYGZbs{}hyperref}\PYG{n+na}{[ex:标签示例]}\PYG{n+nb}{\PYGZob{}}标签示例\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

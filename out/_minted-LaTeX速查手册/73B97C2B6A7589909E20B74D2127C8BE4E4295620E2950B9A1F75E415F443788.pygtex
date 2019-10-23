@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}item} 第一行
+    \PYG{k}{\PYGZbs{}stepcounter}\PYG{n+nb}{\PYGZob{}}enumi\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 如果指定了序号格式，需要使用之前手动对计数器加1}
+    \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZbs{}alph\PYGZob{}enumi\PYGZcb{}：]} 第二行
+    \PYG{k}{\PYGZbs{}item} 第三行
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}stepcounter}\PYG{n+nb}{\PYGZob{}}enumii\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZbs{}roman\PYGZob{}enumii\PYGZcb{}]} 二级+1
+        \PYG{k}{\PYGZbs{}stepcounter}\PYG{n+nb}{\PYGZob{}}enumii\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZbs{}roman\PYGZob{}enumii\PYGZcb{}]} 二级+2
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

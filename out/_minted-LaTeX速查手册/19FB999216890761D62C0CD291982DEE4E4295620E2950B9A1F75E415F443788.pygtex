@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZdl{}\PYGZbs{}square\PYGZdl{}]}
+    no checked
+    \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZbs{}rlap\PYGZob{}\PYGZbs{}raisebox\PYGZob{}0.3ex\PYGZcb{}\PYGZob{}\PYGZbs{}hspace\PYGZob{}0.4ex\PYGZcb{}\PYGZbs{}tiny \PYGZbs{}ding\PYGZob{}52\PYGZcb{}\PYGZcb{}\PYGZcb{}\PYGZdl{}\PYGZbs{}square\PYGZdl{}]}
+    failed
+    \PYG{k}{\PYGZbs{}item}\PYG{n+na}{[\PYGZbs{}rlap\PYGZob{}\PYGZbs{}raisebox\PYGZob{}0.3ex\PYGZcb{}\PYGZob{}\PYGZbs{}hspace\PYGZob{}0.4ex\PYGZcb{}\PYGZbs{}scriptsize \PYGZbs{}ding\PYGZob{}56\PYGZcb{}\PYGZcb{}\PYGZcb{}\PYGZdl{}\PYGZbs{}square\PYGZdl{}]}
+    checked
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}itemize\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

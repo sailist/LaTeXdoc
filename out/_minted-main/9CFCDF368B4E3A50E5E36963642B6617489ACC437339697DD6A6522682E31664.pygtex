@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZpc{}} \PYG{err}{直接使用}\PYG{n}{pip安装}\PYG{err}{：}\PYG{n}{pip} \PYG{n}{install} \PYG{n}{x2t}
+\PYG{o}{\PYGZpc{}} \PYG{err}{可以直接使用控制台命令：}\PYG{n}{x2t} \PYG{n}{test}\PYG{o}{.}\PYG{n}{xlsx} \PYG{n}{test}\PYG{o}{.}\PYG{n}{xls}
+\PYG{k+kn}{from} \PYG{n+nn}{LatexTool.ast} \PYG{k+kn}{import} \PYG{n}{tabel}
+
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}\PYGZsq{}}\PYG{p}{:}
+    \PYG{c+c1}{\PYGZsh{} tab = tabel.Tabel(\PYGZdq{}../test.xlsx\PYGZdq{},center=False,fill=False)}
+    \PYG{n}{tab} \PYG{o}{=} \PYG{n}{tabel}\PYG{o}{.}\PYG{n}{Tabel}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}../test.xlsx\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{print}\PYG{p}{(}\PYG{n}{tab}\PYG{o}{.}\PYG{n}{to\PYGZus{}tex}\PYG{p}{())}
+\end{Verbatim}

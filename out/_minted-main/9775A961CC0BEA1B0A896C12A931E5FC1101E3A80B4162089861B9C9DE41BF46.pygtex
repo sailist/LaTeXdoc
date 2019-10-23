@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+fc\PYGZhy{}list \PYGZhy{}f \PYG{l+s+s2}{\PYGZdq{}\PYGZpc{}\PYGZob{}family\PYGZcb{}\PYGZbs{}n\PYGZdq{}} :lang\PYG{o}{=}zh \PYGZgt{} zhfont.txt
+\end{Verbatim}

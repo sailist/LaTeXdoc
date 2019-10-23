@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+\begin{axis}[
+	xmin=0,xmax=13,ymin=0,ymax=7,
+	xlabel style={below},xlabel=$X$,
+	ylabel style={left},ylabel=$Y$,
+	samples=200,
+	domain=0:13,
+	fill=white
+]
+\foreach \utiliy in {3.0,6.0,9.0,12.0}
+{\edef\temp{\noexpand\addplot[draw=blue,line width=\utiliy/6 pt] {(\utiliy-x)/2};} \temp }
+\draw[fill=blue!20,draw=blue,style={font=\tiny}] (axis cs:1,1) circle (4.5pt) node {$A$};
+\draw[fill=blue!40,draw=blue,style={font=\tiny}] (axis cs:3,1.5) circle (6pt) node {$B$};
+\draw[fill=blue!60,draw=blue,style={font=\small}] (axis cs:3,3) circle (7.5pt) node {$C$};
+\draw[fill=blue!60,draw=blue,style={font=\small}] (axis cs:5,2) circle (7.5pt) node {$D$};
+\draw[fill=blue!80,draw=blue] (axis cs:2,5) circle (9pt) node {$E$};
+\draw[fill=blue!80,draw=blue] (axis cs:6,3) circle (9pt) node {$F$};
+\node[fill=white,circle,inner sep=0pt,font=\tiny] at (axis cs:2,0.5) {$U_1$};
+\node[fill=white,circle,inner sep=0pt,font=\tiny] at (axis cs:5,0.5) {$U_2$};
+\node[fill=white,circle,inner sep=0pt,font=\tiny] at (axis cs:8,0.5) {$U_3$};
+\node[fill=white,circle,inner sep=0pt,font=\tiny] at (axis cs:11,0.5) {$U_4$};
+\node[below left] at (axis cs:13,7) {$u = x + 2 y$};
+\end{axis}
+\end{tikzpicture}

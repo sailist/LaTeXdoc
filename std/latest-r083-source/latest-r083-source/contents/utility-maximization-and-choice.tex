@@ -1,0 +1,151 @@
+\chapter{消费者最优选择}
+\label{sec:utility-maximization-and-choice}
+
+消费者最优选择就像在后院刨坑种树，面临两个约束：（1）地点必须在你家的篱笆墙内；（2）必须是生长环境最好的点。当然如果不会引起争端的话，你也可以砍掉篱笆把树种在这个邻里边界上，这就是角点解。总而言之，消费者最优选择必须是\emph{最富偏好}、\emph{负担得起}的消费束。这和笔记开头对需求定义中的\emph{愿意}且\emph{能够}购买很相似，因为他们本来就是一根绳子上的铃铛，扯一扯都会响叮当。
+
+假设某人对两商品的偏好表现为效用函数$u(x,y) = x_1^{\alpha} x_2^{\beta}$，商品价格分别为$p_1$、$p_2$，其收入水平为$m$，其中$\alpha, \beta,x_1,x_2,p_1,p_2,m > 0$。那么对于任一给定的$(p_1,p_2,m)$组合该消费者该如何选择这两种商品的消费数量？
+
+\section{直接的边际分析法}
+沿着预算线调整分配额度，使得达到某一个分配状态，任何增减都不会带来额外的改善。
+\begin{equation}
+MRS_{1,~2}=\frac{p_1}{p_2}
+\label{eq:zuiyoufenxi-bianjifenxi-mrs}
+\end{equation}
+
+\begin{equation}
+\frac{MU_1}{p_1}=\frac{MU_2}{p_2}
+\label{eq:zuiyoufenxi-bianjifenxi-a}
+\end{equation}
+
+\section{消元法}
+假如效用函数为二元函数：
+\begin{equation}
+u=f(x_1,x_2)
+\label{eq:zuiyouxiaofei-eryuanxiaoyong}
+\end{equation}
+预算约束为$p_1 x_1 + p_2 x_2 = m$，用$x_1$表示$x_2$得到：
+\begin{equation}
+x_2=\frac{m-p_1 x_1}{p_2}
+\label{eq:zuiyouxiaofei-yusuanyueshu-0}
+\end{equation}
+
+将式（\ref{eq:zuiyouxiaofei-yusuanyueshu-0}）带入式（\ref{eq:zuiyouxiaofei-eryuanxiaoyong}）消元为：
+\begin{equation}
+u=g(x_1)
+\label{eq:zuiyouxiaofei-yiyuanxiaoyong}
+\end{equation}
+该效用函数达到极大值的一阶必要条件为：
+\begin{equation}
+MU_1 = \frac{du}{dx_1} = g'(x_1) = 0
+\label{eq:zuiyouxiaofei-yiyuanxiaoyong-yijiebiyao}
+\end{equation}
+
+注意，在这里$MU_1=0$和上一节边际分析中消费者均衡条件（\ref{eq:zuiyoufenxi-bianjifenxi-a}）是一致的。因为对于一元效用函数（\ref{eq:zuiyouxiaofei-yiyuanxiaoyong}）来说$MU_2=\frac{\partial g(x_1)}{\partial x_2}=0$，于是仍满足式（\ref{eq:zuiyoufenxi-bianjifenxi-a}）。
+
+
+
+\section{拉格朗日极值法}
+
+首先，其消费束所带来的效用函数值越大越好：
+\begin{equation}
+\max~u = x_1^{\alpha} x_2^{\beta}
+\label{eq:zuiyouxiaofei-xiaoyonghanshu}
+\end{equation}
+
+第二，他所选择的消费束必须是可支付的，即面临预算约束：
+\begin{equation}
+p_1 x_1 + p_2 x_2 \le m
+\label{eq:zuiyouxiaofei-yusuanyueshu}
+\end{equation}
+
+构造\emph{拉格朗日函数}：
+\begin{equation}
+\mathcal{L}(x_1,x_2,\lambda)=x_1^{\alpha} x_2^{\beta}+\lambda(m-p_1 x_1 - p_2 x_2)
+\label{eq:zuiyouxiaofei-lagelangri}
+\end{equation}
+一阶必要条件满足
+\begin{align}
+\frac{\partial \mathcal{L}}{\partial x_1} &= \alpha x_1^{\alpha-1}x_2^{\beta} - \lambda p_1 = 0\\
+\frac{\partial \mathcal{L}}{\partial x_2} &= \beta x_1^{\alpha} x_2^{\beta-1} - \lambda p_2 = 0\\
+\frac{\partial \mathcal{L}}{\partial \lambda} &= m - p_1 x_1 - p_2 x_2 = 0
+\end{align}
+消去$\lambda$解得该消费者对这两种商品的最优选择如下，
+\begin{align}
+x_1 &= \frac{\alpha}{\alpha+\beta} \cdot \frac{m}{p_1} \label{eq:c-d-utility-optimal-choice-x1}\\
+x_2 &= \frac{\beta}{\alpha+\beta} \cdot \frac{m}{p_2}
+\end{align}
+
+我们分析一下\emph{柯布—道格拉斯函数}最优解可爱的数学形式，以式（\ref{eq:c-d-utility-optimal-choice-x1}）为例：
+\[
+x_1 = \frac{\alpha}{\alpha+\beta} \cdot \frac{m}{p_1} = \dfrac{m \cdot \dfrac{\alpha}{\alpha+\beta}}{p_1}
+\]
+很明显，其中$m \cdot \frac{\alpha}{\alpha+\beta}$是收入中用来购买$x_1$的部分，$\frac{\alpha}{\alpha+\beta}$即是商品1在收入中所占的\emph{消费份额}。如果我们增设或者说对现有的效用函数做一个单调变换，对其开$\alpha+\beta$次方得到：
+\begin{equation}
+u(x,y) = x_1^{c} x_2^{d}
+\label{eq:zuiyouxuanze-cd-utility-fenexingshi}
+\end{equation}
+其中$c=\frac{\alpha}{\alpha+\beta}$，$d=\frac{\beta}{\alpha+\beta}$，$c+d=1$。则$c$、$d$直接地代表两商品在收入中所占的消费份额。在这种新的表达形式下消费者最优选择变为：
+\begin{align}
+x_1 &= c \cdot \frac{m}{p_1}\\
+x_2 &= d \cdot \frac{m}{p_2}
+\end{align}
+
+可见柯布—道格拉斯效用函数中两商品的需求曲线为双曲线的一支，其需求的价格弹性、需求的交叉价格弹性以及需求的收入弹性为：
+\begin{align}
+\varepsilon_{1,~1} &= \frac{dx_1}{dp_1}\frac{p_1}{x_1} = -1\\
+\varepsilon_{2,~1} &= \frac{dx_1}{dp_2}\frac{p_2}{x_1} = 0\\
+\varepsilon_{m}    &= \frac{dx_1}{dm}\frac{m}{x_1} = 1
+\end{align}
+
+\section{拟线性偏好的非线性规划\footnote{%
+张军. 高级微观经济学 [M]. 上海: 复旦大学出版社, 2002: 9--11.}}
+\begin{equation}
+\begin{split}
+        \max~u &= x_2 + a \ln x_1\\
+\text{s.t.~} m &\ge p_1 x_1 + p_2 x_2\\
+\text{and~} x_1&{,~}x_2 \ge 0
+\end{split}
+\end{equation}
+
+构造\emph{拉格朗日函数}$\mathcal{L}(x_1, x_2, \lambda)=x_2 + a \ln x_1 + \lambda (m - p_1 x_1 -p_2 x_2)$，一阶必要条件（\emph{库恩—塔克条件}）：
+\begin{equation}
+\begin{split}
+\frac{\partial \mathcal{L}}{\partial x_1} &= \frac{a}{x_1} - \lambda p_1 \le 0, \quad x_1 \ge 0,~x_1 \frac{\partial \mathcal{L}}{\partial x_1} = 0\\
+\frac{\partial \mathcal{L}}{\partial x_2} &= m - \lambda p_2 \le 0, \quad x_2 \ge 0,~x_2 \frac{\partial \mathcal{L}}{\partial x_2} = 0\\
+\frac{\partial \mathcal{L}}{\partial \lambda} &= m - p_1 x_1 - p_2 x_2 \ge 0, \quad \lambda \ge 0,~\lambda \frac{\partial \mathcal{L}}{\partial \lambda} = 0
+\end{split}
+\end{equation}
+
+一般情况下，要讨论$x_1 > 0$，$x_1=0$；$x_2 > 0$，$x_2 = 0$与$\lambda > 0$，$\lambda = 0$组合形成的8种情况，不过在此问题中，边际效用$u_1$，$u_2$均为正（即偏好关系满足局部非饱和性），故而不会有收入剩余，否则可以通过继续增加消费使得效用增加，因此预算约束是紧的，即$\lambda > 0$；另外，由效用函数的形式，必有$x_1 > 0$。因此需要讨论的情况只有两种：
+
+第一种情况：$x_1 > 0$，$x_2 = 0$，$\lambda > 0$。此时\emph{库恩—塔克条件}变为：
+\begin{equation}
+\begin{split}
+\frac{\partial \mathcal{L}}{\partial x_1} &= \frac{a}{x_1} - \lambda p_1 = 0\\
+\frac{\partial \mathcal{L}}{\partial x_2} &= m - \lambda p_2 \le 0\\
+\frac{\partial \mathcal{L}}{\partial \lambda} &= m - p_1 x_1 - p_2 x_2 = 0
+\end{split}
+\end{equation}
+解得：$x_1 = \frac{m}{p_1}$，$x_2 = 0$，$\lambda = \frac{a}{m}$，并且满足参数条件$m \le ap_2$。
+
+第二种情况：$x_1 > 0$，$x_2 > 0$，$\lambda > 0$。此时\emph{库恩—塔克条件}变为：
+\begin{equation}
+\begin{split}
+\frac{\partial \mathcal{L}}{\partial x_1} &= \frac{a}{x_1} - \lambda p_1 = 0\\
+\frac{\partial \mathcal{L}}{\partial x_2} &= m - \lambda p_2 = 0\\
+\frac{\partial \mathcal{L}}{\partial \lambda} &= m - p_1 x_1 - p_2 x_2 = 0
+\end{split}
+\end{equation}
+解得：$x_1 = \frac{ap_2}{p_1}$，$x_2 = \frac{m - ap_2}{p_2}$，$\lambda = \frac{1}{p_2}$，并且满足参数条件$m > ap_2$。
+
+从求解的过程来看，虽然题目没有直接说明，但其实问题中的参数是有条件的，参数空间可以划分为各个不同的部分，每一部分对应于求解的一个具体过程。当$m \le ap_2$时，$x_1 > 0$，$x_2 > 0$，$\lambda > 0$；当$m > ap_2$时，$x_1 > 0$，$x_2 > 0$，$\lambda > 0$。
+
+\section*{推荐阅读}
+\markright{推荐阅读}
+\addcontentsline{toc}{section}{\hspace{-2.5em}推荐阅读}
+
+\newpage
+\section*{本章附录}
+\markright{本章附录}
+\addcontentsline{toc}{section}{\hspace{-2.5em}本章附录}
+\label{sec:appendix-utility-maximization-and-choice}

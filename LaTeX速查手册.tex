@@ -1,0 +1,86 @@
+%! Author = saili
+%! Date = 2019/8/23/0023
+
+% Preamble
+\documentclass{article}
+\input{preamble/packages.tex}
+\input{preamble/color.tex}
+\input{preamble/globalpre.tex}
+\input{preamble/localpre.tex}
+\input{preamble/format.tex}
+\input{preamble/box-support.tex}
+\input{preamble/line-support.tex}
+
+\bibliographystyle{plain}
+\usepackage[printwatermark,disablegeometry]{xwatermark}
+\newwatermark[page=1,color=gray!20,angle=45,scale=4,xpos=0,ypos=0]{SAILIST}
+\newwatermark[pages=2-4,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{\LaTeX{}速查手册}
+\newwatermark[pagex={5,6,7},color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{\LaTeX{}速查手册}
+% %信息
+\title{\LaTeX{}速查手册}
+\author{杨浩哲}
+
+% \newcommand*{\refname}{Bibliography}
+
+\begin{document}
+    \maketitle
+    \clearpage
+    \renewcommand{\baselinestretch}{0.75}\normalsize
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    \newpage
+    \renewcommand{\baselinestretch}{1.3}\normalsize
+    \input{contents/install.tex} % 安装部署
+    \input{contents/pages.tex} %页面综述
+    \input{contents/distance.tex} % 大小与间距
+    \input{contents/sections.tex} % 标题和目录
+    \input{contents/text.tex} %普通文本
+    \input{contents/itemize.tex} %列表
+    \input{contents/tabulars.tex} %表格
+    \input{contents/figure.tex} %图片
+    \input{contents/equation.tex} %公式环境
+    \input{contents/floats.tex} %浮动窗口
+    \input{contents/notes.tex} %脚注、边注、参考文献
+    \input{contents/colour} % 颜色
+    
+    \input{contents/commandandenviron.tex}
+
+    \section{代码环境方案}
+    \subsection{程序代码}
+    \subsubsection{抄录环境}
+    \subsubsection{listing}
+    \subsubsection{minted}
+    \subsubsection{最佳实践：tcolorbox}
+    \subsection{伪代码}
+    
+    % https://blog.csdn.net/simple_the_best/article/details/52710794 伪代码环境
+    \subsection{树结构}
+    % Latex树状结构-Forest http://softlab.sdut.edu.cn/blog/xuqianhui/2017/06/28/latex%e6%a0%91%e7%8a%b6%e7%bb%93%e6%9e%84-forest/
+    \section{编写结构}
+    
+    \todo{引入文件/引用问题/编译参数/目录/目录问题/代码风格/abspath}
+    
+    \todo{更改目录结构后，对各种库、bibtex的影响和解决}
+
+    \section{库使用}
+    \subsection{minipage}\label{sub:minipage}
+    minipage宏包用于在一页中创建一个小的页面（实质是一个盒子），也具有很强的可定制性。
+    \subsection{tcolorbox}
+    本手册使用的全部带颜色的边框均为tcolorbox的实现，其基本的使用非常简单，在熟悉\LaTeX{}的基本操作后，可以查看tcolorbox的宏包说明手册来完成，其所有的边框，间隔，圆角，文字，分割线都可以自定义，同时还对代码的显示进行了封装，可以更自由的定制代码的显示风格。
+
+    \subsection{adjustbox}
+    是一个用于任意调整“盒子”位置的宏包，盒子是\LaTeX{}中的基本单位，所以该宏包在一些场合的定制性非常的强。
+    
+    \section{高级使用}
+    \todo{有生之年系列：文档类撰写、Latex语言深入、库撰写、Tex编译结构}
+    \todo{MakeFile编写}
+
+    \section{模板收录}
+    国赛模板：\href{https://github.com/latexstudio/CUMCMThesis}{Github链接}
+    
+    \todo{简历模板、PPT模板、笔记模板、书模板...}
+
+
+\end{document}
+% 

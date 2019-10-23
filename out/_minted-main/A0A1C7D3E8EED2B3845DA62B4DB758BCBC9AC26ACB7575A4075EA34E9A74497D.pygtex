@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}usepackage}[top=Bcm, bottom=Hcm, outer=Ccm, inner=Acm,
+    heightrounded,
+    marginparwidth=Ecm, marginparsep=Dcm]\PYG{n+nb}{\PYGZob{}}geometry\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

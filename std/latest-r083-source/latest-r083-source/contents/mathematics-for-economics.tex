@@ -1,0 +1,180 @@
+%# -*- coding: utf-8 -*-
+\chapter{数理基础}
+\label{chp:mathematics-for-economics}
+
+\section[齐次函数和位似函数]{齐次函数和位似函数\footnote{约翰·伊特维尔, 默里·米尔盖特, 彼得·纽曼. 新帕尔格雷夫经济学大辞典（第2卷）[M]. 北京: 经济科学出版社, 1997: 721.}}
+
+\subsection{位似序}
+
+在欧式空间$\mathbb{R}^n$中给定一个锥体$E$以及$E$上的一个序$\preccurlyeq$（即，在$E$上有一个自反与可递的二元关系），此时，如果对于所有配对的$x,y, \in E$来说，$x \preccurlyeq y \Rightarrow \lambda x \preccurlyeq \lambda y$，$\lambda > 0$总是成立的，那么，这个序就可以说是位似的。
+
+对于每一个$x \in E$来说，可以用$L(x)$来表示无差异曲面，
+\[L(x) = \{y \in E : y \preccurlyeq x \text{和} x \preccurlyeq y\} \text{。}\]
+
+因此，从几何上看，若这个序是位似的，由于$x \in E$且$\lambda > 0$，故而，
+\[L(\lambda x) = \{\lambda y : y \in L(x)\} \text{。}\]
+
+\subsection{位似函数}
+
+请注意：集$E$上的一个实函数$f$在确定$E$上的一个完全的或全部的序的过程中，是通过下面的关系而实现的，即$x \preccurlyeq y$，并且仅当$f(x) \preccurlyeq f(y)$时，由定义可知，若序是位似的，则$f$也可被说是位似的（这暗示：$f$的域$E$是一个锥体）。这样，代表一个位似序的效用函数是位似的。
+
+现在假定，$f$是$R^n$种的一个开锥体$E$上的一个位似函数和可微函数。再假定，对于所有的$x \in E$来说，$f(x) \ne 0$。从而，对于所有的$\lambda > 0$和$x \in E$，总是存在$k > 0$使得：
+\begin{equation}
+\frac{{\partial f}}{{\partial {x_i}}}(\lambda x) = k\frac{{\partial f}}{{\partial {x_i}}}(x) \text{，其中，} i = 1, 2, \cdots ,  n
+\end{equation}
+从经济学的意义上来表述，这个性质意味着，沿着原点起发的任何射线，边际替代率都是常数。事实上，在一些合适的假设条件下，这个性质构成了位似函数的特征。
+
+\subsection{正齐次函数}
+
+如果对于所有的$x \in E$来说，
+\[f(\lambda x) = \lambda^p f(x) \text{，（} \lambda >0. \text{总是成立的）} \text{。}\]
+那么，定义在$\mathbb{R}^n$中的一个锥体$E$上的一个实函数$f$可以说是$P$阶齐次函数。若$p=1$，这个函数就是正齐次或线性齐次的。
+
+若$p=0$，则定义就变成$f(\lambda x) = f(x)$，其中，$\lambda >0$和$x \in E$总是成立的。
+
+显然，任何阶的正齐次函数都是位似的。反之，在对$E$和$f$作出某些适当假定的条件下（例如，$E$在$\mathbb{R}^n$中是正的orthant，而$f$在$E$上则是递增的），如果$f$是位似的，则存在着一个$E$上的一阶正齐次函数$g$和$\mathbb{R}$上的增函数$k$，从而，$f(x) = k [g(x)]$（$x \in E$总是成立的）。
+
+（这个性质有时被当做函数位似性的择一定义来使用。）结果，在合理的经济假定下，一个位似偏好次序可用一个线性齐次的效用函数来表示。
+
+人们常常假定生产函数是$p$阶正齐次的。例如，所谓的柯布—道格拉斯函数
+	\[f(x_1,x_2, \cdots , x_n) = K x_1^{\alpha_1} x_2^{\alpha_2} \cdots x_n^{\alpha_n} \quad x_i > 0 \text{，}\]
+
+就是$p = \alpha_1 + \alpha_2 + \cdots + \alpha_n$阶的齐次函数。其中，$K, \alpha_1, \alpha_2, \cdots , \alpha_n$均是正常数。
+
+在消费理论中，需求函数是价格和财富的零阶齐次函数。
+
+\subsection{正齐次凸（或凹）函数}
+
+由于凸性是经济学中的一个基本概念，所以应该尤为注意凸或凹的正齐次函数。
+
+设$E$是一个凸椎体，而$f$是$E$上面的实函数。此时，若令$f$是凸（凹）且也是$E$上的一阶正齐次函数，则其必要与充分的条件是，对于所有的$x \in E$和$\lambda \ge 0$来说，
+\[f(\lambda x) = \lambda f(x)\]
+对于所有配对的$x, y \in E$来说，
+\[f(x+y) \le (\ge) f(x) + f(y)\]
+
+生产者的成本函数是一个凸的正齐次函数。假定使用$n$种投入只生产一种产品，其成本函数由
+\[c(y,p) = \mathop {\min }\limits_x [p^t x:F(x) \ge y]\]
+给出，其中$p_i, i=1,2, \cdots,n$，是投入$x$的单位价格，而生产函数$F(x)$对则是投入向量$x=(x_1,x_2,\cdots,x_n)$所能带来的产出最大量。对于固定价格向量$p$来说，$c(y,p)$是生产$y$单位产出的成本最下限。当$y$固定时，$c(y,p)$是$p$的一阶正齐次凹函数。相近似的，在消费理论中，如果$F$现在代表消费者的效用函数，则在$p$是效用价格向量时，$c(y,p)$表示消费者为获取效用水平$y$时的最低价格。
+
+一个基本性质可以表述如下：假定$f$是$\mathbb{R}^n$中的一个闭凸锥上的实连续函数。只有当在$\mathbb{R}^n$中存在着一个闭凸集$S$且能使
+\[f(x) = \sup [y^t x/y \in S]\]
+时，$f$才是一阶正齐次凸函数。这个集$S$是唯一的，而函数$f$被称作$S$的支柱函数（与此相对称，把凸换成凹的同时将sup换成inf时，同一结果依然成立）。消费理论（以及生产理论）中的两重性正是基于这个性质。
+
+结束前，我们要援引一下在数学中广泛使用的三个函数例子。$\mathbb{R}^n$上的一个{\em 拟范数}是$\mathbb{R}^n$上的一阶正齐次凸函数$f$，这要求$f$应满足对一切$x$来说的$f(x) = f(-x)$的条件（对于所有的$x$来说，$f(x) \ge 0$）。要是$f(x)=0$，必有$x=0$，此时，一个{\em 范数}也是一个拟范数。最后，在一个包含原点的凸集$C$给定时，$C$的规范就是函数$f$，而$f$的定义则由下式给出，
+\[f(x) = \inf [\lambda  \ge 0/x \in \lambda C] \text{。}\]
+
+一个规格函数是一阶正齐次凸函数。而且，如果原点在$C$的内部且$C$是平衡的（也就是说，$x \in C$蕴含着$x \in -C$），则规范就是一个范数。
+
+\subsection{正齐次拟凹（拟凸）函数}
+
+设$\succcurlyeq$是集$E$上的一个偏好次序。从经济学的角度来考虑，一个序具有凸性是普遍而适当的假定（即，对于所有的$x \in E$来说，集$\{y \in E / y \succcurlyeq x\}$是凸的）。因此，表示次序的效用函数是拟凸的。然而，在一般情况下，表示凹性的方法是不存在的。但在序是位似时，这种方法还是存在的。的确，一个线性齐次拟凹函数的凹性只能出现在其区域内部有正（负）值的情况下（纽曼（Newman））与之相对称，对拟凸函数来说，同样结果也是成立的)。由此得出的结论是，作为位似和凸的代表性偏好次序能够通过一个线性齐次效用凹函数来代表。
+
+\section[齐次和位似的生产函数]{齐次和位似的生产函数\footnote{蒋殿春. {\itshape 高级微观经济学}[M]. 北京: 经济管理出版社, 2000: 11--13.}}
+%蒋殿春. 高级微观经济学[M]. 北京：经济管理出版社, 2000.
+%
+一个齐次生产函数对应于规模收益不变的技术，那么其他种类的齐次生产函数对应的技术有什么特征？
+
+假设一个生产函数是$k$次齐次的（$k$是某个非负整数）：
+\[f(tx) = t^k f(x) \quad \forall t > 0\]
+让我们先来求出他的规模收益弹性：
+\[e(x,t) = \frac{{df(tx)}}{{dt}}\frac{t}{{f(tx)}} = \frac{{d[{t^k}f(x)]}}{{dt}}\frac{t}{{{t^k}f(x)}} = k\]
+注意这个弹性值与投入组合$x$和生产规模$t$无关，所以，$k>1$时规模收益递增，$k<1$时规模收益递减，而$k=1$时规模收益不变的情况前面已经说明。
+
+由于$k$次齐次函数的导数是$k-1$次齐次函数：
+\[{f_i}(tx) = {t^{k - 1}}{f_i}(x)\]
+所以，由技术替代率定义有：
+\begin{equation}
+TRS{_{ij}}(tx) =  - \frac{{{f_i}(tx)}}{{{f_j}(tx)}} =  - \frac{{{f_i}(x)}}{{{f_j}(x)}} = TR{S_{ij}}(x) \label{equ:trsijtx}
+\end{equation}
+也就是说，如果厂商的生产函数是齐次的，其任何两种要素间的技术替代率只与各要素的投入比率有关，与投入规模无关。
+
+在只有两种要素投入的场合，$(x_1, x_2)$平面上从原点$O$出发的任何一条射线上的所有点有相同的要素投入比例$x_2/x_1$。如果生产函数是齐次函数，那么在每一条这样的射线上无差异曲线的斜率（注意这就是$TRS_{12}$）不变，如下图：
+
+现在转而考虑位似的生产函数$f(x)$，也就是说，$f(x)$是一个一次齐次函数的正单调变换：
+\[f(x) = F[g(x)]\]
+这里$F'(\cdot)>0$，$g(x)$是一次齐次函数。这种情况下规模收益是否不变呢？不一定。事实上，规模收益弹性是：
+\[e(x,t) = \frac{{df(tx)}}{{dt}}\frac{t}{{f(tx)}} = \frac{{dF[g(tx)]}}{{dg}}\frac{{dg(tx)}}{{dt}}\frac{t}{{F[g(tx)]}} = \frac{{dF}}{{dg}}\frac{{dg}}{{dt}}\frac{t}{g}\frac{g}{F} = \frac{{dF}}{{dg}}\frac{g}{F}\]
+上面的计算中最后一个等式用到了函数$g(x)$的一次齐次性质。上式可能大于、小于或等于1，所以我们不能断定位似生产函数的规模收益性质。不过，位似生产函数的分析价值是它满足性质\eqref{equ:trsijtx}，也就是说，技术替代率只依赖于要素间的投入比例，而与生产规模无关：
+\[TR{S_{ij}}(tx) = \frac{{{f_i}(tx)}}{{{f_j}(tx)}} = \frac{{F'(g){g_i}(tx)}}{{F'(g){g_j}(tx)}} = \frac{{F'(g){g_i}(x)}}{{F'(g){g_j}(x)}} = TR{S_{ij}}(x)\]
+所以，在两要素投入的条件下，位似生产函数的无差异曲线也像上图所示那样，其斜率在射线$OA$或$OB$上保持不变。
+
+
+\section{欧拉定理的证明}
+
+\subsection{高鸿业版教材的相关证明}
+
+\begin{Theorem}[欧拉定理、产量分配净尽定理]
+在完全竞争条件下，如果规模报酬不变，则全部产品正好足够分配给各个生产要素，不多也不少。这一答案被称为产量分配净尽定理。可以用数学上的欧拉定理加以证明，所以，它也被称为欧拉定理。
+\end{Theorem}
+
+若生产函数$Q = f(K,L)$为线性齐次函数函数，则
+\begin{equation}
+K \frac{\partial Q}{\partial K} + L \frac{\partial Q}{\partial L} = Q \text{\quad 或 \quad} K \cdot MP_K +L \cdot MP_L= Q \text{。}
+\end{equation}
+
+由于假定该函数为线性齐次函数（即规模报酬不变），故如果对函数中每一自变量均乘以$1/L$，则有：
+
+\begin{equation}
+\frac{Q}{L} = f(\frac{L}{L},\frac{K}{L}) = f(1,k) = \varphi (k) \text{\qquad} \text{（$k=\frac{K}{L}$）}
+\end{equation}
+式中，$k$为资本—劳动比率或人均资本，人均产量$Q/L$是人均资本$k$的函数。
+
+现在设法用新的函数$\varphi (k)$及其导数$\varphi\rq{}(k)$来表示劳动及资本的边际产品：
+\begin{equation}
+\begin{split}
+\frac{{\partial Q}}{{\partial L}} &= \frac{{\partial [L \cdot \varphi (k)]}}{{\partial L}} = \varphi (k) + L \cdot \frac{{d\varphi (k)}}{{dk}} \cdot \frac{{dk}}{{dL}} \\
+&= \varphi (k) + L \cdot \varphi '(k) \cdot \frac{{dk}}{{dL}} \\
+&= \varphi (k) + L \cdot \varphi '(k) \cdot ( - \frac{K}{{{L^2}}})\\
+& = \varphi (k) - k \cdot \varphi '(k)	\label{equ:mppl}
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+\frac{{\partial Q}}{{\partial K}} &= \frac{{\partial [L \cdot \varphi (k)]}}{{\partial K}} = L \cdot \frac{{\partial \varphi (k)}}{{\partial K}} = L \cdot \frac{{d\varphi (k)}}{{dk}} \cdot \frac{{dk}}{{dK}} \\
+&= L \cdot \varphi '(k) \cdot \frac{1}{L} = \varphi '(k)	\label{equ:mppk}
+\end{split}
+\end{equation}
+
+借助\eqref{equ:mppl}\eqref{equ:mppk}两个表达式，得到：
+\begin{equation}
+\begin{split}
+L \cdot \frac{{\partial Q}}{{\partial L}} + K \cdot \frac{{\partial Q}}{{\partial K}} &= L \cdot [\varphi (k) - k\varphi '(k)] + K\varphi '(k) \\
+&= L \cdot \varphi (k) - K \cdot \varphi '(k) + K \cdot \varphi '(k) \\
+&= L \cdot \varphi (k) = Q
+\end{split}
+\end{equation}
+
+\subsection{平新乔十八讲的相关证明}
+\begin{Definition}[齐次生产函数]
+如果生产函数满足下列性质
+\begin{equation}
+f(tx_1 , tx_2) = t^k f(x_1 , x_2)	\label{equ:qicifunc}
+\end{equation}
+则称该生产函数为$k$次齐次生产函数（这里$t$是任何正实数，$k$为一常数）。
+\end{Definition}
+
+显然，如$t>1$，$k>1$，则生产的规模报酬递增；如$t>1$，$k=1$，则生产的规模报酬不变；如$t>1$，$k<1$，则生产的规模报酬递减。
+
+\eqref{equ:qicifunc}式两边对$t$求导，有
+\begin{equation}
+x_1 f_1(tx_1 , tx_2) + x_2f_2(tx_1 , tx_2) = kt^{k-1}f(x_1 , x_2)
+\end{equation}
+如令$t=1$，会有
+\begin{equation}
+x_1 f_1 + x_2 f_2 = k f(x_1 , x_2)	\label{equ:eulertheory}
+\end{equation}
+式\eqref{equ:eulertheory}是说，若要素投入量$x_1$与$x_2$分别与其边际产出量$f_1 (=\frac{\partial f}{\partial x_1})$与$f_2 (=\frac{\partial f}{\partial x_2})$ 相乘，正好等于$k$乘产出量$f(x_1 , x_2)$之积。
+
+\eqref{equ:eulertheory}式通常称为\textbf{欧拉定理}。
+
+如果$k=1$，即如果生产函数为一次齐次生产函数（生产规模报仇不变
+，则从\eqref{equ:eulertheory}式有
+\begin{equation}
+x_1 f_1 + x_2 f_2 = f(x_1 , x_2)	\label{equ:eulertheoryA}
+\end{equation}
+由于$f_1$与$f_2$分别为要素$X_1$与$X_2$的边际产量（$f_1 = MP_1$，$f_2 = MP_2$），所以，如设$X_1 = L$，$X_2 = K$，则
+\begin{equation}
+L \cdot MP_L + K \cdot MP_K = f(x_1, x_2) = y	\label{equ:eulertheoryB}
+\end{equation}
+这说明在规模报酬不变时，若按要素的边际物质产量去对生产要素$L$与$K$分别付酬，结果正好把总产量分光，即耗尽全部生产量。这就是\textbf{耗尽性分配定理}。

@@ -1,0 +1,114 @@
+%\bookmark[level=0,page=1]{封面}
+\begin{titlepage}
+%----封面------------------------------------------------------------------
+\begin{tikzpicture}[remember picture, overlay]
+	\draw[draw=none,fill=black] (current page.north west) rectangle
+		($(current page.north west)+(\paperwidth,-4\paperheight/10)$);
+	\draw[draw=none,fill=titleB] ($(current page.north west)+(0,-2\paperheight/5)$) rectangle
+		($(current page.north west)+(\paperwidth,-7\paperheight/10)$);
+	\draw[draw=none,fill=titleC] ($(current page.south west)+(0,\paperheight/10)$) rectangle
+		($(current page.south east)+(0,3\paperheight/10)$);
+	\draw[draw=none,fill=titleD] (current page.south west) rectangle
+		($(current page.south east)+(0,\paperheight/10)$);
+	\draw[anchor=west] ($(current page.south west)+(0.125\paperwidth,5\paperheight/12)$) node[yshift=3ex]
+		{\sf\Huge\textcolor{white}{微观经济学初等笔记}};
+	\draw[anchor=west] ($(current page.south west)+(0.125\paperwidth,5\paperheight/12)$) node[yshift=-6ex]
+		{\kaishu\LARGE\textcolor{white}{一种团团乱的碎碎念}};
+	\draw[anchor=west] ($(current page.south west)+(0.125\paperwidth,\paperheight/20)$) node
+        {\tikz \fill[color=white,draw=none,x=1mm,y=1mm] (0,0) -- (0,5) -- (3,5) -- (3,1) -- (4,1) -- (4,6) -- (0,6) -- (0,7) -- (4,7) -- (4,8) -- (0,8) -- (0,9) -- (9,9) -- (9,8) -- (5,8) -- (5,7) -- (9,7) -- (9,6) -- (5,6) -- (5,1) -- (6,1) -- (6,5) -- (9,5) -- (9,0) -- (8,0) -- (8,4) -- (7,4) -- (7,0) -- (2,0) -- (2,4) -- (1,4) -- (1,0) -- cycle;};
+	\draw[anchor=west] ($(current page.south west)+(0.2\paperwidth,\paperheight/20)$) node[yshift=1.5ex]
+		{\textcolor{white}{八里台文理学院}};
+	\draw[anchor=west] ($(current page.south west)+(0.2\paperwidth,\paperheight/20)$) node[yshift=-1.5ex]
+		{\textcolor{white}{ecoNote Project}};
+\end{tikzpicture}
+
+%----空白页------------------------------------------------------------------
+\newpage
+\thispagestyle{empty}
+\hbox{}
+\vspace*{\fill}
+\begin{center}
+\emph{空}
+\end{center}
+\vspace{\fill}
+
+%----书名页------------------------------------------------------------------
+\newpage
+%\bookmark[level=0,page=3]{书名页}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{50mm}
+{\huge\sffamily{微观经济学初等笔记}}\\[3mm]
+{\Large\kaishu 一种团团乱的碎碎念}
+
+\vfill
+
+{\Large\kaishu Nort Silent}\\[3mm]
+{八里台文理学院}
+
+\vspace*{30mm}
+\tikz \fill[color=black!50,draw=none,x=1mm,y=1mm] (0,0) -- (0,5) -- (3,5) -- (3,1) -- (4,1) -- (4,6) -- (0,6) -- (0,7) -- (4,7) -- (4,8) -- (0,8) -- (0,9) -- (9,9) -- (9,8) -- (5,8) -- (5,7) -- (9,7) -- (9,6) -- (5,6) -- (5,1) -- (6,1) -- (6,5) -- (9,5) -- (9,0) -- (8,0) -- (8,4) -- (7,4) -- (7,0) -- (2,0) -- (2,4) -- (1,4) -- (1,0) -- cycle;
+
+允公允能$\cdot$日新月异
+
+\vspace*{20mm}
+\end{center}
+
+%----版权页------------------------------------------------------------------
+\newpage
+%\bookmark[level=0,page=4]{版权页}
+\thispagestyle{empty}
+\vspace*{50mm}
+\begin{center}
+{\Huge\ccicons\textcolor{ccgray}{c\,b\,n\,a}}
+
+\begin{minipage}[t]{0.5\textwidth}
+《微觀經濟學初等筆記》由Nort Silent製作，以創用CC姓名標示—非商業性—相同方式分享 3.0 Unported 授權條款釋出。
+
+\emph{Elementary Notes of Microeconomics} by Nort Silent is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+\end{minipage}
+\end{center}
+\vfill
+\begin{center}
+\begin{minipage}[t]{0.5\textwidth}
+{\sffamily 标\qquad题}：微观经济学初等笔记
+
+{\sffamily 作\qquad者}：Nort Silent
+
+\hspace*{5em}{\footnotesize\url{nortsilent@gmail.com}}
+
+{\sffamily 版\qquad次}：\documentEdition
+
+{\sffamily 发布地点}：Google Code 
+
+\hspace*{5em}{\footnotesize\url{http://econote.googlecode.com}}
+
+{\sffamily 发布时间}：{\negmedspace\today} %消除ctex宏包中文日期前自动添加的空白距离
+
+{\sffamily 开\qquad本}：ISO B5 （176 mm $\times$ 250 mm）
+
+{\sffamily 文\enspace件\enspace名}：\texttt{econote.pdf}
+
+{\sffamily 排版工具}：{\LaTeX}~with \texttt{hyperref}
+
+{\sffamily 图形制作}：\tikzname~\& \textsc{PGF}
+\end{minipage}
+\end{center}
+%----献词------------------------------------------------------------------
+\newpage
+%\bookmark[level=0,page=5]{献词}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{40mm}\noindent
+\fzsign\LARGE{致我们终将逝去的青春}
+\end{center}
+%----空白页------------------------------------------------------------------
+\newpage
+\thispagestyle{empty}
+\hbox{}
+\vspace*{\fill}
+\begin{center}
+\emph{空}
+\end{center}
+\vspace{\fill}
+\end{titlepage}

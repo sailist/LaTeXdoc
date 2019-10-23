@@ -1,0 +1,102 @@
+%! Author = saili
+%! Date = 2019/8/25/0025
+
+\section{颜色}\label{sec:color}
+\subsection{引入}
+
+如果想要更好的定义、使用和设置颜色，推荐使用%\highunderline[yellow]{xcolor}包
+\begin{texcode}
+\usepackage{xcolor}
+\end{texcode}
+xcolor包中定义了一些基本的颜色，有：
+
+{\color{black}{black}},{\color{blue}{blue}}, {\color{brown}{brown}},{\color{cyan}{cyan}},{\color{darkgray}{darkgray}},{\color{gray}{gray}},{\color{green}{green}},{\color{lightgray}{lightgray}},{\color{lime}{lime}},{\color{magenta}{magenta}},{\color{olive}{olive}}
+
+{\color{orange}{orange}},{\color{pink}{pink}},{\color{purple}{purple}},{\color{red}{red}},{\color{teal}{teal}},{\color{violet}{violet}},{\color{white}{white}},{\color{yellow}{yellow}}
+
+另外xcolor中还定义了dvips中的68种标准色，如果要使用，需要在引入包时添加参数：
+\begin{texcode}
+\usepackage[dvipsnames]{xcolor}
+\end{texcode}
+
+\subsection{使用}
+正如之前所使，几乎在任何一个可以更换颜色的地方，都可以更换相应位置的颜色。比如，{\color{red}{改变文字的颜色}}：
+\begin{texshow}
+{\color{red}这里放文字}\\
+\textcolor{red}{这里放文字}%两者在设置文字颜色时等价
+\end{texshow}
+
+在大多数情况下，一些库或者自己生成的边框等，都可以通过设置其颜色属性或在外侧包裹color命令来实现变更颜色的方法。
+
+\subsection{定义}
+如果xcolor自带的颜色不足以使用，xcolor还提供了灵活的定义新颜色的方法，示例如下：
+
+\begin{texcode}
+\definecolor{light-gray}{gray}{0.95} %定义灰度
+\definecolor{orange}{rgb}{1,0.5,0} %定义普通的rgb颜色（色值归一化为[0-1]）
+\definecolor{orange}{RGB}{255,127,0} %定义普通的rgb颜色（色值范围为0-255）
+\definecolor{orange}{HTML}{FF7F00} %使用HTML设计时常用的方式，颜色由三个16进制数值组成
+\definecolor{orange}{cmyk}{0,0.5,1,0} %使用印刷的色域，输入cmyk值
+\end{texcode}
+
+定义的颜色名字和xcolor自带的颜色名字具有相同的效果。
+
+另外，在一些情况下，颜色还可以通过这样的一种语法来定义：
+\begin{texcode}%默认底色是白色
+    \colorlet{wblue}{blue!20} % 表示20%的蓝色+80%的白色
+    \colorlet{bblue}{blue!20!black}% 表示20%的蓝色+80%的黑色
+    \colorlet{bbg}{blue!20!black!30!green}% 表示20%的蓝色+30%的黑色+50%的绿色
+\end{texcode}
+
+在很多无法包裹color命令的情况下（如环境参数设置），大多是采用这种混合颜色（color mixes）的方式来设置颜色，如使用tcolorbox定义一个盒子：
+\begin{texshow}
+    \begin{tcolorbox}[colframe=blue!50!,colback=blue!20!]
+        盒子内部
+    \end{tcolorbox}
+\end{texshow}
+
+另外，如果要创建颜色的别名，也可以使用\highunderline{\textbackslash{}colorlet}：
+\begin{texcode}
+    \colorlet{mycolor}{someothercolor}
+\end{texcode}
+
+一般来说，新定义的颜色可以放到任何位置，但是为了规范，一般都倾向于将颜色统一定义在一个位置。
+
+\subsection{其他环境下的颜色设置}
+
+\subsubsection{表格}\label{sssec:color-table}
+关于表格的颜色设置，参考\Ref{table-beauty}的说明
+
+\subsection{超链接与引用}
+超链接与引用的颜色，可以很方便的通过\highunderline[hlyellow]{hyperref}这个库来设置，只需要在导入库的时候定义参数即可，如：
+\begin{texcode}
+\usepackage[colorlinks,
+linkcolor=black,
+urlcolor=blue,
+anchorcolor=blue,
+citecolor=green]{hyperref}
+\end{texcode}
+
+\begin{texshow}
+    \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{Wiki-Hyperlinks}
+\end{texshow}
+关于设置的颜色对应哪个区域，以及更多的参数，可以参考\href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{Wiki-Hyperlinks}
+
+\subsection{分割线}
+
+\begin{texshow}
+    %\rule[水平高度]{长度}{粗细}
+    \color{red}{\rule[-10pt]{5cm}{0.05em}}
+\end{texshow}
+
+\subsection{颜色相关工具}
+\subsubsection{LatexColor}
+网站链接：\href{http://latexcolor.com/}{LatexColor}
+
+点击看好的颜色直接复制定义颜色的语句，比较方便。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{\figpath{latexcolor.png}}
+    \caption{latexcolor网站截图}
+    \label{fig:latexcolor}
+\end{figure}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+正确的`单引号\PYGZsq{}与``双引号\PYGZsq{}\PYGZsq{}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYGZsq{}英文中的单引号\PYGZsq{}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+\PYGZdq{}英文中的双引号\PYGZdq{}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+‘中文中的单引号’\PYG{k}{\PYGZbs{}\PYGZbs{}}
+“中文中的双引号”
+\end{Verbatim}

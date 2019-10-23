@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}section}\PYG{n+na}{[短标题（显示在目录中的标题）]}\PYG{n+nb}{\PYGZob{}}长标题（显示在章节中的标题）\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} 其他标题类方法同理}
+\end{Verbatim}

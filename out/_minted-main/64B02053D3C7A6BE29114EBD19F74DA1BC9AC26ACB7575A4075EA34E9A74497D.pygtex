@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+    \PYG{c}{\PYGZpc{} \PYGZbs{}newlength\PYGZbs{}tablewidth \PYGZpc{} if haven\PYGZsq{}t define the length \PYGZsq{}tablewidth\PYGZsq{}}
+    \PYG{k}{\PYGZbs{}setlength\PYGZbs{}tablewidth}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}dimexpr} (\PYG{k}{\PYGZbs{}textwidth} \PYGZhy{}8\PYG{k}{\PYGZbs{}tabcolsep})\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[H]
+        \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|p\PYG{n+nb}{\PYGZob{}}0.29\PYG{k}{\PYGZbs{}tablewidth}\PYG{n+nb}{\PYGZcb{}}\PYGZlt{}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}centering}\PYG{n+nb}{\PYGZcb{}}|
+            p\PYG{n+nb}{\PYGZob{}}0.07\PYG{k}{\PYGZbs{}tablewidth}\PYG{n+nb}{\PYGZcb{}}\PYGZlt{}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}centering}\PYG{n+nb}{\PYGZcb{}}|
+            p\PYG{n+nb}{\PYGZob{}}0.43\PYG{k}{\PYGZbs{}tablewidth}\PYG{n+nb}{\PYGZcb{}}\PYGZlt{}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}centering}\PYG{n+nb}{\PYGZcb{}}|
+            p\PYG{n+nb}{\PYGZob{}}0.21\PYG{k}{\PYGZbs{}tablewidth}\PYG{n+nb}{\PYGZcb{}}\PYGZlt{}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}centering}\PYG{n+nb}{\PYGZcb{}}|\PYG{n+nb}{\PYGZcb{}}
+            \PYG{k}{\PYGZbs{}hline}
+            \PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}}合并三列\PYG{n+nb}{\PYGZcb{}\PYGZam{}}0.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+            \PYG{k}{\PYGZbs{}hline}
+            C\PYG{n+nb}{\PYGZam{}}D\PYG{n+nb}{\PYGZam{}}H\PYG{n+nb}{\PYGZam{}}1.0\PYG{k}{\PYGZbs{}\PYGZbs{}}
+            \PYG{k}{\PYGZbs{}hline}
+            \PYG{k}{\PYGZbs{}multirow}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}*\PYG{n+nb}{\PYGZcb{}\PYGZob{}}合并两行\PYG{n+nb}{\PYGZcb{}\PYGZam{}}F\PYG{n+nb}{\PYGZam{}}\PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}multirow}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}\PYGZob{}}*\PYG{n+nb}{\PYGZcb{}\PYGZob{}}合并三行两列\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+            \PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}2\PYGZhy{}2\PYG{n+nb}{\PYGZcb{}}
+            \PYG{n+nb}{\PYGZam{}}K\PYG{n+nb}{\PYGZam{}}\PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+            \PYG{k}{\PYGZbs{}cline}\PYG{n+nb}{\PYGZob{}}1\PYGZhy{}2\PYG{n+nb}{\PYGZcb{}}
+            M\PYG{n+nb}{\PYGZam{}}N\PYG{n+nb}{\PYGZam{}}\PYG{k}{\PYGZbs{}multicolumn}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c|\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
+            \PYG{k}{\PYGZbs{}hline}
+        \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

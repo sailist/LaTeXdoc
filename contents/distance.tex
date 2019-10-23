@@ -1,0 +1,212 @@
+%! Author = saili
+%! Date = 2019/8/26/0026
+
+\section{单位与距离}\label{sec:大小与间距}
+
+\subsection{单位}
+\LaTeX{}中使用的单位可以分为长度和数字两种，长度单位如厘米、毫米等，数字单位是指数字的显示方式，将数字以原本形式展示（阿拉伯数字），以字母方式（a、b、c...），以罗马数字...等
+\subsubsection{长度}
+\LaTeX{}中的长度单位比较多，有以下几种：
+\begin{center}
+    % \newlength\tablewidth % if haven't define the length 'tablewidth'
+    \setlength\tablewidth{\dimexpr (\textwidth -6\tabcolsep)}
+    \begin{table}[H]
+        \begin{tabular}{|p{0.19\tablewidth}<{\centering}|p{0.19\tablewidth}<{\centering}|p{0.62\tablewidth}<{\centering}|}
+            \hline
+            eng&含义&单位转换\\
+            \hline
+            mm&毫米&1 mm = 2.845 pt\\
+            \hline
+            pt&点&1 pt = 0.351 mm\\
+            \hline
+            bp&大点&1 bp = 0.353 mm >1 pt\\
+            \hline
+            dd&迪多&1 dd = 0.376 mm = 1.07 pt\\
+            \hline
+            pc&排卡&1 pc = 4.218 mm = 12 pt\\
+            \hline
+            sp&定标点&65536 sp = 1 pt\\
+            \hline
+            cm&厘米&1 cm= 10 mm= 28.453 pt\\
+            \hline
+            cc&西塞罗&1 cc= 4.513 mm= 12 dd = 12.84 pt\\
+            \hline
+            in&英寸&1 in = 25.4 mm = 72.27 pt\\
+            \hline
+            ex&ex&1 ex = 当前字体尺寸中 x 的高度\\
+            \hline
+            em&em&1 em = 当前字体尺寸中 M 的宽度\\
+            \hline
+        \end{tabular}
+        \caption{\LaTeX{}中的间距}
+        \label{tag:latex-distance}
+    \end{table}
+\end{center}
+
+对水平距离的设置常用 $em$ ，而对垂直距离的设置，如行距，常用 $ex$。
+
+\subsubsection{数字}\label{subsub:number}
+\LaTeX{}中，经常会遇到数字格式的问题，如\highunderline{itemize}环境，或者章节前的序号，它们的格式实际上都是通过\LaTeX{}里的计数器（从0开始）、具体数值和数字风格转换方式来实现的，其中，默认的数字风格的转换有如下几种：
+\begin{center}
+    % \newlength\tablewidth % if haven't define the length 'tablewidth'
+    \setlength\tablewidth{\dimexpr (\textwidth -8\tabcolsep)}
+    \begin{table}[H]
+        \begin{tabular}{|p{0.2\tablewidth}<{\centering}|p{0.29\tablewidth}<{\centering}|p{0.15\tablewidth}<{\centering}|p{0.33\tablewidth}<{\centering}|}
+            \hline
+            表示&含义&示例&备注\\
+            \hline
+            \textbackslash{}arabic&阿拉伯数字&0,1,2...&\\
+            \hline
+            \textbackslash{}roman&小写罗马数字&\romannumeral1,\romannumeral2,\romannumeral3...&\\
+            \hline
+            \textbackslash{}Roman&大写罗马数字&\uppercase\expandafter{\romannumeral1},\uppercase\expandafter{\romannumeral2},\uppercase\expandafter{\romannumeral3}...&\\
+            \hline
+            \textbackslash{}alph&小写字母&a,b,c...&范围为0-25\\
+            \hline
+            \textbackslash{}Alph&大写字母&A,B,C...&范围为0-25\\
+            \hline
+        \end{tabular}
+        \caption{\LaTeX{}内置的几种表格}
+    \end{table}
+\end{center}
+
+注意，它们的使用无法通过简单的在方法中嵌套数字来使用（如直接使用\highunderline{\textbackslash{}alph{0}}），而是需要结合计数器\footnote{有关更多计数器的内容，查看\Ref{subsub:counter}}来显示，如：
+\begin{texshow}
+    当前的章节号为\arabic{section}
+\end{texshow}
+
+对于中文支持，我们经常看到章节号会出现"一、二、三"，这在\highunderline{ctex}的文档中提到，这其实是由\highunderline{zhnumber}包来完成的，其中有关计数器的内容主要是由\highunderline{\textbackslash{}chinese\{counter\}}来完成的，如：
+\begin{texshow}
+    当前的子章节号为\chinese{subsection}
+\end{texshow}
+
+
+\subsection{距离}
+\subsubsection{距离变量的定义和设置}
+\LaTeX{}排版中，有很多需要指定距离的需求，如果每次都使用长度单位，一旦更改会非常的麻烦，因此\LaTeX{}可以定义一个距离变量，方式如下：
+
+\newlength\examplelen
+\begin{texcode}
+    \newlength\examplelen
+\end{texcode}
+注意：距离变量是唯一的，因此如果定义重名会报错。
+
+距离变量定义好后，可以随时根据需要设置距离变量的长度，如下：
+\begin{texshow}
+    % 事先已经使用了 \newlength\examplelen
+    \setlength{\examplelen}{3em}
+    长度演示\hspace{\examplelen}长度演示\\
+    长度演示\hspace{3em}长度演示\\
+
+    \setlength{\examplelen}{2em}
+    长度演示\hspace{\examplelen}长度演示
+\end{texshow}
+
+\subsubsection{常用距离}
+\LaTeX{}中常用的距离有以下几种：
+\begin{texcode}
+    \linewidth - 当前行的宽度
+    \columnwidth - 当前分栏的宽度
+    \textwidth - 整个页面版芯的宽度
+    \paperwidth - 整个页面纸张的宽度
+\end{texcode}
+
+在单栏文本中，\highunderline{\textbackslash{}columnwidth} 和 \highunderline{\textbackslash{}textwidth} 保持一致；在多栏文本中：
+
+$$textwidth = n * columnwidth + (n - 1) * columnsep \text{\hspace{1em}（其中n是分栏数）}$$
+
+在 \highunderline{minipage} 环境中，除了 \highunderline{\textbackslash{}paperwidth} 之外，其它三种都会根据 minipage\footnote{minipage的介绍和用法，参考\Ref{sub:minipage}} 的宽度发生改变（因为虚拟出了一个小的纸张页面），并且在 minipage 环境结束的时候恢复原样。
+
+在\highunderline{parbox}中，\highunderline{\textbackslash{}textwidth} 和 \highunderline{\textbackslash{}columnwidth} 不会改变，不过 \highunderline{\textbackslash{}linewidth} 会发生变化。
+
+\textbackslash{linewidth} 是相对最灵活的宽度值。在 list 环境里（包括 enumerate 和 itemize 等环境），在 \textbackslash{parbox} 里，\textbackslash{linewidth} 都会发生变化。
+总的来说，当
+\begin{itemize}
+    \item 需要在列表环境中使用表格、图片等宽度的时候，用\highunderline{\textbackslash{}linewidth}
+    \item 需要充满整个页面宽度的时候，用\highunderline{\textbackslash{}textwidth}（比如 figure/table 等）
+    \item 需要充满整个分栏的时候，用\highunderline{\textbackslash{}columnwidth}（比如 figure/table/tabularx/tabu等）
+\end{itemize}
+
+% \todo{参考自https://liam.page/2015/08/17/width-in-latex/}
+
+% \todo{查看注释}
+% latex geometry 页面设置 https://www.jianshu.com/p/0719795278eb
+
+\subsubsection{距离的运算}
+所有的长度单位都可以通过在前面添加数字（正负、小数整数均可）来表示其倍数长度，如：
+\begin{texcode}
+    -2.5\textwidth        
+\end{texcode}
+如果是单位相同的两个长度，可以直接进行加减操作：
+\begin{texcode}
+    \textwidth-4\fboxsep
+\end{texcode}
+如果是不同长度的单位，可以使用\highunderline{dimexpr}宏包进行运算：
+\begin{texcode}
+    % \usepackage{dimexpr}
+    \dimexpr (\textwidth -8\tabcolsep)
+\end{texcode}
+由于使用较少，因此关于该宏包的具体使用方法暂略。
+
+\subsection{常用版面距离}\label{sub:normal-page-dist}
+\subsubsection{字间距}
+    % \todo{查看注释}
+    一般没有调整字间距的需求，如果实在需要，可以查阅使用\highunderline{microtype}（用于英文）和\highunderline{ctex}宏包（用于中文）中的\highunderline{CJKglue}命令。\marginnote{这里有一篇\href{https://blog.csdn.net/lishoubox/article/details/49708095}{中文博客}，但没有经过验证}
+\subsubsection{行间距}
+\begin{texcode}
+    \linespread{1.3}%设置行距为1.3倍行距
+\end{texcode}
+
+\subsubsection{段间距}
+\begin{texcode}
+    \setlength{\parskip}{0.5em}
+\end{texcode}
+
+\subsubsection{首行缩进}
+默认有首行缩进，如果需要默认首行不缩进，则使用\highunderline{indentfirst}包。
+
+% \todo{tcolorbox下的indent效果被忽略的解决}
+指定某段首行缩进（默认情况下不需要加，在使用\highunderline{indentfirst}宏包后如果要指定缩进可以使用）：
+\begin{texcode}
+    % \usepackage{indentfirst}
+    \indent 正常文本
+\end{texcode}
+
+指定某段首行不缩进，在段首加：
+\begin{texcode}
+    \noindent 正常文本
+\end{texcode}
+
+设置缩进量
+\begin{texcode}
+    \setlength\parindent{2em}
+\end{texcode}
+
+\subsubsection{悬挂缩进}
+% \todo{悬挂缩进代码效果演示}
+
+如果需要设置悬挂缩进，那么首先要取消首行缩进。
+\begin{texcode}
+    \noindent\hangafter=1 %设置从第一行之后开始悬挂缩进
+\end{texcode}
+
+设置悬挂缩进量：
+\begin{texcode}
+    \setlength{\hangindent}{2em}
+\end{texcode}
+
+\subsection{行之间插入空隙}
+插入指定长度大小的空隙，可以使用\highunderline{\textbackslash{}vspace}：
+\begin{texshow}
+    %\vspace{宽度大小}和\vspace*{宽度大小}
+    上一行\vspace{1cm}\\
+    下一行\\
+    正常间距测试
+\end{texshow}
+
+\subsection{设置目录间距}
+\begin{texcode}
+    \renewcommand{\baselinestretch}{0.75}\normalsize 
+    \tableofcontents
+    \renewcommand{\baselinestretch}{1.3}\normalsize %在设置后设置回原来的间距大小
+\end{texcode}

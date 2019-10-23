@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}noindent\PYGZbs{}hangafter}=1 \PYG{c}{\PYGZpc{}设置从第一行之后开始悬挂缩进}
+\end{Verbatim}
