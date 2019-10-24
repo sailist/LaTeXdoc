@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
-    \PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[step=1,color=gray!40]} (\PYGZhy{}2,\PYGZhy{}2) grid (2,2);
-    \PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZhy{}\PYGZgt{}]} (\PYGZhy{}3,0) \PYGZhy{}\PYGZhy{} (3,0);
-    \PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZhy{}\PYGZgt{}]} (0,\PYGZhy{}3) \PYGZhy{}\PYGZhy{} (0,3);
-    \PYG{k}{\PYGZbs{}draw} (0,0) circle (1);
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

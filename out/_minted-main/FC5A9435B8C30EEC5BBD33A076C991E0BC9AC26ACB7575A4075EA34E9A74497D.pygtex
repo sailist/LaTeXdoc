@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}[label=\PYG{k}{\PYGZbs{}roman})]
-    \PYG{k}{\PYGZbs{}item} 第一行
-    \PYG{k}{\PYGZbs{}item} 第二行
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

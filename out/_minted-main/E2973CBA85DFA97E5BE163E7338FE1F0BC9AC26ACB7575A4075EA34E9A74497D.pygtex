@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}sffamily} san文本开始的地方\PYG{k}{\PYGZbs{}\PYGZbs{}\PYGZbs{}texttt}\PYG{n+nb}{\PYGZob{}}mono文本\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}textsf}\PYG{n+nb}{\PYGZob{}}sans文本\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}rmfamily} roman文本\PYG{n+nb}{\PYGZcb{}}sans文本结束
-\end{Verbatim}

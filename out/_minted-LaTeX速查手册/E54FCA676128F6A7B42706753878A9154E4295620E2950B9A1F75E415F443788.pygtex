@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}flushright\PYG{n+nb}{\PYGZcb{}}
-    右对齐环境
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}flushright\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}raggedleft} 右对齐声明
-\end{Verbatim}

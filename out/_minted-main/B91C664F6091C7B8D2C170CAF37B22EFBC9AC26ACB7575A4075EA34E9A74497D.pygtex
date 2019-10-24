@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c}{\PYGZpc{} \PYGZbs{}usepackage\PYGZob{}dimexpr\PYGZcb{}}
-\PYG{k}{\PYGZbs{}dimexpr} (\PYG{k}{\PYGZbs{}textwidth} \PYGZhy{}8\PYG{k}{\PYGZbs{}tabcolsep})
-\end{Verbatim}

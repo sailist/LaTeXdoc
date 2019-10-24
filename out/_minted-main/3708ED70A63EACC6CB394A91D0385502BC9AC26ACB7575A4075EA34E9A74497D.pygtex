@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{n+nv}{\PYGZbs{}qquad}\PYG{n+nb}{\PYGZob{}\PYGZcb{}b}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} 两个quad空格，两个字符 \PYGZdq{}M\PYGZdq{} 的的宽度}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{n+nv}{\PYGZbs{}quad}\PYG{n+nb}{\PYGZob{}\PYGZcb{}b}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} quad空格，一个字符 \PYGZdq{}M\PYGZdq{} 的的宽度}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{n+nv}{\PYGZbs{} }\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} 大空格 1/3字符 \PYGZdq{}M\PYGZdq{} 的宽度}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{n+nv}{\PYGZbs{};}\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} 中等空格\PYGZca{}\PYGZca{}I2/7字符 \PYGZdq{}M\PYGZdq{} 的宽度}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{n+nv}{\PYGZbs{},}\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} 小空格 1/6字符 \PYGZdq{}M\PYGZdq{} 的宽度}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{ab}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}} \PYG{c}{\PYGZpc{} 没有空格}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{n+nv}{\PYGZbs{}!}\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}} \PYG{c}{\PYGZpc{} 缩进1/6字符 \PYGZdq{}M\PYGZdq{} 的宽度}
-\end{Verbatim}

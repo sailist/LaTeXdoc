@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}newenvironment}\PYG{n+nb}{\PYGZob{}}boldenv\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}\PYGZcb{}\PYGZob{}\PYGZcb{}\PYGZcb{}}
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}boldenv\PYG{n+nb}{\PYGZcb{}}
-    加粗环境下全部加粗
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}boldenv\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

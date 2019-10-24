@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}myy}\PYG{n+nb}{\PYGZcb{}}[1]\PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{y\PYGZus{}\PYGZob{}\PYGZsh{}}\PYG{l+m}{1}\PYG{n+nb}{\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}myy}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}},\PYG{k}{\PYGZbs{}myy}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}},\PYG{k}{\PYGZbs{}myy}\PYG{n+nb}{\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}},\PYG{k}{\PYGZbs{}myy}\PYG{n+nb}{\PYGZob{}}n\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{def} \PYG{n+nf}{function}\PYG{p}{():}
-    \PYG{k}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}hello world\PYGZdq{}}\PYG{p}{)}
-\end{Verbatim}

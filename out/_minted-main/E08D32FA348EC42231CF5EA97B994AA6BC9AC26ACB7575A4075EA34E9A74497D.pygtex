@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-tex文件中的第一行
-
-tex文件中的第二行\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{n+na}{[1em]}
-tex文件中的第三行\PYG{k}{\PYGZbs{}newline} \PYG{c}{\PYGZpc{}\PYGZbs{}newline 命令没有办法添加参数}
-tex文件中的第四行
-\end{Verbatim}

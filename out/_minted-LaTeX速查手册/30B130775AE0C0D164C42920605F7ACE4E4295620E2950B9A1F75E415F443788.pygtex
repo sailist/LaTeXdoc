@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[a4paper]}\PYG{n+nb}{\PYGZob{}}geometry\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于控制版式，一般可以直接通过参数设置全局版式}
-\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[a4paper=true]}\PYG{n+nb}{\PYGZob{}}geometry\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于控制版式，一般可以直接通过参数设置全局版式}
-\PYG{k}{\PYGZbs{}usepackage}\PYG{n+na}{[a4paper=false]}\PYG{n+nb}{\PYGZob{}}geometry\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}用于控制版式，一般可以直接通过参数设置全局版式}
-\end{Verbatim}

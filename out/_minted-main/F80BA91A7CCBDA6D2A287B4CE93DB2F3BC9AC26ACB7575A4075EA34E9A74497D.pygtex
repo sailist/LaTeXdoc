@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}eqs}\PYG{n+nb}{\PYGZcb{}}[3][2]\PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{o}{(}\PYG{n+nb}{\PYGZsh{}}\PYG{l+m}{3}\PYG{o}{+}\PYG{n+nb}{\PYGZsh{}}\PYG{l+m}{2}\PYG{o}{)}\PYG{n+nb}{\PYGZca{}\PYGZsh{}}\PYG{l+m}{1}\PYG{n+nb}{,\PYGZsh{}}\PYG{l+m}{1}\PYG{l+s}{\PYGZdl{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}eqs}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}\PYGZob{}}b\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}eqs}\PYG{n+na}{[5]}\PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZcb{}\PYGZob{}}y\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}eqs}\PYG{n+nb}{\PYGZob{}}a\PYG{n+nb}{\PYGZcb{}\PYGZob{}}b\PYG{n+nb}{\PYGZcb{}\PYGZob{}}c\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

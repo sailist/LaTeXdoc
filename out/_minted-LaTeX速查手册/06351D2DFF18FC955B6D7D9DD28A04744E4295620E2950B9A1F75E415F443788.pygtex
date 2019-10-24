@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-正常文本 \PYG{k}{\PYGZbs{}raisebox}\PYG{n+nb}{\PYGZob{}}1cm\PYG{n+nb}{\PYGZcb{}\PYGZob{}}提升文本\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}raisebox}\PYG{n+nb}{\PYGZob{}}\PYGZhy{}1cm\PYG{n+nb}{\PYGZcb{}\PYGZob{}}下降文本\PYG{n+nb}{\PYGZcb{}}正常文本
-\end{Verbatim}

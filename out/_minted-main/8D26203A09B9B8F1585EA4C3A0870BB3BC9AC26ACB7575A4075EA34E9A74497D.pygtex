@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c}{\PYGZpc{} \PYGZbs{}usepackage\PYGZob{}fixltx2e\PYGZcb{}}
-普通文本\PYG{k}{\PYGZbs{}textsubscript}\PYG{n+nb}{\PYGZob{}}下标文本\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}textsuperscript}\PYG{n+nb}{\PYGZob{}}上标文本\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

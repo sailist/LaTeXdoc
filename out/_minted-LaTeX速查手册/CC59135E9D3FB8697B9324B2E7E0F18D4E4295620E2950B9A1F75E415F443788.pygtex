@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}newlist}\PYG{n+nb}{\PYGZob{}}romanlist\PYG{n+nb}{\PYGZcb{}\PYGZob{}}enumerate\PYG{n+nb}{\PYGZcb{}\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}setlist}\PYG{n+na}{[romanlist]}\PYG{n+nb}{\PYGZob{}}label=\PYG{k}{\PYGZbs{}roman*}),leftmargin=1cm\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}romanlist\PYG{n+nb}{\PYGZcb{}}
-    \PYG{k}{\PYGZbs{}item} 第一行
-    \PYG{k}{\PYGZbs{}item} 第二行
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}romanlist\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

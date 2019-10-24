@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}setlength}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}columnseprule}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}1pt\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}renewcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}columnseprulecolor}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}color}\PYG{n+nb}{\PYGZob{}}red\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}multicols\PYG{n+nb}{\PYGZcb{}\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}}[这里是分栏示例]
-    多栏环境下，可以添加任何\PYG{k}{\PYGZbs{}LaTeX}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}multicols\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

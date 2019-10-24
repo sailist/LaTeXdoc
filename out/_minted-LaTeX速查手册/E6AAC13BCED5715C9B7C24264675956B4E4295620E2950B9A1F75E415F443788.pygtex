@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-公式前文本
-\PYG{l+s+sb}{\PYGZbs{}[}
-\PYG{n+nb}{    x }\PYG{o}{=}\PYG{n+nb}{ a}\PYG{o}{+}\PYG{n+nb}{b;}\PYG{n+nv}{\PYGZbs{}\PYGZbs{}}
-\PYG{n+nb}{    y }\PYG{o}{=}\PYG{n+nb}{ c}\PYG{o}{+}\PYG{n+nb}{d;}
-\PYG{l+s}{\PYGZbs{}]}
-公式后文本
-\end{Verbatim}

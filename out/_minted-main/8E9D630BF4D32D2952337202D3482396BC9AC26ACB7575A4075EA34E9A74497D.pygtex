@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}multicols\PYG{n+nb}{\PYGZcb{}\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}[这里是分栏示例]
-    多栏环境下，可以添加任何\PYG{k}{\PYGZbs{}LaTeX}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}命令，但是不允许浮动，本手册中提及的长表格的使用页必须在单栏环境下才可以使用。
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}multicols\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

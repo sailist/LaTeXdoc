@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c}{\PYGZpc{} \PYGZbs{}parbox[\PYGZlt{}position\PYGZgt{}]\PYGZob{}\PYGZlt{}width\PYGZgt{}\PYGZcb{}\PYGZob{}\PYGZlt{}text\PYGZgt{}\PYGZcb{}，第一个参数一般省略，没有太多的使用场景。}
-\PYG{k}{\PYGZbs{}parbox}\PYG{n+nb}{\PYGZob{}}5em\PYG{n+nb}{\PYGZcb{}\PYGZob{}}示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

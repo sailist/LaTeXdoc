@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}setmainfont}\PYG{n+nb}{\PYGZob{}}Microsoft YaHei\PYG{n+nb}{\PYGZcb{}}
-\PYG{k}{\PYGZbs{}setmainfont}[
-    ItalicFont=STFangsong,
-]\PYG{n+nb}{\PYGZob{}}msyh.ttc\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

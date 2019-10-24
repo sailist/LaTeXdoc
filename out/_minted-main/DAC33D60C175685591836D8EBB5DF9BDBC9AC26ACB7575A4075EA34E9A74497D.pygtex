@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}section*}\PYG{n+nb}{\PYGZob{}}No Title Section\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}addcontentsline}\PYG{n+nb}{\PYGZob{}}toc\PYG{n+nb}{\PYGZcb{}\PYGZob{}}section\PYG{n+nb}{\PYGZcb{}\PYGZob{}}Title of the section\PYG{n+nb}{\PYGZcb{}}
-\PYG{c}{\PYGZpc{}三个参数分别表示添加的位置是\PYGZbs{}highunderline\PYGZob{}正文目录（toc）\PYGZcb{}，级别是\PYGZbs{}highunderline\PYGZob{}section\PYGZcb{}，目录中显示的文字是\PYGZbs{}highunderline\PYGZob{}Title of the section\PYGZcb{}}
-\end{Verbatim}

@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-被脚注的文本\PYG{k}{\PYGZbs{}footnote}\PYG{n+nb}{\PYGZob{}}脚注内容\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}\PYGZbs{}}
-\PYG{k}{\PYGZbs{}setcounter}\PYG{n+nb}{\PYGZob{}}footnote\PYG{n+nb}{\PYGZcb{}\PYGZob{}}5\PYG{n+nb}{\PYGZcb{}}
-被脚注的文本\PYG{k}{\PYGZbs{}footnote}\PYG{n+nb}{\PYGZob{}}脚注内容\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}

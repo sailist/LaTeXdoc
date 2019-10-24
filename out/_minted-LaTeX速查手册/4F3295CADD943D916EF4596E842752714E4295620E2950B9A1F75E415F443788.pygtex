@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}left}\PYG{o}{(}\PYG{n+nb}{ foo }\PYG{n+nv}{\PYGZbs{}right}\PYG{o}{)}\PYG{l+s}{\PYGZdl{}}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}left}\PYG{o}{[}\PYG{n+nb}{ foo }\PYG{n+nv}{\PYGZbs{}right}\PYG{o}{]}\PYG{l+s}{\PYGZdl{}}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}left}\PYG{o}{(}\PYG{n+nb}{ foo }\PYG{n+nv}{\PYGZbs{}right}\PYG{n+nb}{.}\PYG{l+s}{\PYGZdl{}} \PYG{c}{\PYGZpc{}left 和 right命令必须成对出现，如果需要一边某有括号，可以将括号变成点来去掉相应位置的括号。}
-\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}left}\PYG{n+nb}{. foo }\PYG{n+nv}{\PYGZbs{}right}\PYG{o}{]}\PYG{l+s}{\PYGZdl{}} \PYG{c}{\PYGZpc{}left 和 right命令必须成对出现，如果需要一边某有括号，可以将括号变成点来去掉相应位置的括号。}
-\end{Verbatim}
