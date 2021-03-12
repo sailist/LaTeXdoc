@@ -12,6 +12,7 @@
 \input{preamble/line-support.tex}
 
 \bibliographystyle{plain}
+
 \usepackage[printwatermark,disablegeometry]{xwatermark}
 \newwatermark[page=1,color=gray!20,angle=45,scale=4,xpos=0,ypos=0]{SAILIST}
 \newwatermark[pages=2-4,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{\LaTeX{}速查手册}
@@ -23,6 +24,7 @@
 % \newcommand*{\refname}{Bibliography}
 
 \begin{document}
+    \bibliography{ref}
     \maketitle
     \clearpage
     \renewcommand{\baselinestretch}{0.75}\normalsize
