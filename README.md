@@ -27,3 +27,8 @@ xelatex  -synctex=1 -interaction=nonstopmode -file-line-error -output-directory=
 ![](preview/2.png)
 
 ![](preview/3.png)
+
+
+# Related work
+
+ - https://github.com/sailist/LatexTool
